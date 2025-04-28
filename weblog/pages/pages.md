@@ -8,5 +8,3 @@ Location: /pages
 # Pages
 
 ---
-
-{page-list}
