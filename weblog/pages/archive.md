@@ -4,7 +4,9 @@ Title: Archive
 Location: /archive
 ---
 
-    <div id="status-container" class="container background-cyan">
+# Archive
+
+<div id="status-container" class="container background-cyan">
         <script src="https://status.lol/luxory-format.js?link"></script>
     </div>
     <article>
