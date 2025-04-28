@@ -1,5 +1,6 @@
 Type: Template
 Title: Landing Page Template
+Location: /2025-04-28_21_14_13_landing-page-template
 
 <!DOCTYPE html>
 <html lang="en">
