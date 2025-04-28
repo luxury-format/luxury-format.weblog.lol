@@ -7,7 +7,7 @@ Location: /archive
 # Archive
 
 <div id="status-container" class="container background-cyan">
-        <script src="https://status.lol/luxory-format.js?link"></script>
+        <script src="https://status.lol/luxury-format.js?link"></script>
     </div>
     <article>
         <h1><i class="fa-solid fa-archive"></i> {post-title}</h1>
