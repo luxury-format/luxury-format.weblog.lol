@@ -20,6 +20,7 @@
   --background: #f8f9fa;
   --link: #0b7285;
   --accent: #868e96;
+  --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@
     --background: #222;
     --link: #99e9f2;
     --accent: #ced4da;
+    --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -163,6 +165,7 @@ pre code {
 img {
   max-width: 100%;
   border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
 }
 
 table {
