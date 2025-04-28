@@ -1,7 +1,7 @@
 ---
 Date: 2025-04-28 15:51
 Title: Photo
-Tags: Everything, 2025, Photos
+Tags: Everything, #2025, Photos
 ---
 
 # Photo
