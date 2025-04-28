@@ -53,7 +53,7 @@ Feed post count: 25
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
-Tags: Everything, 2025,
+Tags: Everything, 2025
 ---
 
 # My new post
