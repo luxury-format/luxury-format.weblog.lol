@@ -1,6 +1,5 @@
 ---
 Date: 2025-04-28 15:51
-Type: Image
 Title: Photo
 Tags: Everything, 2025, Photos
 ---
