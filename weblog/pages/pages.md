@@ -5,7 +5,7 @@ Title: PAGES
 Location: /pages
 ---
 
-PAGES
+# PAGES
 
 ---
 
