@@ -251,7 +251,17 @@ form.search {
   gap: 1rem;
 }
 
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+input[type="button"],
+input[type="submit"],
 input[type="text" i] {
+  flex: 1;
   padding: 2px 10px;
   height: 30px;
   background-color: #FFFFFF;
@@ -263,12 +273,13 @@ input[type="text" i] {
 
 button {
   height: 30px;
-  padding: 2px 10px;
   background-color: var(--purple);
   border-radius: 10px;
   border: 2px solid #FFFFFF;
   font-weight: bold;
   color: #080808;
+  width: 100%;
+  cursor: pointer;
 }
 
 button:hover {
