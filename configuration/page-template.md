@@ -233,9 +233,9 @@ i[class*=" omg-"] {
 </main>
 
 <footer>
-<hr>
-<p>&copy; {year} <a href="/">{weblog-title}</a></p>
-<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
+  <hr>
+  <p>&copy; {year} <a href="/">{weblog-title}</a></p>
+  <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
 
 </body>
