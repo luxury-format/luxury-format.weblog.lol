@@ -4,6 +4,8 @@ Title: Photo
 Tags: Everything, #2025, Photos
 ---
 
+# Photo
+
 ![Photo](https://raw.githubusercontent.com/LUXURYFORMAT/Weblog.lol/refs/heads/main/images/IMG_4391.jpeg)
 
 ---
