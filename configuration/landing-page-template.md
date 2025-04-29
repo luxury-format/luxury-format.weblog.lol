@@ -380,11 +380,11 @@ nav {
 }
 
 .previous-page {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .next-page {
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
