@@ -266,10 +266,6 @@ button:hover {
   border: 2px solid var(--purple);
 }
 
-li {
-  font-weight: bold;
-}
-
 ul li::marker {
   color: var(--green);
 }
