@@ -5,6 +5,8 @@ Title: ARCHIVE
 Location: /archive
 ---
 
-# <i class="fa-solid fa-archive"></i> {post-title}  
+---
 
 {post-list}
+
+---
