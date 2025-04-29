@@ -1,5 +1,5 @@
 ---
-Date: 2025-04-28 18:10
+Date: 2025-04-28 19:40
 Type: Page
 Title: Pages
 Location: /pages
@@ -15,3 +15,4 @@ Location: /pages
 - [TAGS](/tags)
 - [RANDOM](/random)
 - [PAGES](/pages)
+- [SEARCH](/search)
