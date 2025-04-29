@@ -4,8 +4,6 @@ Title: Post from GitHub
 Tags: Post, Test, GitHub, Images, Spotify, Hex Color Codes, Icons
 ---
 
----
-
 Spotify brand colors:  
 
 - Green: `#1ED760` <i class="fa-brands fa-spotify" style="color: #1ED760;"></i>
