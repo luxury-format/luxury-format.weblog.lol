@@ -9,7 +9,6 @@ Location: /configuration/landing-page-template.md
 <title>{weblog-title}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="{weblog-title}">
 <meta name="description" content="{weblog-description}">
 <meta property="og:description" content="{weblog-description}">
@@ -246,6 +245,12 @@ a:active {
   text-decoration: underline;
 }
 
+form.search {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
 input[type="date"],
 input[type="email"],
 input[type="number"],
@@ -256,6 +261,7 @@ input[type="url"],
 input[type="button"],
 input[type="submit"],
 input[type="text" i] {
+  flex: 1;
   padding: 2px 10px;
   height: 30px;
   background-color: #FFFFFF;
@@ -267,12 +273,13 @@ input[type="text" i] {
 
 button {
   height: 30px;
-  padding: 2px 10px;
   background-color: var(--purple);
   border-radius: 10px;
   border: 2px solid #FFFFFF;
   font-weight: bold;
   color: #080808;
+  width: 100%;
+  cursor: pointer;
 }
 
 button:hover {
