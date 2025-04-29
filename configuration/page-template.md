@@ -268,7 +268,7 @@ form.search input {
 
 button {
   display: block;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   padding: 0.75rem 1rem;
   background-color: var(--purple);
