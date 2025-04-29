@@ -5,7 +5,7 @@ Title: Search
 Location: /search
 ---
 
-## <i class="fa-solid fa-fw fa-magnifying-glass"></i> Search
+# <i class="fa-solid fa-fw fa-magnifying-glass"></i> Search
 
 <form class="search" action="?" method="get">
 <input placeholder="Search" type="text" name="search">
