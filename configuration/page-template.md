@@ -253,22 +253,12 @@ form.search {
   align-items: center;
 }
 
-form.search input[type="date"],
-form.search input[type="email"],
-form.search input[type="number"],
-form.search input[type="search"],
-form.search input[type="tel"],
-form.search input[type="text"],
-form.search input[type="url"],
-form.search input[type="button"],
-form.search input[type="submit"],
-form.search input[type="text" i] {
+form.search input {
   width: 100%;
-  max-width: 800px;
   padding: 0.75rem 1rem;
   background-color: #FFFFFF;
-  border-radius: 10px;
   border: 2px solid var(--purple);
+  border-radius: 10px;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.2;
@@ -276,13 +266,12 @@ form.search input[type="text" i] {
   box-sizing: border-box;
 }
 
-form.search button {
+form.search .submit button {
   width: 50%;
-  max-width: 400px;
   padding: 0.75rem 1rem;
   background-color: var(--purple);
-  border-radius: 10px;
   border: 2px solid #FFFFFF;
+  border-radius: 10px;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.2;
@@ -291,7 +280,28 @@ form.search button {
   box-sizing: border-box;
 }
 
-form.search button:hover {
+form.search .submit button:hover {
+  background-color: #FFFFFF;
+  border-color: var(--purple);
+}
+
+button {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  background-color: var(--purple);
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #080808;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button:hover {
   background-color: #FFFFFF;
   border-color: var(--purple);
 }
