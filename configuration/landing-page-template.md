@@ -246,6 +246,15 @@ a:active {
   text-decoration: underline;
 }
 
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+input[type="button"],
+input[type="submit"],
 input[type="text" i] {
   padding: 2px 10px;
   height: 30px;
