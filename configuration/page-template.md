@@ -255,6 +255,7 @@ form.search {
 
 form.search input {
   width: 100%;
+  margin: 0 auto;
   padding: 0.75rem 1rem;
   background-color: #FFFFFF;
   border: 2px solid var(--purple);
@@ -456,7 +457,7 @@ i[class*=" omg-"] {
   box-shadow: var(--box-shadow);
 }
 
-body.no-title-links main h1.content-title > a.content-link {
+body.no-title-links main h1 > a {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
