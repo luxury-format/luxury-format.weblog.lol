@@ -14,6 +14,9 @@ Location: /configuration/landing-page-template.md
 <meta property="og:description" content="{weblog-description}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://luxury-format.weblog.lol">
+<a style="display: none;" rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
+<a style="display: none;" href="https://github.com/LUXURYFORMAT" rel="me">github.com/LUXURYFORMAT</a>
+<a style="display: none;" href="https://proven.lol/f6c7ca">proven.lol/f6c7ca</a>
 <meta name="fediverse:creator" content="@luxury_format@social.lol">
 <link rel="alternate" type="application/atom+xml" title="LUXURY FORMAT Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
 <link rel="alternate" type="application/rss+xml" title="LUXURY FORMAT RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
@@ -50,10 +53,10 @@ Location: /configuration/landing-page-template.md
   :root {
     --foreground: #F8F8F2;
     --background: #21222C;
-    --link: #7DF9FF;
+    --link: #0080FF;
     --accent: #E5E4E2;
     --highlight: #53565D;
-    --blue: #E4EFF5;
+    --blue: #6272A4;
     --selection: #44475A;
     --red: #FF5555;
     --orange: #FFB86C;
@@ -158,6 +161,26 @@ li {
   line-height: 120%;
 }
 
+header,
+main,
+footer {
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+header {
+  margin-top: 1em;
+}
+
+footer p {
+  font-family: 'VC Honey Deck', serif;
+  font-weight: bold;
+  font-size: 90%;
+  text-align: center;
+  margin-top: 1em;
+}
+
 i,
 cite,
 em {
@@ -166,8 +189,9 @@ em {
 
 highlight,
 mark {
-  color: var(--foreground);
-  background-color: #FFFF00;
+  color: #21222C;
+  background-color: var(--orange);
+  box-shadow: var(--box-shadow);
 }
 
 s,
@@ -200,26 +224,6 @@ blockquote {
   font-style: italic;
   margin: 2rem 0;
   padding: 0 2rem;
-}
-
-header,
-main,
-footer {
-  max-width: 60em;
-  margin: 2em auto;
-  padding: 0 1em;
-}
-
-header {
-  margin-top: 1em;
-}
-
-footer p {
-  font-family: 'VC Honey Deck', serif;
-  font-weight: bold;
-  font-size: 80%;
-  text-align: center;
-  margin-top: 1em;
 }
 
 a {
@@ -262,6 +266,10 @@ button:hover {
   border: 2px solid var(--purple);
 }
 
+li {
+  font-weight: bold;
+}
+
 ul li::marker {
   color: var(--green);
 }
@@ -283,7 +291,7 @@ ol li::marker {
 
 .tag {
   background: var(--green);
-  color: var(--background) !important;
+  color: var(--foreground) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
   border-radius: .5em;
@@ -300,10 +308,10 @@ tt {
 }
 
 code {
-  background: var(--foreground);
+  background: #000000;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  color: var(--background);
+  color: #FFFFFF;
   padding: 2px 4px;
   white-space: nowrap;
   overflow-wrap: break-word;
@@ -353,7 +361,7 @@ td,
 th {
   padding: .75em;
   text-align: left;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--selection);
 }
 
 .weblog-title a {
@@ -379,7 +387,7 @@ nav {
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
   content: "\2022";
-  color: var(--red);
+  color: var(--link);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -435,9 +443,6 @@ i[class*=" omg-"] {
 </head>
 <body>
 
-<a style="display: none;" rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
-<a style="display: none;" href="https://github.com/LUXURYFORMAT" rel="me">github.com/LUXURYFORMAT</a>
-<a style="display: none;" href="https://proven.lol/f6c7ca">proven.lol/f6c7ca</a>
 <header>
 <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
 {navigation}
