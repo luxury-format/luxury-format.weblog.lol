@@ -21,11 +21,15 @@ Location: /configuration/page-template.md
 <link rel="alternate" type="application/atom+xml" title="LUXURY FORMAT Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
 <link rel="alternate" type="application/rss+xml" title="LUXURY FORMAT RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
 <link rel="alternate" type="application/json" title="LUXURY FORMAT JSON Feed" href="https://luxury-format.weblog.lol/feed.json">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+<link rel="preconnect" href="https://omgalol.cache.lol" crossorigin>
+<link rel="stylesheet" href="https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://kit.fontawesome.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <style>
 @import url('https://static.omg.lol/type/font-honey.css');
-@import url('https://static.omg.lol/type/font-lato-regular.css');
-@import url('https://static.omg.lol/type/font-lato-bold.css');
-@import url('https://static.omg.lol/type/font-lato-italic.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 @import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
@@ -45,6 +49,9 @@ Location: /configuration/page-template.md
   --purple: #BD93F9;
   --cyan: #8BE9FD;
   --pink: #FF79C6;
+  --sans-serif-font: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --mono-space-font: 'Source Code Pro', ui-monospace, SFMono-Regular, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --display-font: 'VC Honey Deck', serif;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
@@ -65,7 +72,6 @@ Location: /configuration/page-template.md
     --purple: #BD93F9;
     --cyan: #8BE9FD;
     --pink: #FF79C6;
-    --border-radius: 0.5rem;
     --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   }
 }
@@ -75,7 +81,7 @@ Location: /configuration/page-template.md
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--sans-serif-font);
   font-size: 120%;
   color: var(--foreground);
   background: var(--background);
@@ -89,7 +95,7 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  font-family: 'VC Honey Deck', serif;
+  font-family: var(--sans-serif-font);
 }
 
 header nav li a {
@@ -105,7 +111,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'VC Honey Deck', serif;
+  font-family: var(--display-font);
   text-align: center;
   margin: 1rem 0;
 }
@@ -120,290 +126,6 @@ p {
   overflow-wrap: break-word;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-b,
-strong,
-th {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 2.4rem;
-}
-
-h2 {
-  font-size: 2.2rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.8rem;
-}
-
-h5 {
-  font-size: 1.6rem;
-}
-
-h6 {
-  font-size: 1.4rem;
-}
-
-p,
-li {
-  line-height: 120%;
-}
-
-header,
-main,
-footer {
-  max-width: 60em;
-  margin: 2em auto;
-  padding: 0 1em;
-}
-
-header {
-  margin-top: 1em;
-}
-
-footer p {
-  font-family: 'VC Honey Deck', serif;
-  font-weight: bold;
-  font-size: 90%;
-  text-align: center;
-  margin-top: 1em;
-}
-
-i,
-cite,
-em {
-  font-style: italic;
-}
-
-highlight,
-mark {
-  color: #21222C;
-  background-color: var(--orange);
-  box-shadow: var(--box-shadow);
-}
-
-s,
-del {
-  text-decoration: line-through;
-  text-decoration-color: #FF3B30;
-  text-decoration-thickness: 1px;
-}
-
-sub {
-  vertical-align: sub;
-  font-size: smaller;
-}
-
-sup {
-  vertical-align: super;
-  font-size: smaller;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background: var(--pink);
-  margin: 1rem 0;
-}
-
-blockquote {
-  border-left: 3px solid var(--blue);
-  color: var(--blue);
-  font-style: italic;
-  margin: 2rem 0;
-  padding: 0 2rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:link,
-a:visited {
-  color: var(--link);
-}
-
-a:hover,
-a:active {
-  color: var(--link);
-  text-decoration: underline;
-}
-
-input[type="text" i] {
-  padding: 2px 10px;
-  height: 30px;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  border: 2px solid var(--purple);
-  font-weight: bold;
-  color: #080808;
-}
-
-button {
-  height: 30px;
-  padding: 2px 10px;
-  background-color: var(--purple);
-  border-radius: 10px;
-  border: 2px solid #FFFFFF;
-  font-weight: bold;
-  color: #080808;
-}
-
-button:hover {
-  background-color: #FFFFFF;
-  border: 2px solid var(--purple);
-}
-
-ul li::marker {
-  color: var(--green);
-}
-
-ol li::marker {
-  color: var(--link);
-}
-
-.post-info,
-.post-tags {
-  font-size: 80%;
-  color: var(--green);
-  text-align: right;
-}
-
-.post-info i:nth-child(2) {
-  margin-left: .75em;
-}
-
-.tag {
-  background: var(--green);
-  color: #21222C !important;
-  padding: .3em .4em;
-  margin: .8em 0 0 .4em;
-  border-radius: .5em;
-  text-decoration: none;
-  display: inline-block;
-}
-
-code,
-kbd,
-pre,
-tt {
-  font-family: 'MD IO 0.4';
-  font-size: 90%;
-}
-
-code {
-  background: #000000;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  color: #FFFFFF;
-  padding: 2px 4px;
-  white-space: nowrap;
-  overflow-wrap: break-word;
-}
-
-pre {
-  background: #000000;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  color: #FFFFFF;
-  line-height: 1.5;
-  margin: 2rem 0;
-  overflow-wrap: normal;
-  overflow-x: scroll;
-  padding: 2rem;
-  white-space: pre;
-  word-wrap: normal;
-}
-
-pre code {
-  background: none;
-  border: none;
-  color: inherit;
-  padding: 0;
-  white-space: pre;
-}
-
-img,
-picture,
-video {
-  display: block;
-  max-width: 100%;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th {
-  background: var(--highlight);
-}
-
-td,
-th {
-  padding: .75em;
-  text-align: left;
-  border: 1px solid var(--selection);
-}
-
-.weblog-title a {
-  text-decoration: none;
-  color: var(--foreground);
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  width: 100%;
-}
-
-.previous-page {
-  margin-right: auto;
-}
-
-.next-page {
-  margin-left: auto;
-}
-
-.previous-page:not(:empty) + .next-page:not(:empty)::before {
-  content: "\2022";
-  color: var(--link);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.divider {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  word-spacing: 1em;
-  color: var(--purple);
-  gap: 1em;
-  margin: 1em 0;
-}
-
-.divider::before,
-.divider::after {
-  content: "";
-  flex: 1;
-  border: 1px solid var(--purple);
 }
 
 i[class^="fa-"],
@@ -430,7 +152,6 @@ i[class*=" omg-"] {
 }
 
 .statuslol {
-  background-color: var(--blue) !important;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
