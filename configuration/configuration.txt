@@ -53,11 +53,11 @@ Feed post appendix: <p><em>Published with weblog.lol!</em></p>
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
-Title: Title
+Title: InvisibleTitle
 Tags: #Everything, #2025
 ---
 
-<h1><a href="$location">$title</a></h1>
+# Title
 
 This is a new blog post. I can author it in _Markdown_, which is **awesome**.]>>
 
