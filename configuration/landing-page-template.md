@@ -40,6 +40,7 @@ Location: /configuration/landing-page-template.md
   --background: #F8F8F2;
   --link: #0080FF;
   --accent: #C0C0C0;
+  --icons: #000000;
   --highlight: #E3E3E6;
   --selection: #44475A;
   --blue: #6272A4;
@@ -63,6 +64,7 @@ Location: /configuration/landing-page-template.md
     --background: #21222C;
     --link: #7DF9FF;
     --accent: #E5E4E2;
+    --icons: #FFFFFF;
     --highlight: #53565D;
     --blue: #6272A4;
     --selection: #44475A;
@@ -417,7 +419,7 @@ i[class^="fa-"],
 i[class*=" fa-"],
 i[class^="omg-"],
 i[class*=" omg-"] {
-  color: var(--accent);
+  color: var(--icons);
 }
 
 .recent-played {
