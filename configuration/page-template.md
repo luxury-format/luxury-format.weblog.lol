@@ -445,7 +445,6 @@ body.no-title-links main h1.content-title > a.content-link {
 <a style="display: none;" href="https://github.com/LUXURYFORMAT" rel="me">github.com/LUXURYFORMAT</a>
 <a style="display: none;" href="https://proven.lol/f6c7ca">proven.lol/f6c7ca</a>
 <header>
-<header>
   <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
   {navigation}
 </header>
