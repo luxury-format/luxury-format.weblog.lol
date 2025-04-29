@@ -3,8 +3,6 @@ Date: 2025-04-28 14:20
 Tags: Markdown, Style, Test
 ---
 
-# Markdown
-
 ---
 
 ## Styling text
