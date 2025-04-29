@@ -63,7 +63,7 @@ This is a new blog post. I can author it in _Markdown_, which is **awesome**.]>>
 
 Titleless title length: 15 words
 // Truncation appendix:  …
-Title format: <h1>$title</h1>
+Title format: <h1><a href="$location">$title</a></h1>
 
 Multiple posts count: 10
 Multiple posts format: <<[
