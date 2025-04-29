@@ -266,25 +266,6 @@ form.search input {
   box-sizing: border-box;
 }
 
-form.search .submit button {
-  width: 50%;
-  padding: 0.75rem 1rem;
-  background-color: var(--purple);
-  border: 2px solid #FFFFFF;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1rem;
-  line-height: 1.2;
-  color: #080808;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-form.search .submit button:hover {
-  background-color: #FFFFFF;
-  border-color: var(--purple);
-}
-
 button {
   display: block;
   width: 50%;
