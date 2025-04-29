@@ -306,6 +306,7 @@ code {
   color: var(--background);
   padding: 2px 4px;
   white-space: nowrap;
+  overflow-wrap: break-word;
 }
 
 pre {
