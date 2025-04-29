@@ -26,8 +26,8 @@ Random post location: /random
 ;; ----------
 
 Pagination path: /page/
-Previous page template: <span class="previous-page"><a href="$previous_page">⇠ Older</a></span>
-Next page template: <span class="next-page"><a href="$next_page">Newer ⇢</a></span>
+Previous page template: <span class="previous-page"><a href="$previous_page">⇠ Newer</a></span>
+Next page template: <span class="next-page"><a href="$next_page">Older ⇢</a></span>
 
 
 ;; Time stuff
