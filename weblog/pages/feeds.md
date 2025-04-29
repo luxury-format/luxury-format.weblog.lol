@@ -8,7 +8,7 @@ Location: /feeds
 
 ---
 
-## You can subscribe to my blog by clicking on one of these links:
+You can subscribe to my blog by clicking on one of these links:
 
 - [RSS Feed](/rss.xml)
 - [Atom Feed](/atom.xml)
