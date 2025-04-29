@@ -9,6 +9,7 @@ Location: /configuration/page-template.md
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="{weblog-title}">
 <meta name="description" content="{weblog-description}">
 <meta property="og:description" content="{weblog-description}">
@@ -126,6 +127,290 @@ p {
   overflow-wrap: break-word;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+th {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+p,
+li {
+  line-height: 120%;
+}
+
+header,
+main,
+footer {
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+header {
+  margin-top: 1em;
+}
+
+footer p {
+  font-family: 'VC Honey Deck', serif;
+  font-weight: bold;
+  font-size: 90%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+i,
+cite,
+em {
+  font-style: italic;
+}
+
+highlight,
+mark {
+  color: #21222C;
+  background-color: var(--orange);
+  box-shadow: var(--box-shadow);
+}
+
+s,
+del {
+  text-decoration: line-through;
+  text-decoration-color: #FF3B30;
+  text-decoration-thickness: 1px;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--pink);
+  margin: 1rem 0;
+}
+
+blockquote {
+  border-left: 3px solid var(--blue);
+  color: var(--blue);
+  font-style: italic;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: var(--link);
+}
+
+a:hover,
+a:active {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+input[type="text" i] {
+  padding: 2px 10px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 2px solid var(--purple);
+  font-weight: bold;
+  color: #080808;
+}
+
+button {
+  height: 30px;
+  padding: 2px 10px;
+  background-color: var(--purple);
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  font-weight: bold;
+  color: #080808;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  border: 2px solid var(--purple);
+}
+
+ul li::marker {
+  color: var(--green);
+}
+
+ol li::marker {
+  color: var(--link);
+}
+
+.post-info,
+.post-tags {
+  font-size: 80%;
+  color: var(--green);
+  text-align: right;
+}
+
+.post-info i:nth-child(2) {
+  margin-left: .75em;
+}
+
+.tag {
+  background: var(--green);
+  color: #21222C !important;
+  padding: .3em .4em;
+  margin: .8em 0 0 .4em;
+  border-radius: .5em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+code,
+kbd,
+pre,
+tt {
+  font-family: var(--mono-space-font);
+  font-size: 90%;
+}
+
+code {
+  background: #000000;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  color: #FFFFFF;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+}
+
+pre {
+  background: #000000;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  color: #FFFFFF;
+  line-height: 1.5;
+  margin: 2rem 0;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+  padding: 2rem;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+pre code {
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  white-space: pre;
+}
+
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: var(--highlight);
+}
+
+td,
+th {
+  padding: .75em;
+  text-align: left;
+  border: 1px solid var(--selection);
+}
+
+.weblog-title a {
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.previous-page {
+  margin-right: auto;
+}
+
+.next-page {
+  margin-left: auto;
+}
+
+.previous-page:not(:empty) + .next-page:not(:empty)::before {
+  content: "\2022";
+  color: var(--link);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  word-spacing: 1em;
+  color: var(--purple);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border: 1px solid var(--purple);
 }
 
 i[class^="fa-"],
@@ -152,6 +437,7 @@ i[class*=" omg-"] {
 }
 
 .statuslol {
+  background-color: var(--blue) !important;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
