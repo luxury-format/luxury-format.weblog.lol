@@ -5,8 +5,6 @@ Title: ABOUT
 Location: /about
 ---
 
-# {post-title}
-
 ---
 
 #### It's all about me.
