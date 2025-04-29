@@ -222,7 +222,7 @@ i[class*=" omg-"] {
 <body>
 
 <header>
-  <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
+  <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
   {navigation}
 </header>
 
