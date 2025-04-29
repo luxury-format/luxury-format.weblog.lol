@@ -231,10 +231,7 @@ i[class*=" omg-"] {
 <h1><a href="{permalink}">{post-title}</a></h1>
 {body}
 
-<nav>
-{previous-page}
-{next-page}
-</nav>
+<nav> {previous-page} {next-page} </nav>
 
 </main>
 
