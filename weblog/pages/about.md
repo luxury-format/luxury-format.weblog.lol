@@ -5,7 +5,7 @@ Title: About
 Location: /about
 ---
 
-# ABOUT
+# {post-title}
 
 ---
 
