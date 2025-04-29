@@ -210,7 +210,7 @@ header,
 main,
 footer {
   max-width: 60em;
-  margin: 1em auto;
+  margin: 2em auto;
   padding: 0 1em;
 }
 
@@ -221,7 +221,7 @@ header {
 footer p {
   font-family: 'VC Honey Deck', serif;
   font-weight: bold;
-  font-size: 90%;
+  font-size: 80%;
   text-align: center;
   margin-top: 1em;
 }
@@ -287,7 +287,7 @@ ol li::marker {
 
 .tag {
   background: var(--green);
-  color: var(--foreground) !important;
+  color: var(--background) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
   border-radius: .5em;
