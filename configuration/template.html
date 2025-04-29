@@ -218,20 +218,20 @@ i[class*=" omg-"] {
 <body>
 
 <header>
-  <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
+  <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
   {navigation}
 </header>
 
 <main>
 
 <article>
-{body}
-<aside class="post-info">
-<i class="fa-solid fa-clock"></i> {date}
-</aside>
-<aside class="post-tags">
-{tags}
-</aside>
+  {body}
+  <aside class="post-info">
+    <i class="fa-solid fa-clock"></i> {date}
+  </aside>
+  <aside class="post-tags">
+    {tags}
+  </aside>
 </article>
 
 <hr>
@@ -243,9 +243,9 @@ i[class*=" omg-"] {
 </main>
 
 <footer>
-<hr>
-<p>&copy; {year} {weblog-title}</p>
-<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
+  <hr>
+  <p>&copy; {year} [{weblog-title}](/)</p>
+  <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
 
 </body>
