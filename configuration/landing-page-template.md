@@ -187,10 +187,28 @@ th {
   color: var(--foreground);
 }
 
-.previous-page + .next-page::before {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.previous-page {
+  margin-right: auto;
+}
+
+.next-page {
+  margin-left: auto;
+}
+
+.previous-page:not(:empty) + .next-page:not(:empty)::before {
   content: "\2022";
   color: #ccc;
-  margin: 0 0.75em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .divider {
