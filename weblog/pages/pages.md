@@ -5,6 +5,8 @@ Title: PAGES
 Location: /pages
 ---
 
+PAGES
+
 ---
 
 - [BLOG](/)
