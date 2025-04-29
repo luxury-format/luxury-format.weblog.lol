@@ -279,7 +279,8 @@ button {
   border: 2px solid #FFFFFF;
   font-weight: bold;
   color: #080808;
-  width: 100%;
+  width: 50%;
+  align-self: center;
   cursor: pointer;
 }
 
