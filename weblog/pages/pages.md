@@ -1,11 +1,11 @@
 ---
 Date: 2025-04-28 19:40
 Type: Page
-Title: Pages
+Title: PAGES
 Location: /pages
 ---
 
-# Pages
+# {post-title}
 
 ---
 
