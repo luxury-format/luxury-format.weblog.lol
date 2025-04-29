@@ -5,8 +5,18 @@ Title: ARCHIVE
 Location: /archive
 ---
 
+# ARCHIVE
+
+#### All posts:
+
 ---
 
 {post-list}
+
+---
+
+#### All tags:
+
+{tags}
 
 ---
