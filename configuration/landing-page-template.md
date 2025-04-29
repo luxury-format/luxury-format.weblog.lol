@@ -222,13 +222,12 @@ i[class*=" omg-"] {
 <body>
 
 <header>
-<h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
+<h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
 {navigation}
 </header>
 <main>
 
 <span class="divider">&bull; &bull; &bull;</span>
-<h1><a href="{permalink}">{post-title}</a></h1>
 {body}
 
 <nav>
@@ -240,7 +239,7 @@ i[class*=" omg-"] {
 
 <footer>
 <hr>
-<p>&copy; {year} {weblog-title}</p>
+<p>&copy; {year} [{weblog-title}](/)</p>
 <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
 
