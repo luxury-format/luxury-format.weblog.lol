@@ -156,9 +156,8 @@ em {
 
 highlight,
 mark {
-  background-color: var(--orange);
-  border-radius: 8px 3px 8px 3px;
-  padding: 3px;
+  color: var(--foreground);
+  background-color: #FFFF00;
 }
 
 s,
