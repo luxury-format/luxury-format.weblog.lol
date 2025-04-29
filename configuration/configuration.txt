@@ -53,7 +53,7 @@ Feed post count: 25
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
-Tags: Everything, #2025
+Tags: #Everything, #2025
 ---
 
 # My new post
@@ -116,9 +116,9 @@ Search template: Page Template
 Search results success message: There [is|are] $count [result|results] for your search:
 Search results failure message: There were no results found for your search.
 Search results format: <<[
-<h2>Results for “$search”</h2>
+<h1>Results for “$search”</h1>
 <p>$search_results_message</p>
-[post:begin]<h3><a href="$location">$title</a></h3>
+[post:begin]<h2><a href="$location">$title</a></h2>
 <p>$date</p>
 <p>$snippet</p>[post:end]
 ]>>
@@ -128,24 +128,7 @@ Search results format: <<[
 ;; -----------
 
 Tag path: /tag/
-// Tag page template: Tag Template
-Tags format: <<[
-[tag:begin]<a class="tag" href="$tag_location">$tag</a>[tag:end]
-]>>
-Tag page format: <<[
-<h2>Posts tagged with “$tag”</h2>
-<ul>
-[tag:begin]<li><a href="$location">$title</a></li>[tag:end]
-</ul>
-]>>
+Tag page template: Tag Template
 
 Tag listing path: /tags
-// Tag listing template: Tag Listing Template
-// Note: tag listing order can be "alphabetical", "ascending", or "descending" where alphabetical sorts by the tag name and ascending/descending sorts by the count of entries with that tag
-Tag listing order: alphabetical
-Tag listing format: <<[
-<h2>Tags</h2>
-<ul>
-[tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
-</ul>
-]>>
+Tag listing template: Tag Listing Template
