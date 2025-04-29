@@ -7,9 +7,18 @@ Location: /configuration/landing-page-template.md
 <!-- Landing Page Template from GitHub repo -->
 <head>
 <title>{weblog-title}</title>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{feeds}
+<meta property="og:title" content="{weblog-title}">
+<meta name="description" content="{weblog-description}">
+<meta property="og:description" content="{weblog-description}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://luxury-format.weblog.lol">
+<meta name="fediverse:creator" content="@luxury_format@social.lol">
+<link rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
+<link rel="alternate" type="application/atom+xml" title="LUXURY FORMAT Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="LUXURY FORMAT RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
+<link rel="alternate" type="application/json" title="LUXURY FORMAT JSON Feed" href="https://luxury-format.weblog.lol/feed.json">
 <style>
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-lato-regular.css');
@@ -17,6 +26,7 @@ Location: /configuration/landing-page-template.md
 @import url('https://static.omg.lol/type/font-lato-italic.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
+@import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
 
 :root {
   --foreground: #21222C;
