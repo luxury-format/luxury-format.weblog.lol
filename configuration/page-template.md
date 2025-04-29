@@ -7,7 +7,7 @@ Location: /configuration/page-template.md
 <!-- Page Template from GitHub repo -->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="{weblog-title}">
 <meta name="description" content="{weblog-description}">
