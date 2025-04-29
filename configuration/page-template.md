@@ -291,7 +291,7 @@ ol li::marker {
 
 .tag {
   background: var(--green);
-  color: #000000 !important;
+  color: #21222C !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
   border-radius: .5em;
