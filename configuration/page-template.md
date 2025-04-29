@@ -9,7 +9,6 @@ Location: /configuration/page-template.md
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="{weblog-title}">
 <meta name="description" content="{weblog-description}">
 <meta property="og:description" content="{weblog-description}">
@@ -40,6 +39,7 @@ Location: /configuration/page-template.md
   --background: #F8F8F2;
   --link: #0080FF;
   --accent: #C0C0C0;
+  --icons: #000000;
   --highlight: #E3E3E6;
   --selection: #44475A;
   --blue: #6272A4;
@@ -50,9 +50,6 @@ Location: /configuration/page-template.md
   --purple: #BD93F9;
   --cyan: #8BE9FD;
   --pink: #FF79C6;
-  --sans-serif-font: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --mono-space-font: 'Source Code Pro', ui-monospace, SFMono-Regular, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  --display-font: 'VC Honey Deck', serif;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
@@ -63,6 +60,7 @@ Location: /configuration/page-template.md
     --background: #21222C;
     --link: #7DF9FF;
     --accent: #E5E4E2;
+    --icons: #FFFFFF;
     --highlight: #53565D;
     --blue: #6272A4;
     --selection: #44475A;
@@ -82,7 +80,7 @@ Location: /configuration/page-template.md
 }
 
 body {
-  font-family: var(--sans-serif-font);
+  font-family: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 120%;
   color: var(--foreground);
   background: var(--background);
@@ -96,7 +94,7 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  font-family: var(--sans-serif-font);
+  font-family: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 header nav li a {
@@ -112,7 +110,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--display-font);
+  font-family: 'VC Honey Deck', serif;
   text-align: center;
   margin: 1rem 0;
 }
@@ -197,8 +195,7 @@ em {
 highlight,
 mark {
   color: #21222C;
-  background-color: var(--orange);
-  box-shadow: var(--box-shadow);
+  background-color: var(--yellow);
 }
 
 s,
@@ -306,18 +303,18 @@ code,
 kbd,
 pre,
 tt {
-  font-family: var(--mono-space-font);
+  font-family: 'Source Code Pro', ui-monospace, SFMono-Regular, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 90%;
 }
 
 code {
   background: #000000;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
   color: #FFFFFF;
+  border-radius: var(--border-radius);
   padding: 2px 4px;
-  white-space: nowrap;
-  overflow-wrap: break-word;
+  white-space: pre-wrap;
+	word-wrap: break-word;
+/*  overflow-wrap: break-word; */
 }
 
 pre {
@@ -417,7 +414,7 @@ i[class^="fa-"],
 i[class*=" fa-"],
 i[class^="omg-"],
 i[class*=" omg-"] {
-  color: var(--accent);
+  color: var(--icons);
 }
 
 .recent-played {
