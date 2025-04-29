@@ -14,6 +14,10 @@ Location: /configuration/landing-page-template.md
 <meta property="og:description" content="{weblog-description}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://luxury-format.weblog.lol">
+<a style="display: none;" rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
+<a style="display: none;" href="https://github.com/LUXURYFORMAT" rel="me">github.com/LUXURYFORMAT</a>
+<a style="display: none;" href="https://proven.lol/f6c7ca">proven.lol/f6c7ca</a>
+<header>
 <meta name="fediverse:creator" content="@luxury_format@social.lol">
 <link rel="alternate" type="application/atom+xml" title="LUXURY FORMAT Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
 <link rel="alternate" type="application/rss+xml" title="LUXURY FORMAT RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
@@ -440,10 +444,6 @@ i[class*=" omg-"] {
 </header>
 <main>
 
-<a style="display: none;" rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
-<a style="display: none;" href="https://github.com/LUXURYFORMAT" rel="me">github.com/LUXURYFORMAT</a>
-<a style="display: none;" href="https://proven.lol/f6c7ca">proven.lol/f6c7ca</a>
-<header>
 <span class="divider">&bull; &bull; &bull;</span>
 {body}
 
