@@ -4,8 +4,7 @@ Location: /configuration/page-template.md
 
 <!DOCTYPE html>
 <html lang="en">
-<!-- Page Template -->
-<!-- From GitHub -->
+<!-- Page Template from GitHub repo -->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="utf-8">
@@ -222,12 +221,12 @@ i[class*=" omg-"] {
 </head>
 <body>
 
-<h6><mark>⬇️ Page Template Start Here ⬇️</mark></h6>
 <header>
   <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
   {navigation}
 </header>
 
+<h1>{page-title}</h1>
 <main>
 
 {body}
@@ -235,9 +234,9 @@ i[class*=" omg-"] {
 </main>
 
 <footer>
-  <hr>
-  <p>&copy; {year} {weblog-title}</p>
-  <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
+<hr>
+<p>&copy; {year} {weblog-title}</p>
+<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
 
 </body>
