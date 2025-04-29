@@ -245,6 +245,12 @@ a:active {
   text-decoration: underline;
 }
 
+form.search {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
 input[type="text" i] {
   padding: 2px 10px;
   height: 30px;
