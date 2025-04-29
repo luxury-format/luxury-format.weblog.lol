@@ -21,11 +21,15 @@ Location: /configuration/landing-page-template.md
 <link rel="alternate" type="application/atom+xml" title="LUXURY FORMAT Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
 <link rel="alternate" type="application/rss+xml" title="LUXURY FORMAT RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
 <link rel="alternate" type="application/json" title="LUXURY FORMAT JSON Feed" href="https://luxury-format.weblog.lol/feed.json">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+<link rel="preconnect" href="https://omgalol.cache.lol" crossorigin>
+<link rel="stylesheet" href="https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://kit.fontawesome.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <style>
 @import url('https://static.omg.lol/type/font-honey.css');
-@import url('https://static.omg.lol/type/font-lato-regular.css');
-@import url('https://static.omg.lol/type/font-lato-bold.css');
-@import url('https://static.omg.lol/type/font-lato-italic.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 @import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
@@ -45,6 +49,9 @@ Location: /configuration/landing-page-template.md
   --purple: #BD93F9;
   --cyan: #8BE9FD;
   --pink: #FF79C6;
+  --sans-serif-font: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --mono-space-font: 'Source Code Pro', ui-monospace, SFMono-Regular, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --display-font: 'VC Honey Deck', serif;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
@@ -65,7 +72,6 @@ Location: /configuration/landing-page-template.md
     --purple: #BD93F9;
     --cyan: #8BE9FD;
     --pink: #FF79C6;
-    --border-radius: 0.5rem;
     --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   }
 }
@@ -75,7 +81,7 @@ Location: /configuration/landing-page-template.md
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--sans-serif-font);
   font-size: 120%;
   color: var(--foreground);
   background: var(--background);
@@ -89,7 +95,7 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  font-family: 'VC Honey Deck', serif;
+  font-family: var(--sans-serif-font);
 }
 
 header nav li a {
@@ -105,7 +111,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'VC Honey Deck', serif;
+  font-family: var(--display-font);
   text-align: center;
   margin: 1rem 0;
 }
@@ -299,7 +305,7 @@ code,
 kbd,
 pre,
 tt {
-  font-family: 'MD IO 0.4';
+  font-family: var(--mono-space-font);
   font-size: 90%;
 }
 
