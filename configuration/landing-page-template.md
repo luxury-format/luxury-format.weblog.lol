@@ -378,11 +378,11 @@ nav {
 }
 
 .previous-page {
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .next-page {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
