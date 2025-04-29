@@ -221,7 +221,7 @@ i[class*=" omg-"] {
 </style>
 </head>
 <body>
-<h6><mark>⬇️ Landing Page Start Here ⬇️</mark></h6>
+
 <header>
   <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
   {navigation}
