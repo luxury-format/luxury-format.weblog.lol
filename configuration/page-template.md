@@ -250,43 +250,50 @@ form.search {
   flex-direction: column;
   width: 100%;
   gap: 1rem;
+  align-items: center;
 }
 
-input[type="date"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="url"],
-input[type="button"],
-input[type="submit"],
-input[type="text" i] {
-  flex: 1;
-  padding: 2px 10px;
-  height: 30px;
+form.search input[type="date"],
+form.search input[type="email"],
+form.search input[type="number"],
+form.search input[type="search"],
+form.search input[type="tel"],
+form.search input[type="text"],
+form.search input[type="url"],
+form.search input[type="button"],
+form.search input[type="submit"],
+form.search input[type="text" i] {
+  width: 100%;
+  max-width: 800px;
+  padding: 0.75rem 1rem;
   background-color: #FFFFFF;
   border-radius: 10px;
   border: 2px solid var(--purple);
   font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2;
   color: #080808;
+  box-sizing: border-box;
 }
 
-button {
-  height: 30px;
+form.search button {
+  width: 50%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
   background-color: var(--purple);
   border-radius: 10px;
   border: 2px solid #FFFFFF;
   font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2;
   color: #080808;
-  width: 50%;
-  align-self: center;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
-button:hover {
+form.search button:hover {
   background-color: #FFFFFF;
-  border: 2px solid var(--purple);
+  border-color: var(--purple);
 }
 
 ul li::marker {
