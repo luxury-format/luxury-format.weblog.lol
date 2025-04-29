@@ -1,6 +1,6 @@
 Type: Template
 Title: Landing Page Template
-Location: /configuration/landing-page-template.html
+Location: /configuration/landing-page-template.md
 
 <!DOCTYPE html>
 <html lang="en">
