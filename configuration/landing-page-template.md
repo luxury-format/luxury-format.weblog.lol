@@ -197,7 +197,7 @@ em {
 highlight,
 mark {
   color: #21222C;
-  background-color: var(--orange);
+  background-color: var(--yellow);
   box-shadow: var(--box-shadow);
 }
 
