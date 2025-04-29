@@ -6,10 +6,6 @@ Tags: Markdown, Style, Test, GitHub
 
 ---
 
-## Styling text
-
----
-
 You can indicate emphasis with **bold**, *italic*, ~~strikethrough~~, <sub>subscript</sub>, <sup>superscript</sup>, <mark>mark</mark>,  text in comment fields and `.md` files.
 
 ---
