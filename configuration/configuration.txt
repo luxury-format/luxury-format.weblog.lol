@@ -57,6 +57,8 @@ Title: Title
 Tags: #Everything, #2025
 ---
 
+<h1><a href="$location">$title</a></h1>
+
 This is a new blog post. I can author it in _Markdown_, which is **awesome**.]>>
 
 Titleless title length: 15 words
