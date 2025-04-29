@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Main Template -->
-<!-- From my GitHub Repository -->
+<!-- Main Template from GitHub repo -->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="utf-8">
@@ -217,7 +216,7 @@ i[class*=" omg-"] {
 </style>
 </head>
 <body>
-<h6><mark>⬇️ Main Template Start Here ⬇️</mark></h6>
+
 <header>
   <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
   {navigation}
@@ -226,13 +225,15 @@ i[class*=" omg-"] {
 <main>
 
 <article>
-  {body}
-  <aside class="post-info">
-    <i class="fa-solid fa-clock"></i> {date}
-  </aside>
-  <aside class="post-tags">
-    {tags}
-  </aside>
+<h1>{post-title}</h1>
+<hr>
+{body}
+<aside class="post-info">
+<i class="fa-solid fa-clock"></i> {date}
+</aside>
+<aside class="post-tags">
+{tags}
+</aside>
 </article>
 
 <hr>
@@ -244,11 +245,10 @@ i[class*=" omg-"] {
 </main>
 
 <footer>
-  <hr>
-  <p>&copy; {year} {weblog-title}</p>
-  <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
+<hr>
+<p>&copy; {year} {weblog-title}</p>
+<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
 
-<h6><mark>⬆️ Main Template Finish Here. ⬆️</mark></h6>
 </body>
 </html>
