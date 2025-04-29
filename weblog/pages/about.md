@@ -7,8 +7,4 @@ Location: /about
 
 <!-- # ABOUT -->
 
----
-
 #### It's all about me.
-
----
