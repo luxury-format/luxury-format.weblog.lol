@@ -5,6 +5,8 @@ Title: SEARCH
 Location: /search
 ---
 
+# SEARCH
+
 ---
 
 <form class="search" action="?" method="get">
