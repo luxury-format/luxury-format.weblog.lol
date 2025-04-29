@@ -4,6 +4,8 @@ Title: FEEDS
 Location: /feeds
 ---
 
+# FEEDS
+
 ---
 
 You can subscribe to my blog by clicking on one of these links:
