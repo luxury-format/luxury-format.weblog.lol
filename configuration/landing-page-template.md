@@ -9,6 +9,7 @@ Location: /configuration/landing-page-template.md
 <title>{weblog-title}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="{weblog-title}">
 <meta name="description" content="{weblog-description}">
 <meta property="og:description" content="{weblog-description}">
