@@ -53,7 +53,7 @@ Location: /configuration/landing-page-template.md
   :root {
     --foreground: #F8F8F2;
     --background: #21222C;
-    --link: #0080FF;
+    --link: #7DF9FF;
     --accent: #E5E4E2;
     --highlight: #53565D;
     --blue: #6272A4;
