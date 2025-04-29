@@ -77,7 +77,7 @@ Location: /configuration/landing-page-template.md
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 120%;
+  font-size: 150%;
   color: var(--foreground);
   background: var(--background);
 }
