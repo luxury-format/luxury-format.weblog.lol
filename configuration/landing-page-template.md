@@ -77,6 +77,7 @@ header nav ul {
 
 header nav li {
   display: inline-block;
+  font-family: 'VC Honey Deck', serif;
 }
 
 header nav li a {
@@ -180,7 +181,7 @@ sup {
 hr {
   border: 0;
   height: 1px;
-  background: var(--accent);
+  background: var(--pink);
   margin: 1rem 0;
 }
 
@@ -205,11 +206,11 @@ header {
 }
 
 footer p {
-  margin-top: 1em;
-  font-size: 90%;
-  text-align: center;
-  font-weight: bold;
   font-family: 'VC Honey Deck', serif;
+  font-weight: bold;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 1em;
 }
 
 a {
@@ -230,7 +231,7 @@ a:active {
 input[type="text" i] {
   padding: 2px 10px;
   height: 30px;
-  background-color: var(--foreground);
+  background-color: #FFFFFF;
   border-radius: 10px;
   border: 2px solid var(--purple);
   font-weight: bold;
@@ -242,13 +243,13 @@ button {
   padding: 2px 10px;
   background-color: var(--purple);
   border-radius: 10px;
-  border: 2px solid var(--foreground);
+  border: 2px solid #FFFFFF;
   font-weight: bold;
   color: #080808;
 }
 
 button:hover {
-  background-color: var(--foreground);
+  background-color: #FFFFFF;
   border: 2px solid var(--purple);
 }
 
@@ -257,13 +258,13 @@ ul li::marker {
 }
 
 ol li::marker {
-  color: var(--red);
+  color: var(--link);
 }
 
 .post-info,
 .post-tags {
   font-size: 80%;
-  color: var(--accent);
+  color: var(--green);
   text-align: right;
 }
 
@@ -272,7 +273,7 @@ ol li::marker {
 }
 
 .tag {
-  background: var(--accent);
+  background: var(--green);
   color: var(--background) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
@@ -292,15 +293,17 @@ tt {
 code {
   background: var(--foreground);
   border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
   color: var(--background);
   padding: 2px 4px;
   white-space: nowrap;
 }
 
 pre {
-  background: #101115;
+  background: #000000;
   border-radius: var(--border-radius);
-  color: #f8f8f8;
+  box-shadow: var(--box-shadow);
+  color: #FFFFFF;
   line-height: 1.5;
   margin: 2rem 0;
   overflow-wrap: normal;
@@ -366,7 +369,7 @@ nav {
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
   content: "\2022";
-  color: #ccc;
+  color: var(--red);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -377,7 +380,7 @@ nav {
   align-items: center;
   text-align: center;
   word-spacing: 1em;
-  color: #ccc;
+  color: var(--purple);
   gap: 1em;
   margin: 1em 0;
 }
@@ -386,7 +389,7 @@ nav {
 .divider::after {
   content: "";
   flex: 1;
-  border: 1px solid #ccc;
+  border: 1px solid var(--purple);
 }
 
 i[class^="fa-"],
@@ -400,7 +403,7 @@ i[class*=" omg-"] {
   background-color: var(--blue);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  color: #0080FF;
+  color: var(--link);
   font-weight: bold;
   padding: 0.5rem;
   display: flex;
