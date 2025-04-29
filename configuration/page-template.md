@@ -226,7 +226,7 @@ i[class*=" omg-"] {
   {navigation}
 </header>
 
-<h1>{page-title}</h1>
+<h1>{post-title}</h1>
 <main>
 
 {body}
