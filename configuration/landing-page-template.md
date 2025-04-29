@@ -221,7 +221,7 @@ header {
 footer p {
   font-family: 'VC Honey Deck', serif;
   font-weight: bold;
-  font-size: 80%;
+  font-size: 90%;
   text-align: center;
   margin-top: 1em;
 }
