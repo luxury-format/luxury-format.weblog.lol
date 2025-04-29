@@ -16,3 +16,4 @@ Location: /pages
 - [RANDOM](/random)
 - [PAGES](/pages)
 - [SEARCH](/search)
+- [FEEDS](/feeds)
