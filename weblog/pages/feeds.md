@@ -18,6 +18,11 @@ You can subscribe to my blog by clicking on one of these links:
 
 Or just copy and paste one of these links in your RSS reader:
 
-RSS Feed: `https://luxury-format.weblog.lol/rss.xml`
-Atom Feed: `https://luxury-format.weblog.lol/atom.xml`
-JSON Feed: `https://luxury-format.weblog.lol/feed.json`
+RSS Feed:  
+`https://luxury-format.weblog.lol/rss.xml`  
+
+Atom Feed:  
+`https://luxury-format.weblog.lol/atom.xml`  
+
+JSON Feed:  
+`https://luxury-format.weblog.lol/feed.json`  
