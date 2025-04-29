@@ -53,6 +53,7 @@ Feed post count: 25
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
+Title: Title
 Tags: #Everything, #2025
 ---
 
