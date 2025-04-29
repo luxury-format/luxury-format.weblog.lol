@@ -5,7 +5,7 @@ Title: ABOUT
 Location: /about
 ---
 
-<!-- # ABOUT
+<!-- # ABOUT -->
 
 ---
 
