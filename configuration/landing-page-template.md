@@ -51,8 +51,6 @@ Location: /configuration/landing-page-template.md
   --purple: #BD93F9;
   --cyan: #8BE9FD;
   --pink: #FF79C6;
-  --sans-serif-font: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --display-font: 'VC Honey Deck', serif;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
@@ -83,7 +81,7 @@ Location: /configuration/landing-page-template.md
 }
 
 body {
-  font-family: var(--sans-serif-font);
+  font-family: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 120%;
   color: var(--foreground);
   background: var(--background);
@@ -97,7 +95,7 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  font-family: var(--sans-serif-font);
+  font-family: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 header nav li a {
@@ -113,7 +111,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--display-font);
+  font-family: 'VC Honey Deck', serif;
   text-align: center;
   margin: 1rem 0;
 }
