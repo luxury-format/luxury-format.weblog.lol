@@ -5,6 +5,8 @@ Title: ABOUT
 Location: /about
 ---
 
-<!-- # ABOUT -->
+# ABOUT
+
+---
 
 #### It's all about me.
