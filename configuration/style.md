@@ -1,5 +1,6 @@
 Type: Template
 Title: style.css
+Location: /
 
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-lato-regular.css');
