@@ -5,8 +5,6 @@ Title: PAGES
 Location: /pages
 ---
 
-# {post-title}
-
 ---
 
 - [BLOG](/)
