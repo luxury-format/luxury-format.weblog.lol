@@ -52,7 +52,6 @@ Location: /configuration/landing-page-template.md
   --cyan: #8BE9FD;
   --pink: #FF79C6;
   --sans-serif-font: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --mono-space-font: 'Source Code Pro', ui-monospace, SFMono-Regular, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   --display-font: 'VC Honey Deck', serif;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
@@ -200,7 +199,6 @@ highlight,
 mark {
   color: #21222C;
   background-color: var(--yellow);
-  box-shadow: var(--box-shadow);
 }
 
 s,
@@ -308,18 +306,18 @@ code,
 kbd,
 pre,
 tt {
-  font-family: var(--mono-space-font);
+  font-family: 'Source Code Pro', ui-monospace, SFMono-Regular, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 90%;
 }
 
 code {
   background: #000000;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
   color: #FFFFFF;
+  border-radius: var(--border-radius);
   padding: 2px 4px;
-  white-space: nowrap;
-  overflow-wrap: break-word;
+  white-space: pre-wrap;
+	word-wrap: break-word;
+/*  overflow-wrap: break-word; */
 }
 
 pre {
