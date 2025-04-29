@@ -15,7 +15,7 @@ Landing page template: Landing Page Template
 
 Separator:  · 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/), [<i class="fa-solid fa-dice"></i> RANDOM](/random), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-regular fa-file-lines"></i> PAGES](/pages), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about), [<i class="fa-brands fa-mastodon"></i>](https://social.lol/@luxury_format), [<i class="fa-solid fa-rss"></i>](/rss.xml)
+Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/), [<i class="fa-solid fa-dice"></i> RANDOM](/random), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-regular fa-file-lines"></i> PAGES](/pages), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about), [<i class="fa-brands fa-mastodon"></i>](https://social.lol/@luxury_format), [<i class="fa-solid fa-rss"></i>](/feeds)
 Files path: /files/
 Landing page post count: 10
 Landing page post length: 45 words
