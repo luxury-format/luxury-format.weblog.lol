@@ -57,10 +57,7 @@ Title: Title
 Tags: #Everything, #2025
 ---
 
-# My new post
-
-This is a new blog post. I can author it in _Markdown_, which is **awesome**.
-]>>
+This is a new blog post. I can author it in _Markdown_, which is **awesome**.]>>
 
 Titleless title length: 15 words
 Truncation appendix:  …
