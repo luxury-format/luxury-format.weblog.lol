@@ -226,7 +226,7 @@ body.no-title-links main h1.content-title > a.content-link {
 
 </style>
 </head>
-<body>
+<body class="no-title-links">
 
 <header>
   <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
