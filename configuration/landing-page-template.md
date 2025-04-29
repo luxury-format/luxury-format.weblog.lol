@@ -4,8 +4,7 @@ Location: /configuration/landing-page-template.md
 
 <!DOCTYPE html>
 <html lang="en">
-<!-- Landing Page Template -->
-<!-- From GitHub -->
+<!-- Landing Page Template from GitHub repo -->
 <head>
 <title>{weblog-title}</title>
 <meta charset="utf-8">
@@ -223,12 +222,13 @@ i[class*=" omg-"] {
 <body>
 
 <header>
-  <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
-  {navigation}
+<h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
+{navigation}
 </header>
 <main>
 
 <span class="divider">&bull; &bull; &bull;</span>
+<h1><a href="{permalink}">{post-title}</a></h1>
 {body}
 
 <nav>
@@ -239,9 +239,9 @@ i[class*=" omg-"] {
 </main>
 
 <footer>
-  <hr>
-  <p>&copy; {year} {weblog-title}</p>
-  <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
+<hr>
+<p>&copy; {year} {weblog-title}</p>
+<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
 
 </body>
