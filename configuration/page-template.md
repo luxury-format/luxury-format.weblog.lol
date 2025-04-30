@@ -433,7 +433,7 @@ i[class^="omg-"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--icons);
+  color: var(--icons) !important;
 }
 
 .recent-played {
