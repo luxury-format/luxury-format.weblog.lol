@@ -5,6 +5,7 @@ Location: /configuration/page-template.md
 <!DOCTYPE html>
 <html lang="en">
 <!-- Page Template from GitHub repo -->
+<!-- Icons are working? -->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="UTF-8">
@@ -439,7 +440,7 @@ nav {
   width: 1em;
   height: 1em;
   margin: auto 0.5em auto 0;
-  color: var(--icons);
+  color: var(--icons) !important;
 }
 
 a .fa,
@@ -472,7 +473,7 @@ a .omg {
   box-shadow: var(--box-shadow);
 }
 
-body.no-title-links main h1 > a {
+main.no-title-link h1 > a {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
@@ -481,14 +482,14 @@ body.no-title-links main h1 > a {
 
 </style>
 </head>
-<body class="no-title-links">
+<body>
 
 <header>
   <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
   {navigation}
 </header>
 
-<main>
+<main class="no-title-link">
 
 {body}
 
