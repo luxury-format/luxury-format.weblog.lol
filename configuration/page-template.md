@@ -437,8 +437,8 @@ i[class="omg-"],
   width: 1em;
   height: 1em;
   margin: auto 0.5em auto 0;
-  color: var(--icons) !important;
-  }
+  color: var(--icons);
+}
 
 .recent-played {
   background-color: var(--blue);
