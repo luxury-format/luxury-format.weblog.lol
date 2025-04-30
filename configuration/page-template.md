@@ -429,7 +429,7 @@ nav {
 }
 
 i[class="fa-"],
-i[class="omg-"],
+i[class="omg-"] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
