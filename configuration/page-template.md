@@ -5,7 +5,7 @@ Location: /configuration/page-template.md
 <!DOCTYPE html>
 <html lang="en">
 <!-- Page Template from GitHub repo -->
-<!-- Icons are working? -->
+<!-- Icons are working? And now?-->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="UTF-8">
@@ -428,11 +428,9 @@ nav {
   border: 1px solid var(--purple);
 }
 
-.fa,
-.fas,
-.fab,
-.far,
-.omg {
+i[class^="fa-"],
+i[class^="omg-"] {
+  color: var(--icons);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -440,22 +438,6 @@ nav {
   width: 1em;
   height: 1em;
   margin: auto 0.5em auto 0;
-  color: var(--icons) !important;
-}
-
-a .fa,
-a .fas,
-a .fab,
-a .far,
-a .omg {
-  color: var(--icons) !important;
-}
-
-a:link .fa, a:link .fas, a:link .fab, a:link .far, a:link .omg,
-a:visited .fa, a:visited .fas, a:visited .fab, a:visited .far, a:visited .omg,
-a:hover .fa, a:hover .fas, a:hover .fab, a:hover .far, a:hover .omg,
-a:active .fa, a:active .fas, a:active .fab, a:active .far, a:active .omg {
-  color: var(--icons) !important;
 }
 
 .recent-played {
