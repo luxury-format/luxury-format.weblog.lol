@@ -332,7 +332,6 @@ code {
   padding: 2px 4px;
   white-space: pre-wrap;
 	word-wrap: break-word;
-/*  overflow-wrap: break-word; */
 }
 
 pre {
