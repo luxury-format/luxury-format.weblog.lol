@@ -437,8 +437,7 @@ i[class="omg-"],
   width: 1em;
   height: 1em;
   margin: 0 0.5em;
-  color: var(--icons);
-  vertical-align: middle;
+  color: var(--icons) !important;
   }
 
 .recent-played {
