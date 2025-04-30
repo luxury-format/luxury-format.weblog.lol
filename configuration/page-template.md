@@ -428,13 +428,18 @@ nav {
   border: 1px solid var(--purple);
 }
 
-i[class^="fa-"],
-i[class^="omg-"] {
+i[class="fa-"],
+i[class="omg-"],
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: inherit;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.5em;
   color: var(--icons);
-}
+  vertical-align: middle;
+  }
 
 .recent-played {
   background-color: var(--blue);
