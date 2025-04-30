@@ -428,8 +428,11 @@ nav {
   border: 1px solid var(--purple);
 }
 
-i[class="fa-"],
-i[class="omg-"] {
+.fa,
+.fas,
+.fab,
+.far,
+.omg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -438,6 +441,14 @@ i[class="omg-"] {
   height: 1em;
   margin: auto 0.5em auto 0;
   color: var(--icons);
+}
+
+a .fa,
+a .fas,
+a .fab,
+a .far,
+a .omg {
+  color: var(--icons) !important;
 }
 
 .recent-played {
