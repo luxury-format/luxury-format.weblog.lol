@@ -433,6 +433,13 @@ i[class*=" fa-"],
 i[class^="omg-"],
 i[class*=" omg-"] {
   color: var(--icons);
+  font-size: inherit;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .recent-played {
