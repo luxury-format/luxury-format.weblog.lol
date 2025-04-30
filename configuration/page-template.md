@@ -440,7 +440,6 @@ i[class*=" omg-"] {
   line-height: 1;
   text-align: center;
   vertical-align: middle;
-  margin: 0 0.25em 0 0;
 }
 
 .recent-played {
