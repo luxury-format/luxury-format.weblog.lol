@@ -451,6 +451,13 @@ a .omg {
   color: var(--icons) !important;
 }
 
+a:link .fa, a:link .fas, a:link .fab, a:link .far, a:link .omg,
+a:visited .fa, a:visited .fas, a:visited .fab, a:visited .far, a:visited .omg,
+a:hover .fa, a:hover .fas, a:hover .fab, a:hover .far, a:hover .omg,
+a:active .fa, a:active .fas, a:active .fab, a:active .far, a:active .omg {
+  color: var(--icons) !important;
+}
+
 .recent-played {
   background-color: var(--blue);
   border-radius: var(--border-radius);
