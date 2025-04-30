@@ -437,10 +437,9 @@ i[class*=" omg-"] {
   width: 1em;
   height: 1em;
   display: inline-block;
-  line-height: 1;
   text-align: center;
-  vertical-align: text-bottom;
-  margin-right: 10px;
+  vertical-align: bottom;
+  margin-right: 0.1em;
 }
 
 .recent-played {
