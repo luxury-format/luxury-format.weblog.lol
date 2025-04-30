@@ -433,10 +433,10 @@ i[class="omg-"],
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: inherit;
+  font-size: 1em;
   width: 1em;
   height: 1em;
-  margin: 0 0.5em;
+  margin: auto 0.5em auto 0;
   color: var(--icons) !important;
   }
 
