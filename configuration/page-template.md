@@ -15,6 +15,11 @@ Title: Page Template
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <style>
+@import url('https://static.omg.lol/type/font-honey.css');
+@import url('https://static.omg.lol/type/font-md-io.css');
+@import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
+@import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
+
 :root {
   --foreground: #21222C;
   --background: #F8F8F2;
@@ -251,7 +256,6 @@ input[type="text" i] {
   border: 2px solid var(--purple);
   font-weight: bold;
   color: #080808;
-  width: 100%;
 }
 
 button {
@@ -438,6 +442,7 @@ i[class*=" omg-"] {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
+
 </style>
 
 </head>
