@@ -1,6 +1,5 @@
 Type: Template
 Title: Post Template
-Location: /configuration/post-template.md
 
 <!-- Post Template from GitHub repo -->
 <article>
