@@ -9,7 +9,7 @@ Title: Page Template
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.bunny.net">
-<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400, 400i, 700, 700i | source-code-pro: 400, 400i, 700, 700i" rel="stylesheet" />
+<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible: 400, 400i, 700, 700i | source-code-pro: 400, 400i, 700, 700i" rel="stylesheet" />
 <link rel="preconnect" href="https://omgalol.cache.lol" crossorigin>
 <link rel="stylesheet" href="https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -256,6 +256,7 @@ input[type="text" i] {
   border: 2px solid var(--purple);
   font-weight: bold;
   color: #080808;
+  width: 100%;
 }
 
 button {
