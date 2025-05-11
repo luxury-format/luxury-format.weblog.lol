@@ -3,7 +3,7 @@ Title: Landing Page Template
 
 <!DOCTYPE html>
 <html lang="en">
-<!-- From GitHub repo -->
+<!-- Landing Page Template -->
 <head>
 <title>{weblog-title}</title>
 <meta charset="UTF-8">
