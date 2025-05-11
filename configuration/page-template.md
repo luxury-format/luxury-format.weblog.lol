@@ -3,7 +3,7 @@ Title: Page Template
 
 <!DOCTYPE html>
 <html lang="en">
-<!-- From GitHub repo -->
+<!-- Page Template -->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="UTF-8">
