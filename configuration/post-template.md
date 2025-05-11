@@ -1,7 +1,7 @@
 Type: Template
 Title: Post Template
 
-<!-- Post Template from GitHub repo -->
+<!-- Post Template -->
 <article>
 
 {body}
