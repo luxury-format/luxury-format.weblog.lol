@@ -4,6 +4,7 @@ Title: Page Template
 <!DOCTYPE html>
 <html lang="en">
 <!-- Page Template -->
+<!-- Weblog.lol/configuration/landing-page-template.md -->
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
 <meta charset="UTF-8">
