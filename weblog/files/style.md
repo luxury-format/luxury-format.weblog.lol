@@ -15,6 +15,8 @@ Location: /style.css
   --background: #F8F8F2;
   --link: #0080FF;
   --accent: #C0C0C0;
+  --accent-2: #8E8E93;
+  --grey: #E5E5EA;
   --icons: #000000;
   --highlight: #E3E3E6;
   --selection: #44475A;
@@ -39,6 +41,8 @@ Location: /style.css
     --background: #21222C;
     --link: #7DF9FF;
     --accent: #E5E4E2;
+    --accent-2: #8E8E93;
+    --grey: #2C2C2E;
     --icons: #FFFFFF;
     --highlight: #53565D;
     --blue: #6272A4;
@@ -61,6 +65,10 @@ Location: /style.css
   box-sizing: border-box;
 }
 
+/* html { 
+  ???
+} */
+
 body {
   font-family: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 120%;
@@ -68,22 +76,109 @@ body {
   background: var(--background);
 }
 
+/* Top row: logo/title on left, social icons on right */
+.weblog-title {
+  display: flex;
+/*  justify-content: space-between; */
+  width: 100%;
+}
+
+.weblog-title a {
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.title-full {
+  display: inline;
+}
+
+.title-short {
+  display: none;
+}
+
+.weblog-logo {
+  display: flex;
+  align-items: center;
+}
+
+.weblog-logo img {
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.weblog-logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* Social icons next to logo */
+.social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-left: 0.75rem;
+  transition: transform 0.1s;
+}
+
+.social a:hover {
+  transform: translateY(-2px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+header,
+main,
+footer {
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+header {
+  margin-top: 1em;
+}
+
 header nav ul {
   list-style-type: none;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(6, 1fr);
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 
 header nav li {
-  display: inline-block;
-  font-family: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: var(--grey);
+  border: 1px solid var(--accent-2);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 header nav li a {
-  display: block;
-  text-decoration: none;
   font-weight: bold;
-  margin-right: 1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--foreground) !important;
+}
+
+header nav li a i {
+  margin-right: 0.5rem;
 }
 
 h1,
@@ -148,17 +243,7 @@ li {
   line-height: 120%;
 }
 
-header,
-main,
-footer {
-  max-width: 60em;
-  margin: 2em auto;
-  padding: 0 1em;
-}
 
-header {
-  margin-top: 1em;
-}
 
 footer p {
   font-family: 'VC Honey Deck', Georgia, serif;
@@ -361,19 +446,6 @@ th {
   border: 1px solid var(--selection);
 }
 
-.weblog-title a {
-  text-decoration: none;
-  color: var(--foreground);
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  width: 100%;
-}
-
 .previous-page {
   margin-right: auto;
 }
@@ -441,4 +513,18 @@ main.no-title-link h1.no-links > a {
   text-decoration: none;
   pointer-events: none;
   cursor: default;
+}
+
+@media (max-width: 500px) {
+  .title-full {
+    display: none;
+  }
+  
+  .title-short {
+    display: inline;
+  }
+  
+  header nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
