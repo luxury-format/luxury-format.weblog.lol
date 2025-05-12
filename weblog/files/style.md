@@ -17,6 +17,7 @@ Location: /style.css
   --accent: #C0C0C0;
   --accent-2: #8E8E93;
   --grey: #E5E5EA;
+  --white: #FFFFFF;
   --icons: #000000;
   --highlight: #E3E3E6;
   --selection: #44475A;
@@ -43,6 +44,7 @@ Location: /style.css
     --accent: #E5E4E2;
     --accent-2: #8E8E93;
     --grey: #2C2C2E;
+    --white: #FFFFFF;
     --icons: #FFFFFF;
     --highlight: #53565D;
     --blue: #6272A4;
@@ -334,9 +336,9 @@ input[type="search"] {
   flex: 1;
   padding: 2px 10px;
   height: 30px;
-  background-color: var(--input-bg);
+  background-color: var(--purple);
   border-radius: 10px;
-  border: 2px solid var(--purple);
+  border: 2px solid var(--white);
   font-weight: bold;
   color: var(--input-text);
   width: 100%;
@@ -346,15 +348,13 @@ button {
   height: 30px;
   background-color: var(--purple);
   border-radius: 10px;
-  border: 2px solid var(--background);
+  border: 2px solid var(--white);
   font-weight: bold;
-  color: var(--input-text);
-  width: 100%;
-  cursor: pointer;
+  color: var(--foreground);
 }
 
 button:hover {
-  background-color: var(--background);
+  background-color: var(--white);
   border: 2px solid var(--purple);
   color: var(--foreground);
 }
