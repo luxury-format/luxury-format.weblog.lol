@@ -159,6 +159,7 @@ header nav ul {
 }
 
 header nav li {
+  text-decoration: none;
   background: var(--grey);
   border: 1px solid var(--accent-2);
   border-radius: 0.5rem;
@@ -170,7 +171,6 @@ header nav li {
 
 header nav li a {
   font-weight: bold;
-  text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
