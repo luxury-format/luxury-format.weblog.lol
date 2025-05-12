@@ -31,7 +31,7 @@ Location: /style.css
   --pink: #FF79C6;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
-  --mark-text: #21222C;
+  --mark: #21222C;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,7 +55,7 @@ Location: /style.css
     --cyan: #8BE9FD;
     --pink: #FF79C6;
     --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
-    --mark-text: #21222C;
+    --mark: #21222C;
   }
 }
 
@@ -268,7 +268,7 @@ em {
 }
 
 mark {
-  color: var(--mark-text);
+  color: var(--mark);
   background-color: var(--yellow);
 }
 
