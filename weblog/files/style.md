@@ -108,7 +108,7 @@ h4,
 h5,
 h6,
 b,
-strong,
+strong {
   text-align: center;
   word-spacing: 1em;
   color: var(--purple);
