@@ -320,37 +320,36 @@ a:active {
 }
 
 form.search {
-  display: grid;
+  display: flex;
   flex-direction: column;
+  gap: 0.5rem;
   width: 100%;
-  grid-gap: 1em;
 }
 
-input[type="text"] {
-  padding: 2px 10px;
+form.search input,
+form.search button {
+  width: 100%;
   height: 30px;
-  background-color: var(--white);
+  padding: 2px 10px;
   border-radius: 10px;
-  border: 2px solid var(--purple);
   font-weight: bold;
-  color: var(--foreground);
-  width: 100%;
 }
 
-button {
-  height: 30px;
-  padding: 2px 10px;
+form.search input {
+  background-color: var(--white);
+  border: 2px solid var(--purple);
+  color: var(--foreground);
+}
+
+form.search button {
   background-color: var(--purple);
-  border-radius: 10px;
   border: 2px solid var(--white);
-  font-weight: bold;
   color: var(--foreground);
-  width: 100%;
 }
-button:hover {
+
+form.search button:hover {
   background-color: var(--white);
-  border: 2px solid var(--purple);
-  color: var(--foreground);
+  border-color: var(--purple);
 }
 
 ul li::marker {
