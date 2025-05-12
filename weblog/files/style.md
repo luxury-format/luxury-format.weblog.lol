@@ -112,7 +112,6 @@ strong {
   text-align: center;
   word-spacing: 1em;
   color: var(--purple);
-  gap: 1em;
   margin: 1em 0;
 }
 
@@ -123,10 +122,8 @@ strong {
   border: 1px solid var(--purple);
 }
 
-i[class^="fa-"],
-i[class*=" fa-"],
-i[class^="omg-"],
-i[class*=" omg-"] {
+i[class*="fa-"],
+i[class*="omg-"] {
   color: var(--icons);
 }
 
