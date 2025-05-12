@@ -31,8 +31,6 @@ Location: /style.css
   --pink: #FF79C6;
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
-  --input-bg: #FFFFFF;
-  --input-text: #080808;
   --mark-text: #21222C;
 }
 
@@ -57,8 +55,6 @@ Location: /style.css
     --cyan: #8BE9FD;
     --pink: #FF79C6;
     --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
-    --input-bg: #333340;
-    --input-text: #F8F8F2;
     --mark-text: #21222C;
   }
 }
@@ -335,17 +331,17 @@ form.search {
 input[type="search"] {
   flex: 1;
   padding: 2px 10px;
-  height: 30px;
+  height: 50px;
   background-color: var(--purple);
   border-radius: 10px;
   border: 2px solid var(--white);
   font-weight: bold;
-  color: var(--input-text);
+  color: var(--foreground);
   width: 100%;
 }
 
 button {
-  height: 30px;
+  height: 50px;
   background-color: var(--purple);
   border-radius: 10px;
   border: 2px solid var(--white);
