@@ -2,6 +2,7 @@ Type: Template
 Title: Post Template
 
 <!-- Post Template -->
+<!-- Weblog.lol/configuration/post-template.md -->
 <article>
 
 {body}
