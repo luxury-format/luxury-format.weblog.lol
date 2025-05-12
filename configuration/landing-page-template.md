@@ -36,9 +36,9 @@ Title: Landing Page Template
 </main>
 
 <footer>
-  <hr>
-  <p>&copy; {year} <a href="/">{weblog-title}</a></p>
-  <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
+<hr>
+<p>&copy; {year} <a href="/">{weblog-title}</a></p>
+<p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
 </footer>
 
 </body>
