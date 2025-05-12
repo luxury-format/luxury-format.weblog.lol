@@ -9,6 +9,7 @@ Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
 // Landing page: /
 Landing page template: Landing Page Template
+// Weblog.lol/configuration/configuration.txt
 
 ;; General config stuff
 ;; --------------------
