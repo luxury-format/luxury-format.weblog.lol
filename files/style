@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: Stylesheet
 Location: /style.css
 
-/* style.css */
+/* style */
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
