@@ -16,8 +16,9 @@ Title: Page Template
 <body>
 
 <header>
-  <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
-  {navigation}
+<h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
+{navigation}
+<hr>
 </header>
 
 <main class="no-title-link">
@@ -27,9 +28,9 @@ Title: Page Template
 </main>
 
 <footer>
-  <hr>
-  <p>&copy; {year} <a href="/">{weblog-title}</a></p>
-  <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
+<hr>
+<p>&copy; {year} <a href="/">{weblog-title}</a></p>
+<p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
 </footer>
 
 </body>
