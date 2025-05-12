@@ -534,7 +534,7 @@ h1.no-links > a {
     display: inline;
   }
   
-  header nav ul {
+  #weblog-navigation ul {
     grid-template-columns: repeat(3, 1fr);
   }
 }
