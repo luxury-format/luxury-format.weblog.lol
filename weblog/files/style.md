@@ -181,6 +181,7 @@ header {
 #weblog-navigation ul li a:focus,
 #weblog-navigation ul li a:active {
   text-decoration: none;
+  color: var(--link);
 }
 
 #weblog-navigation li a i {
