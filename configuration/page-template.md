@@ -29,7 +29,7 @@ Title: Page Template
 <footer>
   <hr>
   <p>&copy; {year} <a href="/">{weblog-title}</a></p>
-  <p>Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
+  <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
 </footer>
 
 </body>
