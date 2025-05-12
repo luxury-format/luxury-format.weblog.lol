@@ -18,6 +18,7 @@ Title: Landing Page Template
 <header>
 <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
 {navigation}
+<hr>
 </header>
 <main>
 
