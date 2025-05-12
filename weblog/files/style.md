@@ -434,9 +434,9 @@ i[class^="omg-"] {
   box-shadow: var(--box-shadow);
 }
 
-/* In Main & Page Templates: <body class="no-title-links"> <main class="no-title-link"> */
+/* In Main & Page Templates: <main class="no-title-link"> */
 /* in configuration: Title format: <h1 class="no-links"><a href="$location">$title</a></h1> */
-body.no-title-links main.no-title-link h1 > a {
+main.no-title-link h1.no-links > a {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
