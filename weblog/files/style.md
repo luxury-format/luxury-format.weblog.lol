@@ -248,8 +248,6 @@ li {
   line-height: 120%;
 }
 
-
-
 footer p {
   font-family: 'VC Honey Deck', Georgia, serif;
   font-weight: bold;
@@ -328,10 +326,21 @@ form.search {
   gap: 1rem;
 }
 
-input[type="search"] {
+input[type="text"] {
   flex: 1;
   padding: 2px 10px;
-  height: 50px;
+  height: 30px;
+  background-color: var(--white);
+  border-radius: 10px;
+  border: 2px solid var(--purple);
+  font-weight: bold;
+  color: var(--foreground);
+  width: 100%;
+}
+
+button {
+  height: 30px;
+  padding: 2px 10px;
   background-color: var(--purple);
   border-radius: 10px;
   border: 2px solid var(--white);
@@ -339,16 +348,6 @@ input[type="search"] {
   color: var(--foreground);
   width: 100%;
 }
-
-button {
-  height: 50px;
-  background-color: var(--purple);
-  border-radius: 10px;
-  border: 2px solid var(--white);
-  font-weight: bold;
-  color: var(--foreground);
-}
-
 button:hover {
   background-color: var(--white);
   border: 2px solid var(--purple);
