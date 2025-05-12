@@ -158,7 +158,7 @@ header {
 
 #weblog-navigation li {
   background: var(--grey);
-  border: 1px solid var(--accent-2);
+  border: 1px solid var(--purple);
   border-radius: 0.5rem;
   padding: 0.5rem;
   font-size: 16px;
