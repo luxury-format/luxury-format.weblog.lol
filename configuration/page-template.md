@@ -20,7 +20,7 @@ Title: Page Template
   {navigation}
 </header>
 
-<main>
+<main class="no-title-link">
 
 {body}
 
