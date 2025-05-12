@@ -320,14 +320,13 @@ a:active {
 }
 
 form.search {
-  display: flex;
+  display: grid;
   flex-direction: column;
   width: 100%;
-  gap: 1rem;
+  grid-gap: 1em;
 }
 
 input[type="text"] {
-  flex: 1;
   padding: 2px 10px;
   height: 30px;
   background-color: var(--white);
