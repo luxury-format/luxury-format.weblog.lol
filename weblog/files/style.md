@@ -168,7 +168,7 @@ footer p {
   margin-top: 1em;
 }
 
-/* In footer: <p class="honey-banner">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p> */
+/* In footer: <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p> */
 .footer-weblog-p {
   font-family: 'VC Honey Black Banner', Georgia, serif;
 }
