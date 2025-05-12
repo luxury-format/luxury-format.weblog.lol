@@ -170,6 +170,7 @@ header nav li {
 
 header nav li a {
   font-weight: bold;
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
