@@ -9,9 +9,9 @@ Location: /search
 
 ---
 
-<form action="?" method="get">
+<form action="?" method="get" class="search">
 <label for="search"></label>
-<input type="text" name="search" />
+<input type="text" name="search">
 <button type="submit">Search</button>
 </form>
 <br>
