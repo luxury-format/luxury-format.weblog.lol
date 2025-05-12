@@ -510,7 +510,7 @@ i[class^="omg-"] {
 /* in configuration: Title format: <h1 class="no-links"><a href="$location">$title</a></h1> */
 main.no-title-link h1.no-links > a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
   pointer-events: none;
   cursor: default;
 }
