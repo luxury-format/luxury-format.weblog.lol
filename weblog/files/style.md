@@ -148,9 +148,8 @@ header {
   margin-top: 1em;
 }
 
-header nav ul {
+#weblog-navigation ul {
   list-style-type: none;
-  text-decoration: none;
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: repeat(6, 1fr);
@@ -159,7 +158,7 @@ header nav ul {
   max-width: 100%;
 }
 
-header nav li {
+#weblog-navigation li {
   background: var(--grey);
   border: 1px solid var(--accent-2);
   border-radius: 0.5rem;
@@ -169,7 +168,7 @@ header nav li {
   justify-content: space-evenly;
 }
 
-header nav li a {
+#weblog-navigation ul li a {
   font-weight: bold;
   display: inline-flex;
   align-items: center;
@@ -178,7 +177,13 @@ header nav li a {
   color: var(--foreground) !important;
 }
 
-header nav li a i {
+#weblog-navigation ul li a:hover,
+#weblog-navigation ul li a:focus,
+#weblog-navigation ul li a:active {
+  text-decoration: none;
+}
+
+#weblog-navigation li a i {
   margin-right: 0.5rem;
 }
 
