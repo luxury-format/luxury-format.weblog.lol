@@ -1,6 +1,6 @@
 Type: file
 Content-Type: text/css
-Title: Stylesheet
+Title: style.css
 Location: /style.css
 
 /* Weblog.lol/weblog/files/style.md */
