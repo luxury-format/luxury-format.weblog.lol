@@ -511,14 +511,12 @@ i[class^="omg-"] {
 main.no-title-link h1.no-links > a {
   color: inherit;
   text-decoration: none;
-  text-decoration-line: none;
   pointer-events: none;
   cursor: default;
 }
 
-main.no-title-link h1.no-links {
+h1.no-links > a {
   text-decoration: none;
-  text-decoration-line: none;
 }
 
 @media (max-width: 500px) {
