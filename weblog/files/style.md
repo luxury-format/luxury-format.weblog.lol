@@ -330,7 +330,7 @@ form.search {
   gap: 1rem;
 }
 
-input {
+input[type="search"] {
   flex: 1;
   padding: 2px 10px;
   height: 30px;
