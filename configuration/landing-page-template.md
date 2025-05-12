@@ -179,7 +179,6 @@ em {
   font-style: italic;
 }
 
-highlight,
 mark {
   color: #21222C;
   background-color: var(--yellow);
@@ -239,16 +238,7 @@ form.search {
   gap: 1rem;
 }
 
-input[type="date"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="url"],
-input[type="button"],
-input[type="submit"],
-input[type="text" i] {
+input {
   flex: 1;
   padding: 2px 10px;
   height: 30px;
@@ -319,8 +309,7 @@ code {
   border-radius: var(--border-radius);
   padding: 2px 4px;
   white-space: pre-wrap;
-	word-wrap: break-word;
-/*  overflow-wrap: break-word; */
+  overflow-wrap: break-word;
 }
 
 pre {
@@ -416,10 +405,8 @@ nav {
   border: 1px solid var(--purple);
 }
 
-i[class^="fa-"],
-i[class*=" fa-"],
-i[class^="omg-"],
-i[class*=" omg-"] {
+i[class*="fa-"],
+i[class*="omg-"] {
   color: var(--icons);
 }
 
