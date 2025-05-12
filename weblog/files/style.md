@@ -39,7 +39,7 @@ Location: /style.css
   :root {
     --foreground: #F8F8F2;
     --background: #21222C;
-    --link: #7DF9FF;
+    --link: #0080FF;
     --accent: #E5E4E2;
     --accent-2: #8E8E93;
     --grey: #2C2C2E;
