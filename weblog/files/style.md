@@ -150,6 +150,7 @@ header {
 
 header nav ul {
   list-style-type: none;
+  text-decoration: none;
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: repeat(6, 1fr);
@@ -159,7 +160,6 @@ header nav ul {
 }
 
 header nav li {
-  text-decoration: none;
   background: var(--grey);
   border: 1px solid var(--accent-2);
   border-radius: 0.5rem;
