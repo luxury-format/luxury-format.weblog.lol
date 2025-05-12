@@ -3,12 +3,12 @@ Content-Type: text/css
 Title: Stylesheet
 Location: /style.css
 
+/* style.md */
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 @import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
 
-/* style.md */
 :root {
   --foreground: #21222C;
   --background: #F8F8F2;
