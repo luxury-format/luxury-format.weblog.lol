@@ -428,9 +428,9 @@ form.search button:hover {
   transition: transform 0.3s ease;
 }
 
-.somepics_container img:hover {
+/* .somepics_container img:hover {
   transform: scale(1.02);
-}
+} */
 
 @media (max-width: 650px) {
   body {
