@@ -31,15 +31,22 @@ main {
   padding: 0 1em;
 }
 
-p {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  word-break: break-word;
-}
-
 i[class^="fa-"],
 i[class^="omg-"] {
   color: var(--icons);
+}
+
+/* In Main & Page Templates: <main class="no-title-link"> */
+/* in configuration: Title format: <h1 class="no-links"><a href="$location">$title</a></h1> */
+main.no-title-link h1.no-links > a {
+  color: inherit;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+h1.no-links > a {
+  text-decoration: none;
 }
 
 h1,
@@ -96,6 +103,12 @@ h5 {
 
 h6 {
   font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  word-break: break-word;
 }
 
 p,
@@ -210,6 +223,32 @@ pre code {
   white-space: pre;
 }
 
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+th {
+  background: var(--highlight);
+}
+
+td,
+th {
+  padding: 0.75em;
+  text-align: left;
+  border: 1px solid var(--selection);
+}
+
 hr {
   border: 1px solid var(--pink);
   width: 100%;
@@ -268,31 +307,65 @@ form.search button:hover {
   border-color: var(--purple);
 }
 
-img,
-picture,
-video {
-  display: block;
-  max-width: 100%;
+.post-info,
+.post-tags {
+  font-size: 80%;
+  color: var(--green);
+  text-align: right;
+}
+
+.post-info i:nth-child(2) {
+  margin-left: .75em;
+}
+
+.tag {
+  background: var(--green);
+  color: var(--mark-text) !important;
+  padding: .3em .4em;
+  margin: .8em 0 0 .4em;
+  border-radius: .5em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.previous-page {
+  margin-right: auto;
+}
+
+.next-page {
+  margin-left: auto;
+}
+
+.previous-page:not(:empty) + .next-page:not(:empty)::before {
+  content: "\2022";
+  color: var(--link);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  word-spacing: 1em;
+  color: var(--purple);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border: 1px solid var(--purple);
+}
+
+/* .statuslol {
+  background-color: var(--blue) !important;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
-
-th {
-  background: var(--highlight);
-}
-
-td,
-th {
-  padding: 0.75em;
-  text-align: left;
-  border: 1px solid var(--selection);
-}
+} */
 
 @media (max-width: 650px) {
   body {
