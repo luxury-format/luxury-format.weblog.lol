@@ -17,7 +17,7 @@ Location: /_variables.css
   --icons: #000000;
   --highlight: #E3E3E6;
   --selection: #44475A;
-  --blue: #6272A4;
+  --blue: #0080FF;
   --red: #FF5555;
   --orange: #FFB86C;
   --yellow: #F1FA8C;
@@ -51,7 +51,7 @@ Location: /_variables.css
     --black: #000000;
     --icons: #FFFFFF;
     --highlight: #53565D;
-    --blue: #6272A4;
+    --blue: #0080FF;
     --selection: #44475A;
     --red: #FF5555;
     --orange: #FFB86C;
