@@ -411,6 +411,26 @@ form.search button:hover {
   width: 1.5em !important;
 }
 
+.somepics_container {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #8e8e93;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.somepics_container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.somepics_container img:hover {
+  transform: scale(1.02);
+}
+
 @media (max-width: 650px) {
   body {
     font-size: 120%;
