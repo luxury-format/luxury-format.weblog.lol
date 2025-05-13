@@ -22,8 +22,6 @@ Title: Landing Page Template
 </header>
 <main>
 
-<span class="divider">&bull; &bull; &bull;</span>
-
 {body}
 
 <nav>
