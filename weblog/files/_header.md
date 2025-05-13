@@ -52,7 +52,7 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #000000;
+  color: var(--black);
   font-size: 1.2rem;
   text-decoration: none;
   margin-left: 0.75rem;
