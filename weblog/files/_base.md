@@ -250,11 +250,10 @@ code {
   white-space: pre;
 } */
 
-img,
-video {
+img {
   display: block;
   max-width: 100%;
-  border-radius: var(--border-radius);
+  border-radius: 1em;
   box-shadow: var(--box-shadow);
 }
 
