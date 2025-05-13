@@ -13,8 +13,8 @@ post-list:
 
 ---
 
-tag-list:  
+tag-counts:  
 
-{tag-list}
+{tag-counts}
 
 ---
