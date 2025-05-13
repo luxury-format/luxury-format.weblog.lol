@@ -37,6 +37,11 @@ p {
   word-break: break-word;
 }
 
+i[class^="fa-"],
+i[class^="omg-"] {
+  color: var(--icons);
+}
+
 h1,
 h2,
 h3,
@@ -48,28 +53,167 @@ h6 {
   margin: 1rem 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+p,
+li {
+  line-height: 1.2rem;
+}
+
+ul li::marker {
+  color: var(--green);
+}
+
+ol li::marker {
+  color: var(--link);
+}
+
 a {
   color: var(--link);
   text-underline-offset: 2px;
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--white);
 }
 
-hr {
-  border: 1px solid var(--pink);
-  width: 100%;
-  margin: 1rem auto;
-  
+a:link,
+a:visited {
+  color: var(--link);
+}
+
+a:hover,
+a:active {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+i,
+cite,
+em {
+  font-style: italic;
+}
+
+mark {
+  color: var(--mark);
+  background-color: var(--yellow);
+}
+
+s,
+del {
+  text-decoration: line-through;
+  text-decoration-color: var(--red);
+  text-decoration-thickness: 1px;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+blockquote {
+  border-left: 3px solid var(--blue);
+  color: var(--blue);
+  font-style: italic;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+
+code,
+kbd,
+pre,
+tt {
+  font-family: var(--monospace);
+  font-size: 0.9rem;
 }
 
 code {
   white-space: break-spaces;
   margin: 0;
+  pading: 0; /* 2px, 4px; */
   color: var(--white);
   background: var(--black);
   border-radius: var(--border-radius);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+pre {
+  background: var(--black);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  color: var(--white);
+  line-height: 1.5;
+  margin: 2rem 0;
+  overflow-wrap: normal;
+  overflow-x: auto;
+  padding: 2rem;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+pre code {
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  white-space: pre;
+}
+
+hr {
+  border: 1px solid var(--pink);
+  width: 100%;
+  margin: 1rem auto;
 }
 
 p code,
@@ -125,19 +269,12 @@ form.search button:hover {
 }
 
 img,
+picture,
 video {
   display: block;
   max-width: 100%;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-}
-
-blockquote {
-  border-left: 3px solid var(--blue);
-  color: var(--blue);
-  font-style: italic;
-  margin: 2rem 0;
-  padding: 0 2rem;
 }
 
 table {
@@ -152,7 +289,7 @@ th {
 
 td,
 th {
-  padding: .75em;
+  padding: 0.75em;
   text-align: left;
   border: 1px solid var(--selection);
 }
