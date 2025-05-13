@@ -320,7 +320,7 @@ form.search button:hover {
 
 .tag {
   background: var(--green);
-  color: var(--mark-text) !important;
+  color: var(--foreground) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
   border-radius: .5em;
