@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-top: 20px; /* 40px? */
 }
 
 .weblog-title a {
@@ -29,6 +30,13 @@ header {
 
 .title-short {
   display: none;
+}
+
+.header-logo {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  top: 20px;
 }
 
 .weblog-logo {
@@ -61,6 +69,10 @@ header {
 
 .social a:hover {
   transform: translateY(-2px);
+}
+
+#navigation-bar {
+  margin-top: 25px;
 }
 
 nav {
@@ -109,6 +121,13 @@ nav {
 
 #weblog-navigation li a i {
   margin-right: 0.5rem;
+}
+
+#header-hr {
+  background-image: linear-gradient(to right, #bd93f9, #bd93f9, #44475a);
+  border-radius: 5px;
+  height: 2px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 500px) {
