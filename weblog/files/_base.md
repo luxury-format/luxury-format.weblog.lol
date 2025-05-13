@@ -212,7 +212,7 @@ code {
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
-  border-radius: var(--border-radius;
+  border-radius: var(--border-radius);
 }
 
 /* code {
