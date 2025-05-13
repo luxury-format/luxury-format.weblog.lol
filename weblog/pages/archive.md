@@ -7,14 +7,8 @@ Location: /archive
 
 # ARCHIVE
 
-post-list:  
-
-{post-list}
-
 ---
 
-tag-counts:  
-
-{tag-counts}
+{post-list}
 
 ---
