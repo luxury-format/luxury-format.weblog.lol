@@ -377,7 +377,7 @@ form.search button:hover {
   align-items: center;
   text-align: center;
   word-spacing: 1em;
-  color: var(--purple);
+  color: var(--black);
   gap: 1em;
   margin: 1em 0;
 }
@@ -386,7 +386,7 @@ form.search button:hover {
 .divider::after {
   content: "";
   flex: 1;
-  border: 1px solid var(--black);
+  border: 1px solid var(--blue);
 }
 
 /* .statuslol {
