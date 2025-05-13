@@ -15,12 +15,11 @@ Location: /_base.css
 }
 
 body {
-/*  line-height: 1.6; */
   padding: 0;
   margin: 0;
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: 1em;
+  font-size: 120%;
   color: var(--foreground);
   background-color: var(--background);
 }
