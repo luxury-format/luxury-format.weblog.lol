@@ -251,7 +251,6 @@ code {
 } */
 
 img,
-picture,
 video {
   display: block;
   max-width: 100%;
