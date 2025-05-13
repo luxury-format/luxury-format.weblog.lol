@@ -165,13 +165,17 @@ del {
 }
 
 sub {
+  font-size: 0.6em;
   vertical-align: sub;
   font-size: smaller;
+  color: var(--red);
 }
 
 sup {
+  font-size: 0.6em;
   vertical-align: super;
   font-size: smaller;
+  color: var(--green);
 }
 
 blockquote {
@@ -239,15 +243,21 @@ table {
   margin-bottom: 0.5rem;
 }
 
-th {
-  background: var(--highlight);
-}
-
 td,
 th {
   padding: 0.75em;
   text-align: left;
-  border: 1px solid var(--selection);
+  border: 1px solid var(--black);
+}
+
+th {
+  background: var(--highlight);
+  color: var(--purple);
+  padding: 10px 5px;
+}
+
+td {
+  padding: 5px 5px;
 }
 
 hr {
