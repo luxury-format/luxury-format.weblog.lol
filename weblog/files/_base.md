@@ -387,11 +387,29 @@ form.search button:hover {
   border: 1px solid var(--blue);
 }
 
-/* .statuslol {
-  background-color: var(--blue) !important;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-} */
+.statuslol {
+  background: #1c1c1e !important;
+  border-radius: 0.5em !important;
+  border: 1px solid #8e8e93 !important;
+}
+
+.statuslol_content {
+  color: #f2f2f7 !important;
+}
+
+.statuslol_time a {
+  opacity: 1 !important;
+  color: #8E8E93 !important;
+  border-bottom: none !important;
+}
+
+.statuslol_content p {
+  font-size: 1em !important;
+}
+
+.statuslol_emoji {
+  width: 1.5em !important;
+}
 
 @media (max-width: 650px) {
   body {
