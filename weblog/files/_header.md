@@ -4,6 +4,13 @@ Title: _header.css
 Location: /_header.css
 
 /* Weblog.lol/weblog/files/_header.md */
+header {
+  max-width: 60em;
+  margin: 2em auto;
+  margin-top: 1em;
+  padding: 0 1em;
+}
+
 /* Top row: logo/title on left, social icons on right */
 .weblog-title {
   display: flex;
@@ -62,16 +69,6 @@ nav {
   align-items: center;
   position: relative;
   width: 100%;
-}
-
-header {
-  max-width: 60em;
-  margin: 2em auto;
-  padding: 0 1em;
-}
-
-header {
-  margin-top: 1em;
 }
 
 #weblog-navigation ul {
