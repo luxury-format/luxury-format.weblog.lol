@@ -19,6 +19,12 @@ body {
   background-color: var(--background);
 }
 
+main {
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
 p {
   margin-bottom: 1rem;
   margin-top: 1rem;
