@@ -20,7 +20,7 @@ body {
   margin: 0;
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: var(--foreground);
   background-color: var(--background);
 }
