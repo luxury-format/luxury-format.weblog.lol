@@ -338,7 +338,7 @@ form.search button:hover {
 
 .tag {
   background: var(--green);
-  color: var(--foreground) !important;
+  color: var(--black) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
   border-radius: .5em;
