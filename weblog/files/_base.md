@@ -186,6 +186,22 @@ blockquote {
   padding: 0 2rem;
 }
 
+a.footnote-ref {
+  color: var(--green);
+}
+
+.ol-footnote {
+  font-size: 0.8em;
+  padding-inline-start: 2em;
+}
+
+.hr-footnote {
+  border-top: 1px dashed var(--pink);
+  background-color: transparent;
+  width: 60%;
+  margin: 0;
+}
+
 code,
 kbd,
 pre,
