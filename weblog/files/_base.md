@@ -405,6 +405,7 @@ form.search button:hover {
 
 .statuslol_content p {
   font-size: 1em !important;
+  text-align: left !important;
 }
 
 .statuslol_emoji {
