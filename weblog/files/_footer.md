@@ -31,6 +31,17 @@ footer {
   padding: 0 1em;
 }
 
+.footer-hr {
+  width: 100%; 
+  border: 0;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #f8f8f2;
+  margin-bottom: 10px;
+  display: flex;
+  margin: 1em 0;
+}
+
 footer p {
   font-family: 'VC Honey Deck', Georgia, serif;
   font-weight: bold;
