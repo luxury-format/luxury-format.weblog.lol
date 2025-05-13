@@ -283,7 +283,7 @@ td {
 }
 
 hr {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--blue);
   width: 100%;
   margin: 1em auto;
 }
