@@ -25,7 +25,7 @@ Location: /_variables.css
   --purple: #BD93F9;
   --cyan: #8BE9FD;
   --pink: #FF79C6;
-  --border-radius: 0.5rem;
+  --border-radius: 0.5em;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
   --mark: #21222C;
   --transition-speed: 0.3s;
