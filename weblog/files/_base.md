@@ -347,7 +347,7 @@ form.search button:hover {
 }
 
 .tag:hover {
-  background: var(--white);
+  background: var(--grey);
 }
 
 .previous-page {
