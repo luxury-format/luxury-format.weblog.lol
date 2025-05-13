@@ -118,7 +118,6 @@ Search results success message: There [is|are] $count [result|results] for your 
 Search results failure message: There were no results found for your search.
 Search results format: <<[
 <h2>Results for “$search”</h2>
-<hr>
 <p>$search_results_message</p>
 [post:begin]<h2><a href="$location">$title</a></h2>
 <p>$date</p>
@@ -136,7 +135,6 @@ Tags format: <<[
 ]>>
 Tag page format: <<[
 <h2>Posts tagged with “$tag”</h2>
-<hr>
 <ul>
 [tag:begin]<li><a href="$location">$title</a></li>[tag:end]
 </ul>
@@ -148,7 +146,6 @@ Tag listing path: /tags
 Tag listing order: ascending
 Tag listing format: <<[
 <h2>TAGS</h2>
-<hr>
 <ul>
 [tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
 </ul>
