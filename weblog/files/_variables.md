@@ -12,6 +12,7 @@ Location: /_variables.css
   --accent-2: #8E8E93;
   --grey: #E5E5EA;
   --white: #FFFFFF;
+  --black: #000000;
   --icons: #000000;
   --highlight: #E3E3E6;
   --selection: #44475A;
@@ -43,6 +44,7 @@ Location: /_variables.css
     --accent-2: #8E8E93;
     --grey: #2C2C2E;
     --white: #FFFFFF;
+    --black: #000000;
     --icons: #FFFFFF;
     --highlight: #53565D;
     --blue: #6272A4;
