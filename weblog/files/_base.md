@@ -205,6 +205,7 @@ a.footnote-ref {
 code {
   font-family: var(--monospace);
   background-color: #20262E;
+  color: var(--white);
   font-size: 75%;
   line-height: 24px;
   padding: 5px;
