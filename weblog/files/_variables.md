@@ -26,7 +26,7 @@ Location: /_variables.css
   --border-radius: 0.5rem;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
   --mark: #21222C;
-/* --title-font: */
+  --title-font: 'VC Honey Deck', Georgia, serif;
   --sans-serif: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --monospace: 'Source Code Pro', ui-monospace, 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace, SFMono-Regular, Monaco, "Andale Mono", "Ubuntu Mono";
   --mastodon-color: #8373E7;
