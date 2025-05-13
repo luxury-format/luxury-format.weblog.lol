@@ -14,23 +14,3 @@ Location: /search
 <input type="text" name="search">
 <button type="submit">SEARCH</button>
 </form>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
