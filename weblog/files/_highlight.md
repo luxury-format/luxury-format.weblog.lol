@@ -210,3 +210,70 @@ pre[class*="language-"] {
 .token.variable {
   color: #ff6666;
 }
+
+/* Dracula Syntax Highlighting */
+/* The theme used by the syntax highlighting app */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #282a36;
+  color: var(--white);
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #50fa7b;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #8be9fd;}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #ffb86c;
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #2b91af;
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr {
+  color: #ff5555;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #00b0e8;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-number {
+  color: var(--red);
+}
