@@ -301,7 +301,7 @@ form.search input {
   font-weight: bold;
   background-color: var(--white);
   border: 2px solid var(--purple);
-  color: var(--foreground);
+  color: var(--black);
 }
 
 form.search button {
