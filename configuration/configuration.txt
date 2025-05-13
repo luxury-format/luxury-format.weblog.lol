@@ -150,3 +150,12 @@ Tag listing format: <<[
 [tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
 </ul>
 ]>>
+
+;; Tag List {tag-list}
+;; ------------------
+
+Tag list format: <<[
+<ul>
+[tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
+</ul>
+]>>
