@@ -210,9 +210,9 @@ code {
   line-height: 24px;
   padding: 5px;
   margin: 0;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
 
