@@ -29,7 +29,7 @@ body {
 
 main {
   max-width: 60em;
-  margin: 1em auto;
+  margin: 0.5em auto 1em;
   padding: 0 1em;
 }
 
