@@ -386,7 +386,7 @@ form.search button:hover {
 .divider::after {
   content: "";
   flex: 1;
-  border: 1px solid var(--purple);
+  border: 1px solid var(--black);
 }
 
 /* .statuslol {
