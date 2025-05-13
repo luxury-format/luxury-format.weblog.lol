@@ -296,7 +296,7 @@ form.search {
 
 form.search input {
   width: 100%;
-  height: 2em;
+  height: 40px;
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--white);
@@ -306,7 +306,7 @@ form.search input {
 
 form.search button {
   width: 100%;
-  height: 2.8em;
+  height: 40px;
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--purple);
