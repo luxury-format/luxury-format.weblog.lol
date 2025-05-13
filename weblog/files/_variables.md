@@ -31,6 +31,7 @@ Location: /_variables.css
   --monospace: 'Source Code Pro', ui-monospace, 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace, SFMono-Regular, Monaco, "Andale Mono", "Ubuntu Mono";
   --mastodon-color: #8373E7;
   --rss-color: #F36B2B;
+  --warning-color: #FFD43D;
 }
 
 @media (prefers-color-scheme: dark) {
