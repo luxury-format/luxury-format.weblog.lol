@@ -14,7 +14,7 @@ header {
 /* Top row: logo/title on left, social icons on right */
 .weblog-title {
   display: flex;
-/*  justify-content: space-between; */
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -38,7 +38,7 @@ header {
 
 .weblog-logo img {
   height: 2.5rem;
-  margin-right: 0.5rem;
+  gap: 0.5rem;
 }
 
 .weblog-logo h1 {
