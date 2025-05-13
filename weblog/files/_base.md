@@ -312,9 +312,9 @@ form.search {
 form.search input,
 form.search button {
   width: 100%;
-  height: 1.2rem;
-  padding: 2px 10px;
-  border-radius: 10px;
+  height: 1.2em;
+  padding: 0.2em 1em;
+  border-radius: var(--border-radius);
   font-weight: bold;
 }
 
