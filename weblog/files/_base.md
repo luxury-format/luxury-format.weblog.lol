@@ -202,15 +202,20 @@ a.footnote-ref {
   margin: 0;
 }
 
-code,
-kbd,
-pre,
-tt {
+code {
   font-family: var(--monospace);
-  font-size: 0.9rem;
+  background-color: #20262E;
+  font-size: 75%;
+  line-height: 24px;
+  padding: 5px;
+  margin: 0;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+  border-radius: var(--border-radius;
 }
 
-code {
+/* code {
   white-space: break-spaces;
   margin: 0;
   padding: 0; /* 2px, 4px; */
@@ -220,9 +225,9 @@ code {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
+} */
 
-pre {
+/* pre {
   background: var(--black);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
@@ -234,15 +239,15 @@ pre {
   padding: 2rem;
   white-space: pre;
   word-wrap: normal;
-}
+} */
 
-pre code {
+/* pre code {
   background: none;
   border: none;
   color: inherit;
   padding: 0;
   white-space: pre;
-}
+} */
 
 img,
 picture,
