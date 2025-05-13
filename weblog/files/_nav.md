@@ -24,7 +24,6 @@ nav.main .container {
   }
 }
 
-
 .nav-link, 
 nav.main a {
   text-decoration: none;
@@ -39,7 +38,7 @@ nav.main a {
   padding: 2px 0;
   text-decoration: none;
   box-shadow: var(--box-shadow);
-  transition: box-shadow .5s ease-in-out;
+  transition: box-shadow var(--transition-speed) ease-in-out, color var(--transition-speed) ease-in-out;
 }
 
 .nav-link:hover, nav.main a:hover {
