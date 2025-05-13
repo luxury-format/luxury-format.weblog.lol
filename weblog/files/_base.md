@@ -19,10 +19,10 @@ body {
   margin: 0;
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: 160%;
+  font-size: 120%;
   color: var(--foreground);
   background-color: var(--background);
-  text-size-adjust: 160%;
+  text-size-adjust: 120%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -84,27 +84,27 @@ strong {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 1.8em;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.6em;
 }
 
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.4em;
 }
 
 h5 {
-  font-size: 1.6rem;
+  font-size: 1.2em;
 }
 
 h6 {
-  font-size: 1.4rem;
+  font-size: 1em;
 }
 
 p {
@@ -115,7 +115,7 @@ p {
 
 p,
 li {
-  line-height: 1.5rem;
+  line-height: 150%;
 }
 
 ul li::marker {
@@ -126,25 +126,24 @@ ol li::marker {
   color: var(--link);
 }
 
-a {
+a:link {
   color: var(--link);
   text-underline-offset: 2px;
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--white);
-}
-
-a:link,
 a:visited {
   color: var(--link);
 }
 
-a:hover,
+a:hover {
+  color: var(--link-hover);
+/*  text-decoration: underline; */
+}
+
 a:active {
   color: var(--link);
-  text-decoration: underline;
+/*  text-decoration: underline; */
 }
 
 i,
@@ -254,7 +253,7 @@ th {
 hr {
   border: 1px solid var(--pink);
   width: 100%;
-  margin: 1rem auto;
+  margin: 1em auto;
 }
 
 p code,
@@ -312,8 +311,14 @@ form.search button:hover {
 
 .post-info,
 .post-tags {
-  font-size: 80%;
+  font-size: 85%;
   color: var(--green);
+  text-align: right;
+}
+
+.permalink {
+  font-size: 85%;
+  color: var(--yellow);
   text-align: right;
 }
 
@@ -329,6 +334,10 @@ form.search button:hover {
   border-radius: .5em;
   text-decoration: none;
   display: inline-block;
+}
+
+.tag:hover {
+  background: var(--white);
 }
 
 .previous-page {
