@@ -10,5 +10,3 @@ Location: /archive
 ---
 
 {post-list}
-
----
