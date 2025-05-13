@@ -37,7 +37,13 @@ Title: Landing Page Template
 
 <footer>
 <hr>
+
+<script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
+
+<hr>
+
 <p>&copy; {year} <a href="/">{weblog-title}</a></p>
+
 <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
 </footer>
 
