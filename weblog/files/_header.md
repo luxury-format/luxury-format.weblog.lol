@@ -6,8 +6,7 @@ Location: /_header.css
 /* Weblog.lol/weblog/files/_header.md */
 header {
   max-width: 60em;
-  margin: 2em auto;
-  margin-top: 1em;
+  margin: 0 auto;
   padding: 0 1em;
 }
 
