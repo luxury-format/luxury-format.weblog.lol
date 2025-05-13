@@ -311,7 +311,7 @@ form.search button {
   font-weight: bold;
   background-color: var(--purple);
   border: 2px solid var(--white);
-  color: var(--foreground);
+  color: var(--black);
 }
 
 form.search button:hover {
