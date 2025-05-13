@@ -62,3 +62,9 @@ Location: /_variables.css
     --mark: #21222C;
   }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
