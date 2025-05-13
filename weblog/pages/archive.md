@@ -17,6 +17,6 @@ Location: /archive
 
 #### All tags:
 
-{tags}
+{tag-list}
 
 ---
