@@ -7,15 +7,13 @@ Location: /archive
 
 # ARCHIVE
 
-#### All posts:
-
----
+post-list:  
 
 {post-list}
 
 ---
 
-#### All tags:
+tags:  
 
 {tags}
 
