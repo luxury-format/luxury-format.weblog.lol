@@ -115,7 +115,7 @@ p {
 
 p,
 li {
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 
 ul li::marker {
@@ -194,7 +194,7 @@ tt {
 code {
   white-space: break-spaces;
   margin: 0;
-  pading: 0; /* 2px, 4px; */
+  padding: 0; /* 2px, 4px; */
   color: var(--white);
   background: var(--black);
   border-radius: var(--border-radius);
@@ -265,6 +265,7 @@ li code {
 input,
 textarea {
   border: 1px solid #4a4a4a;
+  transition: border-color var(--transition-speed) ease;
 }
 
 input:focus,
