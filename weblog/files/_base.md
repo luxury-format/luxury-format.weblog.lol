@@ -287,21 +287,6 @@ li code {
   padding: 0.2rem;
 }
 
-input,
-textarea {
-  border: 1px solid #4a4a4a;
-  transition: border-color var(--transition-speed) ease;
-}
-
-input:focus,
-textarea:focus {
-  border: 1px solid #1d7484;
-}
-
-textarea {
-  width: 100%;
-}
-
 form.search {
   display: flex;
   flex-direction: column;
@@ -309,22 +294,21 @@ form.search {
   width: 100%;
 }
 
-form.search input,
-form.search button {
+form.search input {
   width: 100%;
-  height: 1.2em;
-  padding: 0.2em 1em;
+  height: 2em;
   border-radius: var(--border-radius);
   font-weight: bold;
-}
-
-form.search input {
   background-color: var(--white);
   border: 2px solid var(--purple);
   color: var(--foreground);
 }
 
 form.search button {
+  width: 100%;
+  height: 2.8em;
+  border-radius: var(--border-radius);
+  font-weight: bold;
   background-color: var(--purple);
   border: 2px solid var(--white);
   color: var(--foreground);
