@@ -9,3 +9,5 @@ Location: /archive
 ---
 
 {post-list}
+
+{tag-listing}
