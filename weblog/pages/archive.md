@@ -8,6 +8,6 @@ Location: /archive
 
 ---
 
-{post-list}
+{post-listing}
 
 {tag-listing}
