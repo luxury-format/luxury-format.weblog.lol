@@ -11,25 +11,25 @@ Tags: #2025, Weblog, Notes
 ---
 
 ```html
-    {rss}
+{rss}
 ```
 
 ---
 
 ```html
-    {json}
+{json}
 ```
 
 ---
 
 ```html
-    {atom}
+{atom}
 ```
 
 ---
 
 ```html
-    {feeds}
+{feeds}
 ```
 
 ---
