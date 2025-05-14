@@ -6,12 +6,12 @@ Title: Post Template
 <article>
 
 {body}
+<aside class="post-meta">
+<a class="post-link" href="{location}">Read more</a>
+</aside>
 <aside class="post-info">
 <a href="{location}"><i class="fa-solid fa-clock"></i> {date}</a>
 </aside>
-<div class="post-meta">
-<a class="post-link" href="{location}">Read more</a>
-</div>
 <aside class="post-tags">
 {tags}
 </aside>
