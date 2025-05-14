@@ -10,13 +10,13 @@ Tags: #2025, Weblog, Notes
 
 I can put next tags in `<head></head>`:
 
-- `{rss}` - will add an RSS feed.
+- <code>{rss}</code> - will add an RSS feed.
 
-- `{json}` - will add an JSON feed.
+- <code>{json}</code> - will add an JSON feed.
 
-- `{atom}` - will add an Atom feed.
+- <code>{atom}</code> - will add an Atom feed.
 
-- `{feeds}` - will add all feeds listed above at once.
+- <code>{feeds}</code> - will add all feeds listed above at once.
 
 ---
 
