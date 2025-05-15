@@ -13,10 +13,9 @@ body {
   margin: 0;
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: 120%;
+  font-size: 115%;
   color: var(--foreground);
   background-color: var(--background);
-  text-size-adjust: 120%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
