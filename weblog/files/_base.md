@@ -199,8 +199,6 @@ pre {
   -webkit-box-shadow: var(--box-shadow);
   -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  background: var(--black);
-  color: var(--white);
 }
 
 pre {
@@ -215,6 +213,8 @@ code {
   white-space: break-spaces;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  background: #6272A4;
+  color: #F8F8F2;
 }
 
 pre code {
