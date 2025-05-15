@@ -8,4 +8,4 @@ Location: /about
 
 ---
 
-#### It's all about me.
+- Follow me on: [<i class="fa-brands fa-mastodon" style="color: #563ACC;"></i> Mastodon](https://social.lol/@luxury_format)
