@@ -34,7 +34,11 @@ Location: /_icons.css
 
 /* Individual omg-icons color */
 .omg-icon.omg-proven {
-  color: #0080FF !important;
+  color: #FFD43D !important;
+}
+
+omg-icon.omg-verified {
+  color: #FFD43D !important;
 }
 
 /* .omg-icon.omg- {
