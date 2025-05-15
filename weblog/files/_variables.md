@@ -8,7 +8,7 @@ Location: /_variables.css
   --foreground: #1C1C1E;
   --background: #F8F8F2;
   --link: #007AFF;
-  --link-hover: #2C2C2E;
+  --link-hover: #007AFF;
   --accent: #C0C0C0;
   --accent-2: #8E8E93;
   --grey: #E5E5EA;
@@ -43,7 +43,7 @@ Location: /_variables.css
     --foreground: #F8F8F2;
     --background: #1C1C1E;
     --link: #0A84FF;
-    --link-hover: #E5E5EA;
+    --link-hover: #0A84FF;
     --accent: #E5E4E2;
     --accent-2: #8E8E93;
     --grey: #2C2C2E;
