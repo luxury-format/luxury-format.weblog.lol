@@ -19,21 +19,14 @@ Location: /_icons.css
   color: #F36B2B !important;
 }
 
-/* Icons hover effects */
-a:hover .fa-solid,
-a:hover .fa-regular,
-a:hover .fa-brands,
-a:hover .fa-light,
-a:hover .fa-thin,
-a:hover .fa-duotone {
-  color: var(--icons);
+.fa-mastodon {
+  color: #563ACC !important;
 }
 
-/* Keep individual icon color on hover */
-a:hover .fa-rss {
-  color: #F36B2B !important;
-}
+/* .fa- {
+  color: # !important;
+} */
 
-i[class*="omg-"] {
+i[class*="omg-icon"] {
   color: var(--icons) !important;
 }
