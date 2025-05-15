@@ -1,5 +1,7 @@
+---
 Type: Template
 Title: Page Template
+---
 
 <!DOCTYPE html>
 <html lang="en">
