@@ -16,3 +16,4 @@ Location: /explore
 - [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
 - [<i class="fa-solid fa-rss"></i> FEEDS](/feeds)
 - [INTERSECT](/intersect)
+- [/NOW](/now)
