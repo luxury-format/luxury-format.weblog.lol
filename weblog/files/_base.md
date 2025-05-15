@@ -26,20 +26,6 @@ main {
   padding: 0 1em;
 }
 
-.fa,
-.fas,  /* solid icons */
-.far,  /* regular icons */
-.fal,  /* light icons */
-.fad,  /* duotone icons */
-.fat,  /* thin icons */
-.fab   /* brand icons */ {
-  color: var(--icons) !important;
-}
-
-i[class*="omg-"] {
-  color: var(--icons);
-}
-
 /* In Main & Page Templates: <main class="no-title-link"> */
 /* In configuration: Title format: <h1 class="no-links"><a href="$location">$title</a></h1> */
 main.no-title-link h1.no-links > a {
@@ -441,4 +427,22 @@ form.search button:hover {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.fa,
+.fas,  /* solid icons */
+.far,  /* regular icons */
+.fal,  /* light icons */
+.fad,  /* duotone icons */
+.fat,  /* thin icons */
+.fab   /* brand icons */ {
+  color: var(--icons) !important;
+}
+
+.fa-ul .fa-li {
+  color: var(--icons) !important;  /* list icon color */
+}
+
+i[class*="omg-"] {
+  color: var(--icons) !important;
 }
