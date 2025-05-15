@@ -13,7 +13,7 @@ Location: /intersect
 - [Markdown](#markdown)
 
 ---
-[Heading IDs](#heading-ids)
+
 ### [CSS](#css)
 
 In CSS files:
