@@ -232,8 +232,6 @@ img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 1em;
-  box-shadow: var(--box-shadow);
 }
 
 #profile-picture {
