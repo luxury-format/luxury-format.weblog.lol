@@ -194,9 +194,9 @@ pre {
   font-family: var(--monospace);
   font-size: 75%;
   line-height: 150%;
-  box-shadow: var(--box-shadow);
+/*  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow); */
   border-radius: var(--border-radius);
   overflow-wrap: normal;
   overflow-x: scroll;
