@@ -54,8 +54,8 @@ Feed post appendix: <p><em>Published with weblog.lol!</em></p>
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
-Title: InvisibleTitle
-Tags: Tags, 
+Title: Title
+Tags: Tag1, Tag2
 ---
 
 # Title
