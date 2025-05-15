@@ -33,7 +33,7 @@ main {
 .fad,  /* duotone icons */
 .fat,  /* thin icons */
 .fab   /* brand icons */ {
-  color: var(--icons);
+  color: var(--icons) !important;
 }
 
 i[class*="omg-"] {
