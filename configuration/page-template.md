@@ -26,6 +26,7 @@ Title: Page Template
 </head>
 <!-- BODY -->
 <body>
+<a id="top"></a>
 
 <!-- HEADER -->
 <header>
