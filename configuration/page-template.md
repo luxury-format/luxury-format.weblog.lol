@@ -17,12 +17,10 @@ Title: Page Template
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 <!-- /style.css -->
 <link rel="stylesheet" href="/style.css">
-<!-- Dracula Theme v1.2.5 -->
-<link rel="stylesheet" href="/dracula.css">
-<!-- /dracula.css -->
+<!-- /dracula.css - Dracula Theme v1.2.5 -->
 <link rel="stylesheet" href="/dracula.css">
 <!-- JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 </head>
 <!-- BODY -->
