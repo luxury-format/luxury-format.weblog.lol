@@ -6,15 +6,9 @@ Location: /intersect
 
 # INTERSECT
 
-## Table of Contents
-
-- [CSS](#css)
-- [HTML](#html)
-- [Markdown](#markdown)
-
 ---
 
-### [CSS](#css)
+### CSS
 
 In CSS files:
 
@@ -26,26 +20,10 @@ The difference between `#08F` and `#0088FF` is that #08f is a shorthand represen
 
 ---
 
-### [HTML](#html)
+### HTML
 
 ---
 
-### (Markdown](#markdown)
-
-
-## Table of Contents
-
- - [Subheading 1](#subheading-1)
- - [Subheading 2](#subheading-2)
- - [Subheading 3](#sub-heading-3)
-
-## Subheading 1
-Content of the subheading 1
-
-## Subheading 2
-Content of the subheading 2
-
-## Sub heading 3
-Content of the subheading 3
+### Markdown
 
 ---
