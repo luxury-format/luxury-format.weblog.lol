@@ -10,9 +10,9 @@ Location: /feeds
 
 You can subscribe to my blog by clicking on one of these links:
 
-- [RSS Feed](/rss.xml)
-- [Atom Feed](/atom.xml)
-- [JSON Feed](/feed.json)
+- [<i class="fa-solid fa-rss"></i> RSS Feed](/rss.xml)
+- [<i class="fa-solid fa-atom"></i> Atom Feed](/atom.xml)
+- [<i class="omg-icon omg-json-feed"></i> JSON Feed](/feed.json)
 
 ---
 
