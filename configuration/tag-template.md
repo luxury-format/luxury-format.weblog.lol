@@ -1,6 +1,6 @@
 ---
 Type: Template
-Title: Tag Page Template
+Title: Tag Template
 ---
 
 Tags format: <<[
