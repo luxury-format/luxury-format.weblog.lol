@@ -1,6 +1,6 @@
 ---
 Type: Page
-Title: Intersect
+Title: INTERSECT
 Location: /intersect
 ---
 
