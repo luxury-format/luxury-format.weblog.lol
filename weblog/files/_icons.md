@@ -37,7 +37,7 @@ Location: /_icons.css
   color: #FFD43D !important;
 }
 
-omg-icon.omg-verified {
+.omg-icon.omg-verified {
   color: #FFD43D !important;
 }
 
