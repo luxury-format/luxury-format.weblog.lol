@@ -5,16 +5,16 @@ Location: /_variables.css
 
 /* Weblog.lol/weblog/files/_variables.md */
 :root {
-  --foreground: #21222C;
+  --foreground: #1C1C1E;
   --background: #F8F8F2;
-  --link: #0080FF;
-  --link-hover: #48484A;
+  --link: #007AFF;
+  --link-hover: #2C2C2E;
   --accent: #C0C0C0;
   --accent-2: #8E8E93;
   --grey: #E5E5EA;
   --white: #FFFFFF;
   --black: #000000;
-  --icons: #000000;
+  --icons: #8E8E93;
   --highlight: #E3E3E6;
   --selection: #44475A;
   --blue: #0080FF;
@@ -41,15 +41,15 @@ Location: /_variables.css
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #F8F8F2;
-    --background: #21222C;
-    --link: #0080FF;
-    --link-hover: #C7C7CC;
+    --background: #1C1C1E;
+    --link: #0A84FF;
+    --link-hover: #E5E5EA;
     --accent: #E5E4E2;
     --accent-2: #8E8E93;
     --grey: #2C2C2E;
     --white: #FFFFFF;
     --black: #000000;
-    --icons: #FFFFFF;
+    --icons: #8E8E93;
     --highlight: #53565D;
     --blue: #0080FF;
     --selection: #44475A;
