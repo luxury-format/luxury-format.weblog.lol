@@ -14,7 +14,6 @@ Title: Landing Page Template
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <link rel="stylesheet" href="/style.css">
-<link rel="stylesheet" href="dracula.css">
 </head>
 <body>
 
