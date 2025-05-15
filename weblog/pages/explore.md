@@ -14,5 +14,5 @@ Location: /explore
 - [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive)
 - [<i class="fa-solid fa-image"></i> PHOTOS](/photos)
 - [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
-- [<i class="fa-solid fa-rss" style="color: #EE802F;"></i> FEEDS](/feeds)
+- [<i class="fa-solid fa-rss"></i> FEEDS](/feeds)
 - [INTERSECT](/intersect)
