@@ -19,6 +19,8 @@ Title: Page Template
 <link rel="stylesheet" href="/style.css">
 <!-- Dracula Theme v1.2.5 -->
 <link rel="stylesheet" href="/dracula.css">
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 </head>
 <!-- BODY -->
 <body>
