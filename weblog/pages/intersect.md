@@ -72,6 +72,6 @@ First item content goes here
 ### Second Item
 Second item content goes here
 
-<center>[Back to top ⬆️](#top)</center>
+[Back to top ⤴️](#top)
 
 ---
