@@ -204,17 +204,13 @@ pre {
 }
 
 pre {
-  margin: 2rem 0;
   overflow-wrap: normal;
   overflow-x: scroll;
-  padding: 2rem;
   white-space: pre;
   word-wrap: normal;
 }
 
 code {
-  padding: 5px;
-  margin: 0;
   white-space: pre-wrap;
   white-space: break-spaces;
   word-wrap: break-word;
@@ -225,7 +221,6 @@ pre code {
   background: none;
   border: none;
   color: inherit;
-  padding: 0;
   white-space: pre;
 }
 
