@@ -38,7 +38,7 @@ Next page template: <span class="next-page"><a href="$next_page">Newer ❯</a></
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Timezone: America/Chicago
-Date format: F j, Y g:i A
+Date format: F j, Y
 
 
 ;; Feeds
@@ -54,11 +54,12 @@ Feed post appendix: <p><em>Published with weblog.lol!</em></p>
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
+Type: Post
 Title: Title
 Tags: Tag1, Tag2
 ---
 
-# Title
+# Title (Max: 80 characters)
 
 ]>>
 
