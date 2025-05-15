@@ -4,7 +4,6 @@ Title: INTERSECT
 Location: /intersect
 ---
 
-<a id="top"></a>
 # INTERSECT
 
 ### Table of content:
@@ -73,6 +72,6 @@ First item content goes here
 ### Second Item
 Second item content goes here
 
-[Back to top ⬆️](#top)
+[Back to top](#top)
 
 ---
