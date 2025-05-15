@@ -55,12 +55,12 @@ Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
 Title: InvisibleTitle
-Tags: #Everything, #2025
+Tags: Tags, 
 ---
 
 # Title
 
-This is a new blog post. I can author it in _Markdown_, which is **awesome**.]>>
+]>>
 
 Titleless title length: 15 words
 Truncation appendix:  <a class="post-link" href="{location}">Read more...</a>
