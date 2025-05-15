@@ -63,7 +63,7 @@ Tags: Tags,
 ]>>
 
 Titleless title length: 15 words
-Truncation appendix:  <a class="post-link" href="{location}">Read more...</a>
+Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
 Title format: <h1 class="no-links"><a href="$location">$title</a></h1>
 
 Multiple posts count: 10
