@@ -13,7 +13,7 @@ body {
   margin: 0;
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: 120%;
+  font-size: 115%;
   color: var(--foreground);
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ i[class^="omg-"] {
 }
 
 /* In Main & Page Templates: <main class="no-title-link"> */
-/* in configuration: Title format: <h1 class="no-links"><a href="$location">$title</a></h1> */
+/* In configuration: Title format: <h1 class="no-links"><a href="$location">$title</a></h1> */
 main.no-title-link h1.no-links > a {
   color: inherit;
   text-decoration: none;
@@ -419,16 +419,6 @@ form.search button:hover {
   height: auto;
   border-radius: 4px;
   transition: transform 0.3s ease;
-}
-
-/* .somepics_container img:hover {
-  transform: scale(1.02);
-} */
-
-@media (max-width: 650px) {
-  body {
-    font-size: 120%;
-  }
 }
 
 .pagination {
