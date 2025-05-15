@@ -1,5 +1,7 @@
+---
 Type: Template
 Title: Tag Page Template
+---
 
 Tags format: <<[
 [tag:begin]<a class="tag" href="$tag_location">$tag</a>[tag:end]
