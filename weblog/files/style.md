@@ -16,7 +16,6 @@ Location: /style.css
 @import "_header.css";
 @import "_nav.css";
 @import "_page-nav.css";
-@import "_highlight.css";
 @import "_footer.css";
 @import "_home.css";
 @import "_icons.css";
