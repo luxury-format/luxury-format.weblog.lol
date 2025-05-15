@@ -190,7 +190,6 @@ a.footnote-ref {
   margin: 0;
 }
 
-code,
 pre {
   font-family: var(--monospace);
   font-size: 75%;
@@ -199,9 +198,6 @@ pre {
   -webkit-box-shadow: var(--box-shadow);
   -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-}
-
-pre {
   overflow-wrap: normal;
   overflow-x: scroll;
   white-space: pre;
@@ -209,6 +205,13 @@ pre {
 }
 
 code {
+  font-family: var(--monospace);
+  font-size: 75%;
+  line-height: 150%;
+/*  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow); */
+  border-radius: var(--border-radius);
   white-space: pre-wrap;
   white-space: break-spaces;
   word-wrap: break-word;
