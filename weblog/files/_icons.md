@@ -27,6 +27,16 @@ Location: /_icons.css
   color: # !important;
 } */
 
-i[class*="omg-"] {
+/* Color to all omg-icon */
+.omg-icon {
   color: var(--icons) !important;
 }
+
+/* Individual omg-icons color */
+.omg-icon.omg-proven {
+  color: #0080FF !important;
+}
+
+/* .omg-icon.omg- {
+  color: # !important;
+} */
