@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: style.css
 Location: /style.css
 
-/* Weblog.lol/files/style.md */
+/* Weblog.lol/weblog/files/style.md */
 @import url('https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400,700');
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
