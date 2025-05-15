@@ -17,6 +17,7 @@ Location: /pages
 - [<i class="fa-regular fa-circle-user"></i>  ABOUT](/about)
 - [<i class="fa-solid fa-magnifying-glass"></i>  SEARCH](/search)
 - [<i class="fa-solid fa-rss" style="color: #EE802F;"></i>  FEEDS](/feeds)
+- [Intersect](/intersect)
 
 ---
 
