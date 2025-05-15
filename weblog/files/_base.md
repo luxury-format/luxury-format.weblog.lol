@@ -428,21 +428,3 @@ form.search button:hover {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
-.fa,
-.fas,  /* solid icons */
-.far,  /* regular icons */
-.fal,  /* light icons */
-.fad,  /* duotone icons */
-.fat,  /* thin icons */
-.fab   /* brand icons */ {
-  color: var(--icons) !important;
-}
-
-.fa-ul .fa-li a {
-  color: var(--icons) !important;  /* list icon color */
-}
-
-i[class*="omg-"] {
-  color: var(--icons) !important;
-}
