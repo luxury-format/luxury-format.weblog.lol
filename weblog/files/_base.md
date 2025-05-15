@@ -439,7 +439,7 @@ form.search button:hover {
   color: var(--icons) !important;
 }
 
-.fa-ul .fa-li {
+.fa-ul .fa-li a {
   color: var(--icons) !important;  /* list icon color */
 }
 
