@@ -252,6 +252,13 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+#profile-picture-container {
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
