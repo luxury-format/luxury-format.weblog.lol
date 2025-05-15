@@ -32,7 +32,7 @@ The difference between `#08F` and `#0088FF` is that #08f is a shorthand represen
 
 ### Markdown
 
-```Markdown
+```
 ## Table of Contents
 
 - [Subheading 1](#subheading-1)
