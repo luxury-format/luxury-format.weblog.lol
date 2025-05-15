@@ -190,53 +190,44 @@ a.footnote-ref {
   margin: 0;
 }
 
-code {
+code,
+pre {
   font-family: var(--monospace);
-  background-color: #20262E;
-  color: var(--white);
   font-size: 75%;
-  line-height: 24px;
-  padding: 5px;
-  margin: 0;
+  line-height: 150%;
+  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
   -moz-box-shadow: var(--box-shadow);
-  box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
+  background: var(--black);
+  color: var(--white);
 }
 
-/* code {
-  white-space: break-spaces;
-  margin: 0;
-  padding: 0; /* 2px, 4px; */
-  color: var(--white);
-  background: var(--black);
-  border-radius: var(--border-radius);
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-} */
-
-/* pre {
-  background: var(--black);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  color: var(--white);
-  line-height: 1.5;
+pre {
   margin: 2rem 0;
   overflow-wrap: normal;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding: 2rem;
   white-space: pre;
   word-wrap: normal;
-} */
+}
 
-/* pre code {
+code {
+  padding: 5px;
+  margin: 0;
+  white-space: pre-wrap;
+  white-space: break-spaces;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+pre code {
   background: none;
   border: none;
   color: inherit;
   padding: 0;
   white-space: pre;
-} */
+}
 
 img {
   display: block;
