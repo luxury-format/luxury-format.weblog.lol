@@ -18,7 +18,7 @@ Location: /intersect
 
 In CSS files:
 
-- `#08F` and `#0088FF`
+- `#08F` and `#0088FF` are the same.
 
 The difference between `#08F` and `#0088FF` is that #08f is a shorthand representation of the color #0088ff. The shorthand format uses a single digit for each color component (red, green, blue), and the full six-digit format expands each single digit to two digits, repeating the digit
 
