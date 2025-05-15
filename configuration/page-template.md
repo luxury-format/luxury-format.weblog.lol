@@ -18,7 +18,7 @@ Title: Page Template
 <body>
 
 <header>
-<h1 class="weblog-title"><a href="/">{weblog-title}</a></h1> <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon" style="color: #563ACC;"></i></a> <a href="/feeds"><i class="fa-solid fa-rss" style="color: #EE802F;"></i></a>
+<h1 class="weblog-title"><a href="/">{weblog-title}</a></h1> <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a> <a href="/feeds"><i class="fa-solid fa-rss"></i></a>
 {navigation}
 <hr>
 </header>
