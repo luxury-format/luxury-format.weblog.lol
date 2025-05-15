@@ -14,7 +14,7 @@ Location: /intersect
 
 ---
 
-### CSS 
+### CSS {css}
 
 In CSS files:
 
@@ -26,11 +26,11 @@ The difference between `#08F` and `#0088FF` is that #08f is a shorthand represen
 
 ---
 
-### HTML
+### HTML {html}
 
 ---
 
-### Markdown
+### Markdown {markdown}
 
 ```
 ## Table of Contents
