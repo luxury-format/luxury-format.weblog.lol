@@ -1,10 +1,10 @@
 ---
 Type: Page
-Title: PAGES
-Location: /pages
+Title: EXPLORE
+Location: /explore
 ---
 
-# PAGES
+# EXPLORE
 
 ---
 
@@ -12,10 +12,8 @@ Location: /pages
 - [<i class="fa-solid fa-dice"></i>  RANDOM](/random)
 - [<i class="fa-solid fa-tags"></i>  TAGS](/tags)
 - [<i class="fa-solid fa-archive"></i>  ARCHIVE](/archive)
-- [<i class="fa-regular fa-file-lines"></i>  PAGES](/pages)
 - [<i class="fa-solid fa-image"></i> PHOTOS](/photos)
 - [<i class="fa-regular fa-circle-user"></i>  ABOUT](/about)
-- [<i class="fa-solid fa-magnifying-glass"></i>  SEARCH](/search)
 - [<i class="fa-solid fa-rss" style="color: #EE802F;"></i>  FEEDS](/feeds)
 - [INTERSECT](/intersect)
 
