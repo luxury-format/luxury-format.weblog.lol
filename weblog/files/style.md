@@ -19,3 +19,4 @@ Location: /style.css
 @import "_highlight.css";
 @import "_footer.css";
 @import "_home.css";
+@import "_icons.css";
