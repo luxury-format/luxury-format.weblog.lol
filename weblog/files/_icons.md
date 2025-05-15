@@ -27,6 +27,6 @@ Location: /_icons.css
   color: # !important;
 } */
 
-i[class*="omg-icon"] {
+i[class*="omg-"] {
   color: var(--icons) !important;
 }
