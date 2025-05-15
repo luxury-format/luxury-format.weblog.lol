@@ -21,7 +21,7 @@ Title: Page Template
 <!-- CODE HIGHLIGHTING -->
 <!-- /dracula.css - Dracula Theme v1.2.5 -->
 <link rel="stylesheet" href="/dracula.css">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <!-- BODY -->
