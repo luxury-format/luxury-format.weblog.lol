@@ -7,6 +7,7 @@ Title: Page Template
 <html lang="en">
 <!-- Page Template -->
 <!-- Weblog.lol/configuration/landing-page-template.md -->
+<!-- HEAD -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,23 +15,29 @@ Title: Page Template
 <!-- Font Awesome Free via CDN -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!-- /style.css -->
 <link rel="stylesheet" href="/style.css">
-<link rel="stylesheet" href="/_dracula.css">
+<!-- Dracula Theme v1.2.5 -->
+<link rel="stylesheet" href="/dracula.css">
 </head>
+<!-- BODY -->
 <body>
 
+<!-- HEADER -->
 <header>
 <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1> <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a> <a href="/feeds"><i class="fa-solid fa-rss"></i></a>
 {navigation}
 <hr>
 </header>
 
+<!-- MAIN NO TITLE LINK -->
 <main class="no-title-link">
 
 {body}
 
 </main>
 
+<!-- FOOTER -->
 <footer>
 <hr>
 
