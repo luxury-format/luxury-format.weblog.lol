@@ -13,7 +13,7 @@ body {
   margin: 0;
   font-family: var(--sans-serif);
   font-weight: normal;
-  font-size: 115%;
+  font-size: 120%;
   color: var(--foreground);
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
