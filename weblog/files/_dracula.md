@@ -1,9 +1,9 @@
 Type: file
 Content-Type: text/css
-Title: _highlight.css
-Location: /_highlight.css
+Title: _dracula.css
+Location: /_dracula.css
 
-/* Weblog.lol/weblog/files/_highlight.md */
+/* Weblog.lol/weblog/files/_dracula.md */
 /* Dracula Theme v1.2.5
  *
  * https://github.com/dracula/highlightjs
