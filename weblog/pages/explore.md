@@ -16,7 +16,3 @@ Location: /explore
 - [<i class="fa-regular fa-circle-user"></i>  ABOUT](/about)
 - [<i class="fa-solid fa-rss" style="color: #EE802F;"></i>  FEEDS](/feeds)
 - [INTERSECT](/intersect)
-
----
-
-- Follow me on: [<i class="fa-brands fa-mastodon" style="color: #563ACC;"></i> Mastodon](https://social.lol/@luxury_format)
