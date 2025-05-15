@@ -1,7 +1,7 @@
 Type: file
-Content-Type: text/css
-Title: dracula.css
-Location: /dracula.css
+Content-Type: text/js
+Title: dracula.js
+Location: /dracula.js
 
 /* Weblog.lol/weblog/files/dracula.md */
 /* https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js */
