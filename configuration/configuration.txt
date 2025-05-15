@@ -7,7 +7,7 @@ Weblog title: LUXURY FORMAT
 Weblog description: LUXURY FORMAT Weblog
 Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
-// Landing page: /
+Landing page: /
 Landing page template: Landing Page Template
 // Weblog.lol/configuration/configuration.txt
 
@@ -51,6 +51,7 @@ Feed post appendix: <p><em>Published with weblog.lol!</em></p>
 ;; Posts
 ;; -----
 
+Post location: /blog
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
