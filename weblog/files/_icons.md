@@ -15,12 +15,16 @@ Location: /_icons.css
 }
 
 /* Individual icons color */
+.fa-mastodon {
+  color: #563ACC !important;
+}
+
 .fa-rss {
   color: #F36B2B !important;
 }
 
-.fa-mastodon {
-  color: #563ACC !important;
+.fa-atom {
+  color: #FF6600 !important;
 }
 
 /* .fa- {
@@ -39,6 +43,10 @@ Location: /_icons.css
 
 .omg-icon.omg-verified {
   color: #FFD43D !important;
+}
+
+.omg-icon.omg-json-feed {
+  color: #FFA500 !important;
 }
 
 /* .omg-icon.omg- {
