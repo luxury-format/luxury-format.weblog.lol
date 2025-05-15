@@ -26,8 +26,17 @@ main {
   padding: 0 1em;
 }
 
-i[class^="fa-"],
-i[class^="omg-"] {
+.fa,
+.fas,  /* solid icons */
+.far,  /* regular icons */
+.fal,  /* light icons */
+.fad,  /* duotone icons */
+.fat,  /* thin icons */
+.fab   /* brand icons */ {
+  color: var(--icons);
+}
+
+i[class*="omg-"] {
   color: var(--icons);
 }
 
