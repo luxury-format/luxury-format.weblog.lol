@@ -14,7 +14,7 @@ Landing page template: Landing Page Template
 ;; General config stuff
 ;; --------------------
 
-Separator:  | 
+Separator:  • 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
 Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/), [<i class="fa-solid fa-dice"></i> RANDOM](/random), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
 Files path: /files/
