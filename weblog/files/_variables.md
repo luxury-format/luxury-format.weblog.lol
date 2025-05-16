@@ -33,8 +33,6 @@ Location: /_variables.css
   --title-font: 'VC Honey Deck', Georgia, serif;
   --sans-serif: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --monospace: 'Source Code Pro', ui-monospace, 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace, SFMono-Regular, Monaco, "Andale Mono", "Ubuntu Mono";
-  --mastodon-color: #8373E7;
-  --rss-color: #F36B2B;
   --warning-color: #FFD43D;
 }
 
