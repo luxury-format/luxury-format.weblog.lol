@@ -47,7 +47,7 @@ h5,
 h6 {
   font-family: var(--title-font);
   text-align: center;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 h1,
