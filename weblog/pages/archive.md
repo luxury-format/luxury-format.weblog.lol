@@ -16,6 +16,12 @@ Location: /archive
 
 ---
 
+## RECENT POSTS
+
+{recent-posts}
+
+---
+
 ## POSTS
 
 {post-list}
