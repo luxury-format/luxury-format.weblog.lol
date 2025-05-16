@@ -14,6 +14,7 @@ Location: /explore
 - [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive)
 - [<i class="fa-solid fa-image"></i> PHOTOS](/photos)
 - [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
+- [/NOW](/now)
 - [<i class="fa-solid fa-rss"></i> FEEDS](/feeds)
 - [INTERSECT](/intersect)
-- [/NOW](/now)
+- [MARKDOWN](/markdown)
