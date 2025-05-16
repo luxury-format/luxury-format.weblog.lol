@@ -29,9 +29,3 @@ Location: /archive
 ---
 
 {tag-listing}
-
----
-
-## PAGES
-
-{page-list}
