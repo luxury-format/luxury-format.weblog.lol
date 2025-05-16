@@ -28,4 +28,4 @@ Location: /archive
 
 ## PAGES
 
-{page-list}
+{page-listing}
