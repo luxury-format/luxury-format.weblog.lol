@@ -109,6 +109,16 @@ Page list format: <<[
 [page:begin]<li><a href="$location">$title</a></li>[page:end]
 </ul>]>>
 
+Page listing path: /page
+// Page listing template: Page Listing Template
+// Note: tag listing order can be "alphabetical", "ascending", or "descending" where alphabetical sorts by the tag name and ascending/descending sorts by the count of entries with that tag
+Page listing order: ascending
+Page listing format: <<[
+<h2>TAGS</h2>
+<ul>
+[page:begin]<li><a href="$location">$title</a></li>[page:end]
+</ul>
+]>>
 
 ;; Search
 ;; ------
