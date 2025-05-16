@@ -4,7 +4,7 @@
 ;; -----------------
 
 Weblog title: LUXURY FORMAT
-Weblog description: LUXURY FORMAT Weblog
+Weblog description: Good as gold!
 Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
 // Landing page: /
