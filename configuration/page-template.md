@@ -32,7 +32,7 @@ Title: Page Template
 <header>
 <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
 <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a> <a href="/feeds"><i class="fa-solid fa-rss"></i></a>
-<h2 class="weblog-description">{weblog-description}</h2>
+<h3 class="weblog-description">{weblog-description}</h3>
 {navigation}
 <hr>
 </header>
