@@ -73,5 +73,3 @@ First item content goes here
 Second item content goes here
 
 [Back to top ⤴️](#top)
-
----
