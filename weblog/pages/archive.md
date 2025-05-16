@@ -34,4 +34,4 @@ Location: /archive
 
 ## PAGES
 
-{page-listing}
+{page-list}
