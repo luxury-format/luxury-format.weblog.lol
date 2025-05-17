@@ -4,70 +4,69 @@ Title: _header.css
 Location: /_header.css
 
 /* Weblog.lol/weblog/files/_header.md */
-header {
-  max-width: 60em;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-/* Top row: logo/title on left, social icons on right */
-.weblog-title {
+/* Header container with space-between  */
+.site-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
   width: 100%;
-  padding-top: 20px; /* 40px? */
+  background-color: var(--accent);
 }
 
-.weblog-title a {
-  text-decoration: none;
-  color: var(--foreground);
-}
-
-.title-full {
-  display: inline;
-}
-
-.title-short {
-  display: none;
-}
-
-.header-logo {
-  position: absolute;
-  height: 75px;
-  width: 75px;
-  top: 20px;
-}
-
-.weblog-logo {
+/* Logo and title container */
+.logo-title {
   display: flex;
   align-items: center;
 }
 
-.weblog-logo img {
-  height: 2.5rem;
-  gap: 0.5rem;
-}
-
-.weblog-logo h1 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-
-/* Social icons next to logo */
-.social a {
-  display: inline-flex;
+.logo-title a {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  color: var(--black);
-  font-size: 1.2rem;
   text-decoration: none;
-  margin-left: 0.75rem;
-  transition: transform 0.1s;
+  color: inherit;
 }
 
-.social a:hover {
-  transform: translateY(-2px);
+.logo-title img {
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.logo-title h1.weblog-title {
+  margin: 0; 
+/*  margin-top: 20px; */
+  font-size: 125%;
+  font-weight: bold;
+}
+
+/* Social icon container */
+.social-icons {
+  display: flex;
+/*  margin-top: 20px; */
+  gap: 10px;
+}
+
+/* Icon styling */
+.social-icons a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+/* Icon hover effects */
+.social-icons a:hover {
+  color: var(--link-hover);
+}
+
+/* Specific icon colors if needed */
+.social-icons .fa-mastodon {
+  color: #563ACC;
+}
+
+.social-icons .fa-rss {
+  color: #F36B2B;
 }
 
 #navigation-bar {
@@ -122,22 +121,7 @@ nav {
   margin-right: 0.5rem;
 }
 
-#header-hr {
-  background-image: linear-gradient(to right, #bd93f9, #bd93f9, #44475a);
-  border-radius: 5px;
-  height: 2px;
-  margin-bottom: 10px;
-}
-
 @media (max-width: 500px) {
-  .title-full {
-    display: none;
-  }
-  
-  .title-short {
-    display: inline;
-  }
-  
   #weblog-navigation ul {
     grid-template-columns: repeat(3, 1fr);
   }
