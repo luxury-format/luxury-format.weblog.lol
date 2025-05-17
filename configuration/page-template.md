@@ -40,9 +40,10 @@ Title: Page Template
 <a href="https://social.lol/@luxury_format" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
 <a href="/feeds" aria-label="RSS Feeds"><i class="fa-solid fa-rss"></i></a>
 </div>
+</header>
+<header>
 {navigation}
 </header>
-
 <hr>
 <!-- MAIN NO TITLE LINK -->
 <main class="no-title-link">
