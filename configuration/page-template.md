@@ -32,7 +32,7 @@ Title: Page Template
 <header class="site-header">
 <div class="logo-title">
 <a href="/">
-<img src="logo.png" alt="LUXURY FORMAT Logo">
+<img src="https://profiles.cache.lol/luxury-format/picture.png" alt="LUXURY FORMAT Logo">
 <h1 class="weblog-title">{weblog-title}</h1>
 </a>
 </div>
