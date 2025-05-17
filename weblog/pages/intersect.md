@@ -26,7 +26,7 @@ The difference between `#08F` and `#0088FF` is that #08f is a shorthand represen
 
 ---
 
-## The CSS element Selector
+## The CSS `element` Selector
 
 The element selector selects HTML elements based on the element name.
 
@@ -49,7 +49,34 @@ In HTML:
 
 ---
 
-## The CSS id Selector
+## CSS `.class` Selector
+
+Select and style all elements with `class="intro"`:
+
+```css
+.intro {
+  background-color: yellow;
+}
+```
+
+In HTML:
+
+```html
+<h1>Demo of the .class selector</h1>
+
+<div class="intro">
+  <p>My name is Donald.</p>
+  <p>I live in Duckburg.</p>
+</div>
+
+<p>My best friend is Mickey.</p>
+
+<p class="intro">My best friend is Mickey.</p>
+```
+
+---
+
+## The CSS `id` Selector
 
 The id selector uses the id attribute of an HTML element to select a specific element.
 
