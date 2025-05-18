@@ -340,7 +340,10 @@ form.search button:hover {
   text-align: right;
 }
 
-.landing-post-info i,
+.landing-post-info i {
+  margin-right: 0.75em;
+}
+
 .page-post-info i {
   margin-right: 0.75em;
 }
