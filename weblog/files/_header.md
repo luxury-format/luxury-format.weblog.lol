@@ -11,7 +11,7 @@ Location: /_header.css
   width: 100%;
   background-color: var(--accent);
   padding: 0.5rem;
-  margin: 0.5rem
+  margin: 0.5rem;
 }
 
 /* First row: Logo+Title and Social Icons */
