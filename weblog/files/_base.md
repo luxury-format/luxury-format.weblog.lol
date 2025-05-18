@@ -309,19 +309,28 @@ form.search button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 85%;
-  font-weight: bold;
 }
 
 .post-link {
+  font-size: 85%;
+  font-weight: bold;
   text-decoration: none;
   color: var(--link);
 }
 
-.post-info {
-  color: var(--foreground);
+.landing-post-info {
+  font-size: 85%;
+  font-weight: bold;
+  color: var(--accent);
   display: flex;
   align-items: center;
+}
+
+.page-post-info {
+  font-size: 85%;
+  font-weight: bold;
+  color: var(--accent);
+  text-align: right;
 }
 
 .post-tags {
@@ -334,9 +343,9 @@ form.search button:hover {
   margin-right: 0.75em;
 }
 
-/* .post-info i:nth-child(2) {
+.post-info i:nth-child(2) {
   margin-left: .75em;
-} */
+}
 
 .tag {
   background: var(--green);
