@@ -34,8 +34,11 @@ Title: Landing Page Template
     <!-- <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0080FF">
     <meta name="msapplication-TileColor" content="#0080FF"> -->
+    <!-- COLOR SCHEME: LIGHT DARK -->
+    <meta name="color-scheme" content="light dark">
     <!-- THEME COLOR -->
-    <meta name="theme-color" content="#0080FF">
+    <meta name="theme-color" content="#F8F8F2" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1C1C1E" media="(prefers-color-scheme: dark)">
     <!-- FAVICON.ICO -->
     <link rel='icon' type='image/x-icon' href='https://luxury-format.omg.lol/favicon.ico'>
     <!-- Font Awesome Icons -->
