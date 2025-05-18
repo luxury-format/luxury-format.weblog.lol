@@ -11,7 +11,7 @@ Title: Post Template
     <a class="post-link" href="{location}">
       Read more &rarr;
     </a>
-    <aside class="post-info">
+    <aside class="landing-post-info">
       <i class="fa-solid fa-clock"></i>
       <span>{date}</span>
     </aside>
