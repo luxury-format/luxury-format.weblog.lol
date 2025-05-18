@@ -13,7 +13,7 @@ Title: Post Template
 <a class="post-link" href="{location}">Read more</a>
 </aside>
 <aside class="post-info">
-<a href="{location}"><i class="fa-solid fa-clock"></i> {$relative_date}</a>
+<a href="{location}"><i class="fa-solid fa-clock"></i> {relative_date}</a>
 </aside>
 <aside class="post-tags">
 {tags}
