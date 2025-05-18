@@ -341,11 +341,11 @@ form.search button:hover {
 }
 
 .landing-post-info i {
-  margin-right: 0.25em;
+  margin-right: 20px;
 }
 
 .page-post-info i {
-  margin-right: 0.25em;
+  margin-right: 20px;
 }
 
 /* .post-info i:nth-child(2) {
