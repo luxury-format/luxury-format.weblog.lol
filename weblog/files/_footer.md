@@ -4,7 +4,7 @@ Title: _footer.css
 Location: /_footer.css
 
 /* Weblog.lol/weblog/files/_footer.md */
-footer.main {
+/* footer.main {
   font-family: var(--cbr);
   overflow: auto;
   text-align: center;
@@ -23,7 +23,7 @@ footer.main {
 .footer-buttons div {
   display: flex;
   justify-content: center;
-}
+} */
 
 footer {
   max-width: 60em;
