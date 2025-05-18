@@ -8,12 +8,12 @@ Title: Post Template
 <article>
 
 {body}
-<p><a htef="{permalink}">permalink</a></p>
+<p><a href="{location}">location</a></p>
 <aside class="post-meta">
 <a class="post-link" href="{location}">Read more</a>
 </aside>
 <aside class="post-info">
-<a href="{location}"><i class="fa-solid fa-clock"></i> {relative_date}</a>
+<a href="{location}"><i class="fa-solid fa-clock"></i> {date}</a>
 </aside>
 <aside class="post-tags">
 {tags}
