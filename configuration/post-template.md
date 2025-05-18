@@ -7,11 +7,18 @@ Title: Post Template
 <!-- Weblog.lol/configuration/post-template.md -->
 <article>
   {body}
-  </aside>
-  <aside class="post-info">
-    <a href="{location}">Read more &rarr;</a>
-    <i class="fa-solid fa-clock"></i> <span>{date}</span>
-  </aside>
+  
+  <div class="post-meta">
+    <a class="post-link" href="{location}">
+      Read more &rarr;
+    </a>
+    
+    <aside class="post-info">
+      <i class="fa-solid fa-clock"></i>
+      <span>{date}</span>
+    </aside>
+  </div>
+  
   <aside class="post-tags">
     {tags}
   </aside>
