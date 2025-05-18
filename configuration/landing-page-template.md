@@ -29,7 +29,7 @@ Title: Landing Page Template
     <!-- ICONS -->
     <!-- FAVICON.ICO -->
     <link rel='icon' href='https://luxury-format.omg.lol/favicon.ico'>
-    <!-- ICO for older browsers/tools -->
+    <!-- FAVICON.ICO for older browsers/tools -->
     <link rel="shortcut icon" href="https://luxury-format.omg.lol/favicon.ico">
     <!-- iOS Home‑Screen icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://profiles.cache.lol/luxury-format/picture.png">
