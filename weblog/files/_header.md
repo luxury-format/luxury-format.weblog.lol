@@ -5,7 +5,7 @@ Location: /_header.css
 
 /* Weblog.lol/weblog/files/_header.md */
 /* Header container with space-between  */
-.site-header {
+.weblog-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,14 +41,14 @@ Location: /_header.css
 }
 
 /* Social icon container */
-.social-icons {
+.header-icons {
   display: flex;
 /*  margin-top: 20px; */
   gap: 10px;
 }
 
 /* Icon styling */
-.social-icons a {
+.header-icons a {
   text-decoration: none;
   color: #000000;
   font-size: 1.5rem;
@@ -56,16 +56,16 @@ Location: /_header.css
 }
 
 /* Icon hover effects */
-.social-icons a:hover {
+.header-icons a:hover {
   color: var(--link-hover);
 }
 
 /* Specific icon colors if needed */
-.social-icons .fa-mastodon {
+.header-icons .fa-mastodon {
   color: #563ACC;
 }
 
-.social-icons .fa-rss {
+.header-icons .fa-rss {
   color: #F36B2B;
 }
 
