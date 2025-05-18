@@ -4,7 +4,7 @@ Title: _page-nav.css
 Location: /_page-nav.css
 
 /* Weblog.lol/weblog/files/_page-nav.md */
-.header-nav {
+/* .header-nav {
   width: 100%;
   margin-top: 10px;
   border-bottom: 1px solid var(--grey);
@@ -36,4 +36,4 @@ Location: /_page-nav.css
 
 .header-nav li ul {
   display: none;
-}
+} */
