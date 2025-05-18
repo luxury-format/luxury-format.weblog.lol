@@ -415,7 +415,7 @@ form.search button:hover {
   transition: transform 0.3s ease;
 }
 
-.pagination {
+.landing-page-pagination {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
