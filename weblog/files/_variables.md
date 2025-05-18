@@ -9,7 +9,7 @@ Location: /_variables.css
   --background: #F8F8F2;
   --link: #007AFF;
   --link-hover: #007AFF;
-  --accent: #C0C0C0;
+  --accent: #E5E5EA;
   --accent-2: #8E8E93;
   --grey: #E5E5EA;
   --white: #FFFFFF;
@@ -42,7 +42,7 @@ Location: /_variables.css
     --background: #1C1C1E;
     --link: #0A84FF;
     --link-hover: #0A84FF;
-    --accent: #E5E4E2;
+    --accent: #2C2C2E;
     --accent-2: #8E8E93;
     --grey: #2C2C2E;
     --white: #FFFFFF;
