@@ -3,7 +3,6 @@ Date: 2025-05-01 13:00
 Type: Post
 Title: Hello
 Tags: Hello, Hello 1
-Path: /blog/
 ---
 
 # ✌️ Hello! 1
