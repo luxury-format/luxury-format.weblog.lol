@@ -10,7 +10,8 @@ Location: /_header.css
   flex-direction: column;
   width: 100%;
   background-color: var(--accent);
-  padding: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem
 }
 
 /* First row: Logo+Title and Social Icons */
