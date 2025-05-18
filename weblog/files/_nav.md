@@ -4,7 +4,7 @@ Title: _nav.css
 Location: /_nav.css
 
 /* Weblog.lol/weblog/files/_nav.md */
-nav.main {
+<!-- nav.main {
   height: auto;
   padding: 5px 0;
   overflow: auto;
@@ -51,4 +51,4 @@ nav.main a.active {
 nav.main a.active:after {
   content: '.';
   color: var(--pink);
-}
+} -->
