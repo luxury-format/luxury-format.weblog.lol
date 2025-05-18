@@ -32,7 +32,7 @@ Title: Landing Page Template
     <!-- FAVICON.ICO for older browsers/tools -->
     <link rel="shortcut icon" href="https://luxury-format.omg.lol/favicon.ico">
     <!-- iOS Home‑Screen icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://profiles.cache.lol/luxury-format/picture.png">
+    <link rel="apple-touch-icon" href="https://profiles.cache.lol/luxury-format/picture.png">
     <!-- Safari pinned tab -->
     <!-- A monochrome SVG icon that adapts to Safari’s toolbar theme
     <link rel="mask-icon" href="https://profiles.cache.lol/luxury-format/picture.png" color="#0062FF"> -->
