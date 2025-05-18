@@ -305,10 +305,15 @@ form.search button:hover {
   border-color: var(--purple);
 }
 
-.post-info,
-.post-tags {
+.post-info {
   font-size: 85%;
   color: var(--foreground);
+  text-align: right;
+}
+
+.post-tags {
+  font-size: 85%;
+  color: var(--green);
   text-align: right;
 }
 
