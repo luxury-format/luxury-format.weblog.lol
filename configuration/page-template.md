@@ -10,7 +10,7 @@ Title: Page Template
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{weblog-title}{separator}{post-title}</title>
     <meta property="og:title" content="{weblog-title}{separator}{post-title}">
     <meta name="description" content="{weblog-description}">
