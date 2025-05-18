@@ -42,7 +42,7 @@ Location: /_header.css
   height: 40px;
   margin-right: 10px;
   margin-left: 0;
-  border-radius: var(--border-radius);
+/*  border-radius: var(--border-radius); */
 }
 
 .logo-title h1.weblog-title {
