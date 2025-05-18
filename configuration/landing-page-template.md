@@ -72,7 +72,7 @@ Title: Landing Page Template
     <!-- MAIN -->
     <main>
       {body}
-      <nav>
+      <nav class="landing-page-pagination">
         {previous-page}
         {next-page}
       </nav>
