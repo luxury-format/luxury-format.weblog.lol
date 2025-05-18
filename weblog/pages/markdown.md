@@ -210,29 +210,6 @@ The quick brown fox jumps over the lazy dog.
 
 ---
 
-| Default | Left align | Center align | Right align |
-| - | :- | :-: | -: |
-| 9999999999 | 9999999999 | 9999999999 | 9999999999 |
-| 999999999 | 999999999 | 999999999 | 999999999 |
-| 99999999 | 99999999 | 99999999 | 99999999 |
-| 9999999 | 9999999 | 9999999 | 9999999 |
-
-| Default    | Left align | Center align | Right align |
-| ---------- | :--------- | :----------: | ----------: |
-| 9999999999 | 9999999999 | 9999999999   | 9999999999  |
-| 999999999  | 999999999  | 999999999    | 999999999   |
-| 99999999   | 99999999   | 99999999     | 99999999    |
-| 9999999    | 9999999    | 9999999      | 9999999     |
-
-Default    | Left align | Center align | Right align
----------- | :--------- | :----------: | ----------:
-9999999999 | 9999999999 | 9999999999   | 9999999999
-999999999  | 999999999  | 999999999    | 999999999
-99999999   | 99999999   | 99999999     | 99999999
-9999999    | 9999999    | 9999999      | 9999999
-
----
-
 <table>
 <tr>
 <th>Heading 1</th>
@@ -259,33 +236,6 @@ Default    | Left align | Center align | Right align
 | A | B | C |
 |---|---|---|
 | 1 | 2 | 3 <br/> 4 <br/> 5 |
-
----
-
-<table>
-<tr>
-<th>Before Hoisting</th>
-<th>After Hoisting</th>
-</tr>
-<tr>
-<td>
-<pre lang="js">
-console.log(fullName); // undefined
-fullName = "Dariana Trahan";
-console.log(fullName); // Dariana Trahan
-var fullName;
-</pre>
-</td>
-<td>
-<pre lang="js">
-var fullName;
-console.log(fullName); // undefined
-fullName = "Dariana Trahan";
-console.log(fullName); // Dariana Trahan
-</pre>
-</td>
-</tr>
-</table>
 
 ---
 
