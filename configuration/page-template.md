@@ -48,7 +48,6 @@ Title: Page Template
   </head>
   <!-- BODY -->
   <body>
-    
     <!-- HEADER -->
     <header class="site-header">
       <div class="logo-title">
@@ -65,25 +64,16 @@ Title: Page Template
         {navigation}
       </div>
     </header>
-    
     <hr>
-    
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
-      
       {body}
-    
     </main>
-    
     <!-- FOOTER -->
     <footer>
-      
       <hr>
-      
       <p>&copy; {year} <a href="/">{weblog-title}</a></p>
-      
       <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
     </footer>
-  
   </body>
 </html>
