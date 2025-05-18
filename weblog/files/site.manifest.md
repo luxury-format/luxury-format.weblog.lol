@@ -1,0 +1,27 @@
+---
+Type: file
+Content-Type: application/manifest
+Title: site.manifest
+Location: /site.manifest
+---
+
+{
+  "name": "LUXURY FORMAT",
+  "short_name": "LF.",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "https://profiles.cache.lol/luxury-format/picture.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://profiles.cache.lol/luxury-format/picture.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#1C1C1E",
+  "background_color": "#1C1C1E",
+  "display": "standalone"
+}
