@@ -17,7 +17,6 @@ Title: Landing Page Template
     <meta property="og:description" content="{weblog-description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{permalink}">
-    <!-- <meta property="og:url" content="{location}"> -->
     <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
     <!-- FEDIVERSE CREATOR -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
@@ -28,19 +27,25 @@ Title: Landing Page Template
     <!-- BLOGROLL -->
     <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{weblog-title} blogroll"> -->
     <!-- ICONS -->
+    <!-- FAVICON.ICO -->
+    <link rel='icon' href='https://luxury-format.omg.lol/favicon.ico'>
+    <!-- ICO for older browsers/tools -->
+    <link rel="shortcut icon" href="https://luxury-format.omg.lol/favicon.ico">
+    <!-- iOS Home‑Screen icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://profiles.cache.lol/luxury-format/picture.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://profiles.cache.lol/luxury-format/picture.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://profiles.cache.lol/luxury-format/picture.png">
+    <!-- Safari pinned tab -->
+    <!-- A monochrome SVG icon that adapts to Safari’s toolbar theme
+    <link rel="mask-icon" href="https://profiles.cache.lol/luxury-format/picture.png" color="#0062FF"> -->
+    <!-- Tile color in Windows/Edge
+    <meta name="msapplication-TileColor" content="#0062FF">
+    <meta name="msapplication-TileImage" content="https://profiles.cache.lol/luxury-format/picture.png"> -->
     <!-- <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0080FF">
-    <meta name="msapplication-TileColor" content="#0080FF"> -->
+    <meta name="msapplication-TileColor" content="#0062FF"> -->
     <!-- COLOR SCHEME: LIGHT DARK -->
     <meta name="color-scheme" content="light dark">
     <!-- THEME COLOR -->
     <meta name="theme-color" content="#F8F8F2" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#1C1C1E" media="(prefers-color-scheme: dark)">
-    <!-- FAVICON.ICO -->
-    <link rel='icon' type='image/x-icon' href='https://luxury-format.omg.lol/favicon.ico'>
     <!-- FONTS: Atkinson Hyperlegible and Source Code Pro -->
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i%7Csource-code-pro:400,700&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer">
