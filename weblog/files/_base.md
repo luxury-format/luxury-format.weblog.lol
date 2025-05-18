@@ -305,11 +305,23 @@ form.search button:hover {
   border-color: var(--purple);
 }
 
-.post-info {
-  font-size: 85%;
-  color: var(--foreground);
+.post-meta {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 85%;
+  font-weight: bold;
+}
+
+.post-link {
+  text-decoration: none;
+  color: var(--link);
+}
+
+.post-info {
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
 }
 
 .post-tags {
@@ -318,15 +330,13 @@ form.search button:hover {
   text-align: right;
 }
 
-.permalink {
-  font-size: 85%;
-  color: var(--yellow);
-  text-align: right;
+.post-info i {
+  margin-right: 0.75em;
 }
 
-.post-info i:nth-child(2) {
+/* .post-info i:nth-child(2) {
   margin-left: .75em;
-}
+} */
 
 .tag {
   background: var(--green);
