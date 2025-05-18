@@ -56,7 +56,7 @@ Location: /_header.css
 /* Icons styling */
 .header-icons a {
   text-decoration: none;
-  color: #000000;
+  color: var(--black);
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
