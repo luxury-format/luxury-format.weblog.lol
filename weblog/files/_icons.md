@@ -24,16 +24,16 @@ Location: /_icons.css
 }
 
 .fa-atom {
-  color: #FF6600 !important;
+  color: #F36B2B !important;
 }
 
 /* .fa- {
   color: # !important;
 } */
 
-/* Color to all omg-icon */
+/* Color for all OMG LOL icons */
 .omg-icon {
-  color: var(--icons) !important;
+  color: var(--icons);
 }
 
 /* Individual omg-icons color */
@@ -46,7 +46,7 @@ Location: /_icons.css
 }
 
 .omg-icon.omg-json-feed {
-  color: #FFA500 !important;
+  color: #F36B2B !important;
 }
 
 /* .omg-icon.omg- {
