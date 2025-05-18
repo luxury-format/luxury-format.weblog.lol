@@ -1,4 +1,5 @@
 ---
+Date: 2025-05-18 11:00
 Type: Page
 Title: ARCHIVE
 Location: /archive
@@ -16,12 +17,6 @@ Location: /archive
 
 ---
 
-# SEARCH 2
-
-{search}
-
----
-
 ## RECENT POSTS
 
 {recent-posts}
@@ -30,7 +25,7 @@ Location: /archive
 
 ## ALL POSTS
 
-{post-count}
+Total posts: <strong>{post-count}</strong>
 
 {post-list}
 
@@ -40,26 +35,12 @@ Location: /archive
 
 ---
 
-Relative date: $relative_date
+Relative date: {relative_date}
 
 ---
 
-Date: $date
+Date: {date}
 
 ---
 
-hello 5
-
-[[hello 5]]
-
----
-
-Hello 5
-
-[[Hello 5]]
-
----
-
-hello 4|hello four
-
-[[hello 4|Hello four]]
+Permalink: {permalink}
