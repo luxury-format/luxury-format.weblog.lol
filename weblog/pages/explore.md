@@ -20,3 +20,4 @@ Location: /explore
 - [MARKDOWN](/markdown)
 - [BLOGROLL](/blogroll)
 - [TEST](/test)
+- [HOME](/home)
