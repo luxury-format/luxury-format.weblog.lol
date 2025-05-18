@@ -68,9 +68,9 @@ Title: Landing Page Template
         {navigation}
       </div>
     </header>
-    <hr>
     <!-- MAIN -->
     <main>
+      <hr>
       {body}
       <nav class="landing-page-pagination">
         {previous-page}
