@@ -9,9 +9,9 @@ Location: /_header.css
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 100%;
   background-color: var(--accent);
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: 1rem;
 }
 
 /* First row: Logo+Title and Social Icons */
