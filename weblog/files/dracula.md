@@ -15,7 +15,6 @@ Location: /dracula.css
  * @author Denis Ciccale <dciccale@gmail.com>
  * @author Zeno Rocha <hi@zenorocha.com>
  */
-
 .hljs {
   display: block;
   overflow-x: auto;
