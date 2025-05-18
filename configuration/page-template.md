@@ -68,9 +68,9 @@ Title: Page Template
         {navigation}
       </div>
     </header>
-    <hr>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
+      <hr>
       {body}
     </main>
     <!-- FOOTER -->
