@@ -8,10 +8,11 @@ Location: /_header.css
 .weblog-header {
   display: flex;
   flex-direction: column;
-  width: 100%;
+/*  width: 100%; */
   max-width: 100%;
   background-color: var(--accent);
   padding: 1rem;
+  margin: 1rem;
 }
 
 /* First row: Logo+Title and Social Icons */
