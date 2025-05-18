@@ -26,7 +26,6 @@ Title: Page Template
 </head>
 <!-- BODY -->
 <body>
-<a id="top"></a>
 
 <!-- HEADER -->
 <header class="site-header">
@@ -49,7 +48,7 @@ Title: Page Template
 <main class="no-title-link">
 
 {body}
-<p><a htef="{permalink}">permalink</a></p>
+
 </main>
 
 <!-- FOOTER -->
