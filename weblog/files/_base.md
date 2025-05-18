@@ -308,7 +308,7 @@ form.search button:hover {
 .post-info,
 .post-tags {
   font-size: 85%;
-  color: var(--green);
+  color: var(--foreground);
   text-align: right;
 }
 
