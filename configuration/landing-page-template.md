@@ -10,14 +10,16 @@ Title: Landing Page Template
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <title>{weblog-title}</title>
     <meta property="og:title" content="{weblog-title}">
     <meta name="description" content="{weblog-description}">
     <meta property="og:description" content="{weblog-description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{permalink}">
+    <!-- <meta property="og:url" content="{location}"> -->
     <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
+    <!-- FEDIVERSE CREATOR -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
     <!-- FEEDS -->
     <link rel="alternate" type="application/atom+xml" title="{weblog-title} Atom Feed" href="">
@@ -30,7 +32,7 @@ Title: Landing Page Template
     <link rel="icon" type="image/png" sizes="32x32" href="https://profiles.cache.lol/luxury-format/picture.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://profiles.cache.lol/luxury-format/picture.png">
     <!-- <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#0080FF">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0080FF">
     <meta name="msapplication-TileColor" content="#0080FF"> -->
     <!-- THEME COLOR -->
     <meta name="theme-color" content="#0080FF">
@@ -48,13 +50,24 @@ Title: Landing Page Template
   <body>
     
     <!-- HEADER -->
-    <header>
-      <h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
-      <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a>
-      <a href="/feeds"><i class="fa-solid fa-rss"></i></a>
-      {navigation}
-      <hr>
+    <header class="site-header">
+      <div class="logo-title">
+        <a href="/">
+          <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{weblog-title} Logo">
+          <h1 class="weblog-title">{weblog-title}</h1>
+        </a>
+      </div>
+      <div class="social-icons">
+        <a href="https://social.lol/@luxury_format" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+        <a href="/feeds" aria-label="RSS Feeds"><i class="fa-solid fa-rss"></i></a>
+      </div>
+      <div class="weblog-navigation">
+        {navigation}
+      </div>
     </header>
+
+    <hr>
+    
     <!-- MAIN -->
     <main>
       
