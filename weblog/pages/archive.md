@@ -1,5 +1,5 @@
 ---
-Date: 2025-05-18 11:00
+Date: 2025-05-01 00:00
 Type: Page
 Title: ARCHIVE
 Location: /archive
@@ -32,15 +32,3 @@ Total posts: <strong>{post-count}</strong>
 ---
 
 {tag-listing}
-
----
-
-Relative date: {relative_date}
-
----
-
-Date: {date}
-
----
-
-Permalink: {permalink}
