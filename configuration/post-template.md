@@ -8,6 +8,7 @@ Title: Post Template
 <article>
 
 {body}
+<p>{permalink}</p>
 <aside class="post-meta">
 <a class="post-link" href="{location}">Read more</a>
 </aside>
