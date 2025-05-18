@@ -4,7 +4,7 @@ Title: _home.css
 Location: /_home.css
 
 /* Weblog.lol/weblog/files/_home.md */
-.home-projects {
+/* .home-projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -58,4 +58,4 @@ Location: /_home.css
   grid-gap: 10px;
   align-items: center;
   justify-content: center;
-}
+} */
