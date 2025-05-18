@@ -5,6 +5,7 @@ Location: /_variables.css
 
 /* Weblog.lol/weblog/files/_variables.md */
 :root {
+  color-scheme: light dark;
   --foreground: #1C1C1E;
   --background: #F8F8F2;
   --link: #007AFF;
