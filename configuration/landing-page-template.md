@@ -48,7 +48,6 @@ Title: Landing Page Template
   </head>
   <!-- BODY -->
   <body>
-    
     <!-- HEADER -->
     <header class="site-header">
       <div class="logo-title">
@@ -65,29 +64,21 @@ Title: Landing Page Template
         {navigation}
       </div>
     </header>
-
     <hr>
-    
     <!-- MAIN -->
     <main>
-      
       {body}
-      
       <nav>
         {previous-page}
         {next-page}
       </nav>
-      
       <span class="divider">&bull; &bull; &bull;</span>
-    
     </main>
-    
     <!-- FOOTER -->
     <footer>
       <hr>
       <p>&copy; {year} <a href="/">{weblog-title}</a></p>
       <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p>
     </footer>
-  
   </body>
 </html>
