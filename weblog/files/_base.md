@@ -308,7 +308,8 @@ form.search button:hover {
 .post-info {
   font-size: 85%;
   color: var(--foreground);
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 .post-tags {
