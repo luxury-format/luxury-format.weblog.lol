@@ -192,7 +192,7 @@ a.footnote-ref {
 
 pre {
   font-family: var(--monospace);
-  font-size: 110%;
+  font-size: 90%;
   line-height: 150%;
 /*  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
@@ -206,7 +206,7 @@ pre {
 
 code {
   font-family: var(--monospace);
-  font-size: 110%;
+  font-size: 90%;
   line-height: 150%;
 /*  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
