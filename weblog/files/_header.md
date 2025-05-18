@@ -13,6 +13,7 @@ Location: /_header.css
   background-color: var(--accent);
   padding: 1rem;
   margin: 1rem;
+  border-radius: var(--border-radius);
 }
 
 /* First row: Logo+Title and Social Icons */
