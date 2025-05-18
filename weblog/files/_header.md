@@ -4,14 +4,22 @@ Title: _header.css
 Location: /_header.css
 
 /* Weblog.lol/weblog/files/_header.md */
-/* Header container with space-between  */
+/* Header structure */
 .weblog-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--accent);
+  padding: 1rem;
+}
+
+/* First row: Logo+Title and Social Icons */
+.header-top-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
   width: 100%;
-  background-color: var(--accent);
+  margin-bottom: 1rem;
 }
 
 /* Logo and title container */
@@ -34,20 +42,18 @@ Location: /_header.css
 }
 
 .logo-title h1.weblog-title {
-  margin: 0; 
-/*  margin-top: 20px; */
+  margin: 0;
   font-size: 125%;
   font-weight: bold;
 }
 
-/* Social icon container */
+/* Icons container */
 .header-icons {
   display: flex;
-/*  margin-top: 20px; */
   gap: 10px;
 }
 
-/* Icon styling */
+/* Icons styling */
 .header-icons a {
   text-decoration: none;
   color: #000000;
@@ -55,12 +61,7 @@ Location: /_header.css
   transition: color 0.3s ease;
 }
 
-/* Icon hover effects */
-.header-icons a:hover {
-  color: var(--link-hover);
-}
-
-/* Specific icon colors if needed */
+/* Icons color */
 .header-icons .fa-mastodon {
   color: #563ACC;
 }
@@ -69,26 +70,23 @@ Location: /_header.css
   color: #F36B2B;
 }
 
-#navigation-bar {
-  margin-top: 25px;
+/* Navigation menu styling */
+.weblog-navigation {
+  width: 100%;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
   width: 100%;
 }
 
 #weblog-navigation ul {
   list-style-type: none;
   display: grid;
-  grid-gap: 0.5rem;
   grid-template-columns: repeat(6, 1fr);
+  grid-gap: 0.5rem;
   margin: 0;
   padding: 0;
-  max-width: 100%;
+  width: 100%;
 }
 
 #weblog-navigation li {
@@ -98,7 +96,8 @@ nav {
   padding: 0.5rem;
   font-size: 16px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
 }
 
 #weblog-navigation ul li a {
@@ -110,17 +109,11 @@ nav {
   color: var(--foreground) !important;
 }
 
-#weblog-navigation ul li a:hover,
-#weblog-navigation ul li a:focus,
-#weblog-navigation ul li a:active {
-  text-decoration: none;
-  color: var(--link) !important;
-}
-
 #weblog-navigation li a i {
   margin-right: 0.5rem;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 500px) {
   #weblog-navigation ul {
     grid-template-columns: repeat(3, 1fr);
