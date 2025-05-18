@@ -10,7 +10,7 @@ Title: Post Template
   </aside>
   <aside class="post-info">
     <a href="{location}">Read more &rarr;</a>
-    <p><i class="fa-solid fa-clock"></i> {date}</p>
+    <i class="fa-solid fa-clock"></i> {date}
   </aside>
   <aside class="post-tags">
     {tags}
