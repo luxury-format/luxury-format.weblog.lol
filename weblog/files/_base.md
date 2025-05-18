@@ -321,7 +321,7 @@ form.search button:hover {
 .landing-post-info {
   font-size: 85%;
   font-weight: bold;
-  color: var(--accent);
+  color: var(--foreground);
   display: flex;
   align-items: center;
 }
@@ -329,12 +329,13 @@ form.search button:hover {
 .page-post-info {
   font-size: 85%;
   font-weight: bold;
-  color: var(--accent);
+  color: var(--foreground);
   text-align: right;
 }
 
 .post-tags {
   font-size: 85%;
+  font-weight: bold;
   color: var(--green);
   text-align: right;
 }
@@ -343,9 +344,9 @@ form.search button:hover {
   margin-right: 0.75em;
 }
 
-.post-info i:nth-child(2) {
-  margin-left: .75em;
-}
+/* .post-info i:nth-child(2) {
+  margin-left: 0.75em;
+} */
 
 .tag {
   background: var(--green);
