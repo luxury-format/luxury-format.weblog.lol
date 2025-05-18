@@ -49,7 +49,7 @@ Title: Landing Page Template
   <!-- BODY -->
   <body>
     <!-- HEADER -->
-    <header class="site-header">
+    <header class="weblog-header">
       <div class="logo-title">
         <a href="/">
           <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{weblog-title} Logo">
