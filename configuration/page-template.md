@@ -49,7 +49,7 @@ Title: Page Template
 <main class="no-title-link">
 
 {body}
-<p>{permalink}</p>
+<p><a htef="{permalink}">permalink</a></p>
 </main>
 
 <!-- FOOTER -->
