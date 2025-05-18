@@ -4,7 +4,7 @@ Title: _container.css
 Location: /_container.css
 
 /* Weblog.lol/weblog/files/_container.md */
-.container {
+/* .container {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -19,4 +19,4 @@ Location: /_container.css
 .container-sm {
   width: 100%;
   max-width: 800px;
-}
+} */
