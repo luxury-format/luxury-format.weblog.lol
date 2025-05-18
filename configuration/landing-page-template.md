@@ -10,7 +10,7 @@ Title: Landing Page Template
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{weblog-title}</title>
     <meta property="og:title" content="{weblog-title}">
     <meta name="description" content="{weblog-description}">
