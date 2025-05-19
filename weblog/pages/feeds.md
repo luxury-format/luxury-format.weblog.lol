@@ -4,7 +4,7 @@ Title: FEEDS
 Location: /feeds
 ---
 
-## FEEDS
+# FEEDS
 
 ---
 
