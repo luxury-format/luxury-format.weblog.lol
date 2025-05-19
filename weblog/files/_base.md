@@ -105,6 +105,10 @@ li {
   line-height: 150%;
 }
 
+li {
+  font-family: var(--title-font);
+}
+
 ul li::marker {
   color: var(--green);
 }
