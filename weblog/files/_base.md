@@ -107,7 +107,6 @@ li {
 
 li {
   font-family: var(--title-font);
-  font-weight: bold;
 }
 
 ul li::marker {
@@ -302,6 +301,7 @@ form.search button {
   background-color: var(--purple);
   border: 2px solid var(--white);
   color: var(--black);
+  font-family: var(--title-font);
 }
 
 form.search button:hover {
