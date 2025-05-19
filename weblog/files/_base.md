@@ -311,6 +311,7 @@ form.search button:hover {
 }
 
 .post-link {
+  font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
   text-decoration: none;
@@ -318,6 +319,7 @@ form.search button:hover {
 }
 
 .landing-post-info {
+  font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
   color: var(--foreground);
@@ -326,6 +328,7 @@ form.search button:hover {
 }
 
 .page-post-info {
+  font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
   color: var(--foreground);
@@ -333,6 +336,7 @@ form.search button:hover {
 }
 
 .post-tags {
+  font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
   color: var(--green);
