@@ -21,9 +21,9 @@ Title: Landing Page Template
     <!-- FEDIVERSE CREATOR -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
     <!-- FEEDS -->
-    <link rel="alternate" type="application/atom+xml" title="{weblog-title} Atom Feed" href="">
-    <link rel="alternate" type="application/rss+xml" title="{weblog-title} RSS Feed" href="">
-    <link rel="alternate" type="application/json" title="{weblog-title} JSON Feed" href="">
+    <link rel="alternate" type="application/atom+xml" title="{weblog-title} Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
+    <link rel="alternate" type="application/rss+xml" title="{weblog-title} RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
+    <link rel="alternate" type="application/json" title="{weblog-title} JSON Feed" href="https://luxury-format.weblog.lol/feed.json">
     <!-- BLOGROLL -->
     <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{weblog-title} blogroll"> -->
     <!-- ICONS -->
