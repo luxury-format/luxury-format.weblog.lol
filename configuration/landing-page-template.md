@@ -89,7 +89,6 @@ Title: Landing Page Template
         {previous-page}
         {next-page}
       </nav>
-      <span class="divider">&bull; &bull; &bull;</span>
     </main>
     <!-- FOOTER -->
     <footer>
