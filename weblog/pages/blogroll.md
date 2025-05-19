@@ -1,3 +1,4 @@
+---
 Type: Page
 Title: BLOGROLL
 Location: /blogroll
