@@ -1,17 +1,17 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
-Title: CHEATSHEETS
+Title: Cheatsheets
 Location: /cheatsheets
 Index: Exclude
 ---
 
-# CHEATSHEETS
+# Cheatsheets
 
 ---
 
-- [HTML](/cheatsheets/html)
-- [CSS](/cheatsheets/css)
-- [JavaScript](/cheatsheets/javascript)
-- [MARKDOWN](/cheatsheets/markdown)
-- [OTHER](/cheatsheets/other)
+- [HTML Cheatsheet](/cheatsheets/html-cheatsheet)
+- [CSS Cheatsheet](/cheatsheets/css-cheatsheet)
+- [JavaScript Cheatsheet](/cheatsheets/javascript-cheatsheet)
+- [Markdown Cheatsheet](/cheatsheets/markdown-cheatsheet)
+- [Other Cheatsheet](/cheatsheets/other-cheatsheet)
