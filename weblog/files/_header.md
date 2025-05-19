@@ -74,6 +74,10 @@ Location: /_header.css
   color: #F36B2B;
 }
 
+.header-icons span {
+  font-family: var(--title-font);
+}
+
 @media (max-width: 610px) {
     .header-icons span {
         display: none;
