@@ -9,9 +9,3 @@ Index: Exclude
 # HTML CHEATSHEET
 
 ---
-
-- [HTML](/cheatsheets/html)
-- [CSS](/cheatsheets/css)
-- [JavaScripts](/cheatsheets/javascripts)
-- [MARKDOWN](/cheatsheets/markdown)
-- [OTHER](/cheatsheets/other)
