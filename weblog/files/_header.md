@@ -77,7 +77,7 @@ Location: /_header.css
 .header-icons span {
   font-family: var(--title-font);
   color: var(--foreground);
-  font-size: 80%;
+  font-size: 90%;
 }
 
 @media (max-width: 610px) {
