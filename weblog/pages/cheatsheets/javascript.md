@@ -1,11 +1,11 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
-Title: JavaScript
-Location: /cheatsheets/javascript
+Title: JavaScript Cheatsheet
+Location: /cheatsheets/javascript-cheatsheet
 Index: Exclude
 ---
 
-# JavaScript CHEATSHEET
+# JavaScript Cheatsheet
 
 ---
