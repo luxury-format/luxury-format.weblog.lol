@@ -5,7 +5,7 @@ Title: ARCHIVE
 Location: /archive
 ---
 
-## ARCHIVE
+# ARCHIVE
 
 ---
 
