@@ -7,7 +7,7 @@ Weblog title: LUXURY FORMAT
 Weblog description: Good as gold!
 Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
-// Landing page: /
+Landing page: /blog
 Landing page template: Landing Page Template
 // Weblog.lol/configuration/configuration.txt
 
