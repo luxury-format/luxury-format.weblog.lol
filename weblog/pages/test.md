@@ -10,6 +10,33 @@ Index: Exclude
 
 ---
 
+## BLOCKQUOTES
+
+Blockquote: 
+
+> The quick brown fox jumps over the lazy dog.
+
+<br>
+
+> The quick brown fox jumps over the lazy dog.
+>
+> The quick brown fox jumps over the lazy dog.
+>
+> The quick brown fox jumps over the lazy dog.
+
+<br>
+
+> The quick brown fox jumps over the lazy dog.
+>> The quick brown fox jumps over the lazy dog.
+>>> The quick brown fox jumps over the lazy dog.
+
+<br>
+
+> **The quick brown fox** *jumps over the lazy dog.*
+
+---
+
+
 ## SEARCH
 
 Search:  
@@ -138,28 +165,6 @@ The quick brown fox jumps over the lazy dog.
 ---
 
 ***The quick brown fox jumps over the lazy dog.***
-
----
-
-> The quick brown fox jumps over the lazy dog.
-
-<br>
-
-> The quick brown fox jumps over the lazy dog.
->
-> The quick brown fox jumps over the lazy dog.
->
-> The quick brown fox jumps over the lazy dog.
-
-<br>
-
-> The quick brown fox jumps over the lazy dog.
->> The quick brown fox jumps over the lazy dog.
->>> The quick brown fox jumps over the lazy dog.
-
-<br>
-
-> **The quick brown fox** *jumps over the lazy dog.*
 
 ---
 
