@@ -188,9 +188,9 @@ a.footnote-ref {
 }
 
 .hr-footnote {
-  border-top: 1px dashed var(--pink);
+  border-top: 1px solid var(--blue);
   background-color: transparent;
-  width: 60%;
+  max-width: 100%;
   margin: 0;
 }
 
