@@ -10,66 +10,96 @@ Index: Exclude
 
 ---
 
+## SEARCH
+
+Search:  
+
+{search}
+
+Search code block:  
+
+```html
+{search}
+```
+
 ## FEEDS
 
-### FEEDS
-
 FEEDS:  
+
+```html
 {feeds}
+```
 
 ### RSS
 
 RSS:  
+
+```html
 {rss}
+```
 
 RSS Location:  
-{rss-location}
+[{rss-location}]({rss-location})
 
 RSS URL:  
-{rss-url}
+[{rss-url}]({rss-url})
 
 ### Atom
 
 Atom:  
+
+```html
 {atom}
+```
 
 Atom location:  
-{atom-location}
+[{atom-location}]({atom-location})
 
 Atom URL:  
-{atom-url}
+[{atom-url}]({atom-url})
 
 ### JSON
 
 JSON:  
+
+```html
 {json}
+```
 
 JSON location:  
-{json-location}
+[{json-location}]({json-location})
 
 JSON URL:  
-{json-url}
+[{json-url}]({json-url})
 
 ---
 
 
 ## DATES
 
-{date}  
+**{date}**
 
+```html
 $date  
+```
 
+```html
 {$date}
+```
 
 ---
 
 ## Relative dates
 
+```html
 {relative_date}  
+```
 
 $relative_date  
 
+```html
 {$relative_date}
+```
 
 ---
 
@@ -95,40 +125,19 @@ $relative_date
 
 ---
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
----
-
-Heading 1
-=
-Heading 2
--
-
----
-
 The quick brown fox jumps over the lazy dog.
 
 ---
 
 **The quick brown fox jumps over the lazy dog.**
-__The quick brown fox jumps over the lazy dog.__
-<strong>The quick brown fox jumps over the lazy dog.</strong>
 
 ---
 
 *The quick brown fox jumps over the lazy dog.*
-_The quick brown fox jumps over the lazy dog._
-<em>The quick brown fox jumps over the lazy dog.</em>
 
 ---
 
-**_The quick brown fox jumps over the lazy dog._**
-<strong><em>The quick brown fox jumps over the lazy dog.</em></strong>
+***The quick brown fox jumps over the lazy dog.***
 
 ---
 
@@ -189,21 +198,19 @@ console.log('Error');
 
 ---
 
-log<sub>2</sub>(x)
-Subscript <sub>The quick brown fox jumps over the lazy dog.</sub>
+<sub>The quick brown fox jumps over the lazy dog.</sub>
 
 ---
 
-2 <sup>53-1</sup> and -2 <sup>53-1</sup>
-Superscript <sup>The quick brown fox jumps over the lazy dog.</sup>
+<sup>The quick brown fox jumps over the lazy dog.</sup>
 
 ---
 
-Start <sup><sub>The quick brown fox jumps over the lazy dog.</sub></sup> End
+<sup><sub>The quick brown fox jumps over the lazy dog.</sub></sup>
 
 ---
 
-Start <sub><sup>The quick brown fox jumps over the lazy dog.</sup></sub> End
+<sub><sup>The quick brown fox jumps over the lazy dog.</sup></sub>
 
 ---
 
@@ -346,15 +353,15 @@ Some other important footnote.[^2]
 
 ---
 
-Visit https://github.com/
+Visit: https://luxury-format.weblog.lol
 
 ---
 
-Email at example@example.com
+Email at: luxury-format@omg.lol
 
 ---
 
-<https://github.com/>
+<https://luxury-format.weblog.lol>
 
 ---
 
@@ -607,37 +614,12 @@ $$
 
 ---
 
-@lifeparticle
-
----
-
-https://github.com/lifeparticle
-
----
-
-#1
-#10
-
----
-
 https://github.com/lifeparticle/Markdown-Cheatsheet/issues/1
 https://github.com/lifeparticle/Markdown-Cheatsheet/pull/10
 
 ---
 
-`#ffffff`
-`#000000`
-
----
-
-
-`TEST` ISSUE
-
----
-
-https://github.com/lifeparticle/Markdown-Cheatsheet/labels/documentation
-
----
+HTML Comment:  
 
 <!--
 Lorem ipsum dolor sit amet
@@ -652,13 +634,9 @@ Lorem ipsum dolor sit amet
 . Dot
 ! Exclamation mark
 # Hash symbol
-
 - Hyphen symbol
-
 () Parentheses
-
 + Plus symbol
-
 [] Square brackets
 _ Underscore`
 
@@ -676,10 +654,6 @@ _ Underscore`
 \+ Plus symbol
 \[] Square brackets
 \_ Underscore
-
----
-
-:octocat:
 
 ---
 
