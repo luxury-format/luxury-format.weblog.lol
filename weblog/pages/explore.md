@@ -18,7 +18,6 @@ Location: /explore
 - [/NOW](/now)
 - [<i class="fa-solid fa-rss"></i> FEEDS](/feeds)
 - [INTERSECT](/intersect)
-- [MARKDOWN](/markdown)
 - [BLOGROLL](/blogroll)
 - [TEST](/test)
 - [HOME](/home)
