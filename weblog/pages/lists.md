@@ -10,6 +10,6 @@ Index: Exclude
 
 ---
 
-## CHEATSHEETS
+### CHEATSHEETS
 
 - [CHEATSHEETS](/cheatsheets)
