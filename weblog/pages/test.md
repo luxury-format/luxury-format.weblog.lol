@@ -12,7 +12,15 @@ Index: Exclude
 
 ## FEEDS
 
+### FEEDS
+
+FEEDS:  
+{feeds}
+
 ### RSS
+
+RSS:  
+{rss}
 
 RSS Location:  
 {rss-location}
@@ -22,6 +30,9 @@ RSS URL:
 
 ### Atom
 
+Atom:  
+{atom}
+
 Atom location:  
 {atom-location}
 
@@ -29,6 +40,9 @@ Atom URL:
 {atom-url}
 
 ### JSON
+
+JSON:  
+{json}
 
 JSON location:  
 {json-location}
