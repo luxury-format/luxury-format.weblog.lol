@@ -51,7 +51,7 @@ Feed post appendix: <p><em>Published with weblog.lol!</em></p>
 ;; Posts
 ;; -----
 
-Post path format: /Y/m/d/
+Post path format: blog/Y/m/d/
 Default post: <<[---
 Date: $date
 Type: Post
@@ -59,7 +59,7 @@ Title: Title
 Tags: Tag1, Tag2
 ---
 
-## Title (Max: 80 characters)
+# Title (Max: 80 characters)
 
 ]>>
 
