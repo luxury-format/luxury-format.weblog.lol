@@ -73,8 +73,8 @@ Title: Page Template
           </a>
         </div>
         <div class="header-icons">
-          <a href="https://social.lol/@luxury_format" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
-          <a href="/feeds" aria-label="RSS Feeds"><i class="fa-solid fa-rss"></i></a>
+          <a href="https://social.lol/@luxury_format" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
+          <a href="/feeds" aria-label="RSS Feeds"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
       <!-- Second row: Navigation Menu -->
