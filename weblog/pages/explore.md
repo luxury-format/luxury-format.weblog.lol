@@ -20,4 +20,3 @@ Location: /explore
 - [INTERSECT](/intersect)
 - [BLOGROLL](/blogroll)
 - [TEST](/test)
-- [HOME](/home)
