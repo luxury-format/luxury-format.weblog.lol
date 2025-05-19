@@ -4,25 +4,25 @@ Title: FEEDS
 Location: /feeds
 ---
 
-# FEEDS
+## FEEDS
 
 ---
 
 You can subscribe with the following feeds:
 
-- [<i class="fa-solid fa-rss"></i> RSS Feed](/rss.xml)
 - [<i class="fa-solid fa-atom"></i> Atom Feed](/atom.xml)
+- [<i class="fa-solid fa-rss"></i> RSS Feed](/rss.xml)
 - [<i class="omg-icon omg-json-feed"></i> JSON Feed](/feed.json)
 
 ---
 
 Or just copy and paste one of these links in your RSS reader:
 
-RSS Feed:  
-`https://luxury-format.weblog.lol/rss.xml`  
-
-Atom Feed:  
+<i class="fa-solid fa-atom"></i> Atom Feed:
 `https://luxury-format.weblog.lol/atom.xml`  
 
-JSON Feed:  
+<i class="fa-solid fa-rss"></i> RSS Feed:
+`https://luxury-format.weblog.lol/rss.xml`  
+
+<i class="omg-icon omg-json-feed"></i> JSON Feed:
 `https://luxury-format.weblog.lol/feed.json`  
