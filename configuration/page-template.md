@@ -34,6 +34,8 @@ Title: Page Template
     <link rel="shortcut icon" href="https://luxury-format.omg.lol/favicon.ico">
     <!-- iOS Home‑Screen icon -->
     <link rel="apple-touch-icon" href="https://profiles.cache.lol/luxury-format/picture.png">
+    <meta name="apple-mobile-web-app-title" content="LF.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Safari pinned tab -->
     <!-- A monochrome SVG icon that adapts to Safari’s toolbar theme
     <link rel="mask-icon" href="https://profiles.cache.lol/luxury-format/picture.png" color="#0062FF"> -->
