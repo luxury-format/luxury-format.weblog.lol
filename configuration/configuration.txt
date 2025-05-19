@@ -65,7 +65,7 @@ Tags: Tag1, Tag2
 
 Titleless title length: 80 characters
 Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
-Title format: <h1><a href="$location">$title</a></h1>
+Title format: <h2><a href="$location">$title</a></h2>
 
 Multiple posts count: 10
 Multiple posts format: <<[
@@ -119,7 +119,7 @@ Search results failure message: There were no results found for your search.
 Search results format: <<[
 <h2>Results for “$search”</h2>
 <p>$search_results_message</p>
-[post:begin]<h2><a href="$location">$title</a></h2>
+[post:begin]<h3><a href="$location">$title</a></h3>
 <p>$date</p>
 <p>$snippet</p>[post:end]
 ]>>
