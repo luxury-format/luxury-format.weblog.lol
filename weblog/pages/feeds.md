@@ -19,11 +19,11 @@ You can subscribe with the following feeds:
 
 Or just copy and paste one of these links in your RSS reader:
 
-<i class="fa-solid fa-atom"></i> Atom Feed:
+- <i class="fa-solid fa-atom"></i> Atom Feed:  
 `https://luxury-format.weblog.lol/atom.xml`  
 
-<i class="fa-solid fa-rss"></i> RSS Feed:
+- <i class="fa-solid fa-rss"></i> RSS Feed:  
 `https://luxury-format.weblog.lol/rss.xml`  
 
-<i class="omg-icon omg-json-feed"></i> JSON Feed:
+- <i class="omg-icon omg-json-feed"></i> JSON Feed:  
 `https://luxury-format.weblog.lol/feed.json`  
