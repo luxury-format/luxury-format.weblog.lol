@@ -339,6 +339,11 @@ form.search button:hover {
   text-align: right;
 }
 
+/* Remove margin on landing page */
+.post-tags p {
+  margin: 0;
+}
+
 .landing-post-info i {
   margin-right: 5px;
 }
