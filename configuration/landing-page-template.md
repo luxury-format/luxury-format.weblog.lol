@@ -39,8 +39,8 @@ Title: Landing Page Template
     <!-- Tile color in Windows/Edge
     <meta name="msapplication-TileColor" content="#0062FF">
     <meta name="msapplication-TileImage" content="https://profiles.cache.lol/luxury-format/picture.png"> -->
-    <!-- <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#0062FF"> -->
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- <meta name="msapplication-TileColor" content="#0062FF"> -->
     <!-- COLOR SCHEME: LIGHT DARK -->
     <meta name="color-scheme" content="light dark">
     <!-- THEME COLOR -->
