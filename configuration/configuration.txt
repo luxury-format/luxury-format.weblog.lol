@@ -64,6 +64,7 @@ Tags: Tag1, Tag2
 ]>>
 
 Titleless title length: 80 characters
+// Titleless title length: 15 words
 Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
 Title format: <h2><a href="$location">$title</a></h2>
 
