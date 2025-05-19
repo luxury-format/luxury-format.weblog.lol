@@ -14,4 +14,4 @@ Index: Exclude
 - [CSS Cheatsheet](/cheatsheets/css-cheatsheet)
 - [JavaScript Cheatsheet](/cheatsheets/javascript-cheatsheet)
 - [Markdown Cheatsheet](/cheatsheets/markdown-cheatsheet)
-- [Other Cheatsheet](/cheatsheets/other-cheatsheet)
+- [Other Cheatsheets](/cheatsheets/other-cheatsheets)
