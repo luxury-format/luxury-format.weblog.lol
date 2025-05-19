@@ -1,6 +1,6 @@
 ---
 Type: file
-Content-Type: txt/manifest
+Content-Type: txt/json
 Title: site.manifest
 Location: /site.manifest
 ---
