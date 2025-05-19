@@ -458,5 +458,4 @@ form.search button:hover {
   font-family: var(--title-font);
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
