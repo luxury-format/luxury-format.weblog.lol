@@ -1,8 +1,8 @@
 ---
 Type: file
 Content-Type: txt/json
-Title: site.manifest
-Location: /site.manifest
+Title: site.webmanifest
+Location: /site.webmanifest
 ---
 
 {
