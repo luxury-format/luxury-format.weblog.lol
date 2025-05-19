@@ -51,7 +51,7 @@ Feed post appendix: <p><em>Published with weblog.lol!</em></p>
 ;; Posts
 ;; -----
 
-Post path format: blog/%Y/%m/%d/
+Post path format: blog/{Y}/{m}/{d}/
 Default post: <<[---
 Date: $date
 Type: Post
