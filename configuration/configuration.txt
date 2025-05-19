@@ -59,7 +59,7 @@ Title: Title
 Tags: Tag1, Tag2
 ---
 
-# Title (Max: 80 characters)
+## Title (Max: 80 characters)
 
 ]>>
 
