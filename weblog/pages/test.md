@@ -9,11 +9,32 @@ Location: /test
 
 ---
 
-Date: {date}
+## DATES
 
-Relative date: {relative_date}
+{date}  
 
-Permalink: <a href="{permalink}">permalink</a>
+$date  
+
+{$date}
+
+---
+
+## Relative dates
+
+{relative_date}  
+
+$relative_date  
+
+{$relative_date}
+
+---
+
+## Permalink & Location
+
+[{permalink}]({permalink})
+
+[{location}]({location})
+
 
 ---
 
