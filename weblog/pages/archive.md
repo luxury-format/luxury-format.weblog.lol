@@ -5,7 +5,7 @@ Title: ARCHIVE
 Location: /archive
 ---
 
-# ARCHIVE
+## ARCHIVE
 
 ---
 
@@ -17,15 +17,15 @@ Location: /archive
 
 ---
 
-## RECENT POSTS
+### RECENT POSTS
 
 {recent-posts}
 
 ---
 
-## ALL POSTS
+### ALL POSTS
 
-Total posts: <strong>{post-count}</strong>
+Total posts: **{post-count}**
 
 {post-list}
 
