@@ -54,7 +54,7 @@ Location: /_header.css
 /* Icons container */
 .header-icons {
   display: flex;
-  gap: 10px;
+  grid-gap: 10px;
 }
 
 /* Icons styling */
@@ -72,6 +72,23 @@ Location: /_header.css
 
 .header-icons .fa-rss {
   color: #F36B2B;
+}
+
+@media (max-width: 610px) {
+    .header-icons span {
+        display: none;
+    }
+}
+
+.header-icons i {
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
+}
+
+.header-icons a:hover {
+    color: var(--foreground);
+    border-color: var(--blue);
 }
 
 /* Navigation menu styling */
