@@ -9,7 +9,7 @@ Location: /explore
 
 ---
 
-- [<i class="fa-regular fa-newspaper"></i> BLOG](/)
+- [<i class="fa-regular fa-newspaper"></i> BLOG](/blog)
 - [<i class="fa-solid fa-dice"></i> RANDOM](/random)
 - [<i class="fa-solid fa-tags"></i> TAGS](/tags)
 - [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive)
