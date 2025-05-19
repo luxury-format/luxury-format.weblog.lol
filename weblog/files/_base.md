@@ -149,7 +149,8 @@ mark {
 }
 
 s,
-del {
+del,
+strike {
   text-decoration: line-through;
   text-decoration-color: var(--red);
   text-decoration-thickness: 1px;
