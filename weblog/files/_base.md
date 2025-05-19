@@ -107,6 +107,7 @@ li {
 
 li {
   font-family: var(--title-font);
+  font-weight: bold;
 }
 
 ul li::marker {
