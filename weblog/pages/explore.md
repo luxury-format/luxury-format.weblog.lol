@@ -4,7 +4,7 @@ Title: EXPLORE
 Location: /explore
 ---
 
-# EXPLORE
+## EXPLORE
 
 ---
 
