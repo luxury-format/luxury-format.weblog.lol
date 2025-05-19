@@ -22,7 +22,7 @@ body {
 
 main {
   max-width: 60em;
-  margin: 0.5em auto 1em;
+  margin: 0.5em auto 0.5em;
   padding: 0 1em;
 }
 
