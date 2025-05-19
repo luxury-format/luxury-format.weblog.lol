@@ -12,6 +12,6 @@ Index: Exclude
 
 - [HTML](/cheatsheets/html)
 - [CSS](/cheatsheets/css)
-- [JavaScripts](/cheatsheets/javascripts)
+- [JavaScript](/cheatsheets/javascript)
 - [MARKDOWN](/cheatsheets/markdown)
 - [OTHER](/cheatsheets/other)
