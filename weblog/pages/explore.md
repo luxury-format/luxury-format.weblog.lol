@@ -21,3 +21,4 @@ Index: Exclude
 - [INTERSECT](/intersect)
 - [BLOGROLL](/blogroll)
 - [TEST](/test)
+- [LISTS](/lists)
