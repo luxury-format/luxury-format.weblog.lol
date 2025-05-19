@@ -9,6 +9,35 @@ Location: /test
 
 ---
 
+## FEEDS
+
+### RSS
+
+RSS Location:  
+{rss-location}
+
+RSS URL:  
+{rss-url}
+
+### Atom
+
+Atom location:  
+{atom-location}
+
+Atom URL:  
+{atom-url}
+
+### JSON
+
+JSON location:  
+{json-location}
+
+JSON URL:  
+{json-url}
+
+---
+
+
 ## DATES
 
 {date}  
