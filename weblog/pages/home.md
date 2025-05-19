@@ -4,7 +4,7 @@ Title: HOME
 Location: /home
 ---
 
-# HOME
+## HOME
 
 ---
 
