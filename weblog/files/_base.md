@@ -449,6 +449,7 @@ form.search button:hover {
 }
 
 .landing-page-pagination {
+  font-family: var(--title-font);
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
