@@ -1,6 +1,6 @@
 ---
 Type: file
-Content-Type: application/manifest
+Content-Type: txt/manifest
 Title: site.manifest
 Location: /site.manifest
 ---
