@@ -205,7 +205,7 @@ pre {
 
 code {
   font-family: var(--monospace);
-  font-size: 80%;
+  font-size: 75%;
   line-height: 150%;
 /*  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
