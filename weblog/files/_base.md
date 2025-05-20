@@ -109,6 +109,14 @@ li {
   font-family: var(--title-font);
 }
 
+li a {
+  font-weight: bold;
+}
+
+li {
+  font-weight: normal;
+}
+
 ul li::marker {
   color: var(--green);
 }
