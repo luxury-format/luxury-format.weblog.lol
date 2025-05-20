@@ -46,7 +46,7 @@ Date format: F j, Y
 ;; -----
 
 Feed post count: 250
-Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
+Feed post appendix: <p><em>Published with <a href="https://home.omg.lol/referred-by/luxury-format"><strong>Weblog.lol!</strong></a></em></p>
 
 
 ;; Posts
