@@ -56,8 +56,8 @@ Title: Landing Page Template
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- /style.css -->
     <link rel="stylesheet" href="/style.css">
-    <!-- Highlight Code Blocks - Dracula Theme v1.2.5 -->
-    <link rel="stylesheet" href="/dracula.css">
+    <!-- Highlight - PrismJS 1.14.0 -->
+    <link rel="stylesheet" href="https://unpkg.com/dracula-prism/dist/css/dracula-prism.css">
   </head>
   <!-- BODY -->
   <body>
