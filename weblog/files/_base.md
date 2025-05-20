@@ -179,8 +179,8 @@ blockquote {
   display: block;
   margin: 1.5rem 0;
   padding: 1rem 1rem 1rem 1.5rem;
-  border-left: 4px solid var(--blue);
   border: 1px 1px 1px 0 solid var(--blue);
+  border-left: 4px solid var(--blue);
   background: var(--highlight);
   border-radius: 6px;
 }
