@@ -179,8 +179,7 @@ blockquote {
   display: block;
   margin: 1.5rem 0;
   padding: 1rem 1rem 1rem 1.5rem;
-  border-width: 1px 1px 1px 4px;
-  border-style: solid;
+  border-left: 4px solid;
   border-color: var(--blue);
   background: var(--highlight);
   border-radius: 6px;
@@ -224,6 +223,7 @@ pre {
   overflow-x: scroll;
   white-space: pre;
   word-wrap: normal;
+  padding: 1rem;
 }
 
 code {
