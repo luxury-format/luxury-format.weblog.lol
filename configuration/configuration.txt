@@ -118,11 +118,13 @@ Search template: Page Template
 Search results success message: There [is|are] $count [result|results] for your search:
 Search results failure message: There were no results found for your search.
 Search results format: <<[
-<h2 class="page-title">Results for “$search”</h2>
-<p>$search_results_message</p>
+<h2 class="page-title">Search results for “$search”</h2>
+<h6>$search_results_message</6>
+<hr>
 [post:begin]<h3><a href="$location">$title</a></h3>
 <p>$date</p>
-<p>$snippet</p>[post:end]
+<p>$snippet</p>
+<hr>[post:end]
 ]>>
 
 
