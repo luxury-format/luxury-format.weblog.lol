@@ -51,6 +51,10 @@ Location: /_header.css
   font-weight: bold;
 }
 
+.weblog-title span.short {
+  display: none;
+}
+
 @media (max-width: 610px) {
     .weblog-title span.long {
         display: none;
