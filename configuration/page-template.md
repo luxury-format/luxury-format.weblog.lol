@@ -86,7 +86,6 @@ Title: Page Template
     </header>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
-      <hr>
       {body}
     </main>
     <!-- FOOTER -->
