@@ -36,8 +36,15 @@ Blockquote:
 
 ---
 
-
 ## SEARCH
+
+Search form:  
+
+<form action="?" method="get">
+<label for="search">Search</label>
+<input type="text" name="search">
+<button type="submit">Search</button>
+</form>
 
 Search:  
 
