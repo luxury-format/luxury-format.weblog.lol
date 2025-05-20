@@ -102,11 +102,6 @@ Post list format: <<[
 [post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
 </ul>]>>
 
-<ul reversed style="list-style-type: none;padding-left: 0.5em;">
-[post:begin]<li>$date: <a href="$location">$title</a></li>[post:end]
-</ul>]
-
-
 ;; Page list {page-list}
 ;; ---------------------
 
