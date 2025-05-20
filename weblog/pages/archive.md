@@ -18,15 +18,13 @@ Index: Exclude
 
 ---
 
-### RECENT POSTS
+## RECENT POSTS
 
 {recent-posts}
 
 ---
 
-### ALL POSTS
-
-Total posts: **{post-count}**
+## ALL {post-count} POSTS
 
 {post-list}
 
