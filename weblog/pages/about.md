@@ -8,8 +8,9 @@ Index: Exclude
 
 # ABOUT
 
+###### You can learn more about me on the following pages.
+
 ---
 
-You can read more about me on the following page:  
-
-- [ABOUT](https://luxury-format.omg.lol)
+- [ABOUT](https://luxury-format.omg.lol) - About me
+- [/NOW](https://luxury-format.omg.lol/now) - What I'm doing now
