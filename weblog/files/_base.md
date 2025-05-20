@@ -305,7 +305,7 @@ form.search {
   width: 100%;
 }
 
-form.search input {
+form input {
   width: 100%;
   height: 40px;
   border-radius: var(--border-radius);
@@ -315,7 +315,7 @@ form.search input {
   color: var(--black);
 }
 
-form.search button {
+form button {
   width: 100%;
   height: 40px;
   border-radius: var(--border-radius);
@@ -326,7 +326,7 @@ form.search button {
   font-family: var(--title-font);
 }
 
-form.search button:hover {
+form button:hover {
   background-color: var(--white);
   border-color: var(--purple);
 }
