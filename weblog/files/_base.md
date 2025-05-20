@@ -301,8 +301,13 @@ li code {
 form.search {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   width: 100%;
+}
+
+form label {
+  font-family: var(--title-font);
+  text-align: center;
 }
 
 form input {
