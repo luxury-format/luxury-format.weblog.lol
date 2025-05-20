@@ -28,7 +28,7 @@ Location: /_footer.css
 footer {
   max-width: 60em;
   margin: 1em 0;
-  padding: 0 1em;
+  padding: 0 1.5em;
 }
 
 .footer-hr {
