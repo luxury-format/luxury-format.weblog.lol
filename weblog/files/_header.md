@@ -51,6 +51,12 @@ Location: /_header.css
   font-weight: bold;
 }
 
+@media (max-width: 610px) {
+    .weblog-title span.long {
+        display: none;
+    }
+}
+
 /* Icons container */
 .header-icons {
   display: flex;
