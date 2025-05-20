@@ -8,9 +8,9 @@ Index: Exclude
 
 # FEEDS
 
----
+###### You can subscribe to my blog with the following feeds.
 
-You can subscribe with the following feeds:
+---
 
 - [<i class="fa-solid fa-atom"></i> Atom Feed](/atom.xml)
 - [<i class="fa-solid fa-rss"></i> RSS Feed](/rss.xml)
