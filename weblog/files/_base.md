@@ -301,6 +301,7 @@ li code {
 form.search {
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
   width: 100%;
 }
