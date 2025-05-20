@@ -180,7 +180,7 @@ echo hi
 
 ## Images
 
-```
+```markdown
 ![GitHub Logo](/images/logo.png)
 
 ![Alt Text](url)
@@ -192,7 +192,7 @@ echo hi
 
 ### Image with link
 
-```
+```markdown
 [![GitHub Logo](/images/logo.png)](https://github.com/)
 
 [![Alt Text](image_url)](link_url)
@@ -204,7 +204,7 @@ echo hi
 
 ### Reference style
 
-```
+```markdown
 ![alt text][logo]
 
 [logo]: /images/logo.png "Logo Title"
