@@ -11,7 +11,7 @@ Index: Exclude
 ---
 
 - [<i class="fa-regular fa-newspaper"></i> BLOG](/blog)
-- [<i class="fa-solid fa-dice"></i> RANDOM](/random)
+- [<i class="fa-solid fa-dice"></i> RANDOM](/random-post)
 - [<i class="fa-solid fa-tags"></i> TAGS](/tags)
 - [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive)
 - [<i class="fa-solid fa-image"></i> PHOTOS](/photos)
