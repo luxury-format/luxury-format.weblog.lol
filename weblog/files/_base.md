@@ -274,7 +274,7 @@ td {
 hr {
   border: 1px solid var(--blue);
   width: 100%;
-  margin: 1em auto;
+  margin: 1em 0;
 }
 
 p code,
