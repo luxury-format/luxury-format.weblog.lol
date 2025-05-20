@@ -8,8 +8,8 @@ Index: Exclude
 
 # NOW
 
+###### You can learn more about what I'm doing now on the following page.
+
 ---
 
-You can read more about what I'm doing now on the following page:
-
-- [/NOW](https://luxury-format.omg.lol/now)
+- [/NOW](https://luxury-format.omg.lol/now) - What I'm doing now
