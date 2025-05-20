@@ -57,7 +57,7 @@ Location: /_header.css
 
 @media (max-width: 610px) {
     .weblog-title span.long {
-        display: none;
+        display: inline;
     }
 }
 
