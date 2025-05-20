@@ -182,7 +182,10 @@ blockquote {
   border-left: 4px solid;
   border-color: var(--blue);
   background: var(--highlight);
-  border-radius: 6px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
 }
 
 /* blockquote {
