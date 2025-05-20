@@ -176,12 +176,21 @@ sup {
 }
 
 blockquote {
+  display: block;
+  margin: 1.5rem 0;
+  padding: 1rem 1rem 1rem 1.5rem;
+  border-left: 4px solid;
+  background: var(--highlight);
+  border-radius: 6px;
+}
+
+/* blockquote {
   border-left: 3px solid var(--blue);
   color: var(--blue);
   font-style: italic;
   margin: 2rem 0;
   padding: 0 2rem;
-}
+} */
 
 a.footnote-ref {
   color: var(--green);
