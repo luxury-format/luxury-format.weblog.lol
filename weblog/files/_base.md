@@ -299,9 +299,9 @@ li code {
 }
 
 form.search {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
   width: 100%;
 }
 
