@@ -136,6 +136,7 @@ Tags format: <<[
 ]>>
 Tag page format: <<[
 <h2 class="page-title">Posts tagged with: “$tag”</h2>
+<hr>
 <ul>
 [tag:begin]<li><a href="$location">$title</a></li>[tag:end]
 </ul>
