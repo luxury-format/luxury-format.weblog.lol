@@ -182,6 +182,7 @@ blockquote {
   border-left: 4px solid;
   background: var(--highlight);
   border-radius: 6px;
+  border-color: var(--blue);
 }
 
 /* blockquote {
