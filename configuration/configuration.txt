@@ -7,21 +7,21 @@ Weblog title: LUXURY FORMAT
 Weblog description: Good as gold!
 Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
-// Landing page: /
-Landing page template: Landing Page Template
 // Weblog.lol/configuration/configuration.txt
 
 ;; General config stuff
 ;; --------------------
 
-Separator:  • 
+Separator:  – 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
 Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/), [<i class="fa-solid fa-dice"></i> RANDOM](/random-post), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
-Files path: /files/
+// Landing page: /
+Landing page template: Landing Page Template
 Landing page post count: 2
 Landing page post length: 45 words
 Post template: Post Template
 Random post location: /random-post
+Files path: /files/
 
 ;; Pagination
 ;; ----------
@@ -44,8 +44,8 @@ Date format: F j, Y
 ;; Feeds
 ;; -----
 
-Feed post count: 25
-Feed post appendix: <p><em>Published with weblog.lol!</em></p>
+Feed post count: 250
+Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
 
 
 ;; Posts
@@ -90,16 +90,15 @@ Multiple posts format: <<[
 Recent posts count: 5
 Recent posts format: <<[
 <ul>
-[post:begin]<li><a href="$location">$title</a> - ($relative_date) - ($date)</li>[post:end]
+[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - ($relative_date) - ($date)</li>[post:end]
 </ul>]>>
-
 
 ;; Post list {post-list}
 ;; ---------------------
 
 Post list format: <<[
 <ul>
-[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
+[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - $date</li>[post:end]
 </ul>]>>
 
 ;; Page list {page-list}
