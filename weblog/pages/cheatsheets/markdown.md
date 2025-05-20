@@ -10,18 +10,20 @@ Index: Exclude
 
 ---
 
+## Headers
+
 ```markdown
-# h1
-## h2
-### h3
-#### h4
-##### h5
-###### h6
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 ```
 
-# h1
-## h2
-### h3
-#### h4
-##### h5
-###### h6
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
