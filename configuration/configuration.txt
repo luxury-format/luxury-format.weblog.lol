@@ -57,6 +57,7 @@ Date: $date
 Type: Post
 Title: Title
 Tags: Tag1, Tag2
+Status: Draft
 ---
 
 # Title (Max: 80 characters)
