@@ -68,7 +68,7 @@ Status: Draft
 Titleless title length: 80 characters
 // Titleless title length: 15 words
 Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
-Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
+Title format: <h1 class="page-title"><a href="$location">$title</a></h1>
 
 Multiple posts count: 10
 Multiple posts format: <<[
@@ -118,7 +118,7 @@ Search template: Page Template
 Search results success message: There [is|are] $count [result|results] for your search:
 Search results failure message: There were no results found for your search.
 Search results format: <<[
-<h2 class="page-title">Search results for “$search”</h2>
+<h1 class="page-title">Search results for “$search”</h1>
 <h6>$search_results_message</6>
 <hr>
 [post:begin]<h3><a href="$location">$title</a></h3>
@@ -137,7 +137,7 @@ Tags format: <<[
 [tag:begin]<a class="tag" href="$tag_location">$tag</a>[tag:end]
 ]>>
 Tag page format: <<[
-<h2 class="page-title">Posts tagged with: “$tag”</h2>
+<h1 class="page-title">Posts tagged with: “$tag”</h1>
 <hr>
 <ul>
 [tag:begin]<li><a href="$location">$title</a></li>[tag:end]
@@ -149,7 +149,7 @@ Tag listing path: /tags
 // Note: tag listing order can be "alphabetical", "ascending", or "descending" where alphabetical sorts by the tag name and ascending/descending sorts by the count of entries with that tag
 Tag listing order: descending
 Tag listing format: <<[
-<h2 class="page-title">Post Tags</h2>
+<h1 class="page-title">Post Tags</h1>
 <h6>{post-count} posts • <a href="/">All posts</a></h6>
 <hr>
 <ul>
