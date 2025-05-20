@@ -106,15 +106,12 @@ li {
 }
 
 li {
-  font-family: var(--title-font);
+  font-family: var(--sans-serif);
+/*  font-weight: bold; */
 }
 
 li a {
-  font-weight: bold;
-}
-
-li {
-  font-weight: normal;
+  font-family: var(--title-font);
 }
 
 ul li::marker {
