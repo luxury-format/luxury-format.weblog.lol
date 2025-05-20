@@ -20,4 +20,5 @@ Title: Post Template
     {tags}
   </aside>
 </article>
+
 <span class="divider">&bull; &bull; &bull;</span>
