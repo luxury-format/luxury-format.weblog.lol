@@ -1,7 +1,8 @@
 ---
 Date: 2025-05-03 13:00
+Type: Post
 Title: Hello 3
-Tags: Tag1, Tag2, Hello 3
+Tags: #2025, #Hello, #Hello 3
 ---
 
 # Hello 3
