@@ -27,16 +27,16 @@ main {
 }
 
 /* In Main & Page Templates: <main class="no-title-link"> */
-main.no-title-link h2 > a {
+main.no-title-link h1 > a {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
   cursor: default;
 }
 
-h1.no-links > a {
+/* h1.no-links > a {
   text-decoration: none;
-}
+} */
 
 h1,
 h2,
