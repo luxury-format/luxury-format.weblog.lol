@@ -46,9 +46,9 @@ Blockquote:
 Search form:  
 
 <form action="?" method="get">
-<label for="search">Search</label>
+<label for="search">SEARCH</label>
 <input type="text" name="search">
-<button type="submit">Search</button>
+<button type="submit">SEARCH</button>
 </form>
 
 Search:  
