@@ -300,7 +300,7 @@ li code {
 
 form {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   width: 100%;
 }
 
