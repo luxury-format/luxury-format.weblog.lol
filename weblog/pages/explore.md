@@ -22,3 +22,4 @@ Index: Exclude
 - [BLOGROLL](/blogroll)
 - [TEST](/test)
 - [LISTS](/lists)
+- [LINKS](/links)
