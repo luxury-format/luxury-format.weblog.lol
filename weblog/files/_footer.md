@@ -43,8 +43,8 @@ footer {
 }
 
 footer p {
-  font-family: 'VC Honey Deck', Georgia, serif;
-  font-weight: bold;
+  font-family: 'VC Honey Deck', serif;
+/*  font-weight: bold; */
   font-size: 90%;
   text-align: center;
   margin-top: 1em;
@@ -52,5 +52,9 @@ footer p {
 
 /* In footer: <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p> */
 .footer-weblog-p {
-  font-family: 'VC Honey Black Banner', Georgia, serif;
+  font-family: 'VC Honey Deck', serif;
+}
+
+.footer-weblog-p a {
+  font-family: 'VC Honey Black Banner', serif;
 }
