@@ -201,11 +201,13 @@ a.footnote-ref {
 
 pre {
   font-family: var(--monospace);
+  background: var(--black);
+  color: var(--white);
   font-size: 90%;
   line-height: 150%;
-/*  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow); */
+  -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   overflow-wrap: normal;
   overflow-x: scroll;
@@ -215,18 +217,18 @@ pre {
 
 code {
   font-family: var(--monospace);
+  background: var(--black);
+  color: var(--white);
   font-size: 75%;
   line-height: 150%;
-/*  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow); */
+  -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   white-space: pre-wrap;
   white-space: break-spaces;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background: #282A36;
-  color: #F8F8F2;
 }
 
 pre code {
