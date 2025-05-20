@@ -298,10 +298,8 @@ li code {
   padding: 0.2rem;
 }
 
-form.search {
+form {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 1fr;
   grid-gap: 1rem;
   width: 100%;
 }
@@ -309,6 +307,7 @@ form.search {
 form label {
   font-family: var(--title-font);
   text-align: center;
+/*  display: block; */
 }
 
 form input {
