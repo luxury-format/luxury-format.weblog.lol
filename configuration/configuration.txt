@@ -4,6 +4,7 @@
 ;; -----------------
 
 Weblog title: LUXURY FORMAT
+Weblog short title: LF.
 Weblog description: Good as gold!
 Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
