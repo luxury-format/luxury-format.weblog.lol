@@ -5,6 +5,7 @@ Location: /style.css
 
 /* Weblog.lol/weblog/files/style.md */
 @import "_reset.css";
+@import "_normalize.css";
 @import url('https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400,700');
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
