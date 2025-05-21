@@ -68,7 +68,7 @@ Status: Draft
 Titleless title length: 80 characters
 // Titleless title length: 15 words
 Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
-Title format: <h1 class="page-title"><a href="$location">$title</a></h1>
+Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
 
 Multiple posts count: 10
 Multiple posts format: <<[
