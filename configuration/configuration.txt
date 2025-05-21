@@ -15,7 +15,7 @@ Author: LUXURY FORMAT
 
 Separator:  – 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/), [<i class="fa-solid fa-dice"></i> RANDOM](/random-post), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
+Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/blog), [<i class="fa-solid fa-dice"></i> RANDOM](/random-post), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
 Landing page: /
 Landing page template: Page Template
 Page template: Page Template
