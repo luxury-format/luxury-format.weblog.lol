@@ -27,7 +27,7 @@ main {
 }
 
 /* In Main & Page Templates: <main class="no-title-link"> */
-main.no-title-link h1 > a {
+main.no-title-link h2 > a {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
