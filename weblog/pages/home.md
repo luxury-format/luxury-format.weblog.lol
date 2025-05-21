@@ -4,7 +4,6 @@ Type: Page
 Title: HOME
 Location: /
 Index: Exclude
-Template: Page Template
 ---
 
 # HOME
