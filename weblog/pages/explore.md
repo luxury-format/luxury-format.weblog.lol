@@ -10,7 +10,7 @@ Location: /explore
 
 ---
 
-- [/](/)
+- [/](/) - Home page.
 - [/404](/404) (18+)
 - [/about](/about)
 - [/archive](/archive)
