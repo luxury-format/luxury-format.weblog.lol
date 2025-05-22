@@ -130,6 +130,8 @@ $date
 
 ## Relative dates
 
+{relative_date}
+
 ```html
 {relative_date}  
 ```
