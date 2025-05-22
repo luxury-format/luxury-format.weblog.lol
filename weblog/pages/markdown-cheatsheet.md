@@ -1,23 +1,24 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
+Template: Page Template
 Title: Markdown Cheatsheet
-Location: /cheatsheets/markdown-cheatsheet
-Index: Exclude
+Location: /markdown-cheatsheet
 ---
 
 # Markdown Cheatsheet
 
 ---
 
-## Table of Contents
+**Table of Contents**
 
 {toc}
 
 ---
-## Headers
 
-```markdown
+# Headers
+
+```
 # Header 1
 ## Header 2
 ### Header 3
@@ -33,101 +34,112 @@ Index: Exclude
 ##### Header 5
 ###### Header 6
 
-## Blockquotes
+---
 
-```markdown
-> This is  
-> a blockquote
->
-> > Nested  
-> > Blockquote
+# Emphasis
+
 ```
-
-> This is  
-> a blockquote
->
-> > Nested  
-> > Blockquote
-
-## Unordered List
-
-```markdown
-- Item 1
-- Item 2
-    - item 3a
-    - item 3b
-
-or
-
-- [ ] Checkbox off
-- [x] Checkbox on
-```
-
-- Item 1
-- Item 2
-    - item 3a
-    - item 3b
-
-or
-
-- [ ] Checkbox off
-- [x] Checkbox on
-
-## Ordered List
-
-```markdown
-1. Item 1
-2. Item 2  
-     a. Item 3a  
-     b. Item 3b
-```
-
-1. Item 1
-2. Item 2  
-     a. Item 3a  
-     b. Item 3b
-
-## Links
-
-```markdown
-[link](http://google.com)
-
-[link][google]  
-[google]: http://google.com
-
-<http://google.com>
-```
-
-[link](http://google.com)
-
-[link][google]  
-[google]: http://google.com
-
-<http://google.com>
-
-## Emphasis
-
-```markdown
 *italic*
 **bold**  
 `inline code`
-~~struck out~~
+~~strikethrough~~
 ```
+
 
 *italic*
 **bold**
 `inline code`
-~~struck out~~
+~~strikethrough~~
 
-## Horizontal line
+---
 
-```markdown
+# Blockquote
+
+```
+> This is a blockquote
+```
+
+> This is a blockquote
+
+---
+
+## Lists and Tasks
+
+## Unordered List
+
+```
+- Item 1
+- Item 2
+    - item 3a
+    - item 3b
+```
+
+- Item 1
+- Item 2
+    - item 3a
+    - item 3b
+
+---
+
+## Ordered List
+
+```
+1. Item 1
+2. Item 2  
+     a. Item 3a  
+     b. Item 3b
+```
+
+1. Item 1
+2. Item 2  
+     a. Item 3a  
+     b. Item 3b
+
+---
+
+## Tasks
+
+```
+- [ ] Checkbox off
+- [x] Checkbox on
+```
+
+- [ ] Checkbox off
+- [x] Checkbox on
+
+---
+
+# Links
+
+```
+[link](http://google.com)
+
+[link][google]  
+[google]: http://google.com
+
+<http://google.com>
+```
+
+[link](http://google.com)
+
+[link][google]  
+[google]: http://google.com
+
+<http://google.com>
+
+---
+
+# Horizontal line
+
+```
 ---
 ```
 
 ---
 
-## Code
+---
+
+# Code
 
 ````markdown
 ```javascript
@@ -139,11 +151,13 @@ console.log("This is a block code");
 console.log("This is a block code");
 ```
 
-```markdown
+```
     4 space indent makes a code block
 ```
 
     4 space indent makes a code block
+
+---
 
 ## Escaped code
 
@@ -163,15 +177,21 @@ echo hi
 ```
 ````
 
-```markdown
+---
+
+## Inline code
+
+```
 `Inline code` has back-ticks around it.
 ```
 
 `Inline code` has back-ticks around it.
 
-## Tables
+---
 
-```markdown
+# Tables
+
+```
 | Left Column | Center Column | Right Column |
 |:--|:--|:--|
 | Row 1 | Centered | $1600 |
@@ -183,9 +203,11 @@ echo hi
 | Row 1 | Centered | $1600 |
 | Row 2 | Cell | $12 |
 
-## Images
+---
 
-```markdown
+# Images
+
+```
 ![GitHub Logo](/images/logo.png)
 
 ![Alt Text](url)
@@ -195,9 +217,11 @@ echo hi
 
 ![Alt Text](url)
 
-### Image with link
+---
 
-```markdown
+## Image with link
+
+```
 [![GitHub Logo](/images/logo.png)](https://github.com/)
 
 [![Alt Text](image_url)](link_url)
@@ -207,7 +231,9 @@ echo hi
 
 [![Alt Text](image_url)](link_url)
 
-### Reference style
+---
+
+## Reference style images
 
 ```markdown
 ![alt text][logo]
@@ -219,7 +245,9 @@ echo hi
 
 [logo]: /images/logo.png "Logo Title"
 
-## Backslash escapes
+---
+
+# Backslash escapes
 
 | Characters | Escape | Description |
 |:--|:--|:--|
