@@ -1,21 +1,19 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
-Title: INTERSECT
+Template: Page Template
+Title: Intersect
 Location: /intersect
-Index: Exclude
 ---
 
-# INTERSECT
+# Intersect
 
-### Table of content:
-- [CSS](#css)
-- [HTML](#html)
-- [Markdown](#markdown)
+**Table of content**
+
+{toc}
 
 ---
 
-<a id="css"></a>
 ## CSS
 
 In CSS files:
@@ -192,52 +190,3 @@ In HTML:
 <h2>Smaller heading!</h2>
 <p>This is a paragraph.</p>
 ```
----
-
-<a id="html"></a>
-## HTML
-
----
-
-<a id="markdown"></a>
-## Markdown
-
-```
-**Table of content:**
-- [Hello World](#item-one)
-- [First Item](#item-two)
-- [Second Item](#item-three)
-
-<!-- headings -->
-<a id="item-one"></a>
-### Hello World
-Hello world content goes here
-
-<a id="item-two"></a>
-### First Item
-First item content goes here
-
-<a id="item-three"></a>
-### Second Item
-Second item content goes here
-```
-
-**Table of content:**
-- [Hello World](#item-one)
-- [First Item](#item-two)
-- [Second Item](#item-three)
-
-<!-- headings -->
-<a id="item-one"></a>
-### Hello World
-Hello world content goes here
-
-<a id="item-two"></a>
-### First Item
-First item content goes here
-
-<a id="item-three"></a>
-### Second Item
-Second item content goes here
-
-<button>[Back to top](#top)</button>
