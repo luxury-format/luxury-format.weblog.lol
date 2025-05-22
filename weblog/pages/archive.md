@@ -17,7 +17,7 @@ Index: Exclude
 
 ---
 
-## Total: {tag-count} tags
+## Total: {tags-count} tags
 
 {tag-listing}
 
