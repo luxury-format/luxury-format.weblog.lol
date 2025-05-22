@@ -4,7 +4,6 @@ Type: Page
 Template: Page
 Title: Archive
 Location: /archive
-Index: Exclude
 ---
 
 # Archive
@@ -14,16 +13,6 @@ Index: Exclude
 ## Total: {post-count} posts
 
 {post-list}
-
----
-
-{tag-listing}
-
----
-
-## 5 Recent posts
-
-{recent-posts}
 
 ---
 
