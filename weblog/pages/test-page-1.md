@@ -1,7 +1,7 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
-Template: Home Template
+Template: Page Template
 Title: TEST PAGE 1
 Tags: #2025, #TEST, #PAGE-1, #TEST-PAGE-1
 Location: /test-page-1
@@ -21,17 +21,25 @@ Location: /test-page-1
 
 {weblog-title}
 
+---
+
 ## weblog-short-title
 
 {weblog-short-title}
+
+---
 
 ## weblog-descriptio
 
 {weblog-description}
 
+---
+
 ## separator 
 
 {separator}
+
+---
 
 ## author
 
