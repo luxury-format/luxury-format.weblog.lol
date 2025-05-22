@@ -16,8 +16,8 @@ Author: LUXURY FORMAT
 Separator:  – 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
 Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/blog), [<i class="fa-solid fa-dice"></i> RANDOM](/random-post), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
-Landing page: /
-Landing page template: Page Template
+// Landing page: /
+Landing page template: Landing Page Template
 Page template: Page Template
 Post template: Post Template
 Landing page post count: 2
@@ -59,15 +59,19 @@ Date: $date
 Type: Post
 Title: Title
 Tags: #2025, #Tag 1, #Tag 2
-Status: Draft
+Status: Draft (Unlisted, Web Only, Feed Only)
 ---
 
 # Title (Max: 80 characters)
 
-]>>
+Body text goes here...  
+
+<p class="permalink"><small class="permalink"><a class="permalink" htef="{permalink}">permalink</a></small></p>
+
+<p class="top">[&uarr;](#top)</p>]>>
 
 Titleless title length: 80 characters
-// Titleless title length: 15 words
+// Titleless title length: 5 words
 Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
 
