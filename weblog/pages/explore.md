@@ -22,9 +22,9 @@ Location: /explore
 - [links](/links)
 - [lists](/lists)
 - [markdown-cheatsheet](/markdown-cheatsheet)
-- [now](/now)
+- [now](/now) - omg.lol/now page.
 - [photos](/photos)
-- [profile](/profile)
+- [profile](/profile) - omg.lol profile page.
 
 ---
 
