@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _footer.css
 Location: /_footer.css
 
-/* Weblog.lol/weblog/files/_footer.md */
+/* weblog/files/css/_footer.md */
 /* footer.main {
   font-family: var(--cbr);
   overflow: auto;
