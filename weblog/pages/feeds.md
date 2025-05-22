@@ -1,12 +1,12 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
-Title: FEEDS
+Template: Page Template
+Title: Feeds
 Location: /feeds
-Index: Exclude
 ---
 
-# FEEDS
+# Feeds
 
 ###### You can subscribe to my blog with the following feeds.
 
