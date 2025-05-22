@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _variables.css
 Location: /_variables.css
 
-/* Weblog.lol/weblog/files/_variables.md */
+/* weblog/files/css/_variables.md */
 :root {
   color-scheme: light dark;
   --foreground: #1C1C1E;
