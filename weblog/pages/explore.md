@@ -10,21 +10,21 @@ Location: /explore
 
 ---
 
-- [404](/404) (18+)
-- [about](/about)
-- [archive](/archive)
-- [blog](/blog)
-- [blogroll](/blogroll)
-- [explore](/explore) - this page.
-- [feeds](/feeds)
-- [home](/home)
-- [intersect](/intersect)
-- [links](/links)
-- [lists](/lists)
-- [markdown-cheatsheet](/markdown-cheatsheet)
-- [now](/now) - omg.lol/now page.
-- [photos](/photos)
-- [profile](/profile) - omg.lol profile page.
+- [/](/)
+- [/404](/404) (18+)
+- [/about](/about)
+- [/archive](/archive)
+- [/blog](/blog)
+- [/blogroll](/blogroll)
+- [/explore](/explore) - this page.
+- [/feeds](/feeds)
+- [/intersect](/intersect)
+- [/links](/links)
+- [/lists](/lists)
+- [/markdown-cheatsheet](/markdown-cheatsheet)
+- [/now](/now) - "redirect" to: omg.lol/now page.
+- [/photos](/photos)
+- [/profile](/profile) - "redirect" to: omg.lol profile page.
 
 ---
 
