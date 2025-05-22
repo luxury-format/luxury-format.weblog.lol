@@ -2,11 +2,11 @@
 Date: 2025-05-01 00:00
 Type: Page
 Template: Page Template
-Title: EXPLORE
+Title: Explore
 Location: /explore
 ---
 
-# EXPLORE
+# Explore
 
 ---
 
