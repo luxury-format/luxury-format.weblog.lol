@@ -1,11 +1,12 @@
 ---
 Date: 2025-05-21 23:23
 Type: Post
-Title: TEST
-Tags: #2025, #TEST
+Template: Home Template
+Title: TEST POST 1
+Tags: #2025, #TEST, #POST, #TEST-POST--1
 ---
 
-# TEST
+# TEST POST 1
 
 < start body text here
 
