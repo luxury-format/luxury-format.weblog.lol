@@ -10,7 +10,9 @@ Index: Exclude
 
 ---
 
-{toc}
+## Table of Contents
+
+{{toc}}
 
 ---
 ## Headers
