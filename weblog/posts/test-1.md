@@ -163,10 +163,6 @@ body: start >{body}< finish
 <hr>
 titleless-body: start >{titleless-body}< finish
 <hr>
-now: start >{now}< finish
-<hr>
-profile: start >{profile}< finish
-<hr>
 previous-page: start >{previous-page}< finish
 <hr>
 next-page: start >{next-page}< finish
