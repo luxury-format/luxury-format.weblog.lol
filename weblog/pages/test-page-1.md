@@ -17,13 +17,13 @@ Location: /test-page-1
 
 ---
 
-## weblog-title
+## weblog-title - author
 
-{weblog-title}
+{weblog-title} - {author}
 
 ---
 
-## weblog-short-title
+## weblog-short-title (custom tag)
 
 {weblog-short-title}
 
@@ -41,13 +41,7 @@ Location: /test-page-1
 
 ---
 
-## author
-
-{author}
-
----
-
-## recent-posts
+## recent-posts (5)
 
 {recent-posts}
 
@@ -59,40 +53,15 @@ Location: /test-page-1
 
 ---
 
-## page-list
+## page-list?
 
 {page-list}
 
 ---
 
-## tags
+## title? - post-title vs page-title?
 
-{tags}
-
----
-
-## base-path
-
-{base-path}
-
----
-
-## relative-date
-
-
-{relative-date}
-
----
-
-## unix-date
-
-{unix-date}
-
----
-
-## iso8601-date
-
-{iso8601-date}
+{title}? - {post-title} vs {page-title}
 
 ---
 
@@ -102,108 +71,79 @@ Location: /test-page-1
 
 ---
 
+## tags
+
+{tags}
+
+---
+
 ## tag-listing
 
 {tag-listing}
 
 ---
 
-## date
+## rss-location - atom-location - json-location
 
-{date}
-
----
-
-## slug
-
-{slug}
+- {rss-location}
+- {atom-location}
+- {json-location}
 
 ---
 
-## location
+## rss-url - atom-url - json-url
 
-{location}
-
----
-
-## rss-location
-
-{rss-location}
+- {rss-url}
+- {atom-url}
+- {json-url}
 
 ---
 
-## atom-location
+## slug - location
 
-{atom-location}
-
----
-
-## json-location
-
-{json-location}
+{slug} - {location}
 
 ---
 
-## rss-url
+## permalink vs base-path
 
-{rss-url}
-
----
-
-## atom-url
-
-{atom-url}
+{permalink} vs {base-path}
 
 ---
 
-## json-url
+## date vs relative-date
 
-{json-url}
-
----
-
-## permalink
-
-{permalink}
+{date} vs {relative-date}
 
 ---
 
-## year
+## year - month - day
 
-{year}
-
----
-
-## month
-
-{month}
+{year} - {month} - {day}
 
 ---
 
-## day
+## unix-date - iso8601-date
 
-{day}
-
----
-
-## post-number
-
-{post-number}
+{unix-date} - {iso8601-date}
 
 ---
 
-## post-count
+## post-number vs post-count
 
-{post-count}
+{post-number} vs {post-count}
 
 ---
 
-## previous-page
+## form search /form
 
+<form>{search}</form>
+
+---
+
+## nav previous-page next-page /nav
+
+<nav>
 {previous-page}
-
----
-
-## next-page
-
 {next-page}
+</nav>
