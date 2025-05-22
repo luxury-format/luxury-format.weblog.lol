@@ -1,12 +1,12 @@
 ---
 Type: Template
-Title: Special Template
+Title: Home Template
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <!-- Special Template -->
-  <!-- Weblog.lol/configuration/special-template.md -->
+  <!-- weblog/templates/home-template.md -->
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
