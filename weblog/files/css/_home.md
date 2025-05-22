@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _home.css
 Location: /_home.css
 
-/* Weblog.lol/weblog/files/_home.md */
+/* weblog/files/css/_home.md */
 /* .home-projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
