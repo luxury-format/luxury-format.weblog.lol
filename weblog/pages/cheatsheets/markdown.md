@@ -12,7 +12,7 @@ Index: Exclude
 
 ## Table of Contents
 
-{{toc}}
+{toc}
 
 ---
 ## Headers
