@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _reset.css
 Location: /_reset.css
 
-/* Weblog.lol/weblog/files/_reset.md */
+/* weblog/files/css/_reset.md */
 /* Box sizing rules */
 *,
 *::before,
