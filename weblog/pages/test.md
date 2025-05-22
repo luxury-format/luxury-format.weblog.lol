@@ -10,6 +10,12 @@ Index: Exclude
 
 ---
 
+## RELATIVE DATE
+
+{relative_date}
+
+{relative-date}
+
 ## BLOCKQUOTES
 
 Blockquote: 
