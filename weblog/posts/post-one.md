@@ -1,7 +1,7 @@
 ---
 Date: 2025-05-01 13:00
 Type: Post
-Template: Special Template
+Template: Home Template
 Title: Post one
 Tags: #2025, #PostOne
 ---
