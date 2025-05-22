@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _base.css
 Location: /_base.css
 
-/* Weblog.lol/weblog/files/_base.md */
+/* Weblog.lol/weblog/files/css/_base.md */
 * {
   box-sizing: border-box;
 }
