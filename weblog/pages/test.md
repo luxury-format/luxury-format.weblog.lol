@@ -189,12 +189,6 @@ Location: /test
 
 ---
 
-## titleless-body
-
-{titleless-body}
-
----
-
 ## previous-page
 
 {previous-page}
