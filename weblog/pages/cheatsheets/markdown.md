@@ -10,6 +10,9 @@ Index: Exclude
 
 ---
 
+{toc}
+
+---
 ## Headers
 
 ```markdown
