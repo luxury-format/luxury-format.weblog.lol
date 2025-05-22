@@ -1,6 +1,7 @@
 ---
 Type: Template
 Title: Test Template
+Location: /test-template
 ---
 
 <!DOCTYPE html>
