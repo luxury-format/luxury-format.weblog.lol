@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _container.css
 Location: /_container.css
 
-/* Weblog.lol/weblog/files/_container.md */
+/* weblog/files/css/_container.md */
 /* .container {
   width: 100%;
   margin: 0 auto;
