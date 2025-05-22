@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _header.css
 Location: /_header.css
 
-/* Weblog.lol/weblog/files/_header.md */
+/* weblog/files/css/_header.md */
 /* Header structure */
 .weblog-header {
   display: flex;
