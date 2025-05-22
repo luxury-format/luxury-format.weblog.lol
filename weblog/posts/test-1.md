@@ -7,166 +7,256 @@ Tags: #2025, #TEST
 
 # TEST
 
-```
-Body text start here...  
-
-weblog-title: start >{weblog-title}< finish
+< start body text here
 
 ---
 
-weblog-short-title: start >{weblog-short-title}< finish
+## Table of Contents (toc):
+
+{toc}
 
 ---
 
-weblog-description: start >{weblog-description}< finish
+## weblog-title
+
+start >{weblog-title}< finish
 
 ---
 
-separator: start >{separator}< finish
+## weblog-short-title
+
+start >{weblog-short-title}< finish
 
 ---
 
-recent-posts: start >{recent-posts}< finish
+## author
+
+start >{author}< finish
 
 ---
 
-post-list: start >{post-list}< finish
+## weblog-description
+
+start >{weblog-description}< finish
 
 ---
 
-page-list: start >{page-list}< finish
+## separator
+
+start >{separator}< finish
 
 ---
 
-multiple-posts: start >{multiple-posts}< finish
+## recent-posts
+
+start >{recent-posts}< finish
 
 ---
 
-tags: start >{tags}< finish
+## post-list 
+
+start >{post-list}< finish
 
 ---
 
-base-path: start >{base-path}< finish
+## page-list
+
+start >{page-list}< finish
 
 ---
 
-navigation: start >{navigation}< finish
+## multiple-posts
+
+start >{multiple-posts}< finish
 
 ---
 
-relative-date: start >{relative-date}< finish
+## tags
+
+start >{tags}< finish
 
 ---
 
-unix-date: start >{unix-date}< finish
+## base-path
+
+start >{base-path}< finish
 
 ---
 
-iso8601-date: start >{iso8601-date}< finish
+## navigation 
+
+start >{navigation}< finish
 
 ---
 
-post-title-urlencoded: start >{post-title-urlencoded}< finish
+## relative-date
+
+start >{relative-date}< finish
 
 ---
 
-tag-listing: start >{tag-listing}< finish
+## unix-date
+
+start >{unix-date}< finish
 
 ---
 
-date: start >{date}< finish
+## iso8601-date 
+
+start >{iso8601-date}< finish
 
 ---
 
-slug: start >{slug}< finish
+## post-title-urlencoded
+
+start >{post-title-urlencoded}< finish
+
+---
+
+## tag-listing 
+
+start >{tag-listing}< finish
+
+---
+
+## date
+
+start >{date}< finish
+
+---
+
+## slug
+
+start >{slug}< finish
 
 ----
 
-location: start >{location}< finish
+## location
+
+start >{location}< finish
 
 ---
 
-rss-location: start >{rss-location}< finish
+## rss-location
+
+start >{rss-location}< finish
 
 ---
 
-atom-location: start >{atom-location}< finish
+## atom-location
+
+start >{atom-location}< finish
 
 ---
 
-json-location: start >{json-location}< finish
+## json-location
+
+start >{json-location}< finish
 
 ---
 
-rss-url: start >{rss-url}< finish
+## rss-url
+
+start >{rss-url}< finish
 
 ---
 
-atom-url: start >{atom-url}< finish
+## atom-url
+
+start >{atom-url}< finish
 
 ---
 
-json-url: start >{json-url}< finish
+## json-url
+
+start >{json-url}< finish
 
 ---
 
-rss: start >{rss}< finish
+## rss
+
+start >{rss}< finish
 
 ---
 
-atom: start >{atom}< finish
+## atom
+
+start >{atom}< finish
 
 ---
 
-json: start >{json}< finish
+## json
+
+start >{json}< finish
 
 ---
 
-feeds: start >{feeds}< finish
+## feeds
+
+start >{feeds}< finish
 
 ---
 
-permalink: start >{permalink}< finish
+## permalink
+
+start >{permalink}< finish
 
 ---
 
-year: start >{year}< finish
+## year
+
+start >{year}< finish
 
 ---
 
-month: start >{month}< finish
+## month
+
+start >{month}< finish
 
 ---
 
-day: start >{day}< finish
+## day
+
+start >{day}< finish
 
 ---
 
-post-number: start >{post-number}< finish
+## post-number
+
+start >{post-number}< finish
 
 ---
 
-post-count: start>{post-count}< finish
+## post-count
+
+start>{post-count}< finish
 
 ---
 
-body: start >{body}< finish
+## body
+
+start >{body}< finish
 
 ---
 
-titleless-body: start >{titleless-body}< finish
+## titleless-body
+
+start >{titleless-body}< finish
 
 ---
 
-previous-page: start >{previous-page}< finish
+## previous-page
+
+start >{previous-page}< finish
 
 ---
 
-next-page: start >{next-page}< finish
+## next-page
+
+start >{next-page}< finish
 
 ---
-```
 
-<p class="permalink"><small class="permalink"><a class="permalink" htef="{permalink}">permalink</a></small></p>
+## finish (body) text
 
-<p class="top">[&uarr;](#top)</p>
+finish body text here >
