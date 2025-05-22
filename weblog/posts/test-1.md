@@ -47,30 +47,6 @@ start >{separator}< finish
 
 ---
 
-## recent-posts
-
-start >{recent-posts}< finish
-
----
-
-## post-list 
-
-start >{post-list}< finish
-
----
-
-## page-list
-
-start >{page-list}< finish
-
----
-
-## multiple-posts
-
-start >{multiple-posts}< finish
-
----
-
 ## tags
 
 start >{tags}< finish
@@ -80,12 +56,6 @@ start >{tags}< finish
 ## base-path
 
 start >{base-path}< finish
-
----
-
-## navigation 
-
-start >{navigation}< finish
 
 ---
 
@@ -110,12 +80,6 @@ start >{iso8601-date}< finish
 ## post-title-urlencoded
 
 start >{post-title-urlencoded}< finish
-
----
-
-## tag-listing 
-
-start >{tag-listing}< finish
 
 ---
 
@@ -173,30 +137,6 @@ start >{json-url}< finish
 
 ---
 
-## rss
-
-start >{rss}< finish
-
----
-
-## atom
-
-start >{atom}< finish
-
----
-
-## json
-
-start >{json}< finish
-
----
-
-## feeds
-
-start >{feeds}< finish
-
----
-
 ## permalink
 
 start >{permalink}< finish
@@ -230,12 +170,6 @@ start >{post-number}< finish
 ## post-count
 
 start>{post-count}< finish
-
----
-
-## body
-
-start >{body}< finish
 
 ---
 
