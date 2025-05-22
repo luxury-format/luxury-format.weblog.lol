@@ -10,71 +10,197 @@ Location: /test
 
 ---
 
-toc (Table of Contents): {toc}
-weblog-title: {weblog-title}
-weblog-short-title: {weblog-short-title}
-weblog-description: {weblog-description}
-separator: {separator}
-author: {author}
+## Table of Contents (toc)
+
+{toc}
 
 ---
 
-recent-posts: {recent-posts}
+## weblog-title
+
+{weblog-title}
+
+## weblog-short-title
+
+{weblog-short-title}
+
+## weblog-descriptio
+
+{weblog-description}
+
+## separator 
+
+{separator}
+
+## author
+
+{author}
 
 ---
 
-post-list: {post-list}
+## recent-posts
+
+{recent-posts}
 
 ---
 
-page-list: {page-list}
+## post-list
+
+{post-list}
 
 ---
 
-multiple-posts: {multiple-posts}
+## page-list
+
+{page-list}
 
 ---
 
-tags: {tags}
+## tags
+
+{tags}
 
 ---
 
-base-path: {base-path}
-relative-date: {relative-date}
-unix-date: {unix-date}
-iso8601-date: {iso8601-date}
+## base-path
+
+{base-path}
 
 ---
 
-post-title-urlencoded: {post-title-urlencoded}
+## relative-date
+
+
+{relative-date}
 
 ---
 
-tag-listing: {tag-listing}
+## unix-date
+
+{unix-date}
 
 ---
 
-date: {date}
-slug: {slug}
-location: {location}
-rss-location: {rss-location}
-atom-location: {atom-location}
-json-location: {json-location}
-rss-url: {rss-url}
-atom-url: {atom-url}
-json-url: {json-url}
-permalink: {permalink}
-year: {year}
-month: {month}
-day: {day}
-post-number: {post-number}
-post-count: {post-count}
+## iso8601-date
+
+{iso8601-date}
 
 ---
 
-titleless-body: {titleless-body}
+## post-title-urlencoded
+
+{post-title-urlencoded}
 
 ---
 
-previous-page: {previous-page}
-next-page: {next-page}
+## tag-listing
+
+{tag-listing}
+
+---
+
+## date
+
+{date}
+
+---
+
+## slug
+
+{slug}
+
+---
+
+## location
+
+{location}
+
+---
+
+## rss-location
+
+{rss-location}
+
+---
+
+## atom-location
+
+{atom-location}
+
+---
+
+## json-location
+
+{json-location}
+
+---
+
+## rss-url
+
+{rss-url}
+
+---
+
+## atom-url
+
+{atom-url}
+
+---
+
+## json-url
+
+{json-url}
+
+---
+
+## permalink
+
+{permalink}
+
+---
+
+## year
+
+{year}
+
+---
+
+## month
+
+{month}
+
+---
+
+## day
+
+{day}
+
+---
+
+## post-number
+
+{post-number}
+
+---
+
+## post-count
+
+{post-count}
+
+---
+
+## titleless-body
+
+{titleless-body}
+
+---
+
+## previous-page
+
+{previous-page}
+
+---
+
+## next-page
+
+{next-page}
