@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _page-nav.css
 Location: /_page-nav.css
 
-/* Weblog.lol/weblog/files/_page-nav.md */
+/* weblog/files/css/_page-nav.md */
 /* .header-nav {
   width: 100%;
   margin-top: 10px;
