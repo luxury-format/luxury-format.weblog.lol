@@ -6,7 +6,7 @@ Title: Page Template
 <!DOCTYPE html>
 <html lang="en">
   <!-- Page Template -->
-  <!-- Weblog.lol/configuration/page-template.md -->
+  <!-- weblog/templates/page-template.md -->
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
