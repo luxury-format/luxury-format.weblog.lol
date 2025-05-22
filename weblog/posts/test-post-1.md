@@ -1,9 +1,9 @@
 ---
 Date: 2025-05-21 23:23
 Type: Post
-Template: Home Template
+Template: Post Template
 Title: TEST POST 1
-Tags: #2025, #TEST, #POST, #TEST-POST--1
+Tags: #2025, #TEST, #POST, #TEST-POST-1
 ---
 
 # TEST POST 1
@@ -20,175 +20,175 @@ Tags: #2025, #TEST, #POST, #TEST-POST--1
 
 ## weblog-title
 
-start >{weblog-title}< finish
+{weblog-title}
 
 ---
 
 ## weblog-short-title
 
-start >{weblog-short-title}< finish
+{weblog-short-title}
 
 ---
 
 ## author
 
-start >{author}< finish
+{author}
 
 ---
 
 ## weblog-description
 
-start >{weblog-description}< finish
+{weblog-description}
 
 ---
 
 ## separator
 
-start >{separator}< finish
+{separator}
 
 ---
 
 ## tags
 
-start >{tags}< finish
+{tags}
 
 ---
 
 ## base-path
 
-start >{base-path}< finish
+{base-path}
 
 ---
 
 ## relative-date
 
-start >{relative-date}< finish
+{relative-date}
 
 ---
 
 ## unix-date
 
-start >{unix-date}< finish
+{unix-date}
 
 ---
 
 ## iso8601-date 
 
-start >{iso8601-date}< finish
+{iso8601-date}
 
 ---
 
 ## post-title-urlencoded
 
-start >{post-title-urlencoded}< finish
+{post-title-urlencoded}
 
 ---
 
 ## date
 
-start >{date}< finish
+{date}
 
 ---
 
 ## slug
 
-start >{slug}< finish
+{slug}
 
 ----
 
 ## location
 
-start >{location}< finish
+{location}
 
 ---
 
 ## rss-location
 
-start >{rss-location}< finish
+{rss-location}
 
 ---
 
 ## atom-location
 
-start >{atom-location}< finish
+{atom-location}
 
 ---
 
 ## json-location
 
-start >{json-location}< finish
+{json-location}
 
 ---
 
 ## rss-url
 
-start >{rss-url}< finish
+{rss-url}
 
 ---
 
 ## atom-url
 
-start >{atom-url}< finish
+{atom-url}
 
 ---
 
 ## json-url
 
-start >{json-url}< finish
+{json-url}
 
 ---
 
 ## permalink
 
-start >{permalink}< finish
+{permalink}
 
 ---
 
 ## year
 
-start >{year}< finish
+{year}
 
 ---
 
 ## month
 
-start >{month}< finish
+{month}
 
 ---
 
 ## day
 
-start >{day}< finish
+{day}
 
 ---
 
 ## post-number
 
-start >{post-number}< finish
+{post-number}
 
 ---
 
 ## post-count
 
-start>{post-count}< finish
+{post-count}
 
 ---
 
 ## titleless-body
 
-start >{titleless-body}< finish
+{titleless-body}
 
 ---
 
 ## previous-page
 
-start >{previous-page}< finish
+{previous-page}
 
 ---
 
 ## next-page
 
-start >{next-page}< finish
+{next-page}
 
 ---
 
