@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _nav.css
 Location: /_nav.css
 
-/* Weblog.lol/weblog/files/_nav.md */
+/* weblog/files/css/_nav.md */
 /* nav.main {
   height: auto;
   padding: 5px 0;
