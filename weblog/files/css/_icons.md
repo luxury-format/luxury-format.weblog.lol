@@ -3,7 +3,7 @@ Content-Type: text/css
 Title: _icons.css
 Location: /_icons.css
 
-/* Weblog.lol/weblog/files/_icons.md */
+/* weblog/files/css/_icons.md */
 /* Color for all Font Awesome icons */
 .fa-solid, 
 .fa-regular, 
