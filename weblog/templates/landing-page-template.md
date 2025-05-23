@@ -90,6 +90,7 @@ Title: Landing Page Template
         {previous-page}
         {next-page}
       </nav>
+      {page-list}
     </main>
     <!-- FOOTER -->
     <footer>
