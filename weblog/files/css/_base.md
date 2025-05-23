@@ -39,7 +39,7 @@ main.no-title-link h2 > a {
   text-decoration: none;
 } */
 
-page-title {
+.page-title {
     text-shadow: rgba(10, 189, 240, 0.298039) 2px 2px 0px, rgba(254, 1, 1, 0.298039) -2px -2px 0px;
 }
 
