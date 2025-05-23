@@ -9,7 +9,7 @@ Location: /explore
 
 ---
 
-- [/](/) - Home page.
+- [/](/) - Landing page (all post leave here).
 - [/404](/404) (18+)
 - [/about](/about)
 - [/archive](/archive)
