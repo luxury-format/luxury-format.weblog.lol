@@ -136,7 +136,7 @@ nav {
 
 #weblog-navigation li {
   background: var(--accent-5);
-  border: 1px solid var(--purple);
+  border: 1px solid var(--blue);
   border-radius: 0.5rem;
   padding: 0.5rem;
   font-size: 16px;
