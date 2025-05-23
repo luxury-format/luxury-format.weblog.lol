@@ -336,27 +336,12 @@ form button:hover {
   border-color: var(--purple);
 }
 
-.post-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.post-link {
-  font-family: var(--title-font);
-  font-size: 85%;
-  font-weight: bold;
-  text-decoration: none;
-  color: var(--link);
-}
-
 .landing-post-info {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
   color: var(--foreground);
-  display: flex;
-  align-items: center;
+  text-align: right;
 }
 
 .page-post-info {
