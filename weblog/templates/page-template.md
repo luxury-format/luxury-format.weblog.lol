@@ -84,12 +84,10 @@ Title: Page Template
         {navigation}
       </div>
     </header>
-    <!-- aside class sidebar -->
-    <aside class="sidebar">
-      {page-list}
-    </aside>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
+      {search}
+      {page-list}
       {body}
     </main>
     <!-- FOOTER -->
