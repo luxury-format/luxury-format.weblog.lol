@@ -83,12 +83,10 @@ Title: Landing Page Template
         {navigation}
       </div>
     </header>
-    <!-- aside class sidebar -->
-    <aside class="sidebar">
-      {page-list}
-    </aside>
     <!-- MAIN -->
     <main>
+      {search}
+      {page-list}
       {body}
       <nav class="landing-page-pagination">
         {previous-page}
