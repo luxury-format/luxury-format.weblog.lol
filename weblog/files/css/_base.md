@@ -401,7 +401,7 @@ form button:hover {
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
   content: "\21C4";
-  color: var(--link);
+  color: var(--text);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
