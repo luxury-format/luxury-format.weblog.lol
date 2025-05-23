@@ -91,7 +91,7 @@ Multiple posts format: <<[
 Recent posts count: 5
 Recent posts format: <<[
 <ul>
-[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> ($date)</li>[post:end]
+[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
 </ul>]>>
 
 ;; Post list {post-list}
