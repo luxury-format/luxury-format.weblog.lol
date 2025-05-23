@@ -10,7 +10,7 @@ Location: /explore
 ---
 
 - [/](/) - Landing page, my all post leave here.
-- [/404](/404) (18+)
+- [/404](/404)
 - [/about](/about) - about me.
 - [/archive](/archive) - archive.
 - [/blogroll](/blogroll) - blogroll.
