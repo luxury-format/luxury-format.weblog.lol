@@ -10,7 +10,7 @@ Location: /explore
 ---
 
 - [/](/) - Landing page, my all post leave here.
-- [/404](/404)
+- [/404](/404) - Custom 404 page.
 - [/about](/about) - about me.
 - [/archive](/archive) - archive.
 - [/blogroll](/blogroll) - blogroll.
