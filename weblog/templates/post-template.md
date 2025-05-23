@@ -8,9 +8,6 @@ Title: Post Template
 <article>
   {body}
   <div class="post-meta">
-    <a class="post-link" href="{location}">
-      Read more &rarr;
-    </a>
     <aside class="landing-post-info">
       <i class="fa-solid fa-clock"></i>
       <span>{date}</span>
