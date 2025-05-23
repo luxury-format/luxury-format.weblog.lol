@@ -331,15 +331,15 @@ form button {
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--blue);
-  border: 2px solid var(--link);
+  border: 2px solid var(--black-white);
   color: var(--text);
   font-family: var(--title-font);
 }
 
-form button:hover {
-  background-color: var(--white);
+/* form button:hover {
+  background-color: var(--link);
   border-color: var(--link-hover);
-}
+} */
 
 .landing-post-info {
   font-family: var(--title-font);
