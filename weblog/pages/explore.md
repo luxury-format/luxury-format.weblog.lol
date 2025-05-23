@@ -1,7 +1,6 @@
 ---
 Date: 2025-05-01 00:00
 Type: Page
-Template: Page
 Title: Explore
 Location: /explore
 ---
@@ -24,11 +23,5 @@ Location: /explore
 - [/now](/now) - "redirect" to: omg.lol/now page.
 - [/photos](/photos)
 - [/profile](/profile) - "redirect" to: omg.lol profile page.
-
----
-
-### Other pages
-
-- [tags](/tags)
-- [random-post](/random-post)
-- [test-page-1](/test-page-1)
+- [/tags](/tags) - all tags.
+- [/random](/random) - open random post.
