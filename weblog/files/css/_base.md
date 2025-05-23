@@ -331,8 +331,8 @@ form button {
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--blue);
-  border: 2px solid var(--white);
-  color: var(--black);
+  border: 2px solid var(--text);
+  color: var(--text);
   font-family: var(--title-font);
 }
 
