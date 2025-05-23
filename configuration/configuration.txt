@@ -7,26 +7,24 @@
 Weblog title: LUXURY FORMAT
 Weblog short title: LF.
 Weblog description: Good as gold!
-Author: LUXURY FORMAT
-// Canonical domain: elsewhere.tld
-// Weblog.lol/configuration/configuration.txt
+Author: Me, Myself and I
+// Canonical domain: luxury-format.com
+// Landing page: /
+Landing page template: Landing Page Template
+Random post location: /random
+// configuration/configuration.txt
 
 
 ;; General config stuff
 ;; --------------------
 
-Separator:  – 
+Separator:  · 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/blog), [<i class="fa-solid fa-dice"></i> RANDOM](/random), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
-// Landing page: /
-// Landing page template: Landing Page Template
-Page template: Page Template
-Post template: Post Template
-Landing page post count: 2
-Landing page post length: 45 words
-Random post location: /random
+Navigation: [Blog](/), [Random](/random), tags, archive, explore, search
 Files path: /files/
-
+Landing page post count: 2
+// Landing page post length: 45 words
+Post template: Post Template
 
 ;; Pagination
 ;; ----------
@@ -47,7 +45,7 @@ Date format: F j, Y
 ;; -----
 
 Feed post count: 250
-Feed post appendix: <p><em>Published with <a href="https://home.omg.lol/referred-by/luxury-format"><strong>Weblog.lol!</strong></a></em></p>
+Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
 
 
 ;; Posts
