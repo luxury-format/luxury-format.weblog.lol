@@ -10,7 +10,7 @@ Location: /_header.css
   flex-direction: column;
 /*  width: 100%; */
   max-width: 100%;
-  background-color: var(--accent);
+  background-color: var(--accent-5);
   padding: 1rem;
   margin: 1rem;
   border-radius: var(--border-radius);
@@ -135,7 +135,7 @@ nav {
 }
 
 #weblog-navigation li {
-  background: var(--grey);
+  background: var(--accent-5);
   border: 1px solid var(--purple);
   border-radius: 0.5rem;
   padding: 0.5rem;
