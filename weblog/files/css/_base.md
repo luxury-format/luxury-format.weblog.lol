@@ -149,7 +149,7 @@ em {
 }
 
 mark {
-  color: var(--mark);
+  color: var(--text);
   background-color: var(--yellow);
 }
 
@@ -181,7 +181,7 @@ blockquote {
   padding: 1rem 1rem 1rem 1.5rem;
   border-left: 4px solid;
   border-color: var(--blue);
-  background: var(--highlight);
+  background: var(--accent-2);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
@@ -278,7 +278,7 @@ th {
 }
 
 th {
-  background: var(--highlight);
+  background: var(--accent-2);
   color: var(--purple);
   padding: 10px 5px;
 }
