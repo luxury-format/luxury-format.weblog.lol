@@ -6,8 +6,8 @@ Location: /_variables.css
 /* weblog/files/css/_variables.md */
 :root {
   color-scheme: light dark;
-  --foreground: #1C1C1E;
   --background: #F8F8F2;
+  --text: #1C1C1E;
   --link: #007AFF;
   --link-hover: #007AFF;
   --accent: #E5E5EA;
@@ -39,8 +39,8 @@ Location: /_variables.css
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: #F8F8F2;
     --background: #1C1C1E;
+    --text: #F8F8F2;
     --link: #0A84FF;
     --link-hover: #0A84FF;
     --accent: #2C2C2E;
