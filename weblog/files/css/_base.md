@@ -32,7 +32,7 @@ main.no-title-link h2 > a {
   text-decoration: none;
   pointer-events: none;
   cursor: default;
-  text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
+  text-shadow: rgba(10, 189, 240, 0.298039) 2px 2px 0px, rgba(254, 1, 1, 0.298039) -2px -2px 0px;
 }
 
 /* h1.no-links > a {
