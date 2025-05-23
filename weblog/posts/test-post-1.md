@@ -1,7 +1,7 @@
 ---
 Date: 2025-05-21 23:23
 Type: Post
-Template: Post Template
+Template: Post
 Title: TEST POST 1
 Tags: #2025, #TEST, #POST, #TEST-POST-1
 ---
@@ -18,27 +18,17 @@ Tags: #2025, #TEST, #POST, #TEST-POST-1
 
 ---
 
-## weblog-title
+## weblog-title - author - weblog-description
 
-{weblog-title}
+- {weblog-title}
+- {author}
+- {weblog-description}
 
 ---
 
-## weblog-short-title
+## weblog-short-title {custom tag}
 
 {weblog-short-title}
-
----
-
-## author
-
-{author}
-
----
-
-## weblog-description
-
-{weblog-description}
 
 ---
 
@@ -54,138 +44,56 @@ Tags: #2025, #TEST, #POST, #TEST-POST-1
 
 ---
 
-## base-path
-
-{base-path}
-
----
-
-## relative-date
-
-{relative-date}
-
----
-
-## unix-date
-
-{unix-date}
-
----
-
-## iso8601-date 
-
-{iso8601-date}
-
----
-
 ## post-title-urlencoded
 
 {post-title-urlencoded}
 
 ---
 
-## date
+## rss-location - atom-location - json-location
 
-{date}
-
----
-
-## slug
-
-{slug}
-
-----
-
-## location
-
-{location}
+- {rss-location}
+- {atom-location}
+- {json-location}
 
 ---
 
-## rss-location
+## rss-url - atom-url - json-url
 
-{rss-location}
-
----
-
-## atom-location
-
-{atom-location}
+- {rss-url}
+- {atom-url}
+- {json-url}
 
 ---
 
-## json-location
+## permalink - base-path - location - slug
 
-{json-location}
-
----
-
-## rss-url
-
-{rss-url}
+- {permalink}
+- {base-path}
+- {location}
+- {slug}
 
 ---
 
-## atom-url
+## relative-date - date - iso8601-date - unix-date
 
-{atom-url}
-
----
-
-## json-url
-
-{json-url}
+- {relative-date}
+- {date}
+- {iso8601-date}
+- {unix-date}
 
 ---
 
-## permalink
+## year - month - day
 
-{permalink}
-
----
-
-## year
-
-{year}
+{year} - {month} - {day}
 
 ---
 
-## month
+## post-number vs pist-count
 
-{month}
-
----
-
-## day
-
-{day}
+{post-number} vs {post-count}
 
 ---
-
-## post-number
-
-{post-number}
-
----
-
-## post-count
-
-{post-count}
-
----
-
-## previous-page
-
-{previous-page}
-
----
-
-## next-page
-
-{next-page}
-
----
-
-## finish (body) text
 
 finish body text here >
