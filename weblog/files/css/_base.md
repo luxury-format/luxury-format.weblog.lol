@@ -279,7 +279,7 @@ th {
 
 th {
   background: var(--accent-2);
-  color: var(--purple);
+  color: var(--blue);
   padding: 10px 5px;
 }
 
@@ -388,7 +388,7 @@ form button:hover {
 }
 
 .tag:hover {
-  background: var(--grey);
+  background: var(--accent-1);
 }
 
 .previous-page {
