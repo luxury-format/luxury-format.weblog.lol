@@ -14,7 +14,7 @@ body {
   font-family: var(--sans-serif);
   font-weight: normal;
   font-size: 115%;
-  color: var(--foreground);
+  color: var(--text);
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -340,7 +340,7 @@ form button:hover {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-  color: var(--foreground);
+  color: var(--text);
   text-align: right;
 }
 
@@ -348,7 +348,7 @@ form button:hover {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-  color: var(--foreground);
+  color: var(--text);
   text-align: right;
 }
 
