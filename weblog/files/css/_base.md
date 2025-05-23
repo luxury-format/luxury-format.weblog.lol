@@ -400,7 +400,7 @@ form button:hover {
 }
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
-  content: "\2022";
+  content: "\21C4";
   color: var(--link);
   position: absolute;
   left: 50%;
