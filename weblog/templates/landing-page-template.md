@@ -83,6 +83,10 @@ Title: Landing Page Template
         {navigation}
       </div>
     </header>
+    <!-- aside class sidebar -->
+    <aside class="sidebar">
+      {page-list}
+    </aside>
     <!-- MAIN -->
     <main>
       {body}
