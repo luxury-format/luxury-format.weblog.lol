@@ -11,5 +11,3 @@ Index: Exclude
 ---
 
 {page-list}
-
----
