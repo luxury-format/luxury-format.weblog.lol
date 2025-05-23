@@ -108,7 +108,7 @@ Post list format: <<[
 ;; Page list {page-list}
 ;; ---------------------
 
-Page path: /pages
+Pages path: /pages
 Page list format: <<[
 <ul>
 [page:begin]<li><a href="$location">$title</a></li>[page:end]
