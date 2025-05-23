@@ -69,6 +69,7 @@ Body text goes here...
 <p class="top">[&uarr;](#top)</p>]>>
 
 Titleless title length: 80 characters
+Titleless body length: 0 characters
 // Titleless title length: 5 words
 // Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
