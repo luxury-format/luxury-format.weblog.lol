@@ -14,7 +14,6 @@ Location: /explore
 - [/404](/404) (18+)
 - [/about](/about)
 - [/archive](/archive)
-- [/blog](/blog)
 - [/blogroll](/blogroll)
 - [/explore](/explore) - this page.
 - [/feeds](/feeds)
