@@ -15,14 +15,14 @@ Author: LUXURY FORMAT
 
 Separator:  – 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/blog), [<i class="fa-solid fa-dice"></i> RANDOM](/random-post), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
+Navigation: [<i class="fa-regular fa-newspaper"></i> BLOG](/blog), [<i class="fa-solid fa-dice"></i> RANDOM](/random), [<i class="fa-solid fa-tags"></i> TAGS](/tags), [<i class="fa-solid fa-archive"></i> ARCHIVE](/archive), [<i class="fa-solid fa-signs-post"></i> EXPLORE](/explore), [<i class="fa-regular fa-circle-user"></i> ABOUT](/about)
 // Landing page: /
 Landing page template: Landing Page Template
 Page template: Page Template
 Post template: Post Template
 Landing page post count: 2
 Landing page post length: 45 words
-Random post location: /random-post
+Random post location: /random
 Files path: /files/
 
 ;; Pagination
@@ -108,7 +108,7 @@ Post list format: <<[
 ;; Page list {page-list}
 ;; ---------------------
 
-Pages path: /pages
+Page path: /page/
 Page list format: <<[
 <ul>
 [page:begin]<li><a href="$location">$title</a></li>[page:end]
