@@ -331,14 +331,14 @@ form button {
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--blue);
-  border: 2px solid var(--text);
+  border: 2px solid var(--link);
   color: var(--text);
   font-family: var(--title-font);
 }
 
 form button:hover {
   background-color: var(--white);
-  border-color: var(--blue);
+  border-color: var(--link-hover);
 }
 
 .landing-post-info {
@@ -361,7 +361,7 @@ form button:hover {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-  color: var(--green);
+  color: var(--blue);
   text-align: right;
 }
 
@@ -383,7 +383,7 @@ form button:hover {
 } */
 
 .tag {
-  background: var(--green);
+  background: var(--link);
   color: var(--black) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
@@ -393,7 +393,7 @@ form button:hover {
 }
 
 .tag:hover {
-  background: var(--accent-1);
+  background: var(--link-hover);
 }
 
 .previous-page {
