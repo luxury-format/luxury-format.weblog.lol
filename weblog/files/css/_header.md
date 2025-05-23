@@ -94,7 +94,7 @@ Location: /_header.css
 
 .header-icons span {
   font-family: var(--title-font);
-  color: var(--foreground);
+  color: var(--text);
   font-size: 90%;
 }
 
@@ -111,7 +111,7 @@ Location: /_header.css
 }
 
 .header-icons a:hover {
-    color: var(--foreground);
+    color: var(--text);
     border-color: var(--blue);
 }
 
@@ -151,7 +151,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: var(--foreground) !important;
+  color: var(--text) !important;
 }
 
 #weblog-navigation li a i {
