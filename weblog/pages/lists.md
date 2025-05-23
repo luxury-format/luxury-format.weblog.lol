@@ -12,15 +12,4 @@ Index: Exclude
 
 {page-list}
 
-
 ---
-
-{page-listing}
-
----
-
-{pages-list}
-
----
-
-{pages-listing}
