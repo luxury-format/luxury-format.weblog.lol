@@ -90,7 +90,7 @@ Tags: #2025, #TEST, #POST, #TEST-POST-1
 
 ---
 
-## post-number vs pist-count
+## post-number vs post-count
 
 {post-number} vs {post-count}
 
