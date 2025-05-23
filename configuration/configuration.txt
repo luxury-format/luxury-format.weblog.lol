@@ -1,5 +1,6 @@
 // Weblog Configuration
 
+
 ;; About your weblog
 ;; -----------------
 
@@ -9,6 +10,7 @@ Weblog description: Good as gold!
 Author: LUXURY FORMAT
 // Canonical domain: elsewhere.tld
 // Weblog.lol/configuration/configuration.txt
+
 
 ;; General config stuff
 ;; --------------------
@@ -25,6 +27,7 @@ Landing page post length: 45 words
 Random post location: /random
 Files path: /files/
 
+
 ;; Pagination
 ;; ----------
 
@@ -35,9 +38,6 @@ Next page template: <span class="next-page"><a href="$next_page">Older ❯</a></
 
 ;; Time stuff
 ;; ----------
-
-; You can use a timezone value from the "TZ database name" column on this 
-; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Timezone: America/Chicago
 Date format: F j, Y
@@ -56,19 +56,16 @@ Feed post appendix: <p><em>Published with <a href="https://home.omg.lol/referred
 Post path format: /\b\l\o\g/Y/m/d/
 Default post: <<[---
 Date: $date
-Type: Post
+Type: Post (Page, File, Template)
 Title: Title
 Tags: #2025, #Tag 1, #Tag 2
 Status: Draft (Unlisted, Web Only, Feed Only)
 ---
 
-# Title (Max: 5 words)
+# Title
 
-Body text goes here...  
+Body text start here...]>>
 
-<p class="top">[&uarr;](#top)</p>]>>
-
-Titleless title length: 5 words
 // Titleless title length: 80 characters
 // Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
@@ -94,7 +91,7 @@ Multiple posts format: <<[
 Recent posts count: 5
 Recent posts format: <<[
 <ul>
-[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - ($relative_date) - ($date)</li>[post:end]
+[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> ($date)</li>[post:end]
 </ul>]>>
 
 ;; Post list {post-list}
@@ -102,19 +99,19 @@ Recent posts format: <<[
 
 Post list format: <<[
 <ul>
-[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - $date</li>[post:end]
+[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
 </ul>]>>
 
 ;; Page list {page-list}
 ;; ---------------------
 
-Page path: /page/
 Page list format: <<[
 <ul>
 [page:begin]<li><a href="$location">$title</a></li>[page:end]
 </ul>]>>
 
-;; Search
+
+;; Search {search}
 ;; ------
 
 Search status: enabled
@@ -125,7 +122,7 @@ Search results format: <<[
 <h1 class="page-title">Search results for “$search”</h1>
 <h6>$search_results_message</6>
 <hr>
-[post:begin]<h3><a href="$location">$title</a></h3>
+[post:begin]<h3><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a></h3>
 <p>$date</p>
 <p>$snippet</p>
 <hr>[post:end]
@@ -142,9 +139,8 @@ Tags format: <<[
 ]>>
 Tag page format: <<[
 <h1 class="page-title">Posts tagged with: “$tag”</h1>
-<hr>
 <ul>
-[tag:begin]<li><a href="$location">$title</a></li>[tag:end]
+[tag:begin]<li><a href="$location"><i class="fa-solid fa-tag"></i> $title</a></li>[tag:end]
 </ul>
 ]>>
 
@@ -153,10 +149,9 @@ Tag listing path: /tags
 // Note: tag listing order can be "alphabetical", "ascending", or "descending" where alphabetical sorts by the tag name and ascending/descending sorts by the count of entries with that tag
 Tag listing order: descending
 Tag listing format: <<[
-<h1 class="page-title">Post Tags</h1>
-<h6>{post-count} posts • <a href="/">All posts</a></h6>
-<hr>
+<h1 class="page-title"><i class="fa-solid fa-tags"></i> Tags</h1>
+<h6>Total {post-count} posts • <a href="/"><i class="fa-regular fa-newspaper"></i> All posts</a></h6>
 <ul>
-[tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
+[tag:begin]<li><a href="$location"><i class="fa-solid fa-tag"></i> $tag</a> ($count)</li>[tag:end]
 </ul>
 ]>>
