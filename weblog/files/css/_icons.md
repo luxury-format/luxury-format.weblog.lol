@@ -11,7 +11,7 @@ Location: /_icons.css
 .fa-light,
 .fa-thin,
 .fa-duotone {
-  color: var(--icons);
+  color: var(--accent-1);
 }
 
 /* Individual icons color */
@@ -33,7 +33,7 @@ Location: /_icons.css
 
 /* Color for all OMG LOL icons */
 .omg-icon {
-  color: var(--icons);
+  color: var(--accent-1);
 }
 
 /* Individual omg-icons color */
