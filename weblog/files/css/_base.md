@@ -320,9 +320,9 @@ form input {
   height: 40px;
   border-radius: var(--border-radius);
   font-weight: bold;
-  background-color: var(--white);
-  border: 2px solid var(--purple);
-  color: var(--black);
+  background-color: var(--background);
+  border: 2px solid var(--blue);
+  color: var(--text);
 }
 
 form button {
@@ -330,7 +330,7 @@ form button {
   height: 40px;
   border-radius: var(--border-radius);
   font-weight: bold;
-  background-color: var(--purple);
+  background-color: var(--blue);
   border: 2px solid var(--white);
   color: var(--black);
   font-family: var(--title-font);
@@ -338,7 +338,7 @@ form button {
 
 form button:hover {
   background-color: var(--white);
-  border-color: var(--purple);
+  border-color: var(--blue);
 }
 
 .landing-post-info {
