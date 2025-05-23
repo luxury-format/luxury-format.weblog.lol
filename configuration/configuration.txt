@@ -45,18 +45,18 @@ Date format: F j, Y
 ;; -----
 
 Feed post count: 250
-Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
+// Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
 
 
 ;; Posts
 ;; -----
 
-Post path format: /\b\l\o\g/Y/m/d/
+Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
-Type: Post (Page, File, Template)
+Type: Post
 Title: Title
-Tags: #2025, #Tag 1, #Tag 2
+Tags: #2025, #
 Status: Draft (Unlisted, Web Only, Feed Only)
 ---
 
@@ -64,8 +64,8 @@ Status: Draft (Unlisted, Web Only, Feed Only)
 
 Body text start here...]>>
 
-// Titleless title length: 80 characters
-// Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
+Titleless title length: 15 words
+// Truncation appendix:  […]
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
 
 Multiple posts count: 10
@@ -109,7 +109,7 @@ Page list format: <<[
 </ul>]>>
 
 
-;; Search {search}
+;; Search
 ;; ------
 
 Search status: enabled
@@ -133,10 +133,10 @@ Search results format: <<[
 Tag path: /tag/
 // Tag page template: Tag Template
 Tags format: <<[
-[tag:begin]<a class="tag" href="$tag_location">$tag</a>[tag:end]
+[tag:begin]<a class="tag" href="$tag_location"><i class="fa-solid fa-tag"></i> $tag</a>[tag:end]
 ]>>
 Tag page format: <<[
-<h1 class="page-title">Posts tagged with: “$tag”</h1>
+<h1 class="page-title">Posts tagged with: <i class="fa-solid fa-tag"></i> “$tag”</h1>
 <ul>
 [tag:begin]<li><a href="$location"><i class="fa-solid fa-tag"></i> $title</a></li>[tag:end]
 </ul>
