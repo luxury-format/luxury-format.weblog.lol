@@ -85,7 +85,6 @@ Title: Landing Page Template
     </header>
     <!-- MAIN -->
     <main>
-      {search}
       {page-list}
       {body}
       <nav class="landing-page-pagination">
