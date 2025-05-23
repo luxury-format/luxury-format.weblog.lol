@@ -66,13 +66,11 @@ Status: Draft (Unlisted, Web Only, Feed Only)
 
 Body text goes here...  
 
-<p class="permalink"><small class="permalink"><a class="permalink" htef="{permalink}">permalink</a></small></p>
-
 <p class="top">[&uarr;](#top)</p>]>>
 
 Titleless title length: 80 characters
 // Titleless title length: 5 words
-Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
+// Truncation appendix:  <a class="read-more" href="{location}">Read more...</a>
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
 
 Multiple posts count: 10
