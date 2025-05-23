@@ -9,3 +9,11 @@ Location: /blog
 # BLOG
 
 ---
+
+<main>
+  {body}
+  <nav class="landing-page-pagination">
+    {previous-page}
+    {next-page}
+  </nav>
+</main>
