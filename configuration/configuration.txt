@@ -105,7 +105,7 @@ Post list format: <<[
 
 Page list format: <<[
 <ul>
-[page:begin]<li><a href="$location">$title</a></li>[page:end]
+[page:begin]<li><a href="$page_location">$title</a></li>[page:end]
 </ul>]>>
 
 
