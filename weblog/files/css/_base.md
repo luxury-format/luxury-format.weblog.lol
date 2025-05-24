@@ -219,8 +219,8 @@ a.footnote-ref {
 
 pre {
   font-family: var(--monospace);
-  background: var(--black);
-  color: var(--white);
+/*  background: var(--black); */
+/*  color: var(--white); */
   font-size: 90%;
   line-height: 150%;
   box-shadow: var(--box-shadow);
@@ -228,15 +228,15 @@ pre {
   -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   overflow-wrap: normal;
-  overflow-x: scroll;
+/*  overflow-x: scroll; */
   white-space: pre;
   word-wrap: normal;
-  padding: 1rem;
+/*  padding: 1rem; */
 }
 
 code {
   font-family: var(--monospace);
-  background: var(--black);
+  background: #282A36;
   color: var(--white);
   font-size: 75%;
   line-height: 150%;
