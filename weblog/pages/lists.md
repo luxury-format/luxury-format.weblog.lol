@@ -9,5 +9,3 @@ Index: Exclude
 # Lists
 
 ---
-
-{page-list}
