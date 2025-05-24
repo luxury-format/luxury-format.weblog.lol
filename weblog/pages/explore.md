@@ -24,5 +24,10 @@ Index: Exclude
 - [/now](/now) - "redirect" to: omg.lol/now page.
 - [/photos](/photos) - my last one photo from [some.pics](https://luxury-format.some.pics).
 - [/profile](/profile) - "redirect" to: omg.lol profile page.
-- [/tags](/tags) - all tags page.
+- [search](/search) - search page.
+- [/slashes](/slashes)
+
+---
+
+- [/tags](/tags) - all tags leave here.
 - [/random](/random) - open random post.
