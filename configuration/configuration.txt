@@ -54,9 +54,9 @@ Feed post count: 250
 Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
-Type: Post
+Type: Post (Page, File, Template)
 Title: Title
-Tags: #2025, #
+Tags: 25', Tag
 Status: Draft (Unlisted, Web Only, Feed Only)
 ---
 
@@ -86,9 +86,9 @@ Multiple posts format: <<[
 ;; Recent posts {recent-posts}
 ;; ---------------------------
 
-Recent posts count: 5
+Recent posts count: 1000
 Recent posts format: <<[
-<ul>
+<ul class="recent-posts">
 [post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
 </ul>]>>
 
@@ -96,7 +96,7 @@ Recent posts format: <<[
 ;; ---------------------
 
 Post list format: <<[
-<ul>
+<ul class="post-list">
 [post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
 </ul>]>>
 
@@ -104,7 +104,7 @@ Post list format: <<[
 ;; ---------------------
 
 Page list format: <<[
-<ul>
+<ul class="page-list">
 [page:begin]<li><a href="$location">$title</a></li>[page:end]
 </ul>]>>
 
@@ -138,7 +138,7 @@ Tags format: <<[
 Tag page format: <<[
 <h2 class="page-title">Posts tagged with: “$tag”</h2>
 <hr>
-<ul>
+<ul class="posts-tagged-with">
 [tag:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a></li>[tag:end]
 </ul>
 ]>>
@@ -151,7 +151,7 @@ Tag listing format: <<[
 <h2 class="page-title"> Tags</h2>
 <h6>{post-count} posts • <a href="/"> All posts</a></h6>
 <hr>
-<ul>
+<ul class="tags">
 [tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
 </ul>
 ]>>
