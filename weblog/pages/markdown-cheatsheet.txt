@@ -16,7 +16,7 @@ Index: Exclude
 
 ---
 
-# Headers
+## Headers
 
 ```
 # Header 1
@@ -36,7 +36,7 @@ Index: Exclude
 
 ---
 
-# Emphasis
+## Emphasis
 
 ```
 *italic*
@@ -53,7 +53,7 @@ Index: Exclude
 
 ---
 
-# Blockquote
+## Blockquote
 
 ```
 > This is a blockquote
@@ -63,9 +63,11 @@ Index: Exclude
 
 ---
 
-## Lists and Tasks
+### Lists and Tasks
 
-## Unordered List
+---
+
+#### Unordered List
 
 ```
 - Item 1
@@ -81,7 +83,7 @@ Index: Exclude
 
 ---
 
-## Ordered List
+#### Ordered List
 
 ```
 1. Item 1
@@ -97,7 +99,7 @@ Index: Exclude
 
 ---
 
-## Tasks
+#### Tasks
 
 ```
 - [ ] Checkbox off
@@ -109,7 +111,7 @@ Index: Exclude
 
 ---
 
-# Links
+## Links
 
 ```
 [link](http://google.com)
@@ -129,7 +131,7 @@ Index: Exclude
 
 ---
 
-# Horizontal line
+## Horizontal line
 
 ```
 ---
@@ -139,7 +141,11 @@ Index: Exclude
 
 ---
 
-# Code
+## Code
+
+---
+
+### Code Blocks
 
 ````markdown
 ```javascript
@@ -159,7 +165,7 @@ console.log("This is a block code");
 
 ---
 
-## Escaped code
+### Escaped code
 
 Escaped code blocks can be done with more back ticks on the outside or a different symbol.
 
@@ -179,7 +185,7 @@ echo hi
 
 ---
 
-## Inline code
+### Inline code
 
 ```
 `Inline code` has back-ticks around it.
@@ -189,7 +195,7 @@ echo hi
 
 ---
 
-# Tables
+## Tables
 
 ```
 | Left Column | Center Column | Right Column |
@@ -205,49 +211,37 @@ echo hi
 
 ---
 
-# Images
+## Images
 
 ```
-![GitHub Logo](/images/logo.png)
-
-![Alt Text](url)
+![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)
 ```
 
-![GitHub Logo](/images/logo.png)
-
-![Alt Text](url)
+![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)
 
 ---
 
-## Image with link
+### Image with link
 
 ```
-[![GitHub Logo](/images/logo.png)](https://github.com/)
-
-[![Alt Text](image_url)](link_url)
+[![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)](https://luxury-format.weblog.lol)
 ```
 
-[![GitHub Logo](/images/logo.png)](https://github.com/)
-
-[![Alt Text](image_url)](link_url)
+[![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)](https://luxury-format.weblog.lol)
 
 ---
 
-## Reference style images
+### Reference style images
 
 ```markdown
-![alt text][logo]
-
-[logo]: /images/logo.png "Logo Title"
+[logo]: https://profiles.cache.lol/luxury-format/picture.png "LUXURY FORMAT Logo"
 ```
 
-![alt text][logo]
-
-[logo]: /images/logo.png "Logo Title"
+[logo]: https://profiles.cache.lol/luxury-format/picture.png "LUXURY FORMAT Logo"
 
 ---
 
-# Backslash escapes
+## Backslash escapes
 
 | Characters | Escape | Description |
 |:--|:--|:--|
