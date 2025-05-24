@@ -11,5 +11,5 @@ Index: Exclude
 ---
 
 | Icon | Name | Link |
-| :--- | :---: | :---: |
+| :---: | :---: | :---: |
 | ![AppRaven](https://raw.githubusercontent.com/luxury-format/luxury-format.weblog.lol/refs/heads/main/weblog/images/AppRaven.PNG) | AppRaven | [App Store](https://apps.apple.com/app/id1490607195) |
