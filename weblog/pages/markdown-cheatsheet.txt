@@ -72,14 +72,14 @@ Index: Exclude
 ```
 - Item 1
 - Item 2
-    - item 3a
-    - item 3b
+    - Item 3a
+    - Item 3b
 ```
 
 - Item 1
 - Item 2
-    - item 3a
-    - item 3b
+    - Item 3a
+    - Item 3b
 
 ---
 
@@ -87,15 +87,15 @@ Index: Exclude
 
 ```
 1. Item 1
-2. Item 2  
-     a. Item 3a  
-     b. Item 3b
+2. Item 2
+     3a. Item 3a
+     3b. Item 3b
 ```
 
 1. Item 1
-2. Item 2  
-     a. Item 3a  
-     b. Item 3b
+2. Item 2
+     3a. Item 3a
+     3b. Item 3b
 
 ---
 
