@@ -114,20 +114,14 @@ Index: Exclude
 # Links
 
 ```
-[link](http://google.com)
+[link](https://luxury-format.weblog.lol)
 
-[link][google]  
-[google]: http://google.com
-
-<http://google.com>
+<https://luxury-format.weblog.lol>
 ```
 
-[link](http://google.com)
+[link](https://luxury-format.weblog.lol)
 
-[link][google]  
-[google]: http://google.com
-
-<http://google.com>
+<https://luxury-format.weblog.lol>
 
 ---
 
