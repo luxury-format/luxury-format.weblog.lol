@@ -87,7 +87,7 @@ Title: Page Template
     </header>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
-      <h6>{weblog-title}{separator}{post-title}</h6>
+      <h6>{weblog-title}{separator}Page{separator}{post-title}</h6>
       {body}
     </main>
     <!-- FOOTER -->
