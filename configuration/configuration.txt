@@ -136,7 +136,7 @@ Tags format: <<[
 [tag:begin]<a class="tag" href="$tag_location">$tag</a>[tag:end]
 ]>>
 Tag page format: <<[
-<h1 class="page-title">Posts tagged with: “$tag”</h1>
+<h2 class="page-title">Posts tagged with: “$tag”</h2>
 <hr>
 <ul>
 [tag:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a></li>[tag:end]
