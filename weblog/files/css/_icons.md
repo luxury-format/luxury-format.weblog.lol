@@ -19,6 +19,10 @@ Location: /_icons.css
   color: #563ACC !important;
 }
 
+.fa-face-grin {
+  color: #FFE066;
+}
+
 .fa-rss {
   color: #F36B2B !important;
 }
