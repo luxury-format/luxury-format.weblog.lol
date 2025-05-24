@@ -20,7 +20,7 @@ Random post location: /random
 
 Separator:  · 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: [Blog](/), [Random](/random), [Tags](/tags), [Archive](/archive), [Explore](/explore), [Search](/search)
+Navigation: [Explore](/explore), [Blog](/), [Archive](/archive), [Search](/search), [Random](/random), [Tags](/tags)
 Files path: /files/
 Landing page post count: 2
 // Landing page post length: 45 words
