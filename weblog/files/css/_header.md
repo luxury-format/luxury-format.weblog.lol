@@ -135,7 +135,7 @@ nav {
 }
 
 #weblog-navigation li {
-  background: var(--accent-5);
+  background: var(--accent-4);
   border: 1px solid var(--blue);
   border-radius: 0.5rem;
   padding: 0.5rem;
