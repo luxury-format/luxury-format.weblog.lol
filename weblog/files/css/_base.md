@@ -321,7 +321,7 @@ form input {
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--background);
-  border: 2px solid var(--blue);
+  border: 2px solid var(--black);
   color: var(--text);
 }
 
@@ -330,16 +330,16 @@ form button {
   height: 40px;
   border-radius: var(--border-radius);
   font-weight: bold;
-  background-color: var(--blue);
-  border: 2px solid var(--black-white);
+  background-color: var(--link);
+  border: 2px solid var(--black);
   color: var(--text);
   font-family: var(--title-font);
 }
 
-/* form button:hover {
-  background-color: var(--link);
-  border-color: var(--link-hover);
-} */
+form button:hover {
+  background-color: var(--link-hover);
+  border-color: var(--blue);
+}
 
 .landing-post-info {
   font-family: var(--title-font);
