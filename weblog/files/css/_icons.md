@@ -20,7 +20,7 @@ Location: /_icons.css
 }
 
 .fa-face-grin {
-  color: #FFE066;
+  color: #FFD700 !important;
 }
 
 .fa-rss {
