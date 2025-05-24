@@ -185,8 +185,10 @@ blockquote {
   margin: 1.5rem 0;
   padding: 1rem 1rem 1rem 1.5rem;
   border-left: 4px solid;
-  border-color: var(--blue);
-  background: var(--accent-2);
+  border-color: var(--link);
+  background: #282A36;
+  color: var(--text);
+  font-style: italic;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
