@@ -321,7 +321,7 @@ form input {
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--background);
-  border: 2px solid var(--black);
+  border: 2px solid var(--black-white);
   color: var(--text);
 }
 
@@ -331,7 +331,7 @@ form button {
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--link);
-  border: 2px solid var(--black);
+  border: 2px solid var(--black-white);
   color: var(--text);
   font-family: var(--title-font);
 }
