@@ -338,7 +338,7 @@ form button {
 
 form button:hover {
   background-color: var(--link-hover);
-  border-color: var(--blue);
+/*  border-color: var(--blue); */
 }
 
 .landing-post-info {
