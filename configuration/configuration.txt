@@ -150,6 +150,7 @@ Tag listing order: descending
 Tag listing format: <<[
 <h1 class="page-title"> Tags</h1>
 <h6>{post-count} posts • <a href="/"> All posts</a></h6>
+<hr>
 <ul>
 [tag:begin]<li><a href="$location"><i class="fa-solid fa-tag"></i> $tag</a> ($count)</li>[tag:end]
 </ul>
