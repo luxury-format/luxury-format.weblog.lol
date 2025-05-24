@@ -417,7 +417,7 @@ form button:hover {
   align-items: center;
   text-align: center;
   word-spacing: 1em;
-  color: var(--black);
+  color: var(--text);
   gap: 1em;
   margin: 1em 0;
 }
