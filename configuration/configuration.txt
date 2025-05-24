@@ -133,7 +133,7 @@ Search results format: <<[
 Tag path: /tag/
 // Tag page template: Tag Template
 Tags format: <<[
-[tag:begin]<a class="tag" href="$tag_location"><i class="fa-solid fa-tag"></i> $tag</a>[tag:end]
+[tag:begin]<a class="tag" href="$tag_location">$tag</a>[tag:end]
 ]>>
 Tag page format: <<[
 <h1 class="page-title">Posts tagged with: “$tag”</h1>
@@ -152,6 +152,6 @@ Tag listing format: <<[
 <h6>{post-count} posts • <a href="/"> All posts</a></h6>
 <hr>
 <ul>
-[tag:begin]<li><a href="$location"><i class="fa-solid fa-tag"></i> $tag</a> ($count)</li>[tag:end]
+[tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
 </ul>
 ]>>
