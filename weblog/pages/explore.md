@@ -25,7 +25,7 @@ Index: Exclude
 - [/photos](/photos) - my last one photo from [some.pics](https://luxury-format.some.pics).
 - [/profile](/profile) - "redirect" to: omg.lol profile page.
 - [search](/search) - search page.
-- [/slashes](/slashes)
+- [/slashes](/slashes) - list of all pages on this blog.
 
 ---
 
