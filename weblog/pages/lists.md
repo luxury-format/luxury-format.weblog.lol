@@ -10,4 +10,4 @@ Index: Exclude
 
 ---
 
-{post-list:#Hello}
+{recent-posts:#Hello}
