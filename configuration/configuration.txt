@@ -44,7 +44,7 @@ Date format: F j, Y
 ;; Feeds
 ;; -----
 
-Feed post count: 250
+Feed post count: 100
 // Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
 
 
