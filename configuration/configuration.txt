@@ -86,7 +86,7 @@ Multiple posts format: <<[
 ;; Recent posts {recent-posts}
 ;; ---------------------------
 
-Recent posts count: 1000
+Recent posts count: 5
 Recent posts format: <<[
 <ul class="recent-posts">
 [post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
