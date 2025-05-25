@@ -5,6 +5,7 @@ Title: Post Template
 
 <!-- Post Template -->
 <!-- weblog/templates/post-template.md -->
+<h6><a href="/">Weblog</a>{separator}</h6>
 <article>
   {body}
   <div class="post-meta">
