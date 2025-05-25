@@ -77,7 +77,7 @@ Here is output:
 
 ---
 
-#### {\weblog-short-title}
+## {\weblog-short-title}
 
 This is my custom tag. In my configuration I have added next:
 
@@ -91,7 +91,7 @@ In output I get next:
 
 ---
 
-### {\recent-posts}
+## {\recent-posts}
 
 List of your recent posts, in my configuration, I set next: 
 
@@ -107,7 +107,7 @@ So here is my last 5 post:
 
 ---
 
-### {\post-list}
+## {\post-list}
 
 List of all your post, better to use on **Archive** page, but you can use it anywhere.
 
