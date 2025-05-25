@@ -88,9 +88,6 @@ Title: Landing Page template
     <main>
       <h6>Weblog{separator}All posts</h6>
       <hr>
-      <h2 class="page-title">Weblog</h2>
-      <h6>All posts</h6>    
-      <hr>
       {body}
       <nav class="landing-page-pagination">
         {previous-page}
