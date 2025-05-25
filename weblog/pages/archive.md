@@ -8,8 +8,8 @@ Index: Exclude
 
 # Archive
 
----
+###### Total {post-count} posts
 
-## Total: {post-count} posts
+---
 
 {post-list}
