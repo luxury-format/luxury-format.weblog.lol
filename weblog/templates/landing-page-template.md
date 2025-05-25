@@ -86,6 +86,8 @@ Title: Landing Page template
     </header>
     <!-- MAIN -->
     <main>
+      <h2>Weblog</h2>
+      <hr>
       {body}
       <nav class="landing-page-pagination">
         {previous-page}
