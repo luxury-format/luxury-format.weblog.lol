@@ -44,6 +44,6 @@ Index: Exclude
 
 {base-path}
 
-<a href="{base-path}>{base-path}</a>
+<a href="{base-path}">{base-path}</a>
 
 <a href="{base-path}">{weblog-title}</a>
