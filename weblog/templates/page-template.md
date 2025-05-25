@@ -87,7 +87,7 @@ Title: Page Template
     </header>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
-      <h6><a href="{base-path}">{weblog-title}</a>{separator}<a href="/slashes">Slashes</a>{separator}<a href="{location}">{post-title}</a></h6>
+      <h6><a href="{base-path}">{weblog-title}</a>{separator}<a href="/slashes">Slashes</a></h6>
       {body}
     </main>
     <!-- FOOTER -->
