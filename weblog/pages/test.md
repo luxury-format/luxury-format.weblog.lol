@@ -50,7 +50,7 @@ I get next output:
 
 {weblog-title}{separator}{author}{separator}{weblog-description}
 
-> Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `–` or `—` or `|` or `•` or `»` anything, even words!
+> Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `|` or `•` or `»` anything, even words!
 
 <br>
 
