@@ -86,7 +86,6 @@ Title: Landing Page template
         {navigation}
       </div>
     </header>
-    </div>
     <!-- MAIN -->
     <main>
       <div class="page-navigation">
