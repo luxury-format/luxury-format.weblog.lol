@@ -27,7 +27,7 @@ IDK if this tag works in **Templates**, but it's works in **Posts** and on **Pag
 
 ---
 
-## `{weblog-title}` - `{\separator}` - `{author\}` - `{\weblog-description}`
+## `{\weblog-title}` - `{\separator}` - `{\author}` - `{\weblog-description}`
 
 In my **Configuration** it's looks next:
 
@@ -38,7 +38,7 @@ Author: Me, Myself and I
 Weblog description: Good as Gold!
 ```
 
-Then using this tags I get output like this:
+Then using this **shortcodes** I get output like this:
 
 {weblog-title}
 {separator}
@@ -57,7 +57,7 @@ If you don't use whitespaces, then your output will look like this:
 
 ---
 
-## (post-title)
+## {\post-title}
 
 Can use it in your **Templates** or **Posts** and **Pages** to get current **post** or **page** title, so currently I use this tag on my page with title: **Test**, so in output below in must be word: **Test**
 
@@ -67,7 +67,9 @@ Here is output:
 
 ---
 
-#### (weblog-short-title) - this is my custom tag
+#### {\weblog-short-title}
+
+This is my custom tag.
 
 In configuration I have added next:
 
@@ -81,7 +83,7 @@ In output I get next:
 
 ---
 
-### (recent-posts)
+### {\recent-posts}
 
 List of your recent posts, in my configuration, I set next: 
 
@@ -97,7 +99,7 @@ So here is my last 5 post:
 
 ---
 
-### (post-list)
+### {\post-list}
 
 List of all your post, better to use on **Archive** page, but you can use it anywhere.
 
@@ -107,7 +109,7 @@ Here is list of all my **Posts**:
 
 ---
 
-## (page-list)
+## {\page-list}
 
 This tag generate automaticaly list of all **Pages** on your **Weblog**.
 
@@ -119,7 +121,7 @@ Here is list of all pages in my **Weblog**:
 
 ---
 
-## (multiple-posts)
+## {\multiple-posts}
 
 Seems doesn't work anywhere... 
 
@@ -127,7 +129,7 @@ Seems doesn't work anywhere...
 
 ---
 
-## (tags)
+## {\tags}
 
 Note: If you want to use it on your page, you must add in frontmatter next:
 
@@ -145,7 +147,7 @@ So in output below I must get this 2 tags: **Test** and **Manual**
 
 ---
 
-## (base-path)
+## {\base-path}
 
 {base-path}
 
@@ -171,7 +173,7 @@ And output will be like this:
 
 ---
 
-## navigation
+## {\navigation}
 
 Better to use only in **Templates**, but here is on page:
 
@@ -179,7 +181,7 @@ Better to use only in **Templates**, but here is on page:
 
 ---
 
-## (year) - (month) - (day)
+## {\year} - {\month} - {\day}
 
 You can use it anywhere.
 
@@ -187,7 +189,7 @@ You can use it anywhere.
 
 ---
 
-## (date) - (relative-date) - (unix-date) - (iso8601-date)
+## {\date} - {\relative-date} - {\unix-date} - {\iso8601-date}
 
 Note: Do not forget to use date in your frontmatter and set **Timezone** and **Date format** in your configuration, my configuration under **Time stuff** looks next:
 
@@ -199,19 +201,19 @@ Timezone: America/Chicago
 Date format: F j, Y
 ```
 
-Here is output for **(date)** - **(relative-date)** - **(unix-date)** - **(iso8601-date)** tags:
+Here is output for **{\date}** - **{\relative-date}** - **{\unix-date}** - **{\iso8601-date}** **shortcodes** output:
 
 {date} - {relative-date} - {unix-date} - {iso8601-date}
 
 ---
 
-## (post-title-urlencoded)
+## {\post-title-urlencoded}
 
 {post-title-urlencoded}
 
 ---
 
-## (tag-listing)
+## {\tag-listing}
 
 List of all your **Tags** on your **Weblog**, like this:
 
@@ -219,13 +221,13 @@ List of all your **Tags** on your **Weblog**, like this:
 
 ---
 
-## (permalink) - (slug) - (location)
+## {\permalink} - {\slug} - {\location}
 
 {permalink} - {slug} - {location}
 
 ---
 
-## (rss-location) - (atom-location) - (json-location)
+## {\rss-location} - {\atom-location} - {\json-location}
 
 {rss-location}
 
@@ -235,7 +237,7 @@ List of all your **Tags** on your **Weblog**, like this:
 
 ---
 
-## (rss-url) - (atom-url)  - (json-url)
+## {\rss-url} - {\atom-url}  - {\json-url}
 
 {rss-url}  
 
@@ -245,7 +247,7 @@ List of all your **Tags** on your **Weblog**, like this:
 
 ---
 
-## (rss) - (atom) - (json)
+## {\rss} - {\atom} - {\json}
 
 These **shortcodes** use only in your **Templates** head only. And you will get output like this:
 
@@ -257,7 +259,7 @@ These **shortcodes** use only in your **Templates** head only. And you will get 
 
 ---
 
-## (feeds)
+## {\feeds}
 
 This **shortcode** use only in your **Templates** head only. And you will get output like this:
 
@@ -267,7 +269,7 @@ This **shortcode** use only in your **Templates** head only. And you will get ou
 
 ---
 
-## (post-number) - (post-count) ?
+## {\post-number} - {\post-count}
 
 IDK what difference between them...
 
@@ -275,19 +277,19 @@ IDK what difference between them...
 
 ---
 
-## (body)
+## {\body}
 
 Works everywhere, but better to use in your **Templates** only!
 
 ---
 
-## (titleless-body)
+## {\titleless-body}
 
 Works everywhere, but better to use in your **Templates** only!
 
 ---
 
-## (previous-page)
+## {\previous-page}
 
 Works only in: **Landing Page Template**.
 
@@ -295,7 +297,7 @@ Works only in: **Landing Page Template**.
 
 ---
 
-## (next-page)
+## {\next-page}
 
 Works only in: **Landing Page Template**.
 
@@ -303,9 +305,9 @@ Works only in: **Landing Page Template**.
 
 ---
 
-## (search)
+## {\search}
 
-(search) **shortcode** currently doesn't work, instead use next **HTML** code anywhere in your **Templates**, in **Posts** or on **Pages**:
+**{\search} shortcode** currently doesn't work, instead use next **HTML** code anywhere in your **Templates**, in **Posts** or on **Pages**:
 
 ```
 <form action="/" method="get" class="search">
@@ -329,6 +331,15 @@ Or without next line, if you don't want **Search** word above your search form:
 <label for="search">Search</label>
 ```
 
+Like this:
+
+```
+<form action="/" method="get" class="search">
+<input type="text" name="search">
+<button type="submit">Search</button>
+</form>
+```
+
 Output without **Search** word above your search form:
 
 <form action="/" method="get" class="search">
@@ -340,12 +351,12 @@ Output without **Search** word above your search form:
 
 ---
 
-## (profile)
+## {\profile}
 
 Will "redirect" to your **Profile** page: YOUR-ADDRESS.omg.lol
 
 ---
 
-## (now)
+## {\now}
 
 Will "redirect" to your **Now** page: YOUR-ADDRESS.omg.lol/now
