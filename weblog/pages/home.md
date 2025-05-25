@@ -8,6 +8,8 @@ Index: Exclude
 
 # Home
 
+###### {weblog-title}{separator}[{post-title}]({location})
+
 ---
 
 Hello! ✌️
