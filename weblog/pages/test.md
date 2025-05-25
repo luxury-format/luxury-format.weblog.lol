@@ -162,7 +162,7 @@ So in output below I must get this 2 tags: **Test** and **Manual**
 You will get in output just plain `/`, you can use this **shortcode** for example in your **Posts** and on **Pages** using *Markdown* like this:
 
 ```
-[(weblog-title)]((base-path))
+[{\weblog-title}]({\base-path})
 ```
 
 And you will get output like this:
@@ -172,7 +172,7 @@ And you will get output like this:
 Or using next *HTML* for example in: **Templates**, **Posts**, on **Pages**
 
 ```
-<a href="(base-path)">(weblog-title)</a>
+<a href="{\base-path}">{weblog-title}</a>
 ```
 
 And output will be like this:
