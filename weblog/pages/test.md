@@ -213,9 +213,12 @@ Timezone: America/Chicago
 Date format: F j, Y
 ```
 
-Here is output for **{\date}** - **{\relative-date}** - **{\unix-date}** - **{\iso8601-date}** **shortcodes** output:
+Here is output for this page:
 
-{date} - {relative-date} - {unix-date} - {iso8601-date}
+**{\date}** - {date}  
+**{\relative-date}** - {relative-date}  
+**{\unix-date}** - {unix-date}  
+**{\iso8601-date}** - {iso8601-date}  
 
 ---
 
