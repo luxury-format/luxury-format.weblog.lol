@@ -167,7 +167,7 @@ nav {
 
 .page-navigation {
   background: var(--accent-4);
-  border: 2px solid var(--blue);
+  border: 1px solid var(--blue);
   border-radius: 0.5rem;
   padding: 0.5rem;
   font-size: 16px;
