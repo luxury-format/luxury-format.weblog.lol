@@ -1,7 +1,7 @@
 ---
 Date: 2025-05-01 00:00
-Type: /
-Template: Landing Page Template
+Type: Home Page
+Template: Posts Template
 Title: Blog
 Location: /blog
 Index: Exclude
