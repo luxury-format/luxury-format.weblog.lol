@@ -10,7 +10,7 @@ Weblog description: Good as gold!
 Author: Me, Myself and I
 // Canonical domain: luxury-format.com
 // Landing page: /
-// Landing page template: Landing Page template
+Landing page template: Landing Page template
 // configuration/configuration.txt
 
 
