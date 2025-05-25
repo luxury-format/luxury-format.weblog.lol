@@ -1,5 +1,5 @@
 ---
-Date: 2025-05-01 00:00
+Date: 2025-05-25 00:00
 Type: Page
 Title: Feeds
 Location: /feeds
@@ -12,19 +12,19 @@ Index: Exclude
 
 ---
 
-- [<i class="fa-solid fa-atom"></i> Atom Feed](/atom.xml)
-- [<i class="fa-solid fa-rss"></i> RSS Feed](/rss.xml)
-- [<i class="omg-icon omg-json-feed"></i> JSON Feed](/feed.json)
+- [<i class="fa-solid fa-atom"></i> Atom Feed]({atom-url})
+- [<i class="fa-solid fa-rss"></i> RSS Feed]({rss-url})
+- [<i class="omg-icon omg-json-feed"></i> JSON Feed]({json-url})
 
 ---
 
 Or just copy and paste one of these links in your RSS reader:
 
 <i class="fa-solid fa-atom"></i> Atom Feed:  
-`https://luxury-format.weblog.lol/atom.xml`  
+`{atom-url}`  
 
 <i class="fa-solid fa-rss"></i> RSS Feed:  
-`https://luxury-format.weblog.lol/rss.xml`  
+`{rss-url}`  
 
 <i class="omg-icon omg-json-feed"></i> JSON Feed:  
-`https://luxury-format.weblog.lol/feed.json`  
+`{json-url}`  
