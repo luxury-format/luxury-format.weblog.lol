@@ -84,6 +84,7 @@ Title: Landing Page template
         {navigation}
       </div>
     </header>
+    </div>
     <div class="page-navigation">
       <hr>
       <h6>Weblog • All posts</h6>
