@@ -18,4 +18,6 @@ Index: Exclude
 <button type="submit">Search</button>
 </form>
 
+---
+
 {post-list}
