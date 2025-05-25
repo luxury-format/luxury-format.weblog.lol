@@ -1,15 +1,13 @@
 ---
 Date: 2025-05-25 00:00
 Type: Page
-Title: Test
-Location: /test
-Tags: Test, Manual
+Title: Weblog shortcodes
+Location: /weblog-shortcodes
+Tags: Weblog, Shortcodes
 Index: Exclude
 ---
 
-# Test
-
-###### Weblog Shortcodes
+# Weblog shortcodes
 
 ---
 
@@ -69,7 +67,7 @@ Like you can see above, there is no whitespace between `LUXURY` and `❯`, and n
 
 ## {\post-title}
 
-You can use it in your **Templates** or **Posts** and **Pages** to get current **post** or **page** title, so currently I use this {\post-title} bellow on my page, this current page title is: **Test**, so in output below in must be word: **Test**
+You can use it in your **Templates** or **Posts** and **Pages** to get current **post** or **page** title, so currently I use this {\post-title} bellow on my page, this current page title is: **Weblog shortcodes**, so in output below in must be next words: **Weblog shortcodes**
 
 Here is output: 
 
@@ -146,12 +144,14 @@ Note: If you want to use it not for your **Posts**, but for your **Pages**, you 
 So, creating this page, I have add to frontmatter next:
 
 ```
-Tags: Test, Manual
+Tags: Weblog, Shortcodes
 ```
 
-So in output below I must get this 2 tags: **Test** and **Manual**
+So in output below I must get this 2 tags: **Weblog** and **Shortcodes**
 
 {tags}
+
+Note! If you use: **Weblog** and **weblog** for your **Tags**, they counts as same **Tag**.
 
 ---
 
@@ -222,7 +222,11 @@ Here is output for this page:
 
 ## {\post-title-urlencoded}
 
+Here is my page **Weblog shortcodes** URL Encoded title: 
+
 **{\post-title-urlencoded}** - {post-title-urlencoded}
+
+It's works for your **Posts** titles also.
 
 ---
 
@@ -236,6 +240,8 @@ List of all your **Tags** on your **Weblog**, like this:
 
 ## {\permalink} - {\slug} - {\location}
 
+Here is permalink, slug and location for current page **Weblog shortcodes**:
+
 **{\permalink}** - {permalink}  
 **{\slug}** - {slug}  
 **{\location}** - {location}
@@ -244,20 +250,19 @@ List of all your **Tags** on your **Weblog**, like this:
 
 ## {\rss-location} - {\atom-location} - {\json-location}
 
+Here is my RSS, Atom and JSON locations:  
+
 **{\rss-location}** - {rss-location}  
-
 **{\atom-location}** - {atom-location}  
-
 **{\json-location}** - {json-location}  
 
 ---
 
 ## {\rss-url} - {\atom-url}  - {\json-url}
 
+Here is my RSS, Atom and JSON URL's:  
 **{\rss-url}** - {rss-url}  
-
 **{\atom-url}** - {atom-url}  
-
 **{\json-url}** - {json-url}  
 
 ---
