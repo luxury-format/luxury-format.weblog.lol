@@ -5,8 +5,8 @@ Title: Landing Page Template
 
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Landing Page Template -->
-  <!-- weblog/templates/landing-page-template.md -->
+  <!-- Posts Template -->
+  <!-- weblog/templates/posts-template.md -->
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
@@ -86,7 +86,7 @@ Title: Landing Page Template
     </header>
     <!-- MAIN -->
     <main>
-      {multiple-posts}
+      {body}
       <nav class="landing-page-pagination">
         {previous-page}
         {next-page}
