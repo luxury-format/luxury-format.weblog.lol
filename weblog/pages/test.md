@@ -75,19 +75,3 @@ This page was created on: {iso8601-date}
 ```
 
 {base-path}
-
-```
-[{weblog-title}]({base-path})
-```
-
-[{weblog-title}]({base-path})
-
-```
-<a href="{base-path}">{base-path}</a>
-```
-<a href="{base-path}">{base-path}</a>
-
-```
-<a href="{base-path}">{weblog-title}</a>
-```
-<a href="{base-path}">{weblog-title}</a>
