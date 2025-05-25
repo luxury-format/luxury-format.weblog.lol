@@ -15,9 +15,9 @@ Index: Exclude
 
 > Note: Remove `\` after `{` to use **shortcodes!**
 
-# `{toc}`
+# `{\toc}`
 
-`{toc}`
+`{\toc}`
 
 Generate Table of Contents - Each Headings in list view, better to use at the top of your **Post** or **Page**.
 
