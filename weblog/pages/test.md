@@ -13,7 +13,7 @@ Index: Exclude
 
 ---
 
-Note: Use {} instead of () for your **shortcodes** 
+Note: Remove `\` after `{` to use **shortcodes!**
 
 # \{toc\} 
 
@@ -27,7 +27,7 @@ IDK if this tag works in **Templates**, but it's works in **Posts** and on **Pag
 
 ---
 
-## \{weblog-title} - {separator\} - \{author\} - \{\weblog-description\}
+## {\weblog-title} - {\separator} - {\author} - {\weblog-description}
 
 In my **Configuration** it's looks next:
 
@@ -53,7 +53,7 @@ Make sure you put 2 whitespaces before **Separator:** and one whitespace after y
 
 If you don't use whitespaces, then your output will look like this:
 
-{weblog-title}❯{weblog-descriprion}
+{weblog-title}❯{weblog-description}
 
 ---
 
