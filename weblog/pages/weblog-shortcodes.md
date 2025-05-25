@@ -389,3 +389,37 @@ Will "redirect" to your **Profile** page: YOUR-ADDRESS.omg.lol
 ## {\now}
 
 Will "redirect" to your **Now** page: YOUR-ADDRESS.omg.lol/now
+
+---
+
+## Extra
+
+Bellow is all **"tags"** that uses in your **Configuration**:  
+
+$title  
+
+$date  
+
+$tag  
+
+$tag_slug  
+
+$count  
+
+$search  
+
+$search_results_message  
+
+$snippet  
+
+$previous_page  
+
+$next_page  
+
+$location  
+
+$permalink  
+
+$title  
+
+$relative_date  
