@@ -88,7 +88,7 @@ Title: Landing Page template
     <!-- MAIN -->
     <main>
       <div class="page-navigation">
-        <h6>[Weblog](/) • All posts</h6>
+        <h6><a href="/">Weblog</a> • All posts</h6>
       </div>
       <h2 class="page-title">Weblog</h2>
       <hr>
