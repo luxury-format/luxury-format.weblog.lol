@@ -1,17 +1,17 @@
 ---
 Type: Template
-Title: Posts Template
+Title: Landing Page template
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <!-- Posts Template -->
-  <!-- weblog/templates/posts-template.md -->
+  <!-- weblog/templates/landing-page-template.md -->
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{weblog-title}</title>
+    <title>{weblog-title}{separator}Blog</title>
     <meta property="og:title" content="{weblog-title}">
     <meta name="description" content="{weblog-description}">
     <meta property="og:description" content="{weblog-description}">
