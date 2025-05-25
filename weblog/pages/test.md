@@ -50,15 +50,13 @@ I get next output:
 
 {weblog-title}{separator}{author}{separator}{weblog-description}
 
-> Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `|` or `•` or `»` anything, even words!
+Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `|` or `•` or `»` anything, even words!
 
-<br>
-
-> Make sure you put 2 whitespaces before **Separator:** and 1 whitespace after your separator, to get output like this: 
+Make sure you put 2 whitespaces before **Separator:** and 1 whitespace after your separator, to get output like this: 
 
 {weblog-title}{separator}{weblog-description}
 
-> If you don't use 2 whitespaces before, and 1 whitespace after your **Separator** then your output will look like this:
+If you don't use 2 whitespaces before, and 1 whitespace after your **Separator** then your output will look like this:
 
 {weblog-title}❯{weblog-description}
 
@@ -75,15 +73,13 @@ You can use it in your **Templates** or **Posts** and **Pages** to get current *
 
 Here is output: 
 
-{post-title}
+**{\post-title}** - {post-title}
 
 ---
 
 #### {\weblog-short-title}
 
-This is my custom tag.
-
-In configuration I have added next:
+This is my custom tag. In my configuration I have added next:
 
 ```
 Weblog short title: LF.
@@ -91,7 +87,7 @@ Weblog short title: LF.
 
 In output I get next: 
 
-{weblog-short-title}
+**{\weblog-short-title}** - {weblog-short-title}
 
 ---
 
@@ -143,7 +139,7 @@ Seems doesn't work...
 
 ## {\tags}
 
-> Note: If you want to use it on your page, you must add in frontmatter next:
+Note: If you want to use it not for your **Posts**, but for your **Pages**, you must add in frontmatter for your **Page** next:
 
 `Tags: ` <- and here are your tags, comma separated.
 
@@ -161,7 +157,7 @@ So in output below I must get this 2 tags: **Test** and **Manual**
 
 ## {\base-path}
 
-{base-path}
+**{\base-path}** - {base-path}
 
 You will get in output just plain `/`, you can use this **shortcode** for example in your **Posts** and on **Pages** using *Markdown* like this:
 
@@ -197,13 +193,15 @@ Better to use only in **Templates**, but here is it on page:
 
 You can use it anywhere.
 
-{year} - {month} - {day}
+**{\year}** - {year}  
+**{\month}** - {month}  
+**{\day}** - {day}
 
 ---
 
 ## {\date} - {\relative-date} - {\unix-date} - {\iso8601-date}
 
-> Note: Do not forget to use **Date:** in your frontmatter and set **Timezone:** and **Date format:** in your configuration, here is my configuration under **Time stuff**:
+Note! Do not forget to use **Date:** in your frontmatter and set **Timezone:** and **Date format:** in your configuration, here is my configuration under **Time stuff**:
 
 ```
 ;; Time stuff
@@ -224,7 +222,7 @@ Here is output for this page:
 
 ## {\post-title-urlencoded}
 
-{post-title-urlencoded}
+**{\post-title-urlencoded}** - {post-title-urlencoded}
 
 ---
 
@@ -238,27 +236,29 @@ List of all your **Tags** on your **Weblog**, like this:
 
 ## {\permalink} - {\slug} - {\location}
 
-{permalink} - {slug} - {location}
+**{\permalink}** - {permalink}  
+**{\slug}** - {slug}  
+**{\location}** - {location}
 
 ---
 
 ## {\rss-location} - {\atom-location} - {\json-location}
 
-{rss-location}
+**{\rss-location}** - {rss-location}  
 
-{atom-location}
+**{\atom-location}** - {atom-location}  
 
-{json-location}
+**{\json-location}** - {json-location}  
 
 ---
 
 ## {\rss-url} - {\atom-url}  - {\json-url}
 
-{rss-url}  
+**{\rss-url}** - {rss-url}  
 
-{atom-url}  
+**{\atom-url}** - {atom-url}  
 
-{json-url}
+**{\json-url}** - {json-url}  
 
 ---
 
@@ -266,11 +266,17 @@ List of all your **Tags** on your **Weblog**, like this:
 
 These **shortcodes** use only in your **Templates** head only. And you will get output like this:
 
-`{rss}`
+```
+{rss}
+```
 
-`{atom}`
+```
+{atom}
+```
 
-`{json}`
+```
+{json}
+```
 
 ---
 
@@ -286,9 +292,10 @@ This **shortcode** use only in your **Templates** head only. And you will get ou
 
 ## {\post-number} - {\post-count}
 
-IDK what difference between them...
+IDK what difference between them... but here is: 
 
-{post-number} - {post-count}
+**{\post-number}** - {post-number}  
+**{\post-count}** - {post-count}
 
 ---
 
@@ -340,7 +347,7 @@ Output:
 <button type="submit">Search</button>
 </form>
 
-Or without next line, if you don't want **Search** word above your search form:
+Or without next line, if you don't want **Search** word next to your search form:
 
 ```
 <label for="search">Search</label>
@@ -355,7 +362,7 @@ Like this:
 </form>
 ```
 
-Output without **Search** word above your search form:
+Output without **Search** word next to your search form:
 
 <form action="/" method="get" class="search">
 <input type="text" name="search">
