@@ -65,7 +65,7 @@ Title: Landing Page template
       <!-- First row: Logo+Title and Social Icons -->
       <div class="header-top-row">
         <div class="logo-title">
-          <a href="/home">
+          <a href="/">
             <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{weblog-title} Logo">
             <h1 class="weblog-title">
               <span class="short">{weblog-short-title}</span>
@@ -75,7 +75,7 @@ Title: Landing Page template
         </div>
         <div class="header-icons">
           <a href="https://social.lol/@luxury_format" aria-label="Social.lol"><i class="fa-brands fa-mastodon"></i><span>Social.lol</span></a>
-          <a href="https://luxury-format.status.lol" aria-lanel="Status.lol"><i class="fa-solid fa-face-grin"></i><span>Status.lol</span></a>
+          <a href="https://luxury-format.status.lol" aria-label="Status.lol"><i class="fa-solid fa-face-grin"></i><span>Status.lol</span></a>
           <a href="https://luxury-format.weblog.lol/subscribe" aria-label="Subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
