@@ -51,7 +51,7 @@ Feed post count: 250
 ;; Posts
 ;; -----
 
-Post path format: /\b/\l/\o/\g/Y/m/d/
+Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
 Type: Post (Page, File, Template)
