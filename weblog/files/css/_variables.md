@@ -44,8 +44,6 @@ Location: /_variables.css
   --brown: #A2845E;
   --border-radius: 0.5em;
   --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
-  --transition-speed: 0.3s;
-  --spacing-unit: 1rem;
   --title-font: 'VC Honey Deck', Georgia, serif;
   --sans-serif: 'Atkinson Hyperlegible', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --monospace: 'Source Code Pro', ui-monospace, 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace, SFMono-Regular, Monaco, "Andale Mono", "Ubuntu Mono";
@@ -90,11 +88,5 @@ Location: /_variables.css
     --pink-dracula: #FF92DF;
     --brown: #AC8E68;
     --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
   }
 }
