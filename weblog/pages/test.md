@@ -62,6 +62,11 @@ I get next output:
 
 {weblog-title}❯{weblog-description}
 
+Like you can see above, there is no whitespace between `LUXURY` and `❯`, and no whitespace between `❯` and `Good`, It's can happens when you don't use 2 whitespaces before and 1 whitespace after your **Separator**!
+
+{weblog-title}{separator}{weblog-description}  
+{weblog-title}❯{weblog-description}
+
 ---
 
 ## {\post-title}
