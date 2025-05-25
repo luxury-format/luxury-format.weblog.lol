@@ -164,3 +164,22 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.page-navigation {
+  background: var(--accent-4);
+  border: 2px solid var(--blue);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .page-navigation-hr-top {
+  margin-bottom: 0.5em;
+}
+
+.page-navigation-hr-bottom {
+  margin-top: 0.5em;
+} */
