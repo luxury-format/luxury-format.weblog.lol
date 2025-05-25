@@ -88,9 +88,9 @@ Title: Page Template
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
       <div class="page-navigation">
-        <hr class="page-navigation-hr-top>
+        <hr class="page-navigation-hr-top">
         <h6><a href="/slashes">Slashes</a>{separator}{post-title}</h6>
-        <hr class="page-navigation-hr-bottom>
+        <hr class="page-navigation-hr-bottom">
       </div>
       {body}
     </main>
