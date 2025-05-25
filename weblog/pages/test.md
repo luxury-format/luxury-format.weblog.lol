@@ -153,7 +153,7 @@ So in output below I must get this 2 tags: **Test** and **Manual**
 
 {base-path}
 
-You will get in output just plain `/`, you can use this tag for example in your **Posts** and on **Pages** using *Markdown* like this:
+You will get in output just plain `/`, you can use this **shortcode** for example in your **Posts** and on **Pages** using *Markdown* like this:
 
 ```
 [(weblog-title)]((base-path))
@@ -177,7 +177,7 @@ And output will be like this:
 
 ## {\navigation}
 
-Better to use only in **Templates**, but here is on page:
+Better to use only in **Templates**, but here is it on page:
 
 {navigation}
 
