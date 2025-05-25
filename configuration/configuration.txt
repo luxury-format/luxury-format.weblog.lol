@@ -72,20 +72,11 @@ Titleless title length: 15 words
 // Truncation appendix:  […]
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
 
+;; Multiple Posts {multiple-posts}
+;; -------------------------------
+
 Multiple posts count: 5
-Multiple posts format: <<[
-[post:begin]
-<article>
-  {body}
-  <aside class="post-info">
-    <i class="fa-solid fa-clock"></i> {date}
-  </aside>
-  <aside class="post-tags">
-    {tags}
-  </aside>
-</article>
-[post:end]
-]>>
+Multiple posts template: Multiple Posts Template
 
 ;; Recent posts {recent-posts}
 ;; ---------------------------
