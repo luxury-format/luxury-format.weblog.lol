@@ -8,20 +8,8 @@ Index: Exclude
 
 # Home
 
-###### [/]({base-path}){separator}[/Slashes](/slashes){separator}[/{post-title}]({location})
-
 ---
 
 Hello! ✌️
 
 ---
-
-{slug}
-
----
-
-{post-title-urlencoded}
-
----
-
-{multiple-posts}
