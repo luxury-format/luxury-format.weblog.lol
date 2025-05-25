@@ -86,7 +86,7 @@ Title: Landing Page template
     </header>
     <!-- MAIN -->
     <main>
-      <h2>Weblog</h2>
+      <h2 class="page-title">Weblog</h2>
       <hr>
       {body}
       <nav class="landing-page-pagination">
