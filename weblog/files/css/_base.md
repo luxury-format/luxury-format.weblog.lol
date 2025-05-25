@@ -300,11 +300,11 @@ hr {
   margin: 1em 0;
 }
 
-.page-navigation-hr-top {
+hr .page-navigation-hr-top {
   margin-bottom: 0.5em;
 }
 
-.page-navigation-hr-bottom {
+hr .page-navigation-hr-bottom {
   margin-top: 0.5em;
 }
 
