@@ -8,8 +8,24 @@ Index: Exclude
 
 # Home
 
-###### {weblog-title}{separator}[Slashes](/slashes){separator}[{post-title}]({location})
+###### [/]({base-path}}{separator}[/Slashes](/slashes){separator}[/{post-title}]({location})
 
 ---
 
 Hello! ✌️
+
+---
+
+{titleless-body}
+
+---
+
+{slug}
+
+---
+
+{post-title-urlencoded}
+
+---
+
+{multiple-posts}
