@@ -10,7 +10,7 @@ Index: Exclude
 
 ---
 
-###### \{multiple-posts\}:
+###### {\{multiple-posts}:
 
 ```
 {multiple-posts}
