@@ -8,7 +8,7 @@ Index: Exclude
 
 # Home
 
-###### {weblog-title}{separator}[{post-title}]({location})
+###### {weblog-title}{separator}[Slashes](/slashes){separator}[{post-title}]({location})
 
 ---
 
