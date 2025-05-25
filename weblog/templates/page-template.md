@@ -88,6 +88,7 @@ Title: Page Template
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
       <h6><a href="/slashes">Slashes</a>{separator}</h6>
+      <hr>
       {body}
     </main>
     <!-- FOOTER -->
