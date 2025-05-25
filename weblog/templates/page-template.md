@@ -66,7 +66,7 @@ Title: Page Template
       <!-- First row: Logo+Title and Social Icons -->
       <div class="header-top-row">
         <div class="logo-title">
-          <a href="/">
+          <a href="/home">
             <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{weblog-title} Logo">
             <h1 class="weblog-title">
               <span class="short">{weblog-short-title}</span>
