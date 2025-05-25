@@ -86,6 +86,7 @@ Title: Landing Page template
     </header>
     <!-- MAIN -->
     <main>
+      <hr>
       <h6>Weblog • All posts</h6>
       <hr>
       {body}
