@@ -58,7 +58,7 @@ I get next output:
 
 {weblog-title}{separator}{weblog-descriprion}
 
-> If you don't use whitespaces, then your output will look like this:
+> If you don't use 2 whitespaces before, and one after your **Separator** then your output will look like this:
 
 {weblog-title}❯{weblog-description}
 
