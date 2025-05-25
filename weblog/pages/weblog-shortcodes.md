@@ -13,6 +13,8 @@ Index: Exclude
 
 > Note: Remove `\` after `{` to use **shortcodes!**
 
+---
+
 # `{\toc}`
 
 `{\toc}`
