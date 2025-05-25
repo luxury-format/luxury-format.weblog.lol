@@ -27,7 +27,7 @@ IDK if this tag works in **Templates**, but it's works in **Posts** and on **Pag
 
 ---
 
-## {weblog-title\} \{separator\} - \{author\} - \{weblog-description\}
+## \{weblog-title} - {separator\} - \{author\} - \{\weblog-description\}
 
 In my **Configuration** it's looks next:
 
