@@ -87,6 +87,7 @@ Title: Page Template
     </header>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
+      <hr>
       <h6><a href="/slashes">Slashes</a>{separator}{post-title}</h6>
       <hr>
       {body}
