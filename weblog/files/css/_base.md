@@ -187,7 +187,7 @@ blockquote {
   border-left: 4px solid;
   border-color: var(--link);
   background: var(--accent-4);
-  color: #F2F2F7;
+  color: var(--text);
   font-style: italic;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
