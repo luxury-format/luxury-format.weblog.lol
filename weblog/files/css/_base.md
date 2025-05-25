@@ -16,8 +16,6 @@ body {
   font-size: 115%;
   color: var(--text);
   background-color: var(--background);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 main {
@@ -191,8 +189,6 @@ blockquote {
 /*  font-style: italic; */
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow);
 }
 
 /* blockquote {
@@ -226,8 +222,6 @@ pre {
   font-size: 90%;
   line-height: 150%;
   box-shadow: var(--box-shadow);
-  -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   overflow-wrap: normal;
 /*  overflow-x: scroll; */
@@ -243,8 +237,6 @@ code {
   font-size: 75%;
   line-height: 150%;
   box-shadow: var(--box-shadow);
-  -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   white-space: pre-wrap;
   white-space: break-spaces;
