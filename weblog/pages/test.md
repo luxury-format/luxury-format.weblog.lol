@@ -15,9 +15,9 @@ Index: Exclude
 
 Note: Use {} instead of () for your **shortcodes** 
 
-# {toc\} 
+# \{toc\} 
 
-{toc\}
+\{toc\}
 
 Generate Table of Contents - Each Headings in list view, better to use at the top of your **Post** or **Page**.
 
@@ -27,7 +27,7 @@ IDK if this tag works in **Templates**, but it's works in **Posts** and on **Pag
 
 ---
 
-## {weblog-title\ } - (separator) - (author) - (weblog-description)
+## {weblog-title\} \{separator\} - \{author\} - \{weblog-description\}
 
 In my **Configuration** it's looks next:
 
