@@ -10,8 +10,6 @@ Index: Exclude
 
 ---
 
----
-
 Note: Use {} instead of ()
 
 # (toc)
