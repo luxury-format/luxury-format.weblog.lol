@@ -315,7 +315,6 @@ li code {
 
 form {
   display: block;
-  gap: 0.5em;
   width: 100%;
 }
 
@@ -337,12 +336,13 @@ form input {
 form button {
 /*  width: 100%; */
   height: 30px;
-  border-radius: var(--border-radius);
-  font-weight: bold;
-  background-color: var(--link);
-  border: 2px solid var(--black-white);
-  color: var(--text);
+  margin-left: 0.5em;
   font-family: var(--title-font);
+  font-weight: bold;
+  color: var(--text);
+  background-color: var(--link);
+  border-radius: var(--border-radius);
+  border: 2px solid var(--black-white);
 }
 
 form button:hover {
