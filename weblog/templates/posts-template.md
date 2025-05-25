@@ -1,6 +1,6 @@
 ---
 Type: Template
-Title: Landing Page Template
+Title: Posts Template
 ---
 
 <!DOCTYPE html>
