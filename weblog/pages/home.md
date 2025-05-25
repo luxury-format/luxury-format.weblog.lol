@@ -8,7 +8,7 @@ Index: Exclude
 
 # Home
 
-###### [/]({base-path}}{separator}[/Slashes](/slashes){separator}[/{post-title}]({location})
+###### [/]({base-path}){separator}[/Slashes](/slashes){separator}[/{post-title}]({location})
 
 ---
 
