@@ -20,6 +20,8 @@ Title: Landing Page template
     <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
     <!-- FEDIVERSE CREATOR -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
+    <!-- AUTHOR -->
+    <meta name="author" content="{author}">
     <!-- FEEDS -->
     <link rel="alternate" type="application/atom+xml" title="{weblog-title} Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
     <link rel="alternate" type="application/rss+xml" title="{weblog-title} RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
