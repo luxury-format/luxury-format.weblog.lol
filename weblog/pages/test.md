@@ -13,7 +13,7 @@ Index: Exclude
 
 ---
 
-Note: Remove `\` after `{` to use **shortcodes!**
+> Note: Remove `\` after `{` to use **shortcodes!**
 
 # `{toc}`
 
@@ -45,13 +45,15 @@ Then using this **shortcodes** I get output like this:
 {author}
 {weblog-description}
 
-Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `–` or `—` or `|` or `•` or `»` anything, even words!
+> Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `–` or `—` or `|` or `•` or `»` anything, even words!
 
-Make sure you put 2 whitespaces before **Separator:** and one whitespace after your separator, to get output like this: 
+<br>
+
+> Make sure you put 2 whitespaces before **Separator:** and one whitespace after your separator, to get output like this: 
 
 {weblog-title}{separator}{weblog-descriprion}
 
-If you don't use whitespaces, then your output will look like this:
+> If you don't use whitespaces, then your output will look like this:
 
 {weblog-title}❯{weblog-description}
 
@@ -131,7 +133,7 @@ Seems doesn't work anywhere...
 
 ## {\tags}
 
-Note: If you want to use it on your page, you must add in frontmatter next:
+> Note: If you want to use it on your page, you must add in frontmatter next:
 
 `Tags: ` <- and here are your tags, comma separated.
 
@@ -191,7 +193,7 @@ You can use it anywhere.
 
 ## {\date} - {\relative-date} - {\unix-date} - {\iso8601-date}
 
-Note: Do not forget to use date in your frontmatter and set **Timezone** and **Date format** in your configuration, my configuration under **Time stuff** looks next:
+> Note: Do not forget to use **Date:** in your frontmatter and set **Timezone:** and **Date format:** in your configuration, here is my configuration under **Time stuff**:
 
 ```
 ;; Time stuff
