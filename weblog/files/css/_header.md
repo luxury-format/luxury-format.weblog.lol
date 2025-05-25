@@ -168,7 +168,7 @@ nav {
 .page-navigation {
   background: var(--accent-4);
   border: 1px solid var(--blue);
-  border-radius: var(--border-radius;
+  border-radius: var(--border-radius);
   padding: 0;
 /*  font-size: 16px; */
   display: flex;
