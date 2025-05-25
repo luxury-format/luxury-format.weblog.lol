@@ -60,7 +60,7 @@ I get next output:
 
 > If you don't use 2 whitespaces before, and 1 whitespace after your **Separator** then your output will look like this:
 
-{weblog-title}❯{weblog-description}
+{weblog-title}❯{weblog-descriprion}
 
 ---
 
