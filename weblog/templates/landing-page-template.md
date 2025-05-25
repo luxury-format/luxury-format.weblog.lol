@@ -85,13 +85,13 @@ Title: Landing Page template
       </div>
     </header>
     </div>
-    <div class="page-navigation">
-      <hr class="page-navigation-hr-top>
-      <h6>Weblog • All posts</h6>
-      <hr class="page-navigation-hr-bottom>
-    </div>
     <!-- MAIN -->
     <main>
+      <div class="page-navigation">
+        <hr class="page-navigation-hr-top>
+        <h6>Weblog • All posts</h6>
+        <hr class="page-navigation-hr-bottom>
+      </div>
       {body}
       <nav class="landing-page-pagination">
         {previous-page}
