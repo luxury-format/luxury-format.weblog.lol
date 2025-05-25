@@ -54,11 +54,11 @@ I get next output:
 
 <br>
 
-> Make sure you put 2 whitespaces before **Separator:** and one whitespace after your separator, to get output like this: 
+> Make sure you put 2 whitespaces before **Separator:** and 1 whitespace after your separator, to get output like this: 
 
 {weblog-title}{separator}{weblog-descriprion}
 
-> If you don't use 2 whitespaces before, and one after your **Separator** then your output will look like this:
+> If you don't use 2 whitespaces before, and 1 whitespace after your **Separator** then your output will look like this:
 
 {weblog-title}❯{weblog-description}
 
