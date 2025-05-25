@@ -17,7 +17,7 @@ Note: Use {} instead of () for your **shortcodes**
 
 # (toc) 
 
-{\{toc\}}
+\{toc\}
 
 Generate Table of Contents - Each Headings in list view, better to use at the top of your **Post** or **Page**.
 
