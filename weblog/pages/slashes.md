@@ -12,3 +12,5 @@ Index: Exclude
 ---
 
 {page-list}
+- [Tags](/tags)
+- [Random](/random)
