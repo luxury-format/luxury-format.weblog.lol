@@ -66,7 +66,7 @@ I get next output:
 
 ## {\post-title}
 
-Can use it in your **Templates** or **Posts** and **Pages** to get current **post** or **page** title, so currently I use this tag on my page with title: **Test**, so in output below in must be word: **Test**
+You can use it in your **Templates** or **Posts** and **Pages** to get current **post** or **page** title, so currently I use this {\post-title} bellow on my page, this current page title is: **Test**, so in output below in must be word: **Test**
 
 Here is output: 
 
