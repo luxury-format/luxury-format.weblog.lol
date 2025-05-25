@@ -315,8 +315,8 @@ li code {
 
 form {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-evenly;
+/*  width: 100%; */
 }
 
 form label {
