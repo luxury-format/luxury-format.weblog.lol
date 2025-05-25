@@ -135,7 +135,7 @@ Here is list of all pages in my **Weblog**:
 
 ## {\multiple-posts}
 
-Seems doesn't work anywhere... 
+Seems doesn't work... 
 
 {multiple-posts}
 
