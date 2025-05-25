@@ -314,7 +314,8 @@ li code {
 }
 
 form {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -336,7 +337,6 @@ form input {
 form button {
 /*  width: 100%; */
   height: 30px;
-  margin-left: 0.5em;
   font-family: var(--title-font);
   font-weight: bold;
   color: var(--text);
