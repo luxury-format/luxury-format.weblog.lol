@@ -315,7 +315,7 @@ li code {
 
 form {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 0.5em;
   width: 100%;
 }
 
@@ -326,8 +326,8 @@ form label {
 }
 
 form input {
-  width: 100%;
-  height: 40px;
+/*  width: 100%; */
+  height: 20px;
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--background);
@@ -336,8 +336,8 @@ form input {
 }
 
 form button {
-  width: 100%;
-  height: 40px;
+/*  width: 100%; */
+  height: 20px;
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--link);
@@ -348,7 +348,7 @@ form button {
 
 form button:hover {
   background-color: var(--link-hover);
-/*  border-color: var(--blue); */
+  border-color: var(--blue);
 }
 
 .landing-post-info {
