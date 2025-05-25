@@ -86,7 +86,7 @@ Title: Landing Page Template
     </header>
     <!-- MAIN -->
     <main>
-      {body}
+      {multiple-posts}
       <nav class="landing-page-pagination">
         {previous-page}
         {next-page}
