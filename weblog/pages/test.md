@@ -23,6 +23,8 @@ Generate Table of Contents - Each Headings in list view, better to use at the to
 
 IDK if this tag works in **Templates**, but it's works in **Posts** and on **Pages**.
 
+Here is example for this page:
+
 {toc}
 
 ---
@@ -38,12 +40,15 @@ Author: Me, Myself and I
 Weblog description: Good as Gold!
 ```
 
-Then using this **shortcodes** I get output like this:
+Then using this **shortcodes** like this:
 
-{weblog-title}
-{separator}
-{author}
-{weblog-description}
+```
+{\weblog-title}{\separator}{\author}{\separator}{\weblog-description}
+```
+
+I get next output:
+
+{weblog-title}{separator}{author}{separator}{weblog-description}
 
 > Note! For **Separator** I use next symbol: `❯` insted of `·`, but you can use any symbol that you want, here is some examples: `-` or `–` or `—` or `|` or `•` or `»` anything, even words!
 
