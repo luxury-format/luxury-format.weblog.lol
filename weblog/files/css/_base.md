@@ -314,20 +314,19 @@ li code {
 }
 
 form {
-  display: grid;
-  grid-gap: 0.5em;
+  display: block;
+  gap: 0.5em;
   width: 100%;
 }
 
 form label {
   font-family: var(--title-font);
   text-align: center;
-/*  display: block; */
 }
 
 form input {
 /*  width: 100%; */
-  height: 20px;
+  height: 30px;
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--background);
@@ -337,7 +336,7 @@ form input {
 
 form button {
 /*  width: 100%; */
-  height: 20px;
+  height: 30px;
   border-radius: var(--border-radius);
   font-weight: bold;
   background-color: var(--link);
