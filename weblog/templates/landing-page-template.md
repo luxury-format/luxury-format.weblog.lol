@@ -52,7 +52,7 @@ Title: Landing Page template
     <meta name="theme-color" content="#1C1C1E" media="(prefers-color-scheme: dark)">
     <!-- FONTS: Atkinson Hyperlegible and Source Code Pro -->
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i%7Csource-code-pro:400,700&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400,700&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Font Awesome Icons -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
