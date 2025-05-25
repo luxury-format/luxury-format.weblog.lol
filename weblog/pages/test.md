@@ -56,11 +56,11 @@ I get next output:
 
 > Make sure you put 2 whitespaces before **Separator:** and 1 whitespace after your separator, to get output like this: 
 
-{weblog-title}{separator}{weblog-descriprion}
+{weblog-title}{separator}{weblog-description}
 
 > If you don't use 2 whitespaces before, and 1 whitespace after your **Separator** then your output will look like this:
 
-{weblog-title}❯{weblog-descriprion}
+{weblog-title}❯{weblog-description}
 
 ---
 
