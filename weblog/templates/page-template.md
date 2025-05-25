@@ -87,13 +87,12 @@ Title: Page Template
     </header>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
-      <h6><a href="{base-path}">{weblog-title}</a>{separator}<a href="/slashes">Slashes</a></h6>
       {body}
     </main>
     <!-- FOOTER -->
     <footer>
       <hr>
-      <p>&copy; {year} <a href="/">{weblog-title}</a></p>
+      <p>&copy; {year} {weblog-title}</p>
       <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/luxury-format">Weblog.lol</a></p>
     </footer>
   </body>
