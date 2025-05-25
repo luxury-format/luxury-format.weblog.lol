@@ -16,10 +16,6 @@ Hello! ✌️
 
 ---
 
-{titleless-body}
-
----
-
 {slug}
 
 ---
