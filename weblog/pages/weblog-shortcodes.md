@@ -299,7 +299,7 @@ This **shortcode** use only in your **Templates** head only. And you will get ou
 
 ## {\post-number} - {\post-count}
 
-IDK what difference between them... but here is: 
+**{\post-count}** shows how many posts on your **Weblog**. You can use it everywhere.
 
 **{\post-number}** - {post-number}  
 **{\post-count}** - {post-count}
@@ -335,6 +335,9 @@ Works only in: **Landing Page Template**.
 ---
 
 ## {\search}
+
+
+{search}
 
 **{\search} shortcode** currently doesn't work, instead use next **HTML** code anywhere in your **Templates**, in **Posts** or on **Pages**:
 
@@ -376,8 +379,6 @@ Output without **Search** word next to your search form:
 <button type="submit">Search</button>
 </form>
 
-{search}
-
 ---
 
 ## {\profile}
@@ -397,29 +398,16 @@ Will "redirect" to your **Now** page: YOUR-ADDRESS.omg.lol/now
 Bellow is all **"tags"** that uses in your **Configuration**:  
 
 $title  
-
 $date  
-
 $tag  
-
 $tag_slug  
-
 $count  
-
 $search  
-
 $search_results_message  
-
 $snippet  
-
 $previous_page  
-
 $next_page  
-
 $location  
-
 $permalink  
-
 $title  
-
 $relative_date  
