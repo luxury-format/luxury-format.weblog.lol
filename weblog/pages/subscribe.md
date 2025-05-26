@@ -12,21 +12,21 @@ Index: Exclude
 
 ---
 
-- [<i class="fa-solid fa-atom"></i> Atom Feed]({atom-url})
-- [<i class="fa-solid fa-rss"></i> RSS Feed]({rss-url})
-- [<i class="omg-icon omg-json-feed"></i> JSON Feed]({json-url})
+- <i class="fa-solid fa-atom"></i> [**Atom Feed**]({atom-url})
+- <i class="fa-solid fa-rss"></i> [**RSS Feed**]({rss-url})
+- <i class="omg-icon omg-json-feed"></i> [**JSON Feed**]({json-url})
 
 ---
 
 Or just copy and paste one of these links in your RSS reader:
 
-<i class="fa-solid fa-atom"></i> Atom Feed:  
+<i class="fa-solid fa-atom"></i> **Atom Feed**:  
 `{atom-url}`  
 
-<i class="fa-solid fa-rss"></i> RSS Feed:  
+<i class="fa-solid fa-rss"></i> **RSS Feed**:  
 `{rss-url}`  
 
-<i class="omg-icon omg-json-feed"></i> JSON Feed:  
+<i class="omg-icon omg-json-feed"></i> **JSON Feed**:  
 `{json-url}`  
 
 ---
