@@ -39,17 +39,11 @@ Index: Exclude
 # Emphasis
 
 ```
-*italic*
-**bold**  
-`inline code`
-~~strikethrough~~
+*italic*, **bold**, `inline code`, ~~strikethrough~~
 ```
 
 
-*italic*
-**bold**
-`inline code`
-~~strikethrough~~
+*italic*, **bold**, `inline code`, ~~strikethrough~~
 
 ---
 
@@ -88,14 +82,14 @@ Index: Exclude
 ```
 1. Item 1
 2. Item 2
-     3a. Item 3a
-     3b. Item 3b
+     3. Item 3
+     4. Item 4
 ```
 
 1. Item 1
 2. Item 2
-     3a. Item 3a
-     3b. Item 3b
+     3. Item 3a
+     4. Item 4
 
 ---
 
@@ -151,6 +145,8 @@ console.log("This is a block code");
 console.log("This is a block code");
 ```
 
+---
+
 ```
     4 space indent makes a code block
 ```
@@ -193,13 +189,13 @@ echo hi
 
 ```
 | Left Column | Center Column | Right Column |
-|:--|:--|:--|
+| :--- | :---: | ---: |
 | Row 1 | Centered | $1600 |
 | Row 2 | Cell | $12 |
 ```
 
 | Left Column | Center Column | Right Column |
-|:--|:--|:--|
+| :--- | :---: | ---: |
 | Row 1 | Centered | $1600 |
 | Row 2 | Cell | $12 |
 
@@ -222,16 +218,6 @@ echo hi
 ```
 
 [![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)](https://luxury-format.weblog.lol)
-
----
-
-## Reference style images
-
-```markdown
-[logo]: https://profiles.cache.lol/luxury-format/picture.png "LUXURY FORMAT Logo"
-```
-
-[logo]: https://profiles.cache.lol/luxury-format/picture.png "LUXURY FORMAT Logo"
 
 ---
 
