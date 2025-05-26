@@ -93,7 +93,7 @@ Multiple posts format: <<[
 Recent posts count: 5
 Recent posts format: <<[
 <ul class="recent-posts">
-[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
+[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
 </ul>]>>
 
 ;; Post list {post-list}
@@ -101,7 +101,7 @@ Recent posts format: <<[
 
 Post list format: <<[
 <ul class="post-list">
-[post:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a> - <i class="fa-solid fa-clock"></i> $date</li>[post:end]
+[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
 </ul>]>>
 
 ;; Page list {page-list}
@@ -124,7 +124,7 @@ Search results format: <<[
 <h2 class="page-title">Search results for “$search”</h2>
 <h6>$search_results_message</h6>
 <hr>
-[post:begin]<h3><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a></h3>
+[post:begin]<h3><a href="$location">$title</a></h3>
 <p>$date</p>
 <p>$snippet</p>
 <hr>[post:end]
@@ -143,7 +143,7 @@ Tag page format: <<[
 <h2 class="page-title">Posts tagged with: “$tag”</h2>
 <hr>
 <ul class="posts-tagged-with">
-[tag:begin]<li><a href="$location"><i class="fa-regular fa-newspaper"></i> $title</a></li>[tag:end]
+[tag:begin]<li><a href="$location">$title</a></li>[tag:end]
 </ul>
 ]>>
 
