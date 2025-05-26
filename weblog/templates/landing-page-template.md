@@ -85,12 +85,12 @@ Title: Landing Page template
       <div class="weblog-navigation">
         {navigation}
       </div>
-    </header>
-    <!-- MAIN -->
-    <main>
       <div class="page-navigation">
         <h6><a href="/">Weblog</a> • All posts</h6>
       </div>
+    </header>
+    <!-- MAIN -->
+    <main>
       <h2 class="page-title">Weblog</h2>
       <hr>
       {multiple-posts}
