@@ -42,7 +42,7 @@ Location: /_header.css
   height: 40px;
   margin-right: 10px;
   margin-left: 0;
-/*  border-radius: var(--border-radius); */
+  border-radius: var(--border-radius);
 }
 
 .logo-title h1.weblog-title {
@@ -78,7 +78,7 @@ Location: /_header.css
 /* Icons styling */
 .header-icons a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--accent-1);
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
@@ -136,7 +136,7 @@ nav {
 
 #weblog-navigation li {
   background: var(--accent-4);
-  border: 1px solid var(--blue);
+  border: 1px solid var(--indigo);
   border-radius: 0.5rem;
   padding: 0.5rem;
   font-size: 16px;
@@ -167,7 +167,7 @@ nav {
 
 .page-navigation {
   background: var(--accent-4);
-  border: 1px solid var(--blue);
+  border: 1px solid var(--indigo);
   border-radius: var(--border-radius);
   padding: 0;
   margin-top: 0.5em;
