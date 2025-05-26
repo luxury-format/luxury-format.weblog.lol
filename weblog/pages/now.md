@@ -6,6 +6,4 @@ Location: /now
 Index: Exclude
 ---
 
-# Now
-
 {now}
