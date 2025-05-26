@@ -93,7 +93,7 @@ Title: Landing Page template
       </div>
       <h2 class="page-title">Weblog</h2>
       <hr>
-      {body}
+      {multiple-posts}
       <nav class="landing-page-pagination">
         {previous-page}
         {next-page}
