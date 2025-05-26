@@ -170,16 +170,9 @@ nav {
   border: 1px solid var(--blue);
   border-radius: var(--border-radius);
   padding: 0;
+  margin-top: 0.5em;
 /*  font-size: 16px; */
   display: flex;
   justify-content: center;
   text-align: center;
 }
-
-/* .page-navigation-hr-top {
-  margin-bottom: 0.5em;
-}
-
-.page-navigation-hr-bottom {
-  margin-top: 0.5em;
-} */
