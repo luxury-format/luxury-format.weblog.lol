@@ -6,7 +6,7 @@ Title: Post Template
 <!-- Post Template -->
 <!-- weblog/templates/post-template.md -->
 <article>
-  {titleless-body}
+  {body}
   <div class="post-meta">
     <aside class="landing-post-info">
       <i class="fa-solid fa-clock"></i>
