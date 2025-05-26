@@ -6,6 +6,4 @@ Location: /profile
 Index: Exclude
 ---
 
-# Profile
-
 {profile}
