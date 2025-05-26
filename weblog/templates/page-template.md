@@ -86,12 +86,12 @@ Title: Page Template
       <div class="weblog-navigation">
         {navigation}
       </div>
-    </header>
-    <!-- MAIN NO TITLE LINK -->
-    <main class="no-title-link">
       <div class="page-navigation">
         <h6><a href="/slashes">Slashes</a>{separator}{post-title}</h6>
       </div>
+    </header>
+    <!-- MAIN NO TITLE LINK -->
+    <main class="no-title-link">
       {body}
     </main>
     <!-- FOOTER -->
