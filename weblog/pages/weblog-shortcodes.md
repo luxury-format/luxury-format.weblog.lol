@@ -397,17 +397,17 @@ Will "redirect" to your **Now** page: YOUR-ADDRESS.omg.lol/now
 
 Bellow is all **"tags"** that uses in your **Configuration**:  
 
-$title  
-$date  
-$tag  
-$tag_slug  
-$count  
-$search  
-$search_results_message  
-$snippet  
-$previous_page  
-$next_page  
-$location  
-$permalink  
-$title  
-$relative_date  
+- $title
+- $date
+- $relative_date
+- $tag
+- $tag_slug
+- $coun
+- $search
+- $search_results_message
+- $snippet
+- $previous_page
+- $next_page
+- $location
+- $permalink
+- $title
