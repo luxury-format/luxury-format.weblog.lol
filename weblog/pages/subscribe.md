@@ -33,4 +33,4 @@ Or just copy and paste one of these links in your RSS reader:
 
 Also you can follow me on <i class="fa-brands fa-mastodon"></i> **Mastodon** using this link:
 
-- [**social.lol/@luxury_format](https://social.lol/@luxury_format)
+- [**social.lol/@luxury_format**](https://social.lol/@luxury_format)
