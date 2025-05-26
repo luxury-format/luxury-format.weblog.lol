@@ -77,8 +77,8 @@ Title: Page Template
           </a>
         </div>
         <div class="header-icons">
-          <a href="https://social.lol/@luxury_format" aria-label="Social.lol"><i class="fa-brands fa-mastodon"></i><span>Social.lol</span></a>
-          <a href="https://luxury-format.status.lol" aria-label="Status.lol"><i class="fa-solid fa-face-grin"></i><span>Status.lol</span></a>
+          <a href="https://social.lol/@luxury_format" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
+          <a href="https://luxury-format.weblog.lol/status" aria-label="Status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
           <a href="https://luxury-format.weblog.lol/subscribe" aria-label="Subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
