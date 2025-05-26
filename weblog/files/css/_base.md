@@ -118,11 +118,11 @@ li a {
 }
 
 ul li::marker {
-  color: var(--green);
+  color: var(--blue);
 }
 
 ol li::marker {
-  color: var(--link);
+  color: var(--blue);
 }
 
 a:link {
