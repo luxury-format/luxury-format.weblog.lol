@@ -92,7 +92,7 @@ Title: Page Template
       <div class="page-navigation">
         <h6><a href="/slashes">Slashes</a>{separator}{post-title}</h6>
       </div>
-      {body}
+      {titleless-body}
     </main>
     <!-- FOOTER -->
     <footer>
