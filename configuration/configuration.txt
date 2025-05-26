@@ -9,7 +9,7 @@ Weblog short title: LF.
 Weblog description: Good as gold!
 Author: Me, Myself and I
 // Canonical domain: 
-// Landing page: /
+Landing page: /
 Landing page template: Landing Page template
 // configuration/configuration.txt
 
