@@ -118,11 +118,11 @@ li a {
 }
 
 ul li::marker {
-  color: var(--blue);
+  color: var(--red);
 }
 
 ol li::marker {
-  color: var(--blue);
+  color: var(--red);
 }
 
 a:link {
@@ -183,7 +183,7 @@ blockquote {
   margin: 1.5rem 0;
   padding: 1rem 1rem 1rem 1.5rem;
   border-left: 4px solid;
-  border-color: var(--link);
+  border-color: var(--red);
   background: var(--accent-4);
   color: var(--text);
 /*  font-style: italic; */
@@ -200,7 +200,7 @@ blockquote {
 } */
 
 a.footnote-ref {
-  color: var(--green);
+  color: var(--red);
 }
 
 .ol-footnote {
@@ -331,7 +331,7 @@ form button {
 
 form button:hover {
   background-color: var(--link-hover);
-  border-color: var(--blue);
+  border-color: var(--indigo);
 }
 
 .landing-post-info {
