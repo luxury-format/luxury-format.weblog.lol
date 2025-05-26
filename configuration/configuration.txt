@@ -19,7 +19,7 @@ Landing page template: Landing Page template
 
 Separator:  ❯ 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: [Weblog](/), [Archive](/archive), [Tags](/tags), [Slashes](/slashes), [Photos](/photos), [Random](/random)
+Navigation: [Weblog](/), [Archive](/archive), [Tags](/tags), [Slashes](/slashes), [Some Pics](/some-pics), [Random](/random)
 Files path: /files/
 Landing page post count: 2
 // Landing page post length: 45 words
