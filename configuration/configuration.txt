@@ -23,7 +23,7 @@ Navigation: [Weblog](/), [Archive](/archive), [Tags](/tags), [Slashes](/slashes)
 Files path: /files/
 Landing page post count: 2
 // Landing page post length: 45 words
-Post template: Post Template
+// Post template: Post Template
 Random post location: /random
 
 ;; Pagination
