@@ -6,4 +6,6 @@ Location: /profile
 Index: Exclude
 ---
 
-{profile}
+# Profile
+
+- [Profile](https://luxury-format.omg.lol)
