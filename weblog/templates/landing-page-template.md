@@ -56,7 +56,6 @@ Title: Landing Page template
     <!-- Font Awesome Icons -->
     <!-- <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"> -->
-    <!-- Highlight -->
     <!-- /style.css -->
     <link rel="stylesheet" href="/style.css">
   </head>
