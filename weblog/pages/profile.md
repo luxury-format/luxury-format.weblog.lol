@@ -1,7 +1,7 @@
 ---
 Date: 2025-05-25 00:00
-Type: Pahe
-Template: Body Only
+Type: Page
+Template: Body Only Template
 Title: Profile
 Location: /profile
 Index: Exclude
