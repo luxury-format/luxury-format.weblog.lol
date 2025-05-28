@@ -449,7 +449,7 @@ form button:hover {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-  color: var(--blue);
+/*  color: var(--blue); */
   text-align: right;
 }
 
