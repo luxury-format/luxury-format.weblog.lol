@@ -14,7 +14,7 @@ Title: Post Template
     </aside>
   </div>
   <aside class="post-tags">
-    {tags}
+    Tags: {tags}
   </aside>
 </article>
 
