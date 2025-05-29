@@ -449,7 +449,7 @@ form button:hover {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-/*  color: var(--blue); */
+  color: var(--blue);
   text-align: right;
 }
 
@@ -471,7 +471,7 @@ form button:hover {
 } */
 
 .tag {
-/*  background: var(--link); */
+  background: var(--link);
   color: var(--black) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
