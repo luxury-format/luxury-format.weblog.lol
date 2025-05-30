@@ -93,11 +93,6 @@ Title: Page Template
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
       {body}
-      <hr>
-      <aside class="page-post-info">
-          <i class="fa-solid fa-clock"></i> <span>{date}</span>
-        </aside>
-    </main>
     <!-- FOOTER -->
     <footer>
       <hr>
