@@ -9,4 +9,6 @@ Index: Exclude
 
 # Now
 
+---
+
 - [Now](https://luxury-format.omg.lol/now)
