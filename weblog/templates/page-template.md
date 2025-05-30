@@ -97,9 +97,6 @@ Title: Page Template
       <aside class="page-post-info">
           <i class="fa-solid fa-clock"></i> <span>{date}</span>
         </aside>
-        <aside class="post-tags">
-          {tags}
-        </aside>
     </main>
     <!-- FOOTER -->
     <footer>
