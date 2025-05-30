@@ -87,7 +87,7 @@ Title: Page Template
         {navigation}
       </div>
       <div class="page-navigation">
-        <h6><a href="/slashes">Slashes</a>{separator}{post-title}</h6>
+        <h6><a href="/slashes">Slashes</a>{separator}{name}</h6>
       </div>
     </header>
     <!-- MAIN NO TITLE LINK -->
