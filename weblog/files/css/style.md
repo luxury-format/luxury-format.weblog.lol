@@ -497,8 +497,12 @@ form button:hover {
 }
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
-  content: "\21C4";
-  color: var(--text);
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  speak: none;
+  font-style: normal;
+  content: "\f0ec";
+  color: var(--icons);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
