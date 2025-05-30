@@ -2,7 +2,7 @@
 Date: 2025-05-02 13:00
 Type: Post
 Title: Hello 2
-Tags: 25', Hello, Hello 2
+Tags: Hello, Hello 2
 ---
 
 # Hello 2
