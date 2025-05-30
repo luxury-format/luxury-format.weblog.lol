@@ -3,7 +3,7 @@ Date: 2025-05-25 00:00
 Type: Page
 Title: Archive
 Location: /archive
-Tags: Slashes, Search, Archive
+Name: Archive
 Index: Exclude
 ---
 
