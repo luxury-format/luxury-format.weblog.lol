@@ -5,5 +5,3 @@ Title: Tags
 Location: /tags
 Index: Exclude
 ---
-
-{tag-listing}
