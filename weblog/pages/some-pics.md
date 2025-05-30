@@ -3,7 +3,6 @@ Date: 2025-05-25 00:00
 Type: Page
 Title: Some Pics
 Location: /some-pics
-Tags: Slashes, Some Pics, Photos
 Index: Exclude
 ---
 
