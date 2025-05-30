@@ -93,6 +93,7 @@ Title: Page Template
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
       {body}
+      {tags}
     </main>
     <!-- FOOTER -->
     <footer>
