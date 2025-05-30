@@ -97,6 +97,7 @@ Title: Page Template
     </main>
     <footer>
       <hr>
+      <!-- STATUSLOG -->
       <script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
       <hr>
       <p>&copy; {year} {weblog-title}</p>
