@@ -94,6 +94,7 @@ Title: Page Template
     <main class="no-title-link">
       {body}
     <!-- FOOTER -->
+    </main>
     <footer>
       <hr>
       <p>&copy; {year} {weblog-title}</p>
