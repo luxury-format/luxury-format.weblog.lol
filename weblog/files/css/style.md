@@ -133,7 +133,11 @@ main.no-title-link h2 > a {
 } */
 
 .page-title {
-    text-shadow: rgba(10, 189, 240, 0.298039) 1px 1px 0px, rgba(254, 1, 1, 0.298039) -1px -1px 0px;
+  text-shadow: rgba(10, 189, 240, 0.298039) 1px 1px 0px, rgba(254, 1, 1, 0.298039) -1px -1px 0px;
+}
+
+.page-title + h6 {
+  text-shadow: rgba(10, 189, 240, 0.298039) 1px 1px 0px, rgba(254, 1, 1, 0.298039) -1px -1px 0px;
 }
 
 h1,
