@@ -3,7 +3,7 @@ Date: 2025-05-25 00:00
 Type: Page
 Title: Blogroll
 Location: /blogroll
-Tags: Slashes, Blogroll
+Name: Blogroll
 Index: Exclude
 ---
 
