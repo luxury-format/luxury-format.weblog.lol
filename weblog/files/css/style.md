@@ -951,7 +951,7 @@ footer {
   text-align: center;
   max-width: 60em;
   margin: 1.5em 0;
-/*  padding: 0 1em; */
+  padding: 0 1em;
 }
 
 /* .footer-hr {
