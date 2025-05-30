@@ -3,7 +3,6 @@ Date: 2025-05-25 00:00
 Type: Page
 Title: Blogroll
 Location: /blogroll
-Page name: Blogroll
 Index: Exclude
 ---
 
