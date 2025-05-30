@@ -951,10 +951,10 @@ footer {
   text-align: center;
   max-width: 60em;
   margin: 1.5em 0;
-  padding: 0 1em;
+/*  padding: 0 1em; */
 }
 
-.footer-hr {
+/* .footer-hr {
   width: 100%; 
   border: 0;
   height: 5px;
@@ -963,7 +963,7 @@ footer {
   margin-bottom: 10px;
   display: flex;
   margin: 1em 0;
-}
+} */
 
 footer p {
   font-family: 'VC Honey Deck', serif;
@@ -973,7 +973,6 @@ footer p {
   margin-top: 1em;
 }
 
-/* In footer: <p class="footer-weblog-p">Made with <a href="https://weblog.lol">Weblog.lol</a>.</p> */
 .footer-weblog-p {
   font-family: 'VC Honey Deck', serif;
 }
