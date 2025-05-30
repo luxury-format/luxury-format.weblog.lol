@@ -990,7 +990,7 @@ footer p {
   font-family: 'VC Honey Black Banner', serif;
   color: #F783AC;
 }
-.footer-weblog-p a .logotype-dot {
+.footer-weblog-p a .logotype.dot {
   color: #F06595;
 }
 
