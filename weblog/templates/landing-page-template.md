@@ -102,6 +102,8 @@ Title: Landing Page template
     <!-- FOOTER -->
     <footer>
       <hr>
+      <script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
+      <hr>
       <p>&copy; {year} {weblog-title}</p>
       <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/luxury-format">Weblog.lol</a></p>
     </footer>
