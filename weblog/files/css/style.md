@@ -983,10 +983,15 @@ footer p {
 
 .footer-weblog-p {
   font-family: 'VC Honey Deck', serif;
+  color: var(--text);
 }
 
-.footer-weblog-p a {
+.footer-weblog-p a .logotype {
   font-family: 'VC Honey Black Banner', serif;
+  color: #F783AC;
+}
+.footer-weblog-p a .logotype-dot {
+  color: #F06595;
 }
 
 /* HOME */
