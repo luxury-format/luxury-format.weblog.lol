@@ -6,7 +6,7 @@ Title: Landing Page template
 <!DOCTYPE html>
 <html lang="en">
   <!-- Landing Page template -->
-  <!-- weblog/templates/landing-page-template.md -->
+  <!-- configuration/landing-page-template.md -->
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8">
