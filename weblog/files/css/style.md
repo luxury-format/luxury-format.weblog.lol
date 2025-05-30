@@ -989,6 +989,7 @@ footer p {
 .footer-weblog-p a .logotype {
   font-family: 'VC Honey Black Banner', serif;
   color: #F783AC;
+  text-shadow: 1px 1px black;
 }
 .footer-weblog-p a .logotype.dot {
   color: #F06595;
