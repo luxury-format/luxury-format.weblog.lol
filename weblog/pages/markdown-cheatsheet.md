@@ -3,6 +3,7 @@ Date: 2025-05-25 00:00
 Type: Page
 Title: Markdown Cheatsheet
 Location: /markdown-cheatsheet
+Tags: Slashes, Markdown, Cheatsheet, Markdown Cheatsheet
 Index: Exclude
 ---
 
