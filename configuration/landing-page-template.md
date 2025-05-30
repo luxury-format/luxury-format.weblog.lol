@@ -86,7 +86,7 @@ Title: Landing Page template
         {navigation}
       </div>
       <div class="page-navigation">
-        <h6><a href="/">Blog</a> • All posts</h6>
+        <h6><a href="/">Blog</a> ❯ All posts</h6>
       </div>
     </header>
     <!-- MAIN -->
