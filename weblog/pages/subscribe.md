@@ -3,6 +3,7 @@ Date: 2025-05-25 00:00
 Type: Page
 Title: Subscribe
 Location: /subscribe
+Tags: Slashes, Subscribe, Feeds, Atom, RSS, JSON, Mastodon, Social, Social.lol
 Index: Exclude
 ---
 
