@@ -89,7 +89,6 @@ Title: Page Template
       <div class="page-navigation">
         <h6><a href="/slashes">Slashes</a>{separator}/{slug}</h6>
       </div>
-      <hr>
     </header>
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
