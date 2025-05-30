@@ -91,6 +91,7 @@ Title: Landing Page template
     </header>
     <!-- MAIN -->
     <main>
+      <hr>
       <h2 class="page-title">Blog</h2>
       <hr>
       {body}
