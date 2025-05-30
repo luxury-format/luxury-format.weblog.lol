@@ -4,7 +4,7 @@ Title: Post Template
 ---
 
 <!-- Post Template -->
-<!-- weblog/templates/post-template.md -->
+<!-- configuration/post-template.md -->
 <article>
   {body}
   <div class="post-meta">
