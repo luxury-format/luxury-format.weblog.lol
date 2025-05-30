@@ -9,4 +9,6 @@ Index: Exclude
 
 # Profile
 
+---
+
 - [Profile](https://luxury-format.omg.lol)
