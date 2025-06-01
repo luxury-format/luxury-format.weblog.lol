@@ -10,7 +10,7 @@ Location: /css/style.css
 @import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
 @import "/css/includes/_variables.css";
 @import "/css/includes/_base.css";
-@import "/css/includes/_container.css";
+@import "/css/includes/_dividers.css";
 /* HEADER */
 /* Header structure */
 .weblog-header {
