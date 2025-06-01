@@ -60,9 +60,15 @@ Title: Page Template
     <!-- /style.css -->
     <link rel="stylesheet" href="/css/style.css">
   </head>
-  <!-- BODY -->
+  
+  <!-- BODY WRAPPER -->
+  <div class="body-wrapper">
+    <!-- BODY -->
   <body>
     <a style="display: none;" rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
+    
+    <!-- HEADER WRAPPER -->
+    <div class="header-wrapper">
     <!-- HEADER -->
     <header class="weblog-header">
       <!-- First row: Logo+Title and Social Icons -->
@@ -90,12 +96,20 @@ Title: Page Template
         <h6><a href="/slashes">Slashes</a>{separator}/{slug}</h6>
       </div>
     </header>
+    </div>
+    
+    <!-- MAIN WRAPPER -->
+    <div class"main-wrapper">
     <!-- MAIN NO TITLE LINK -->
     <main class="no-title-link">
       <hr>
       {body}
-    <!-- FOOTER -->
     </main>
+    </div>
+
+    <!-- FOOTER WRAPPER -->
+    <div class="footer-wrapper">
+    <!-- FOOTER -->
     <footer>
       <hr>
       <ul class="socials">
@@ -132,5 +146,9 @@ Title: Page Template
       <p>&copy; {year} {weblog-title}</p>
       <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/luxury-format"><span class="logotype">Weblog<span class="logotype dot">.</span>lol</span></a></p>
     </footer>
+    </div>
+    
   </body>
+  </div>
+  
 </html>
