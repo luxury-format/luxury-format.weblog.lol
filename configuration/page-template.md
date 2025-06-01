@@ -102,31 +102,26 @@ Title: Page Template
         <li>
           <a rel="me" href="https://social.lol/@luxury_format">
             <i class="fa-brands fa-mastodon"></i>
-            <span>@luxury_format</span>
           </a>
         </li>
         <li>
           <a rel="me" href="https://bsky.app/profile/luxury-format.bsky.social">
             <i class="fa-brands fa-bluesky"></i>
-            <span>@luxury-format</span>
           </a>
         </li>
         <li>
           <a rel="me" href="https://discordapp.com/users/434798061370474526">
             <i class="fa-brands fa-discord"></i>
-            <span>@luxury_format</span>
           </a>
         </li>
         <li>
           <a rel="me" href="https://luxury-format.omg.lol">
             <i class="omg-icon omg-prami"></i>
-            <span>@luxury-format</span>
           </a>
         </li>
         <li>
           <a rel="me" href="https://github.com/luxury-format">
             <i class="fa-brands fa-github"></i>
-            <span>@luxury-format</span>
           </a>
         </li>
       </ul>
