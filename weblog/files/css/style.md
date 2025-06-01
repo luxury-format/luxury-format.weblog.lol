@@ -1,7 +1,7 @@
-Type: file
+Type: File
 Content-Type: text/css
-Title: style.css
-Location: /style.css
+Title: Style.css
+Location: /css/style.css
 
 /* weblog/files/css/style.md */
 @import "_reset.css";
