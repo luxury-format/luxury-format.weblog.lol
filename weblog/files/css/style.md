@@ -9,7 +9,7 @@ Location: /css/style.css
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 @import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
-@import "/css/includes/_variables.css
+@import "/css/includes/_variables.css";
 
 /* BASE */
 * {
