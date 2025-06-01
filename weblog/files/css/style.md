@@ -962,6 +962,7 @@ footer {
   padding: 0 1em;
 }
 
+/* FOOTER SOCIALS ICONS */
 ul.socials {
   list-style: none;
   margin: 0 auto;
@@ -985,7 +986,7 @@ ul.socials li a {
   justify-content: center;
   width: 3rem;
   height: 3rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 
