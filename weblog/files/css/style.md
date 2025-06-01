@@ -1130,23 +1130,24 @@ footer p {
 }
 
 /* Individual OMG LOL ICONS */
-.omg-icon.omg-proven {
+.omg-proven {
   color: #FFD43D !important;
 }
 
-.omg-icon.omg-prami {
+.omg-prami {
   color: #FF69AD !important;
+  fill: #461036 !important;
   stroke: #461036 !important;
 }
 
-.omg-icon.omg-verified {
+.omg-verified {
   color: #FFD43D !important;
 }
 
-.omg-icon.omg-json-feed {
+.omg-json-feed {
   color: #F36B2B !important;
 }
 
-/* .omg-icon.omg- {
+/* .omg- {
   color: # !important;
 } */
