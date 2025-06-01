@@ -98,6 +98,39 @@ Title: Page Template
     </main>
     <footer>
       <hr>
+      <ul class="socials">
+        <li>
+          <a rel="me" href="https://social.lol/@luxury_format">
+            <i class="fa-brands fa-mastodon"></i>
+            <span>Mastodon</span>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://bsky.app/profile/luxury-format.bsky.social">
+            <i class="fa-brands fa-bluesky"></i>
+            <span>Bluesky</span>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://discordapp.com/users/434798061370474526">
+            <i class="fa-brands fa-discord"></i>
+            <span>Discord</span>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://luxury-format.omg.lol">
+            <i class="omg-icon omg-prami"></i>
+            <span>OMG.LOL</span>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://github.com/luxury-format">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+      </ul>
+      <hr>
       <!-- STATUSLOG -->
       <script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
       <hr>
