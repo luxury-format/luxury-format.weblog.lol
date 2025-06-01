@@ -1,12 +1,12 @@
-// Weblog Configuration
+// Configuration
 
 
-;; About your weblog
+;; About blog
 ;; -----------------
 
-Weblog title: LUXURY FORMAT
-Weblog short title: LF.
-Weblog description: Good as gold!
+Title: LUXURY FORMAT
+Short title: LF.
+Description: Good as gold!
 Author: Me, Myself and I
 // Canonical domain: 
 // Landing page: /
@@ -45,7 +45,7 @@ Date format: F j, Y
 ;; -----
 
 Feed post count: 100
-// Feed post appendix: <p><em>Published with <strong>Weblog.lol!</strong></em></p>
+// Feed post appendix: <p><em>Published with <strong>Weblog.lol</strong></em></p>
 
 
 ;; Posts
@@ -56,17 +56,13 @@ Default post: <<[---
 Date: $date
 Type: Post
 Title: Title
-Tags: 25, Tag
+Tags: Tag
 Status: Draft
 ---
 
 # Title
 
-Body text start here...
-
-Page, File, Template
-Unlisted, Web Only, Feed Only
-]>>
+Body text start here...]>>
 
 Titleless title length: 15 words
 // Truncation appendix:  […]
