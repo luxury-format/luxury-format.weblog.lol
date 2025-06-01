@@ -1,7 +1,7 @@
 Type: File
 Content-Type: text/css
 Title: _Reset.css
-Location: /includes/_reset.css
+Location: /css/includes/_reset.css
 
 /* GitHub file path:
 weblog/files/css/includes/_reset.md */
