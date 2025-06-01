@@ -982,18 +982,8 @@ ul.socials li a {
   justify-content: center;
   width: 2.5rem;
   height: 2.5rem;
-  border-radius: 50%;
-  background-color: #f0f0f0;
-  color: #333333;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-ul.socials li a:hover,
-ul.socials li a:focus {
-  background-color: #333333;
-  color: #ffffff;
 }
 
 /* .footer-hr {
