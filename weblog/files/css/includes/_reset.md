@@ -1,9 +1,10 @@
-Type: file
+Type: File
 Content-Type: text/css
-Title: _reset.css
-Location: /_reset.css
+Title: _Reset.css
+Location: /includes/_reset.css
 
-/* weblog/files/css/_reset.md */
+/* GitHub file path:
+weblog/files/css/includes/_reset.md */
 /* Box sizing rules */
 *,
 *::before,
