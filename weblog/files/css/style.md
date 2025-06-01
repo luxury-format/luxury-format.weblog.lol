@@ -1136,8 +1136,6 @@ footer p {
 
 .omg-prami {
   color: #FF69AD !important;
-  fill: #461036 !important;
-  stroke: #461036 !important;
 }
 
 .omg-verified {
