@@ -48,6 +48,14 @@ Feed post count: 100
 // Feed post appendix: <p><em>Published with <strong>Weblog.lol</strong></em></p>
 
 
+;; EXTRA
+;; -----
+
+Address: luxury-format
+Mastodon URL: https://social.lol/@luxury_format
+Fediverse creator: @luxury_format@social.lol
+
+
 ;; Posts
 ;; -----
 
