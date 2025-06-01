@@ -986,7 +986,7 @@ ul.socials li a {
   justify-content: center;
   width: 3rem;
   height: 3rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-decoration: none;
 }
 
