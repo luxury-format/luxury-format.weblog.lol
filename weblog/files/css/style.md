@@ -970,12 +970,13 @@ ul.socials {
   flex-wrap: wrap;
   gap: 0.5rem;
   max-width: calc(6 * 3rem + 5 * 0.5rem);
+  justify-content: center;
 }
 
 ul.socials li {
+  flex: 0 0 auto;
   margin: 0;
   padding: 0;
-  flex: 0 0 auto;
 }
 
 ul.socials li a {
