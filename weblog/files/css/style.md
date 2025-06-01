@@ -1079,6 +1079,18 @@ footer p {
   color: #F36B2B !important;
 }
 
+.fa-bluesky {
+  color: #1185FE !important;
+}
+
+.fa-discord {
+  color: #5865F2 !important;
+}
+
+.fa-github {
+  color: #0d1117 !important;
+}
+
 /* .fa- {
   color: # !important;
 } */
@@ -1091,6 +1103,10 @@ footer p {
 /* Individual OMG LOL ICONS */
 .omg-icon.omg-proven {
   color: #FFD43D !important;
+}
+
+.omg-icon.omg-prami {
+  color: #FF68AC !important;
 }
 
 .omg-icon.omg-verified {
