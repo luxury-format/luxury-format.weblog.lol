@@ -962,6 +962,39 @@ footer {
   padding: 0 1em;
 }
 
+ul.socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}
+
+ul.socials li {
+  margin: 0;
+}
+
+ul.socials a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+ul.socials a i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+ul.socials a span {
+  font-size: 0.875rem;
+  word-break: break-all;
+}
+
 /* .footer-hr {
   width: 100%; 
   border: 0;
@@ -990,6 +1023,7 @@ footer p {
   font-family: 'VC Honey Black Banner', serif;
   color: #F783AC;
 }
+
 .footer-weblog-p a .logotype.dot {
   color: #F06595;
 }
