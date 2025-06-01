@@ -1,29 +1,29 @@
 Type: File
 Content-Type: text/css
-Title: _Dividers.css
-Location: /css/includes/_dividers.css
+Title: _Wrapper.css
+Location: /css/includes/_wrapper.css
 
 /* GitHub file path:
-weblog/files/css/includes/_dividers.md */
+weblog/files/css/includes/_wrapper.md */
 /* CONTAINER CSS */
-div.header {
+.header-wrapper {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
   margin-bottom: 10px;
 }
 
-div.body {
+.body-wrapper {
   width: 100%;
   max-width: 1200px;
 }
 
-div.main {
+.main-wrapper {
   width: 100%;
   max-width: 1200px;
 }
 
-div.footer {
+.footer-wrapper {
   width: 100%;
   max-width: 800px;
 }
