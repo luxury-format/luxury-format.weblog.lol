@@ -964,24 +964,26 @@ footer {
 
 ul.socials {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
-  justify-content: center;
+  max-width: calc(6 * 3rem + 5 * 0.5rem);
 }
 
 ul.socials li {
   margin: 0;
   padding: 0;
+  flex: 0 0 auto;
 }
 
 ul.socials li a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   font-size: 1.25rem;
   text-decoration: none;
 }
