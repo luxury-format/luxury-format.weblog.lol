@@ -10,25 +10,7 @@ Location: /css/style.css
 @import url('https://omgalol.cache.lol/profiles/icons/omg.lol-icons.css');
 @import "/css/includes/_variables.css";
 @import "/css/includes/_base.css";
-
-/* CONTAINER */
-/* .container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-  margin-bottom: 10px;
-}
-
-.container-m {
-  width: 100%;
-  max-width: 1200px;
-}
-
-.container-sm {
-  width: 100%;
-  max-width: 800px;
-} */
-
+@import "/css/includes/_container.css";
 /* HEADER */
 /* Header structure */
 .weblog-header {
