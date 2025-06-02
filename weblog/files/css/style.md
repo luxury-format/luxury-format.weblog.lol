@@ -434,7 +434,7 @@ form button {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-  color: var(--blue);
+  color: var(--text);
   text-align: right;
 }
 
@@ -525,13 +525,17 @@ form button {
 }
 
 .statuslol_content {
-  color: var(--white-white) !important;
+  color: var(--text) !important;
 }
 
 .statuslol_time a {
   opacity: 1 !important;
-  color: var(--highlight) !important;
+  color: var(--link) !important;
   border-bottom: none !important;
+}
+
+.statuslol_time small {
+  opacity: 1 !important;
 }
 
 .statuslol_content p {
