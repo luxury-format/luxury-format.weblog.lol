@@ -85,7 +85,7 @@ body {
   overflow: auto;
   color: var(--text);
   background: var(--background);
-  width: 64rem;
+/*  width: 64rem; */
   max-width: 100%;
   margin: 1rem;
   border: 1px solid var(--red);
