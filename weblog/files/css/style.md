@@ -599,16 +599,16 @@ form button:hover {
   font-weight: bold;
 }
 
-.blog-title span.long {
+.weblog-title span.long {
   display: inline;
 }
 
-.blog-title span.short {
+.weblog-title span.short {
   display: none;
 }
 
 @media (max-width: 610px) {
-  .blog-title span.long {
+  .weblog-title span.long {
     display: none;
   }
   
@@ -633,7 +633,7 @@ form button:hover {
 .header-icons span {
   font-family: var(--title-font);
   color: var(--text);
-  font-size: 90%;
+  font-size: 0.9em;
 }
 
 @media (max-width: 610px) {
@@ -654,7 +654,7 @@ form button:hover {
 }
 
 /* Navigation menu styling */
-.blog-navigation {
+.weblog-navigation {
   width: 100%;
 }
 
@@ -716,7 +716,6 @@ nav {
 }
 
 /* NAV */
-/* weblog/files/css/_nav.md */
 /* nav.main {
   height: auto;
   padding: 5px 0;
