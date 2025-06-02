@@ -318,7 +318,7 @@ pre {
   font-size: 90%;
   line-height: 150%;
   box-shadow: var(--box-shadow);
-  border-radius: var(--border-radius);
+  border-radius: 0.6rem;
 /*  overflow-wrap: normal; */
   overflow-x: scroll;
   white-space: pre;
@@ -333,7 +333,7 @@ code {
   font-size: 75%;
   line-height: 150%;
 /*  box-shadow: var(--box-shadow); */
-  border-radius: var(--border-radius);
+  border-radius: 0.6rem;
   white-space: pre-wrap;
   white-space: break-spaces;
   word-wrap: break-word;
@@ -407,7 +407,7 @@ form label {
 form input {
 /*  width: 100%; */
   height: 30px;
-  border-radius: var(--border-radius);
+  border-radius: 0.6rem;
   font-weight: bold;
   background-color: var(--background);
   border: 2px solid var(--black-white);
@@ -421,7 +421,7 @@ form button {
   font-weight: bold;
   color: var(--text);
   background-color: var(--link);
-  border-radius: var(--border-radius);
+  border-radius: 0.6rem;
   border: 2px solid var(--black-white);
 }
 
