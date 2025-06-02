@@ -515,11 +515,11 @@ form button {
 .divider::after {
   content: "";
   flex: 1;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--black-white);
 }
 
 .statuslol {
-  background: var(--accent-5) !important;
+  background: var(--accent-1) !important;
   border-radius: 0.5em !important;
   border: 1px solid var(--highlight) !important;
 }
@@ -550,7 +550,7 @@ form button {
 .somepics_container {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid var(--highlight);
+/*  border: 1px solid var(--highlight); */
   border-radius: 0.5em;
   overflow: hidden;
 }
@@ -559,7 +559,7 @@ form button {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 0.6rem;
 }
 
 .pagination {
