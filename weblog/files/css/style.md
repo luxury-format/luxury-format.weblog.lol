@@ -393,43 +393,35 @@ li code {
   padding: 0.2rem;
 }
 
-form {
-  display: flex;
-  justify-content: space-evenly;
-/*  width: 100%; */
+.search {
+  max-width: 100%;
+  margin: 1rem auto;
 }
 
-form label {
-  font-family: var(--title-font);
-  text-align: center;
-}
-
-form input {
+.search input[type="text"] {
   width: 100%;
-  height: 40px;
+  height: 35px;
+  padding: 0 1rem;
   border-radius: 0.6rem;
   font-family: var(--title-font);
-  font-weight: bold;
+  font-weight: 700;
   background-color: var(--background);
-  border: 2px solid var(--black-white);
   color: var(--text);
+  border: 2px solid var(--black-white);
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-in-out;
 }
 
-form button {
-/*  width: 100%; */
-  height: 40px;
-  font-family: var(--title-font);
-  font-weight: bold;
-  color: var(--text);
-  background-color: var(--link);
-  border-radius: 0.6rem;
-  border: 2px solid var(--black-white);
+.search input[type="text"]:focus {
+  outline: none;
+  border-color: var(--teal);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
-/* form button:hover {
-  background-color: var(--link-hover);
-  border-color: var(--black-white);
-} */
+.search input[type="text"]::placeholder {
+  color: #888;
+  font-weight: normal;
+}
 
 .landing-post-info {
   font-family: var(--title-font);
