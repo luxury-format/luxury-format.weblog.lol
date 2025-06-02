@@ -51,9 +51,9 @@ Title: Landing Page template
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <!-- BODY -->
-  <body class="body-wrapper">
+  <body class="body">
     <!-- HEADER -->
-    <header class="header-wrapper">
+    <header class="header">
       <div class="header-top-row">
         <div class="logo-title">
           <a href="/">
@@ -75,7 +75,7 @@ Title: Landing Page template
       </div>
     </header>
     <!-- MAIN -->
-    <main class="main-wrapper">
+    <main class="main">
       <span class="divider">&bull; &bull; &bull;</span>
       {body}
       <span class="top-pagination-divider"></span>
@@ -86,7 +86,7 @@ Title: Landing Page template
       <span class="bottom-pagination-divider"></span>
     </main>
     <!-- FOOTER -->
-    <footer class="footer-wrapper">
+    <footer class="footer">
       <span class="divider">&bull; &bull; &bull;</span>
       <ul class="socials">
         <li>
