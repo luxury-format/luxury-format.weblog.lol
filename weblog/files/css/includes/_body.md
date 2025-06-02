@@ -20,10 +20,10 @@ weblog/files/css/includes/_body.md */
   background: var(--background);
   width: 100%;
   max-width: 1200px;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem;
   border: 1px solid var(--red);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 /* HEADER */
@@ -33,20 +33,20 @@ weblog/files/css/includes/_body.md */
   max-width: 100%;
   width: 1200px;
   background: var(--accent-5);
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem;
   border: 1px solid var(--yellow);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 /* MAIN */
 .main {
   width: 100%;
   max-width: 1200px;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem;
   border: 1px solid var(--green);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 /* FOOTER */
@@ -58,8 +58,8 @@ weblog/files/css/includes/_body.md */
   text-align: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem;
   border: 1px solid var(--pink);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
