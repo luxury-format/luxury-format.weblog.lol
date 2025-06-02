@@ -9,10 +9,12 @@ weblog/files/css/includes/_wrapper.md */
 
 /* BODY WRAPPER */
 .body-wrapper {
+  font-family: 
   width: 100%;
   max-width: 1200px;
   margin: 1rem;
   padding: 0;
+  overflow: auto;
 }
 
 /* HEADER WRAPPER */
@@ -37,6 +39,10 @@ weblog/files/css/includes/_wrapper.md */
 
 /* FOOTER WRAPPER */
 .footer-wrapper {
+  font-family: var(--title-font);
+  font-size: 0.8em;
+  overflow: auto;
+  text-align: center;
   width: 100%;
   max-width: 1200px;
   margin: 0.5rem 0;
