@@ -440,7 +440,7 @@ form button:hover {
   border-radius: 4px;
 }
 
-.landing-page-pagination {
+.pagination {
   font-family: var(--title-font);
   display: flex;
   justify-content: space-between;
