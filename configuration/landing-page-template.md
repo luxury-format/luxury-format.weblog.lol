@@ -78,7 +78,7 @@ Title: Landing Page template
     </header>
     <!-- MAIN -->
     <main>
-      <hr>
+      <span class="divider">&bull; &bull; &bull;</span>
       {body}
       <nav class="landing-page-pagination">
         {previous-page}
