@@ -5,28 +5,7 @@ Location: /css/includes/_base.css
 
 /* GitHub file path:
 weblog/files/css/includes/_base.md */
-/* BASE CSS */
-* {
-  box-sizing: border-box;
-}
 
-/* BODY */
-body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--sans-serif);
-  font-weight: 400;
-  font-size: 10px;
-  color: var(--text);
-  background-color: var(--background);
-}
-
-/* MAIN */
-main {
-  max-width: 64rem;
-  margin: 0.5em auto 0.5em;
-  padding: 0 1em;
-}
 
 /* MAIN NO TITLE LINK */
 /* In Main Template & Page Templates: <main class="no-title-link"></main> */
