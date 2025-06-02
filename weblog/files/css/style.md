@@ -100,7 +100,7 @@ header {
 /*  width: 64rem; */
   max-width: 100%;
   background: var(--accent-5);
-  margin: 1rem;
+  margin: 0;
   border: 1px solid var(--yellow);
   border-radius: 0.6rem;
   padding: 1rem;
@@ -110,7 +110,7 @@ header {
 main {
 /*  width: 64rem; */
   max-width: 100%;
-  margin: 1rem;
+  margin: 0;
   border: 1px solid var(--green);
   border-radius: 0.6rem;
   padding: 1rem;
@@ -125,7 +125,7 @@ footer {
   text-align: center;
 /*  width: 64rem; */
   max-width: 100%;
-  margin: 1rem;
+  margin: 0;
   border: 1px solid var(--pink);
   border-radius: 0.6rem;
   padding: 1rem;
