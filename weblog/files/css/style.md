@@ -531,7 +531,7 @@ form button {
 
 .statuslol_time a {
   opacity: 1 !important;
-  color: var(--hihglight) !important;
+  color: var(--highlight) !important;
   border-bottom: none !important;
 }
 
