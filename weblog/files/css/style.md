@@ -96,8 +96,9 @@ header {
   flex-direction: column;
   max-width: 100%;
   background: var(--accent-5);
+  border-radius: 0.6rem
   margin: 0;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 /* MAIN */
@@ -582,7 +583,7 @@ form button {
   height: 40px;
   margin-right: 10px;
   margin-left: 0;
-  border-radius: var(--border-radius);
+  border-radius: 0.6rem;
 }
 
 .logo-title h1.blog-title {
