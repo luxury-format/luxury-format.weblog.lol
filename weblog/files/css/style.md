@@ -218,8 +218,12 @@ ol li::marker {
   color: var(--blue);
 }
 
-a:link,
-a:visited {
+a {
+  color: var(--link);
+  text-decoration: none;  
+}
+
+a:link {
   color: var(--link);
   text-decoration: none;
 }
@@ -228,6 +232,11 @@ a:hover,
 a:active {
   color: var(--link-hover);
   text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-hover);
+  text-decoration: none;
 }
 
 i,
