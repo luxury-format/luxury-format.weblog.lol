@@ -56,7 +56,7 @@ Title: Landing Page template
         <div class="logo-title">
           <a href="/">
             <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{weblog-title} Logo">
-            <h1 class="blog-title">
+            <h1 class="weblog-title">
               <span class="short">{weblog-short-title}</span>
               <span class="long">{weblog-title}</span>
             </h1>
