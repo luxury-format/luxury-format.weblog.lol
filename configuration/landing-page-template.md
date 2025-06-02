@@ -44,8 +44,10 @@ Title: Landing Page template
     <!-- THEME COLOR -->
     <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- STYLE -->
+    <style>
+    
+    </style>
   </head>
   <!-- BODY -->
   <body class="body">
