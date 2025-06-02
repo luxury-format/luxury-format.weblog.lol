@@ -13,7 +13,7 @@ Title: Page Template
     <!-- METADATA -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{weblog-title}</title>
+    <title>{weblog-title}{separator}{post-title}</title>
     <meta name="description" content="{weblog-description}">
     <meta name="author" content="{author}">
     <!-- OpenGraph METADATA -->
@@ -76,14 +76,7 @@ Title: Page Template
     
     <!-- MAIN -->
     <main>
-      <span class="divider">&bull; &bull; &bull;</span>
       {body}
-    <span class="top-pagination-divider"></span>
-      <nav class="pagination">
-        {previous-page}
-        {next-page}
-      </nav>
-      <span class="bottom-pagination-divider"></span>
     </main>
     
     <!-- FOOTER -->
