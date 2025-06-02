@@ -5,24 +5,24 @@ Title: Landing Page template
 
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Landing Page template -->
+  <!-- Landing Page Template -->
   <!-- GitHub file path: 
   configuration/landing-page-template.md -->
   <!-- HEAD -->
   <head>
-    <!-- Primary metadata -->
+    <!-- METADATA -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{weblog-title}</title>
     <meta name="description" content="{weblog-description}">
     <meta name="author" content="{author}">
-    <!-- OpenGraph metadata -->
+    <!-- OpenGraph METADATA -->
     <meta property="og:title" content="{weblog-title}">
     <meta property="og:description" content="{weblog-description}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{base-path}">
+    <meta property="og:url" content="{permalink}">
     <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
-    <!-- Fediverse (Mastodon) -->
+    <!-- FEDIVERSE (Mastodon) -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
     <link rel="me" href="https://social.lol/@luxury_format">
     <!-- FEEDS -->
