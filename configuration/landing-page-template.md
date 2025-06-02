@@ -30,12 +30,9 @@ Title: Landing Page template
     <link rel="alternate" type="application/rss+xml" title="{blog-title} RSS Feed" href="{rss-url}">
     <link rel="alternate" type="application/json" title="{blog-title} JSON Feed" href="{json-url}">
     <!-- BLOGROLL -->
-    <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{title} blogroll"> -->
+    <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{blog-title} blogroll"> -->
     <!-- ICONS -->
-    <!-- REL ICON -->
     <link rel='icon' href='https://{address}.omg.lol/favicon.ico'>
-    <!-- SHORTCUT ICON -->
-    <link rel="shortcut icon" href="https://{address}.omg.lol/favicon.ico">
     <!-- APPLE-TOUCH-ICON.PNG -->
     <link rel="apple-touch-icon" href="https://profiles.cache.lol/{address}/picture.png">
     <meta name="apple-mobile-web-app-title" content="{blog-short-title}">
@@ -57,7 +54,7 @@ Title: Landing Page template
       <div class="header-top-row">
         <div class="logo-title">
           <a href="/">
-            <img src="https://profiles.cache.lol/{address}/picture.png" alt="{title} Logo">
+            <img src="https://profiles.cache.lol/{address}/picture.png" alt="{blog-title} Logo">
             <h1 class="blog-title">
               <span class="short">{blog-short-title}</span>
               <span class="long">{blog-title}</span>
@@ -66,8 +63,8 @@ Title: Landing Page template
         </div>
         <div class="header-icons">
           <a href="{mastodon-url}"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
-          <a href="https://{base-path}/status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
-          <a href="https://{base-path}/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
+          <a href="{base-path}/status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
+          <a href="{base-path}/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
       <div class="blog-navigation">
