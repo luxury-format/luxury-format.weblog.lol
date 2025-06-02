@@ -11,8 +11,8 @@ Location: /css/style.css
 
 /* VARIABLES */
 :root {
-  --background: #FFFFFF
-  --text: #000000
+  --background: #FFFFFF;
+  --text: #000000;
   --link: #0062FF;
   --link-hover: #0080FF;
   --highlight: #8E8E93;
