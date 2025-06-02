@@ -21,10 +21,10 @@ Title: Landing Page template
     <meta property="og:description" content="{blog-description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{base-path}">
-    <meta property="og:image" content="https://profiles.cache.lol/{address}/picture.png">
+    <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
     <!-- Fediverse (Mastodon) -->
-    <meta name="fediverse:creator" content="{fediverse-creator}">
-    <link rel="me" href="{mastodon-url}">
+    <meta name="fediverse:creator" content="@luxury_format@social.lol">
+    <link rel="me" href="https://social.lol/@luxury_format">
     <!-- FEEDS -->
     <link rel="alternate" type="application/atom+xml" title="{blog-title} Atom Feed" href="{atom-url}">
     <link rel="alternate" type="application/rss+xml" title="{blog-title} RSS Feed" href="{rss-url}">
@@ -32,9 +32,9 @@ Title: Landing Page template
     <!-- BLOGROLL -->
     <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{blog-title} blogroll"> -->
     <!-- ICONS -->
-    <link rel='icon' href='https://{address}.omg.lol/favicon.ico'>
+    <link rel='icon' href='https://luxury-format.omg.lol/favicon.ico'>
     <!-- APPLE-TOUCH-ICON.PNG -->
-    <link rel="apple-touch-icon" href="https://profiles.cache.lol/{address}/picture.png">
+    <link rel="apple-touch-icon" href="https://profiles.cache.lol/luxury-format/picture.png">
     <meta name="apple-mobile-web-app-title" content="{blog-short-title}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- SITE.WEBMANIFEST -->
@@ -55,7 +55,7 @@ Title: Landing Page template
       <div class="header-top-row">
         <div class="logo-title">
           <a href="/">
-            <img src="https://profiles.cache.lol/{address}/picture.png" alt="{blog-title} Logo">
+            <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{blog-title} Logo">
             <h1 class="blog-title">
               <span class="short">{blog-short-title}</span>
               <span class="long">{blog-title}</span>
@@ -63,7 +63,7 @@ Title: Landing Page template
           </a>
         </div>
         <div class="header-icons">
-          <a href="{mastodon-url}"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
+          <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
           <a href="{base-path}/status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
           <a href="{base-path}/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
@@ -115,10 +115,10 @@ Title: Landing Page template
       </ul>
       <span class="divider">&bull; &bull; &bull;</span>
       <!-- STATUSLOG -->
-      <script src="https://status.lol/{address}.js?time&link&fluent&pretty"></script>
+      <script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
       <span class="divider">&bull; &bull; &bull;</span>
       <p>&copy; {year} {blog-title}</p>
-      <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/{address}"><span class="logotype">Weblog<span class="logotype dot">.</span>lol</span></a></p>
+      <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/luxury-format"><span class="logotype">Weblog<span class="logotype dot">.</span>lol</span></a></p>
     </footer>
   </body>
 </html>
