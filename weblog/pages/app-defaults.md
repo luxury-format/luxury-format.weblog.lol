@@ -12,27 +12,27 @@ Index: Exclude
 
 ---
 
-- 📨 Mail Client
-- 📮 Mail Server
-- 📝 Notes
-- ✅ To-Do
-- 📷 iPhone Photo Shooting
-- 🟦 Photo Management
-- 📆 Calendar
-- 📁 Cloud File Storage
-- 📖 RSS
-- 🙍🏻‍♂️ Contacts
-- 🌐 Browser
-- 💬 Chat
-- 🔖 Bookmarks
-- 📑 Read It Later
-- 📜 Word Processing
-- 📈 Spreadsheets
-- 📊 Presentations
-- 🛒 Shopping Lists
-- 🍴 Meal Planning
-- 💰 Budgeting and Personal Finance
-- 📰 News
-- 🎵 Music
-- 🎤 Podcasts
-- 🔐 Password Management
+- 📨 Mail Client: [**Spark Mail**](https://apps.apple.com/app/id997102246) &  [**Mail**](https://apps.apple.com/app/id1108187098)
+- 📮 Mail Server:  [**iCloud**](https://www.icloud.com/)
+- 📝 Notes: 
+- ✅ To-Do: 
+- 📷 iPhone Photo Shooting: 
+- 🟦 Photo Management: 
+- 📆 Calendar: 
+- 📁 Cloud File Storage: 
+- 📖 RSS: 
+- 🙍🏻‍♂️ Contacts: 
+- 🌐 Browser: 
+- 💬 Chat: 
+- 🔖 Bookmarks: 
+- 📑 Read It Later: 
+- 📜 Word Processing: 
+- 📈 Spreadsheets: 
+- 📊 Presentations: 
+- 🛒 Shopping Lists: 
+- 🍴 Meal Planning: 
+- 💰 Budgeting and Personal Finance: 
+- 📰 News: 
+- 🎵 Music: 
+- 🎤 Podcasts: 
+- 🔐 Password Management: 
