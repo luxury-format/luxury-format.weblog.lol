@@ -208,14 +208,15 @@ li {
 
 li a {
   font-family: var(--title-font);
+  color: var(--link);
 }
 
 ul li::marker {
-  color: var(--blue);
+  color: var(--red);
 }
 
 ol li::marker {
-  color: var(--blue);
+  color: var(--red);
 }
 
 a:link {
