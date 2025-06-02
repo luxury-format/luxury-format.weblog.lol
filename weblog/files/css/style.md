@@ -96,7 +96,7 @@ header {
   flex-direction: column;
   max-width: 100%;
   background: var(--accent-5);
-  border-radius: 0.6rem
+  border-radius: 0.6rem;
   margin: 0;
   padding: 1rem;
 }
