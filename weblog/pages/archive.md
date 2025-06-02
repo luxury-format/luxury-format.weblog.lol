@@ -14,7 +14,6 @@ Index: Exclude
 
 <form action="/" method="get" class="search">
 <input type="text" name="search" placeholder="Search">
-<!-- <button type="submit">Search</button> -->
 </form>
 
 ---
