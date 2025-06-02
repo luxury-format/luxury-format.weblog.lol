@@ -43,22 +43,22 @@ Location: /css/style.css
   border-radius: var(--border-radius);
 }
 
-.logo-title h1.weblog-title {
+.logo-title h1.blog-title {
   margin: 0;
   font-size: 125%;
   font-weight: bold;
 }
 
-.weblog-title span.long {
+.blog-title span.long {
   display: inline;
 }
 
-.weblog-title span.short {
+.blog-title span.short {
   display: none;
 }
 
 @media (max-width: 610px) {
-  .weblog-title span.long {
+  .blog-title span.long {
     display: none;
   }
   
@@ -78,16 +78,6 @@ Location: /css/style.css
   text-decoration: none;
   color: var(--accent-1);
   font-size: 1.5rem;
-  transition: color 0.3s ease;
-}
-
-/* Icons color */
-.header-icons .fa-mastodon {
-  color: #563ACC;
-}
-
-.header-icons .fa-rss {
-  color: #F36B2B;
 }
 
 .header-icons span {
@@ -114,7 +104,7 @@ Location: /css/style.css
 }
 
 /* Navigation menu styling */
-.weblog-navigation {
+.blog-navigation {
   width: 100%;
 }
 
@@ -379,14 +369,14 @@ ul.socials li a {
   border: 0;
   height: 5px;
   border-radius: 5px;
-  background-color: #f8f8f2;
+  background-color: var(--accent-1);
   margin-bottom: 10px;
   display: flex;
   margin: 1em 0;
 } */
 
 footer p {
-  font-family: 'VC Honey Deck', serif;
+  font-family: var(--title-font);
 /*  font-weight: bold; */
 /*  font-size: 90%; */
   text-align: center;
@@ -394,7 +384,7 @@ footer p {
 }
 
 .footer-weblog-p {
-  font-family: 'VC Honey Deck', serif;
+  font-family: var(--title-font);
   color: var(--text);
 }
 
@@ -472,7 +462,7 @@ footer p {
 .fa-light,
 .fa-thin,
 .fa-duotone {
-  color: var(--accent-1);
+  color: var(--highlight);
 }
 
 /* Individual Font Awesome ICONS */
@@ -510,7 +500,7 @@ footer p {
 
 /* OMG LOL ICONS */
 .omg-icon {
-  color: var(--accent-1);
+  color: var(--highlight);
 }
 
 /* Individual OMG LOL ICONS */
