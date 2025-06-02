@@ -12,8 +12,8 @@ Index: Exclude
 
 ---
 
-- 📨 Mail Client: [**Spark Mail**](https://apps.apple.com/app/id997102246) & [** Mail**](https://apps.apple.com/app/id1108187098)
-- 📮 Mail Server: [** iCloud**](https://www.icloud.com/)
+- 📨 Mail Client: [**Spark Mail**](https://apps.apple.com/app/id997102246) &  [**Mail**](https://apps.apple.com/app/id1108187098)
+- 📮 Mail Server:  [**iCloud**](https://www.icloud.com/)
 - 📝 Notes: 
 - ✅ To-Do: 
 - 📷 iPhone Photo Shooting: 
