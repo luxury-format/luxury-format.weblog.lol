@@ -69,7 +69,7 @@ Title: Page Template
           <a href="https://luxury-format.weblog.lol/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
-      <div class="blog-navigation">
+      <div class="weblog-navigation">
         {navigation}
       </div>
     </header>
