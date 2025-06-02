@@ -3,10 +3,9 @@ Content-Type: text/css
 Title: _Body.css
 Location: /css/includes/_body.css
 
+/* BODY CSS */
 /* GitHub file path:
 weblog/files/css/includes/_body.md */
-
-/* BODY CSS */
 * {
   box-sizing: border-box;
 }
@@ -16,13 +15,15 @@ weblog/files/css/includes/_body.md */
   font-family: var(--body-font);
   font-weight: 400;
   font-size: 14px;
+  overflow: auto;
   color: var(--text);
   background: var(--background);
   width: 100%;
   max-width: 1200px;
-  margin: 1rem;
-  padding: 0;
-  overflow: auto;
+  margin: 1rem 0;
+  border: 1px solid var(--red);
+  border-radius: 0.5rem;
+  padding: 0 1rem;
 }
 
 /* HEADER */
@@ -31,28 +32,34 @@ weblog/files/css/includes/_body.md */
   flex-direction: column;
   max-width: 100%;
   width: 1200px;
-  background-color: var(--accent-5);
-  padding: 1rem;
-  margin: 0;
+  background: var(--accent-5);
+  margin: 1rem 0;
+  border: 1px solid var(--yellow);
   border-radius: 0.5rem;
+  padding: 0 1rem;
 }
 
 /* MAIN */
 .main {
   width: 100%;
   max-width: 1200px;
-  margin: 0;
-  padding: 0;
+  margin: 1rem 0;
+  border: 1px solid var(--green);
+  border-radius: 0.5rem;
+  padding: 0 1rem;
 }
 
 /* FOOTER */
 .footer {
   font-family: var(--title-font);
+  font-weight: 700;
   font-size: 0.8em;
   overflow: auto;
   text-align: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0.5rem 0;
-  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border: 1px solid var(--pink);
+  border-radius: 0.5rem;
+  padding: 0 1rem;
 }
