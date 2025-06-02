@@ -218,26 +218,25 @@ ol li::marker {
   color: var(--blue);
 }
 
-a {
-  color: var(--link);
-  text-decoration: none;  
-}
-
-/* a:link {
+a:link {
   color: var(--link);
   text-decoration: none;
-} */
+}
 
-/* a:hover,
+a:visited {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
 a:active {
   color: var(--link-hover);
   text-decoration: underline;
-} */
-
-/* a:visited {
-  color: var(--link-hover);
-  text-decoration: none;
-} */
+}
 
 i,
 cite,
