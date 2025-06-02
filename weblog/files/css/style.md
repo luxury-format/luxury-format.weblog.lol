@@ -678,7 +678,7 @@ nav {
 }
 
 #weblog-navigation li {
-  background: var(--accent-5);
+  background: var(--highlight);
   border: 1px solid var(--blue);
   border-radius: 0.5rem;
   padding: 0.5rem;
