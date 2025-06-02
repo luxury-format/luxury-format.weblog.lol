@@ -34,7 +34,7 @@ Index: Exclude
 - 📊 Presentations:  [**Keynote**](https://apps.apple.com/app/id361285480)
 - 🛒 Shopping Lists:  [**Reminders**](https://apps.apple.com/app/id1108187841) & [**Grocery**](https://apps.apple.com/app/id1195676848)
 - 🍴 Meal Planning: [**Mela**](https://apps.apple.com/app/id1548466041) & [**Paprika 3**](https://apps.apple.com/app/id1303222868)
-- 💰 Budgeting and Personal Finance: 
+- 💰 Budgeting and Personal Finance: ***Private information***
 - 💸 Subscription Tracker: [**Outgoings**](https://apps.apple.com/app/id1498070873)
 - 📰 News:  [**News**](https://apps.apple.com/app/id1066498020)
 - 📖 Books Reading:  [**Books**](https://apps.apple.com/app/id364709193)
