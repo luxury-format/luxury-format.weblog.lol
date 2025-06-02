@@ -219,23 +219,23 @@ ol li::marker {
 }
 
 a:link {
-  color: var(--link);
-  text-decoration: none;
+  color: var(--link) !important;
+  text-decoration: none !important;
 }
 
 a:visited {
-  color: var(--link-hover);
-  text-decoration: none;
+  color: var(--link-hover) !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
+  color: var(--link-hover) !important;
+  text-decoration: underline !important;
 }
 
 a:active {
-  color: var(--link-hover);
-  text-decoration: underline;
+  color: var(--link-hover) !important;
+  text-decoration: underline  !important;
 }
 
 i,
