@@ -258,18 +258,17 @@ strike {
   text-decoration-thickness: 1px;
 }
 
-sub {
+sub, sup {
   font-size: 0.6em;
-  vertical-align: sub;
-  font-size: smaller;
   color: var(--red);
+}
+  
+sub {
+  vertical-align: sub;
 }
 
 sup {
-  font-size: 0.6em;
   vertical-align: super;
-  font-size: smaller;
-  color: var(--red);
 }
 
 figure {
@@ -320,8 +319,8 @@ pre {
   line-height: 150%;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  overflow-wrap: normal;
-/*  overflow-x: scroll; */
+/*  overflow-wrap: normal; */
+  overflow-x: scroll;
   white-space: pre;
   word-wrap: normal;
 /*  padding: 1rem; */
