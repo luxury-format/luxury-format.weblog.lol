@@ -620,13 +620,13 @@ form button {
 .header-icons a {
   text-decoration: none;
   color: var(--text);
-  font-size: 1rem;
+  font-size: 100%;
 }
 
 .header-icons span {
   font-family: var(--title-font);
   color: var(--text);
-  font-size: 0.8rem;
+  font-size: 100%;
 }
 
 @media (max-width: 610px) {
@@ -636,8 +636,8 @@ form button {
 }
 
 .header-icons i {
-    width: 1rem;
-    height: 1rem;
+    width: 1em;
+    height: 1em;
     margin-right: 5px;
 }
 
