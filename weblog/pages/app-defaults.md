@@ -8,7 +8,7 @@ Index: Exclude
 
 # App Defaults
 
-###### Inspired by [App Defaults](https://defaults.rknight.me)
+###### Inspired by: [App Defaults](https://defaults.rknight.me)
 
 ---
 
