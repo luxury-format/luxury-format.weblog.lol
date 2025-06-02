@@ -8,7 +8,6 @@ Title: Page Template
   <!-- Page Template -->
   <!-- configuration/page-template.md -->
   <!-- HEAD -->
-  <!-- HEAD -->
   <head>
     <!-- Primary metadata -->
     <meta charset="UTF-8">
