@@ -51,15 +51,14 @@ Title: Landing Page template
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <!-- BODY -->
-  <body>
+  <body class="body-wrapper">
     <!-- HEADER -->
-    <header class="weblog-header">
-      <!-- FIRST ROW: [[LOGO][TITLE] LINK] + [[MASTODON ICON - LINK][STATUS.LOL ICON - LINK][SUBSCRIBE - ICON LINK]] -->
+    <header class="header-wrapper">
       <div class="header-top-row">
         <div class="logo-title">
           <a href="/">
             <img src="https://profiles.cache.lol/{address}/picture.png" alt="{title} Logo">
-            <h1 class="weblog-title">
+            <h1 class="blog-title">
               <span class="short">{blog-short-title}</span>
               <span class="long">{blog-title}</span>
             </h1>
@@ -71,27 +70,27 @@ Title: Landing Page template
           <a href="https://{base-path}/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
-      <!-- Second row: Navigation Menu -->
-      <div class="weblog-navigation">
+      <div class="blog-navigation">
         {navigation}
       </div>
     </header>
     <!-- MAIN -->
-    <main>
+    <main class="main-wrapper">
       <span class="divider">&bull; &bull; &bull;</span>
       {body}
-      <nav class="landing-page-pagination">
+      <span class="top-pagination-divider"></span>
+      <nav class="pagination">
         {previous-page}
         {next-page}
       </nav>
+      <span class="bottom-pagination-divider"></span>
     </main>
-    
     <!-- FOOTER -->
-    <footer>
-      <hr>
+    <footer class="footer-wrapper">
+      <span class="divider">&bull; &bull; &bull;</span>
       <!-- STATUSLOG -->
       <script src="https://status.lol/{address}.js?time&link&fluent&pretty"></script>
-      <hr>
+      <span class="divider">&bull; &bull; &bull;</span>
       <p>&copy; {year} {blog-title}</p>
       <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/{address}"><span class="logotype">Weblog<span class="logotype dot">.</span>lol</span></a></p>
     </footer>
