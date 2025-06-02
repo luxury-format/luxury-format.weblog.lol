@@ -223,21 +223,21 @@ a {
   text-decoration: none;  
 }
 
-a:link {
+/* a:link {
   color: var(--link);
   text-decoration: none;
-}
+} */
 
-a:hover,
+/* a:hover,
 a:active {
   color: var(--link-hover);
   text-decoration: underline;
-}
+} */
 
-a:visited {
+/* a:visited {
   color: var(--link-hover);
   text-decoration: none;
-}
+} */
 
 i,
 cite,
