@@ -8,6 +8,7 @@ Index: Exclude
 
 # Slashes
 
+###### Inspired by: [Slash Pages](https://slashpages.net)
 
 ---
 
