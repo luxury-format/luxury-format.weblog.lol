@@ -8,110 +8,87 @@ Title: Page Template
   <!-- Page Template -->
   <!-- configuration/page-template.md -->
   <!-- HEAD -->
+  <!-- HEAD -->
   <head>
+    <!-- Primary metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{weblog-title}{separator}{post-title}</title>
-    <meta property="og:title" content="{weblog-title}{separator}{post-title}">
+    <title>{weblog-title}</title>
     <meta name="description" content="{weblog-description}">
+    <meta name="author" content="{author}">
+    <!-- OpenGraph metadata -->
+    <meta property="og:title" content="{weblog-title}">
     <meta property="og:description" content="{weblog-description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{permalink}">
-    <!-- <meta property="og:url" content="{location}"> -->
     <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
-    <!-- FEDIVERSE CREATOR -->
+    <!-- Fediverse (Mastodon) -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
-    <!-- AUTHOR -->
-    <meta name="author" content="{author}">
+    <link rel="me" href="https://social.lol/@luxury_format">
     <!-- FEEDS -->
-    <link rel="alternate" type="application/atom+xml" title="{weblog-title} Atom Feed" href="https://luxury-format.weblog.lol/atom.xml">
-    <link rel="alternate" type="application/rss+xml" title="{weblog-title} RSS Feed" href="https://luxury-format.weblog.lol/rss.xml">
-    <link rel="alternate" type="application/json" title="{weblog-title} JSON Feed" href="https://luxury-format.weblog.lol/feed.json">
+    <link rel="alternate" type="application/atom+xml" title="{weblog-title} Atom Feed" href="{atom-url}">
+    <link rel="alternate" type="application/rss+xml" title="{weblog-title} RSS Feed" href="{rss-url}">
+    <link rel="alternate" type="application/json" title="{weblog-title} JSON Feed" href="{json-url}">
     <!-- BLOGROLL -->
     <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{weblog-title} blogroll"> -->
     <!-- ICONS -->
-    <!-- FAVICON.ICO -->
     <link rel='icon' href='https://luxury-format.omg.lol/favicon.ico'>
-    <!-- FAVICON.ICO for older browsers/tools -->
-    <link rel="shortcut icon" href="https://luxury-format.omg.lol/favicon.ico">
-    <!-- iOS Home‑Screen icon -->
+    <!-- APPLE-TOUCH-ICON.PNG -->
     <link rel="apple-touch-icon" href="https://profiles.cache.lol/luxury-format/picture.png">
-    <meta name="apple-mobile-web-app-title" content="LF.">
+    <meta name="apple-mobile-web-app-title" content="{weblog-short-title}">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <!-- Safari pinned tab -->
-    <!-- A monochrome SVG icon that adapts to Safari’s toolbar theme
-    <link rel="mask-icon" href="https://profiles.cache.lol/luxury-format/picture.png" color="#0062FF"> -->
-    <!-- Tile color in Windows/Edge
-    <meta name="msapplication-TileColor" content="#F2F2F7">
-    <meta name="msapplication-TileImage" content="https://profiles.cache.lol/luxury-format/picture.png"> -->
+    <!-- SITE.WEBMANIFEST -->
     <link rel="manifest" href="/site.webmanifest">
-    <!-- <meta name="msapplication-TileColor" content="#F2F2F7"> -->
-    <!-- COLOR SCHEME: LIGHT DARK -->
+    <!-- COLOR SCHEME -->
     <meta name="color-scheme" content="light dark">
     <!-- THEME COLOR -->
-    <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#1C1C1E" media="(prefers-color-scheme: dark)">
-    <!-- FONTS: Atkinson Hyperlegible and Source Code Pro -->
-    <!-- <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400,700&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer"> -->
-    <!-- Font Awesome Icons -->
-    <!-- <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"> -->
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <!-- /style.css -->
     <link rel="stylesheet" href="/css/style.css">
   </head>
   
-  <!-- BODY WRAPPER -->
-  <div class="body-wrapper">
-    <!-- BODY -->
+  <!-- BODY -->
   <body>
-    <a style="display: none;" rel="me" href="https://social.lol/@luxury_format">Mastodon</a>
     
-    <!-- HEADER WRAPPER -->
-    <div class="header-wrapper">
     <!-- HEADER -->
-    <header class="weblog-header">
-      <!-- First row: Logo+Title and Social Icons -->
+    <header>
       <div class="header-top-row">
         <div class="logo-title">
           <a href="/">
             <img src="https://profiles.cache.lol/luxury-format/picture.png" alt="{weblog-title} Logo">
-            <h1 class="weblog-title">
+            <h1 class="blog-title">
               <span class="short">{weblog-short-title}</span>
               <span class="long">{weblog-title}</span>
             </h1>
           </a>
         </div>
         <div class="header-icons">
-          <a href="https://social.lol/@luxury_format" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
-          <a href="https://luxury-format.weblog.lol/status" aria-label="Status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
-          <a href="https://luxury-format.weblog.lol/subscribe" aria-label="Subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
+          <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
+          <a href="https://luxury-format.weblog.lol/status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
+          <a href="https://luxury-format.weblog.lol/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
-      <!-- Second row: Navigation Menu -->
-      <div class="weblog-navigation">
+      <div class="blog-navigation">
         {navigation}
       </div>
-      <div class="page-navigation">
-        <h6><a href="/slashes">Slashes</a>{separator}/{slug}</h6>
-      </div>
     </header>
-    </div>
     
-    <!-- MAIN WRAPPER -->
-    <div class"main-wrapper">
-    <!-- MAIN NO TITLE LINK -->
-    <main class="no-title-link">
-      <hr>
+    <!-- MAIN -->
+    <main>
+      <span class="divider">&bull; &bull; &bull;</span>
       {body}
+    <span class="top-pagination-divider"></span>
+      <nav class="pagination">
+        {previous-page}
+        {next-page}
+      </nav>
+      <span class="bottom-pagination-divider"></span>
     </main>
-    </div>
-
-    <!-- FOOTER WRAPPER -->
-    <div class="footer-wrapper">
+    
     <!-- FOOTER -->
     <footer>
-      <hr>
+      <span class="divider">&bull; &bull; &bull;</span>
       <ul class="socials">
         <li>
           <a rel="me" href="https://social.lol/@luxury_format">
@@ -139,16 +116,13 @@ Title: Page Template
           </a>
         </li>
       </ul>
-      <hr>
+      <span class="divider">&bull; &bull; &bull;</span>
       <!-- STATUSLOG -->
       <script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
-      <hr>
+      <span class="divider">&bull; &bull; &bull;</span>
       <p>&copy; {year} {weblog-title}</p>
       <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/luxury-format"><span class="logotype">Weblog<span class="logotype dot">.</span>lol</span></a></p>
     </footer>
-    </div>
     
   </body>
-  </div>
-  
 </html>
