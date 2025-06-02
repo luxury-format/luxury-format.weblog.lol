@@ -522,10 +522,11 @@ form button {
 /*  background: var(--accent-1) !important; */
   border-radius: 0.6rem !important;
 /*  border: 1px solid var(--highlight) !important; */
+  font-family: var(--title-font);
 }
 
 .statuslol_content {
-  color: var(--text) !important;
+  color: var(--black-black) !important;
 }
 
 .statuslol_time a {
