@@ -13,12 +13,12 @@ Title: Landing Page template
     <!-- Primary metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{title}</title>
-    <meta name="description" content="{description}">
-    <meta name="author" content="{author}">
+    <title>{blog-title}</title>
+    <meta name="description" content="{blog-description}">
+    <meta name="author" content="{blog-author}">
     <!-- OpenGraph metadata -->
-    <meta property="og:title" content="{title}">
-    <meta property="og:description" content="{description}">
+    <meta property="og:title" content="{blog-title}">
+    <meta property="og:description" content="{blog-description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{base-path}">
     <meta property="og:image" content="https://profiles.cache.lol/{address}/picture.png">
@@ -26,9 +26,9 @@ Title: Landing Page template
     <meta name="fediverse:creator" content="{fediverse-creator}">
     <link rel="me" href="{mastodon-url}">
     <!-- FEEDS -->
-    <link rel="alternate" type="application/atom+xml" title="{title} Atom Feed" href="{atom-url}">
-    <link rel="alternate" type="application/rss+xml" title="{title} RSS Feed" href="{rss-url}">
-    <link rel="alternate" type="application/json" title="{title} JSON Feed" href="{json-url}">
+    <link rel="alternate" type="application/atom+xml" title="{blog-title} Atom Feed" href="{atom-url}">
+    <link rel="alternate" type="application/rss+xml" title="{blog-title} RSS Feed" href="{rss-url}">
+    <link rel="alternate" type="application/json" title="{blog-title} JSON Feed" href="{json-url}">
     <!-- BLOGROLL -->
     <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{title} blogroll"> -->
     <!-- ICONS -->
@@ -38,7 +38,7 @@ Title: Landing Page template
     <link rel="shortcut icon" href="https://{address}.omg.lol/favicon.ico">
     <!-- APPLE-TOUCH-ICON.PNG -->
     <link rel="apple-touch-icon" href="https://profiles.cache.lol/{address}/picture.png">
-    <meta name="apple-mobile-web-app-title" content="{short-title}">
+    <meta name="apple-mobile-web-app-title" content="{blog-short-title}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- SITE.WEBMANIFEST -->
     <link rel="manifest" href="/site.webmanifest">
@@ -50,10 +50,8 @@ Title: Landing Page template
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="/css/style.css">
   </head>
-  
   <!-- BODY -->
   <body>
-    
     <!-- HEADER -->
     <header class="weblog-header">
       <!-- FIRST ROW: [[LOGO][TITLE] LINK] + [[MASTODON ICON - LINK][STATUS.LOL ICON - LINK][SUBSCRIBE - ICON LINK]] -->
@@ -62,8 +60,8 @@ Title: Landing Page template
           <a href="/">
             <img src="https://profiles.cache.lol/{address}/picture.png" alt="{title} Logo">
             <h1 class="weblog-title">
-              <span class="short">{short-title}</span>
-              <span class="long">{title}</span>
+              <span class="short">{blog-short-title}</span>
+              <span class="long">{blog-title}</span>
             </h1>
           </a>
         </div>
@@ -78,7 +76,6 @@ Title: Landing Page template
         {navigation}
       </div>
     </header>
-    
     <!-- MAIN -->
     <main>
       <hr>
@@ -93,11 +90,10 @@ Title: Landing Page template
     <footer>
       <hr>
       <!-- STATUSLOG -->
-      <script src="https://status.lol/luxury-format.js?time&link&fluent&pretty"></script>
+      <script src="https://status.lol/{address}.js?time&link&fluent&pretty"></script>
       <hr>
-      <p>&copy; {year} {title}</p>
+      <p>&copy; {year} {blog-title}</p>
       <p class="footer-weblog-p">Made with <a href="https://home.omg.lol/referred-by/{address}"><span class="logotype">Weblog<span class="logotype dot">.</span>lol</span></a></p>
     </footer>
-    
   </body>
 </html>
