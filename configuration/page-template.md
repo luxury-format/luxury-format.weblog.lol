@@ -75,7 +75,7 @@ Title: Page Template
     </header>
     
     <!-- MAIN -->
-    <main>
+    <main class="no-title-link">
       {body}
     </main>
     
