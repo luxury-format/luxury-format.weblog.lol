@@ -87,8 +87,6 @@ body {
   background: var(--background);
   max-width: 100%;
   margin: 1rem;
-  border: 1px solid var(--red);
-  border-radius: 0.6rem;
   padding: 0;
 }
 
@@ -99,8 +97,6 @@ header {
   max-width: 100%;
   background: var(--accent-5);
   margin: 0;
-  border: 1px solid var(--yellow);
-  border-radius: 0.6rem;
   padding: 1rem;
 }
 
@@ -108,8 +104,6 @@ header {
 main {
   max-width: 100%;
   margin: 0;
-  border: 1px solid var(--green);
-  border-radius: 0.6rem;
   padding: 1rem;
 }
 
@@ -117,8 +111,6 @@ main {
 footer {
   max-width: 100%;
   margin: 0;
-  border: 1px solid var(--pink);
-  border-radius: 0.6rem;
   padding: 1rem;
 }
 
@@ -382,7 +374,7 @@ td {
 }
 
 hr {
-  border: 1px solid var(--highlight);
+  border: 1px solid var(--blue);
   width: 100%;
   margin: 1em 0;
 }
@@ -424,16 +416,16 @@ form button {
   border: 2px solid var(--black-white);
 }
 
-form button:hover {
+/* form button:hover {
   background-color: var(--link-hover);
   border-color: var(--black-white);
-}
+} */
 
 .landing-post-info {
   font-family: var(--title-font);
   font-size: 85%;
   font-weight: bold;
-  color: var(--text);
+  color: var(--blue);
   text-align: right;
 }
 
@@ -467,7 +459,7 @@ form button:hover {
 }
 
 .tag {
-  background: var(--link);
+  background: var(--blue);
   color: var(--black-black) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
@@ -505,7 +497,7 @@ form button:hover {
   align-items: center;
   text-align: center;
   word-spacing: 1em;
-  color: var(--text);
+  color: var(--blue);
   gap: 1em;
   margin: 1em 0;
 }
@@ -626,7 +618,7 @@ form button:hover {
 /* Icons styling */
 .header-icons a {
   text-decoration: none;
-  color: var(--accent-1);
+  color: var(--highlight);
   font-size: 1.5rem;
 }
 
@@ -673,8 +665,8 @@ nav {
 }
 
 #weblog-navigation li {
-  background: var(--accent-4);
-  border: 1px solid var(--indigo);
+  background: var(--accent-5);
+  border: 1px solid var(--blue);
   border-radius: 0.5rem;
   padding: 0.5rem;
   font-size: 16px;
@@ -701,18 +693,6 @@ nav {
   #weblog-navigation ul {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-.page-navigation {
-  background: var(--accent-4);
-  border: 1px solid var(--indigo);
-  border-radius: var(--border-radius);
-  padding: 0;
-  margin-top: 0.5em;
-/*  font-size: 16px; */
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 /* NAV */
