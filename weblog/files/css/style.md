@@ -85,7 +85,6 @@ body {
   overflow: auto;
   color: var(--text);
   background: var(--background);
-/*  width: 64rem; */
   max-width: 100%;
   margin: 1rem;
   border: 1px solid var(--red);
@@ -97,7 +96,6 @@ body {
 header {
   display: flex;
   flex-direction: column;
-/*  width: 64rem; */
   max-width: 100%;
   background: var(--accent-5);
   margin: 0;
@@ -108,7 +106,6 @@ header {
 
 /* MAIN */
 main {
-/*  width: 64rem; */
   max-width: 100%;
   margin: 0;
   border: 1px solid var(--green);
@@ -118,12 +115,6 @@ main {
 
 /* FOOTER */
 footer {
-  font-family: var(--title-font);
-  font-weight: 700;
-  font-size: 0.8em;
-  overflow: auto;
-  text-align: center;
-/*  width: 64rem; */
   max-width: 100%;
   margin: 0;
   border: 1px solid var(--pink);
@@ -936,19 +927,24 @@ ul.socials li a {
 
 footer p {
   font-family: var(--title-font);
-/*  font-weight: bold; */
-/*  font-size: 90%; */
+  font-weight: 700;
+  font-size: 0.8em;
+  overflow: auto;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 
 .footer-weblog-p {
   font-family: var(--title-font);
-  color: var(--text);
+  font-weight: 700;
+  font-size: 0.8em;
+  overflow: auto;
+  text-align: center;
 }
 
 .footer-weblog-p a .logotype {
   font-family: 'VC Honey Black Banner', serif;
+  font-weight: 700;
   color: #F783AC;
 }
 
