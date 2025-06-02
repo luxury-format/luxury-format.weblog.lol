@@ -90,7 +90,7 @@ body {
   margin: 1rem;
   border: 1px solid var(--red);
   border-radius: 0.6rem;
-  padding: 1rem;
+  padding: 0;
 }
 
 /* HEADER */
