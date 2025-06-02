@@ -405,12 +405,17 @@ form label {
 }
 
 form input {
-/*  width: 100%; */
+  width: 100%;
   height: 40px;
   border-radius: 0.6rem;
   font-weight: bold;
   background-color: var(--background);
-  border: 2px solid var(--black-white);
+  border: 2px solid var(--blue);
+  color: var(--text);
+}
+
+form input placeholder {
+  font-family: var(--title-font);
   color: var(--text);
 }
 
