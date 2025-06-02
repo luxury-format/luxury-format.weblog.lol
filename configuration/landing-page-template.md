@@ -68,7 +68,7 @@ Title: Landing Page template
           <a href="{base-path}/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
-      <div class="blog-navigation">
+      <div class="weblog-navigation">
         {navigation}
       </div>
     </header>
