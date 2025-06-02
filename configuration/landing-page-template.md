@@ -32,9 +32,9 @@ Title: Landing Page template
     <!-- BLOGROLL -->
     <!-- <link rel="blogroll" type="text/xml" href="/blogroll/opml.xml" title="{title} blogroll"> -->
     <!-- ICONS -->
-    <!-- FAVICON.ICO -->
+    <!-- REL ICON -->
     <link rel='icon' href='https://{address}.omg.lol/favicon.ico'>
-    <!-- FAVICON.ICO for older browsers/tools -->
+    <!-- SHORTCUT ICON -->
     <link rel="shortcut icon" href="https://{address}.omg.lol/favicon.ico">
     <!-- APPLE-TOUCH-ICON.PNG -->
     <link rel="apple-touch-icon" href="https://profiles.cache.lol/{address}/picture.png">
@@ -87,6 +87,34 @@ Title: Landing Page template
     </main>
     <!-- FOOTER -->
     <footer class="footer-wrapper">
+      <span class="divider">&bull; &bull; &bull;</span>
+      <ul class="socials">
+        <li>
+          <a rel="me" href="https://social.lol/@luxury_format">
+            <i class="fa-brands fa-mastodon"></i>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://bsky.app/profile/luxury-format.bsky.social">
+            <i class="fa-brands fa-bluesky"></i>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://discordapp.com/users/434798061370474526">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://luxury-format.omg.lol">
+            <i class="omg-icon omg-prami"></i>
+          </a>
+        </li>
+        <li>
+          <a rel="me" href="https://github.com/luxury-format">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
       <span class="divider">&bull; &bull; &bull;</span>
       <!-- STATUSLOG -->
       <script src="https://status.lol/{address}.js?time&link&fluent&pretty"></script>
