@@ -64,8 +64,8 @@ Title: Landing Page template
         </div>
         <div class="header-icons">
           <a href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i><span>Mastodon</span></a>
-          <a href="{base-path}/status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
-          <a href="{base-path}/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
+          <a href="https://luxury-format.weblog.lol/status"><i class="fa-solid fa-face-grin"></i><span>Status</span></a>
+          <a href="https://luxury-format.weblog.lol/subscribe"><i class="fa-solid fa-rss"></i><span>Subscribe</span></a>
         </div>
       </div>
       <div class="weblog-navigation">
