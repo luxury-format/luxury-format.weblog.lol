@@ -5,8 +5,6 @@ Location: /css/includes/_base.css
 
 /* GitHub file path:
 weblog/files/css/includes/_base.md */
-
-
 /* MAIN NO TITLE LINK */
 /* In Main Template & Page Templates: <main class="no-title-link"></main> */
 main.no-title-link h2 > a {
@@ -14,16 +12,16 @@ main.no-title-link h2 > a {
   text-decoration: none;
   pointer-events: none;
   cursor: default;
-  text-shadow: rgba(10, 189, 240, 0.298039) 2px 2px 0px, rgba(254, 1, 1, 0.298039) -2px -2px 0px;
+/*  text-shadow: rgba(10, 189, 240, 0.298039) 2px 2px 0px, rgba(254, 1, 1, 0.298039) -2px -2px 0px; */
 }
 
-.page-title {
+/* .page-title {
   text-shadow: rgba(10, 189, 240, 0.298039) 1px 1px 0px, rgba(254, 1, 1, 0.298039) -1px -1px 0px;
 }
 
 .page-title + h6 {
   text-shadow: rgba(10, 189, 240, 0.298039) 1px 1px 0px, rgba(254, 1, 1, 0.298039) -1px -1px 0px;
-}
+} */
 
 h1,
 h2,
@@ -95,7 +93,7 @@ li {
 }
 
 li {
-  font-family: var(--sans-serif);
+  font-family: var(--body-font);
 }
 
 li a {
@@ -103,20 +101,17 @@ li a {
 }
 
 ul li::marker {
-  color: var(--red);
+  color: var(--blue);
 }
 
 ol li::marker {
-  color: var(--red);
-}
-
-a {
-  text-decoration: none;
+  color: var(--blue);
 }
 
 a:link,
 a:visited {
   color: var(--link);
+  text-decoration: none;
 }
 
 a:hover,
@@ -155,7 +150,7 @@ sup {
   font-size: 0.6em;
   vertical-align: super;
   font-size: smaller;
-  color: var(--green);
+  color: var(--red);
 }
 
 figure {
@@ -175,7 +170,7 @@ figcaption {
 }
 
 blockquote {
-  border-left: 3px solid var(--accent-2);
+  border-left: 3px solid var(--highlight);
   color: var(--accent-3);
   font-style: italic;
   margin: 2rem 0;
@@ -192,14 +187,14 @@ a.footnote-ref {
 }
 
 .hr-footnote {
-  border-top: 1px solid var(--blue);
+  border-top: 1px solid var(--highlight);
   background-color: transparent;
   max-width: 100%;
   margin: 0;
 }
 
 pre {
-  font-family: var(--monospace);
+  font-family: var(--code-font);
 /*  background: var(--black); */
 /*  color: var(--white); */
   font-size: 90%;
@@ -214,12 +209,12 @@ pre {
 }
 
 code {
-  font-family: var(--monospace);
-  background: #282A36;
-  color: var(--white);
+  font-family: var(--code-font);
+  background: var(--black-black);
+  color: var(--white-white);
   font-size: 75%;
   line-height: 150%;
-  box-shadow: var(--box-shadow);
+/*  box-shadow: var(--box-shadow); */
   border-radius: var(--border-radius);
   white-space: pre-wrap;
   white-space: break-spaces;
@@ -256,7 +251,7 @@ td,
 th {
   padding: 0.75em;
   text-align: left;
-  border: 1px solid var(--black);
+  border: 1px solid var(--black-white);
 }
 
 th {
@@ -270,7 +265,7 @@ td {
 }
 
 hr {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--highlight);
   width: 100%;
   margin: 1em 0;
 }
@@ -314,7 +309,7 @@ form button {
 
 form button:hover {
   background-color: var(--link-hover);
-  border-color: var(--indigo);
+  border-color: var(--black-white);
 }
 
 .landing-post-info {
@@ -341,7 +336,7 @@ form button:hover {
   text-align: right;
 }
 
-/* Remove margin on landing page */
+/* Margin on landing page */
 .post-tags p {
   margin: 0;
 }
@@ -354,13 +349,9 @@ form button:hover {
   margin-right: 5px;
 }
 
-/* .post-info i:nth-child(2) {
-  margin-left: 0.75em;
-} */
-
 .tag {
   background: var(--link);
-  color: var(--black) !important;
+  color: var(--black-black) !important;
   padding: .3em .4em;
   margin: .8em 0 0 .4em;
   border-radius: .5em;
@@ -386,7 +377,7 @@ form button:hover {
   speak: none;
   font-style: normal;
   content: "\f0ec";
-  color: var(--icons);
+  color: var(--highlight);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -410,18 +401,18 @@ form button:hover {
 }
 
 .statuslol {
-  background: #1c1c1e !important;
+  background: var(--accent-5) !important;
   border-radius: 0.5em !important;
-  border: 1px solid #8e8e93 !important;
+  border: 1px solid var(--highlight) !important;
 }
 
 .statuslol_content {
-  color: #f2f2f7 !important;
+  color: var(--white-white) !important;
 }
 
 .statuslol_time a {
   opacity: 1 !important;
-  color: #8E8E93 !important;
+  color: var(--hihglight) !important;
   border-bottom: none !important;
 }
 
@@ -437,7 +428,7 @@ form button:hover {
 .somepics_container {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid #8e8e93;
+  border: 1px solid var(--highlight);
   border-radius: 0.5em;
   overflow: hidden;
 }
