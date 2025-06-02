@@ -13,17 +13,6 @@ Location: /css/style.css
 @import "/css/includes/_base.css";
 
 /* HEADER */
-/* Header structure */
-.weblog-header {
-  display: flex;
-  flex-direction: column;
-/*  width: 100%; */
-  max-width: 100%;
-  background-color: var(--accent-5);
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: var(--border-radius);
-}
 
 /* First row: Logo+Title and Social Icons */
 .header-top-row {
@@ -356,33 +345,6 @@ nav.main a.active:after {
 }
 
 /* FOOTER */
-/* footer.main {
-  font-family: var(--cbr);
-  overflow: auto;
-  text-align: center;
-  padding: 0 10px;
-  font-size: 0.8em;
-}
-
-.footer-buttons {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
-  grid-gap: 10px;
-  margin-bottom: 20px;
-  justify-content: space-between;
-}
-
-.footer-buttons div {
-  display: flex;
-  justify-content: center;
-} */
-
-footer {
-  text-align: center;
-  max-width: 60em;
-  margin: 1.5em 0;
-  padding: 0 1em;
-}
 
 /* FOOTER SOCIALS ICONS */
 ul.socials {
