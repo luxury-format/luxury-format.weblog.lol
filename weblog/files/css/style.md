@@ -97,7 +97,7 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  width: 64rem;
+/*  width: 64rem; */
   max-width: 100%;
   background: var(--accent-5);
   margin: 1rem;
@@ -108,7 +108,7 @@ header {
 
 /* MAIN */
 main {
-  width: 64rem;
+/*  width: 64rem; */
   max-width: 100%;
   margin: 1rem;
   border: 1px solid var(--green);
@@ -123,7 +123,7 @@ footer {
   font-size: 0.8em;
   overflow: auto;
   text-align: center;
-  width: 64rem;
+/*  width: 64rem; */
   max-width: 100%;
   margin: 1rem;
   border: 1px solid var(--pink);
