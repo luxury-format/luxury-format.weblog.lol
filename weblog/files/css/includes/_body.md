@@ -11,7 +11,7 @@ weblog/files/css/includes/_body.md */
 }
 
 /* BODY */
-.body {
+body {
   font-family: var(--body-font);
   font-weight: 400;
   font-size: 18px;
@@ -27,7 +27,7 @@ weblog/files/css/includes/_body.md */
 }
 
 /* HEADER */
-.header {
+header {
   display: flex;
   flex-direction: column;
   width: 64rem;
@@ -40,7 +40,7 @@ weblog/files/css/includes/_body.md */
 }
 
 /* MAIN */
-.main {
+main {
   width: 64rem;
   max-width: 100%;
   margin: 1rem;
@@ -50,7 +50,7 @@ weblog/files/css/includes/_body.md */
 }
 
 /* FOOTER */
-.footer {
+footer {
   font-family: var(--title-font);
   font-weight: 700;
   font-size: 0.8em;
