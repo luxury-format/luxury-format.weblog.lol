@@ -377,7 +377,7 @@ form button:hover {
   speak: none;
   font-style: normal;
   content: "\f0ec";
-  color: var(--highlight);
+  color: var(--black-white);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
