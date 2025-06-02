@@ -4,10 +4,10 @@
 ;; About blog
 ;; -----------------
 
-Title: LUXURY FORMAT
-Short title: LF.
-Description: Good as gold!
-Author: Me, Myself and I
+Blog title: LUXURY FORMAT
+Blog short title: LF.
+Blog description: Good as gold!
+Blog author: Me, Myself and I
 // Canonical domain: 
 // Landing page: /
 Landing page template: Landing Page template
