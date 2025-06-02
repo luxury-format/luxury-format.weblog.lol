@@ -588,7 +588,7 @@ form button {
 
 .logo-title h1.blog-title {
   margin: 0;
-  font-size: 125%;
+  font-size: 100%;
   font-weight: bold;
 }
 
@@ -619,14 +619,14 @@ form button {
 /* Icons styling */
 .header-icons a {
   text-decoration: none;
-  color: var(--highlight);
-  font-size: 1.5rem;
+  color: var(--text);
+  font-size: 1rem;
 }
 
 .header-icons span {
   font-family: var(--title-font);
   color: var(--text);
-  font-size: 0.9em;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 610px) {
@@ -636,8 +636,8 @@ form button {
 }
 
 .header-icons i {
-    width: 1em;
-    height: 1em;
+    width: 1rem;
+    height: 1rem;
     margin-right: 5px;
 }
 
