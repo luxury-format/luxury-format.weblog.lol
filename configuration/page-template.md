@@ -6,22 +6,23 @@ Title: Page Template
 <!DOCTYPE html>
 <html lang="en">
   <!-- Page Template -->
-  <!-- configuration/page-template.md -->
+  <!-- GitHub file path: 
+  configuration/page-template.md -->
   <!-- HEAD -->
   <head>
-    <!-- Primary metadata -->
+    <!-- METADATA -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{weblog-title}</title>
     <meta name="description" content="{weblog-description}">
     <meta name="author" content="{author}">
-    <!-- OpenGraph metadata -->
+    <!-- OpenGraph METADATA -->
     <meta property="og:title" content="{weblog-title}">
     <meta property="og:description" content="{weblog-description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{permalink}">
     <meta property="og:image" content="https://profiles.cache.lol/luxury-format/picture.png">
-    <!-- Fediverse (Mastodon) -->
+    <!-- FEDIVERSE (Mastodon) -->
     <meta name="fediverse:creator" content="@luxury_format@social.lol">
     <link rel="me" href="https://social.lol/@luxury_format">
     <!-- FEEDS -->
