@@ -519,9 +519,9 @@ form button {
 }
 
 .statuslol {
-  background: var(--accent-1) !important;
-  border-radius: 0.5em !important;
-  border: 1px solid var(--highlight) !important;
+/*  background: var(--accent-1) !important; */
+  border-radius: 0.6rem !important;
+/*  border: 1px solid var(--highlight) !important; */
 }
 
 .statuslol_content {
@@ -551,7 +551,7 @@ form button {
   width: 100%;
   margin: 0 auto;
 /*  border: 1px solid var(--highlight); */
-  border-radius: 0.5em;
+  border-radius: 0.6rem;
   overflow: hidden;
 }
 
