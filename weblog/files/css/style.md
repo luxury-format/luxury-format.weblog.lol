@@ -220,23 +220,23 @@ ol li::marker {
 }
 
 a:link {
-  color: var(--link) !important;
-  text-decoration: none !important;
+  color: var(--link);
+  text-decoration: none;
 }
 
 a:visited {
-  color: var(--link-hover) !important;
-  text-decoration: none !important;
+  color: var(--link-hover);
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-hover) !important;
-  text-decoration: underline !important;
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
 a:active {
-  color: var(--link-hover) !important;
-  text-decoration: underline  !important;
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
 i,
@@ -279,7 +279,7 @@ figure {
 
 figcaption {
   background: var(--accent-1);
-  border-radius: 0.6rem;
+  border-radius: 0.6em;
   color: var(--accent-3);
   display: block;
   font-size: 1.4rem;
