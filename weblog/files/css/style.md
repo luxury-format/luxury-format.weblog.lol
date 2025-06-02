@@ -406,7 +406,7 @@ form label {
 
 form input {
 /*  width: 100%; */
-  height: 50px;
+  height: 40px;
   border-radius: 0.6rem;
   font-weight: bold;
   background-color: var(--background);
@@ -416,7 +416,7 @@ form input {
 
 form button {
 /*  width: 100%; */
-  height: 50px;
+  height: 40px;
   font-family: var(--title-font);
   font-weight: bold;
   color: var(--text);
