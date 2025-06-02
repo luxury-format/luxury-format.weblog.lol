@@ -97,21 +97,21 @@ header {
   max-width: 100%;
   background: var(--accent-5);
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 /* MAIN */
 main {
   max-width: 100%;
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 /* FOOTER */
 footer {
   max-width: 100%;
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 /* MAIN NO TITLE LINK */
