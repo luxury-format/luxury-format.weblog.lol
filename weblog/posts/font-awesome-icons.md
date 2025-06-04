@@ -8,44 +8,44 @@ Status: Web Only
 
 # Font Awesome Icons
 
-<i class="fa-solid fa-bookmark"></i>
+bookmark: <i class="fa-solid fa-bookmark"></i>
 
-<i class="fa-solid fa-link"></i>
+link: <i class="fa-solid fa-link"></i>
 
-<i class="fa-solid fa-file-pen"></i>
+file-pen: <i class="fa-solid fa-file-pen"></i>
 
-<i class="fa-solid fa-clock"></i>
+clock: <i class="fa-solid fa-clock"></i>
 
-<i class="fa-solid fa-film"></i>
+film: <i class="fa-solid fa-film"></i>
 
-<i class="fa-solid fa-video"></i>
+video: <i class="fa-solid fa-video"></i>
 
-<i class="fa-solid fa-camera"></i>
+camera: <i class="fa-solid fa-camera"></i>
 
-<i class="fa-solid fa-file-video"></i>
+file-video: <i class="fa-solid fa-file-video"></i>
 
-<i class="fa-solid fa-tv"></i>
+tv: <i class="fa-solid fa-tv"></i>
 
-<i class="fa-solid fa-headphones"></i>
+headphones: <i class="fa-solid fa-headphones"></i>
 
-<i class="fa-solid fa-music"></i>
+music: <i class="fa-solid fa-music"></i>
 
-<i class="fa-solid fa-podcast"></i>
+podcast: <i class="fa-solid fa-podcast"></i>
 
-<i class="fa-solid fa-image"></i>
+image: <i class="fa-solid fa-image"></i>
 
-<i class="fa-solid fa-heart"></i>
+heart: <i class="fa-solid fa-heart"></i>
 
-<i class="fa-solid fa-star"></i>
+star: <i class="fa-solid fa-star"></i>
 
-<i class="fa-solid fa-tag"></i>
+tag: <i class="fa-solid fa-tag"></i>
 
-<i class="fa-solid fa-tags"></i>
+tags: <i class="fa-solid fa-tags"></i>
 
-<i class="fa-solid fa-hashtag"></i>
+hashtag: <i class="fa-solid fa-hashtag"></i>
 
-<i class="fa-solid fa-signs-post"></i>
+signs-post: <i class="fa-solid fa-signs-post"></i>
 
-<i class="fa-solid fa-note-sticky"></i>
+note-sticky: <i class="fa-solid fa-note-sticky"></i>
 
-<i class="fa-solid fa-pen"></i>
+pen: <i class="fa-solid fa-pen"></i>
