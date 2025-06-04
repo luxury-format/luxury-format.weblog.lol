@@ -48,3 +48,4 @@ Status: Web Only
 
 <i class="fa-solid fa-note-sticky"></i>
 
+<i class="fa-solid fa-pen"></i>
