@@ -23,7 +23,7 @@ Location: /site.webmanifest
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#1C1C1E",
-  "background_color": "#1C1C1E",
+  "theme_color": "light-dark(#F2F2F7, #1C1C1E)",
+  "background_color": "light-dark(#F2F2F7, #1C1C1E)",
   "display": "standalone"
 }
