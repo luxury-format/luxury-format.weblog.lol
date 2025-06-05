@@ -12,13 +12,13 @@ Location: /site.webmanifest
   "icons": [
     {
       "src": "https://profiles.cache.lol/luxury-format/picture.png",
-      "sizes": "500x500",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
     {
       "src": "https://profiles.cache.lol/luxury-format/picture.png",
-      "sizes": "500x500",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
