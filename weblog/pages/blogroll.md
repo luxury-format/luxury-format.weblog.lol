@@ -24,4 +24,4 @@ Index: Exclude
 - **Jarrod Blundy: [heydingus.net](https://heydingus.net)**
 - **Robb Knight: [rknight.me](https://rknight.me)**
 - **Parker Ortolani: [parkerortolani.blog](https://parkerortolani.blog)**
-- **Daryl Sun: [blog.darylsun.page](https://blog.darylsun.page)
+- **Daryl Sun: [blog.darylsun.page](https://blog.darylsun.page)**
