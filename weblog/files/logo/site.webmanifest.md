@@ -9,7 +9,6 @@ Location: /site.webmanifest
   "name": "LUXURY FORMAT",
   "short_name": "LF.",
   "start_url": "/",
-  "display": "standalone"
   "icons": [
     {
       "src": "https://profiles.cache.lol/luxury-format/picture.png",
@@ -26,4 +25,5 @@ Location: /site.webmanifest
   ],
   "theme_color": "light-dark(#F2F2F7, #1C1C1E)",
   "background_color": "light-dark(#F2F2F7, #1C1C1E)",
+  "display": "standalone"
 }
