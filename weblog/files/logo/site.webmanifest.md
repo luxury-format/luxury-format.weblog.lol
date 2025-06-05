@@ -1,7 +1,7 @@
 ---
-Type: file
-Content-Type: txt/webmanifest-json
-Title: site.webmanifest
+Type: File
+Content-Type: application/manifest+json
+Title: Site.webmanifest
 Location: /site.webmanifest
 ---
 
