@@ -8,8 +8,8 @@ Weblog title: LUXURY FORMAT
 Weblog short title: LF.
 Weblog description: Good as gold!
 Author: Me, Myself and I
-// Canonical domain: 
-// Landing page: /
+Canonical domain: luxury-format.weblog.lol
+Landing page: /blog
 Landing page template: Landing Page template
 // configuration/configuration.txt
 
@@ -68,7 +68,7 @@ Titleless title length: 15 words
 // Truncation appendix:  […]
 Title format: <h2 class="page-title"><a href="$location">$title</a></h2>
 
-Multiple posts count: 2
+Multiple posts count: 3
 Multiple posts format: <<[
 [post:begin]
 <article>
