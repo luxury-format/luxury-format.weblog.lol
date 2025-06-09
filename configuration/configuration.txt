@@ -9,8 +9,8 @@ Weblog short title: LF.
 Weblog description: Good as gold!
 Author: Me, Myself and I
 Canonical domain: luxury-format.weblog.lol
-Landing page: /blog
-Landing page template: Landing Page template
+// Landing page: /
+Landing page template: Landing Page Template
 // configuration/configuration.txt
 
 
@@ -51,7 +51,7 @@ Feed post count: 100
 ;; Posts
 ;; -----
 
-Post path format: /\b/\l/\o/\g/Y/m/d/
+Post path format: /Y/m/d/
 Default post: <<[---
 Date: $date
 Type: Post
