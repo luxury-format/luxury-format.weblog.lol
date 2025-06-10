@@ -86,6 +86,7 @@ Title: Landing Page template
     <!-- FOOTER -->
     <footer class="footer">
       <span class="divider">&bull; &bull; &bull;</span>
+      <h3>Socials</h3>
       <ul class="socials">
         <li>
           <a rel="me" href="https://social.lol/@luxury_format">
