@@ -82,6 +82,7 @@ Title: Page Template
     <!-- FOOTER -->
     <footer>
       <span class="divider">&bull; &bull; &bull;</span>
+      <h4>Socials</h4>
       <ul class="socials">
         <li>
           <a rel="me" href="https://social.lol/@luxury_format">
