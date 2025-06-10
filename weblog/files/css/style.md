@@ -1008,7 +1008,7 @@ footer p {
 
 /* Individual Font Awesome ICONS */
 .fa-mastodon {
-  color: #563ACC !important;
+  color: #6364FF !important;
 }
 
 .fa-face-grin {
