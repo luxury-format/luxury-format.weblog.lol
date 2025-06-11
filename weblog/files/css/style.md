@@ -497,12 +497,12 @@ li code {
   padding: 20px 0;
 }
 
-.pagination span:has(> a) {
+.pagination:has(> span) {
   border-top: 1px solid var(--highlight);
   border-bottom: 1px solid var(--highlight);
 }
 
-.pagination span:not(:has(> a)) {
+.pagination span:not(:has(> span)) {
   border-top: none;
   border-bottom: none;
 }
