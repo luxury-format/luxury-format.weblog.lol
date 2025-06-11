@@ -100,7 +100,7 @@ header {
   flex-direction: column;
   max-width: 100%;
   background: var(--accent-1);
-  border-radius: 0.6rem;
+/*  border-radius: 0.6rem; */
   margin: 0;
   padding: 0.5rem;
   position: relative;
@@ -110,7 +110,7 @@ header {
 /* MAIN */
 main {
   max-width: 100%;
-  margin: 0.5rem 0;
+  margin: 0;
   padding: 0.5rem;
   position: relative;
   z-index: 1;
@@ -128,7 +128,7 @@ footer {
   left: 0;
   z-index: 0;
   background: var(--accent-1);
-  border-radius: 0.6rem;
+/*  border-radius: 0.6rem; */
 }
 
 /* MAIN NO TITLE LINK */
