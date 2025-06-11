@@ -1061,7 +1061,7 @@ footer p {
 }
 
 .fa-github {
-  color: var(--black-white) !important;
+  color: #0D1117 !important;
 }
 
 /* .fa- {
