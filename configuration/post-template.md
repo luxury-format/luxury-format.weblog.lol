@@ -12,6 +12,7 @@ Title: Post Template
 <div class="post-meta">
 
 <aside class="landing-post-info">
+<p>Post {post-number} of {post-count} posts</p>
 <p><i class="fa-solid fa-clock"></i><span>{date}</span></p>
 </aside>
 
