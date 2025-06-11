@@ -226,11 +226,11 @@ li a {
 }
 
 ul li::marker {
-  color: var(--red);
+  color: var(--blue);
 }
 
 ol li::marker {
-  color: var(--red);
+  color: var(--blue);
 }
 
 a:link {
@@ -302,7 +302,7 @@ figcaption {
 }
 
 blockquote {
-  border-left: 3px solid var(--highlight);
+  border-left: 3px solid var(--black-white);
   color: var(--accent-3);
   font-style: italic;
   margin: 2rem 0;
@@ -310,7 +310,7 @@ blockquote {
 }
 
 a.footnote-ref {
-  color: var(--red);
+  color: var(--link);
 }
 
 .ol-footnote {
@@ -319,7 +319,7 @@ a.footnote-ref {
 }
 
 .hr-footnote {
-  border-top: 1px solid var(--highlight);
+  border-top: 1px solid var(--black-white);
   background-color: transparent;
   max-width: 100%;
   margin: 0;
@@ -397,7 +397,7 @@ td {
 }
 
 hr {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--black-white);
   width: 100%;
   margin: 1em 0;
 }
@@ -498,8 +498,8 @@ li code {
 }
 
 .pagination:has(> span) {
-  border-top: 1px solid var(--highlight);
-  border-bottom: 1px solid var(--highlight);
+  border-top: 1px solid var(--black-white);
+  border-bottom: 1px solid var(--black-white);
 }
 
 .pagination span:not(:has(> span)) {
@@ -532,7 +532,7 @@ li code {
   align-items: center;
   text-align: center;
   word-spacing: 1em;
-  color: var(--blue);
+  color: var(--black-white);
   gap: 1em;
   margin: 1em 0;
 }
