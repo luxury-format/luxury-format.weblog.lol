@@ -8,35 +8,13 @@ Index: Exclude
 
 # Markdown Cheatsheet
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 **Table of Contents**
 
 {toc}
 
----
-
-# Headers
-
-```
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
-```
-
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
-
----
-
-# Emphasis
+### Emphasis
 
 ```
 *italic*, **bold**, `inline code`, ~~strikethrough~~
@@ -45,9 +23,7 @@ Index: Exclude
 
 *italic*, **bold**, `inline code`, ~~strikethrough~~
 
----
-
-# Blockquote
+### Blockquote
 
 ```
 > This is a blockquote
@@ -55,45 +31,31 @@ Index: Exclude
 
 > This is a blockquote
 
----
-
-# Lists and Tasks
-
----
-
-## Unordered List
+### Unordered List
 
 ```
 - Item 1
 - Item 2
-    - Item 3a
-    - Item 3b
+- Item 3
 ```
 
 - Item 1
 - Item 2
-    - Item 3a
-    - Item 3b
+- Item 3
 
----
-
-## Ordered List
+### Ordered List
 
 ```
 1. Item 1
 2. Item 2
-     3. Item 3
-     4. Item 4
+3. Item 3
 ```
 
 1. Item 1
 2. Item 2
-     3. Item 3a
-     4. Item 4
+3. Item 3
 
----
-
-## Tasks
+### Tasks
 
 ```
 - [ ] Checkbox off
@@ -103,9 +65,7 @@ Index: Exclude
 - [ ] Checkbox off
 - [x] Checkbox on
 
----
-
-# Links
+### Links
 
 ```
 [link](https://luxury-format.weblog.lol)
@@ -117,9 +77,7 @@ Index: Exclude
 
 <https://luxury-format.weblog.lol>
 
----
-
-# Horizontal line
+### Horizontal line
 
 ```
 ---
@@ -127,13 +85,7 @@ Index: Exclude
 
 ---
 
----
-
-# Code
-
----
-
-## Code Blocks
+### Code Block
 
 ````markdown
 ```javascript
@@ -145,17 +97,13 @@ console.log("This is a block code");
 console.log("This is a block code");
 ```
 
----
-
 ```
     4 space indent makes a code block
 ```
 
     4 space indent makes a code block
 
----
-
-## Escaped code
+### Escaped code
 
 Escaped code blocks can be done with more back ticks on the outside or a different symbol.
 
@@ -173,9 +121,7 @@ echo hi
 ```
 ````
 
----
-
-## Inline code
+### Inline code
 
 ```
 `Inline code` has back-ticks around it.
@@ -183,9 +129,7 @@ echo hi
 
 `Inline code` has back-ticks around it.
 
----
-
-# Tables
+### Tables
 
 ```
 | Left Column | Center Column | Right Column |
@@ -199,9 +143,7 @@ echo hi
 | Row 1 | Centered | $1600 |
 | Row 2 | Cell | $12 |
 
----
-
-# Images
+### Images
 
 ```
 ![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)
@@ -209,9 +151,7 @@ echo hi
 
 ![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)
 
----
-
-## Image with link
+### Image with link
 
 ```
 [![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)](https://luxury-format.weblog.lol)
@@ -219,9 +159,7 @@ echo hi
 
 [![LUXURY FORMAT Logo](https://profiles.cache.lol/luxury-format/picture.png)](https://luxury-format.weblog.lol)
 
----
-
-# Backslash escapes
+### Backslash escapes
 
 | Characters | Escape | Description |
 |:--|:--|:--|
