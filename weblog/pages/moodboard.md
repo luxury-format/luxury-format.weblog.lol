@@ -8,4 +8,12 @@ Index: Exclude
 
 # Moodboard
 
----
+<span class="divider">&bull; &bull; &bull;</span>
+
+
+
+
+
+
+
+
