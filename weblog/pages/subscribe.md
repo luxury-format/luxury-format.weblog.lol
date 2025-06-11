@@ -10,7 +10,7 @@ Index: Exclude
 
 ###### You can subscribe to my blog with the following feeds.
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 - <i class="fa-solid fa-atom"></i> [**Atom Feed**]({atom-url})
 - <i class="fa-solid fa-rss"></i> [**RSS Feed**]({rss-url})
