@@ -104,7 +104,7 @@ header {
   margin: 0;
   padding: 0.5rem;
   position: relative;
-  z-index: 1;
+  z-index: 9999;
 }
 
 /* MAIN */
@@ -113,7 +113,7 @@ main {
   margin: 0;
   padding: 0.5rem;
   position: relative;
-  z-index: 1;
+  z-index: 9999;
   background: var(--background);
 /*  transform: translate3d(0, 0, 0); */
 }
