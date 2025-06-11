@@ -8,6 +8,6 @@ Index: Exclude
 
 # Links
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 - [YouTube](https://youtube.com)
