@@ -112,6 +112,7 @@ Page list format: <<[
 ;; Search
 ;; ------
 
+Search: <form action="/" method="get" class="search"><br><input type="text" name="search" placeholder="Search"></form>
 Search status: enabled
 Search template: Page Template
 Search results success message: There [is|are] $count [result|results] for your search:
