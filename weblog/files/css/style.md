@@ -77,6 +77,10 @@ Location: /css/style.css
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* BODY */
 body {
   font-family: var(--body-font);
@@ -86,7 +90,7 @@ body {
   color: var(--text);
   background: var(--background);
   max-width: 100%;
-  margin: 1rem;
+  margin: 0;
   padding: 0;
 }
 
@@ -97,22 +101,37 @@ header {
   max-width: 100%;
   background: var(--accent-1);
   border-radius: 0.6rem;
-  margin: 0;
-  padding: 1rem;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
 }
 
 /* MAIN */
 main {
   max-width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  background: var(--background);
+  transform: translate3d(0, 0, 0);
 }
 
 /* FOOTER */
 footer {
   max-width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: var(--accent-1);
 }
 
 /* MAIN NO TITLE LINK */
