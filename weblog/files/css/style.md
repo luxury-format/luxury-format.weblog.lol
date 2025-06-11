@@ -78,7 +78,7 @@ Location: /css/style.css
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* BODY */
