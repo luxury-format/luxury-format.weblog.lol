@@ -90,7 +90,7 @@ body {
   color: var(--text);
   background: var(--background);
   max-width: 100%;
-  margin: 0;
+  margin: 1rem;
   padding: 0;
 }
 
@@ -101,15 +101,15 @@ header {
   max-width: 100%;
   background: var(--accent-1);
   border-radius: 0.6rem;
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0;
   padding: 0.5rem;
 }
 
 /* MAIN */
 main {
   max-width: 100%;
-  margin: 0.5rem 1rem;
-  padding: 0;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
   position: relative;
   z-index: 1;
   background: var(--background);
@@ -119,8 +119,8 @@ main {
 /* FOOTER */
 footer {
   max-width: 100%;
-  margin: 0.5rem 1rem;
-  padding: 0;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
   position: sticky;
   bottom: 0;
   left: 0;
