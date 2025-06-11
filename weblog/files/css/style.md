@@ -115,7 +115,7 @@ main {
   position: relative;
   z-index: 1;
   background: var(--background);
-  transform: translate3d(0, 0, 0);
+/*  transform: translate3d(0, 0, 0); */
 }
 
 /* FOOTER */
