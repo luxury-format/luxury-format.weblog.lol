@@ -384,7 +384,6 @@ table {
 td,
 th {
   padding: 0.75em;
-  text-align: left;
   border: 1px solid var(--black-white);
 }
 
