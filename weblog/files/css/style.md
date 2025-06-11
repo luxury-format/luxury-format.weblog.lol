@@ -504,6 +504,7 @@ li code {
 
 .pagination:not(:has(> a)) {
   border-top: none;
+  border-bottom: none;
 }
 
 .previous-page {
