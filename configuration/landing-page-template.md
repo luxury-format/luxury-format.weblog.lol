@@ -4,19 +4,18 @@ Title: Landing Page template
 ---
 
 <!DOCTYPE html>
-<html lang="en">
-  <!-- Landing Page Template -->
-  <!-- GitHub file path: 
+<html lang="en"><!-- Landing Page Template -->
+<!-- GitHub file path: 
   configuration/landing-page-template.md -->
-  <!-- HEAD -->
-  <head>
-    
-    <!-- METADATA -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{weblog-title}</title>
-    <meta name="description" content="{weblog-description}">
-    <meta name="author" content="{author}">
+
+<head> <!-- HEAD -->
+
+<!-- METADATA -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{weblog-title}</title>
+<meta name="description" content="{weblog-description}">
+<meta name="author" content="{author}">
     
     <!-- OpenGraph METADATA -->
     <meta property="og:title" content="{weblog-title}">
@@ -115,11 +114,7 @@ Title: Landing Page template
             <i class="fa-brands fa-discord"></i>
           </a>
         </li>
-        <li>
-          <a rel="me" href="https://luxury-format.omg.lol">
-            <i class="omg-icon omg-prami"></i>
-          </a>
-        </li>
+<li><a rel="me" href="https://luxury-format.omg.lol"><img class="prami" src="https://cdn.cache.lol/img/prami.svg"></a></li>
         <li>
           <a rel="me" href="https://github.com/luxury-format">
             <i class="fa-brands fa-github"></i>
