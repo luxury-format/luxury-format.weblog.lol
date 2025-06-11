@@ -286,47 +286,13 @@ Works only in: **Landing Page Template**.
 
 ### {\search}
 
+Just add something like this to your configuration:
+
+```
+Search: <form action="/" method="get" class="search"><br><input type="text" name="search" placeholder="Search"></form>
+```
+
 {search}
-
-**{\search} shortcode** currently doesn't work, instead use next **HTML** code anywhere in your **Templates**, in **Posts** or on **Pages**:
-
-```
-<form action="/" method="get" class="search">
-<label for="search">Search</label>
-<input type="text" name="search">
-<button type="submit">Search</button>
-</form>
-```
-
-Output: 
-
-<form action="/" method="get" class="search">
-<label for="search">Search</label>
-<input type="text" name="search">
-<button type="submit">Search</button>
-</form>
-
-Or without next line, if you don't want **Search** word next to your search form:
-
-```
-<label for="search">Search</label>
-```
-
-Like this:
-
-```
-<form action="/" method="get" class="search">
-<input type="text" name="search">
-<button type="submit">Search</button>
-</form>
-```
-
-Output without **Search** word next to your search form:
-
-<form action="/" method="get" class="search">
-<input type="text" name="search">
-<button type="submit">Search</button>
-</form>
 
 ### {\profile}
 
