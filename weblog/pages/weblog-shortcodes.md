@@ -262,15 +262,12 @@ This **shortcode** use only in your **Templates** head only. And you will get ou
 
 ### {\body}
 
-Works everywhere, but better to use in your **Templates** only!
+Use in your **Templates** only!
 
-Body start here -->{body}<-- Body end here
 
 ### {\titleless-body}
 
-Works everywhere, but better to use in your **Templates** only!
-
-Titleless-body start here -->{titleless-body}<-- Titleless-body end here
+Use in your **Templates** only!
 
 ### {\previous-page}
 
