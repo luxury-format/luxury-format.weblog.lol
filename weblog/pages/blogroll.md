@@ -8,7 +8,7 @@ Index: Exclude
 
 # Blogroll
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 - **Cory Dransfeldt: [coryd.dev](https://www.coryd.dev)**
 - **Mike Sass: [shellsharks.com](https://shellsharks.com)**
