@@ -109,7 +109,7 @@ header {
 main {
   max-width: 100%;
   margin: 0.5rem 1rem;
-  padding: 0.5rem;
+  padding: 0;
 }
 
 main {
@@ -123,7 +123,7 @@ main {
 footer {
   max-width: 100%;
   margin: 0.5rem 1rem;
-  padding: 0.5rem;
+  padding: 0;
 }
 
 footer {
@@ -131,7 +131,7 @@ footer {
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: var(--accent-1);
+  background: var(--red);
 }
 
 /* MAIN NO TITLE LINK */
