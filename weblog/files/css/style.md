@@ -103,6 +103,8 @@ header {
   border-radius: 0.6rem;
   margin: 0.5rem 0;
   padding: 0.5rem;
+  position: relative;
+  z-index: 1;
 }
 
 /* MAIN */
