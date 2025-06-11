@@ -12,9 +12,7 @@ Index: Exclude
 
 <span class="divider">&bull; &bull; &bull;</span>
 
-<form action="/" method="get" class="search">
-<input type="text" name="search" placeholder="Search">
-</form>
+{search}
 
 <span class="divider">&bull; &bull; &bull;</span>
 
