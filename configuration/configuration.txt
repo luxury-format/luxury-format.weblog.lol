@@ -56,7 +56,7 @@ Default post: <<[---
 Date: $date
 Type: Post
 Title: Title
-Tags: Tag
+Tags: #Tag
 Status: Draft
 ---
 
@@ -119,7 +119,7 @@ Search results failure message: There were no results found for your search.
 Search results format: <<[
 <h2 class="page-title">Search results for “$search”</h2>
 <h6>$search_results_message</h6>
-<hr>
+<span class="divider">&bull; &bull; &bull;</span>
 [post:begin]<h3><a href="$location">$title</a></h3>
 <p>$date</p>
 <p>$snippet</p>
@@ -137,7 +137,7 @@ Tags format: <<[
 ]>>
 Tag page format: <<[
 <h2 class="page-title">Posts tagged with: “$tag”</h2>
-<hr>
+<span class="divider">&bull; &bull; &bull;</span>
 <ul class="posts-tagged-with">
 [tag:begin]<li><a href="$location">$title</a></li>[tag:end]
 </ul>
@@ -150,7 +150,7 @@ Tag listing order: descending
 Tag listing format: <<[
 <h2 class="page-title"> Tags</h2>
 <h6>{post-count} posts • <a href="/"> All posts</a></h6>
-<hr>
+<span class="divider">&bull; &bull; &bull;</span>
 <ul class="tags">
 [tag:begin]<li><a href="$location">$tag</a> ($count)</li>[tag:end]
 </ul>
