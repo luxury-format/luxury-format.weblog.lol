@@ -110,9 +110,6 @@ main {
   max-width: 100%;
   margin: 0.5rem 1rem;
   padding: 0;
-}
-
-main {
   position: relative;
   z-index: 1;
   background: var(--background);
@@ -124,14 +121,12 @@ footer {
   max-width: 100%;
   margin: 0.5rem 1rem;
   padding: 0;
-}
-
-footer {
   position: sticky;
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: var(--red);
+  background: var(--accent-1);
+  border-radius: 0.6rem;
 }
 
 /* MAIN NO TITLE LINK */
