@@ -88,6 +88,8 @@ Title: Page Template
 
 <main class="no-title-link"><!-- MAIN -->
 
+<span class="divider">&bull; &bull; &bull;</span>
+
 {body}
 
 <span class="divider">&bull; &bull; &bull;</span>
