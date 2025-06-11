@@ -9,7 +9,7 @@ Index: Exclude
 
 > Note: Remove `\` after `{` to use **shortcodes!**
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 # `{\toc}`
 
@@ -23,9 +23,7 @@ Here is example for this page:
 
 {toc}
 
----
-
-## `{\weblog-title}` - `{\separator}` - `{\author}` - `{\weblog-description}`
+### `{\weblog-title}` - `{\separator}` - `{\author}` - `{\weblog-description}`
 
 In my **Configuration** it's looks next:
 
@@ -61,9 +59,7 @@ Like you can see above, there is no whitespace between `LUXURY` and `❯`, and n
 {weblog-title}{separator}{weblog-description}  
 {weblog-title}❯{weblog-description}
 
----
-
-## {\post-title}
+### {\post-title}
 
 You can use it in your **Templates** or **Posts** and **Pages** to get current **post** or **page** title, so currently I use this {\post-title} bellow on my page, this current page title is: **Weblog shortcodes**, so in output below in must be next words: **Weblog shortcodes**
 
@@ -71,9 +67,7 @@ Here is output:
 
 **{\post-title}** - {post-title}
 
----
-
-## {\weblog-short-title}
+### {\weblog-short-title}
 
 This is my custom tag. In my configuration I have added next:
 
@@ -85,9 +79,7 @@ In output I get next:
 
 **{\weblog-short-title}** - {weblog-short-title}
 
----
-
-## {\recent-posts}
+### {\recent-posts}
 
 List of your recent posts, in my configuration, I set next: 
 
@@ -101,9 +93,7 @@ So here is my last 5 post:
 
 {recent-posts}
 
----
-
-## {\post-list}
+### {\post-list}
 
 List of all your post, better to use on **Archive** page, but you can use it anywhere.
 
@@ -111,9 +101,7 @@ Here is list of all my **Posts**:
 
 {post-list}
 
----
-
-## {\page-list}
+### {\page-list}
 
 This tag generate automaticaly list of all **Pages** on your **Weblog**.
 
@@ -123,17 +111,13 @@ Here is list of all pages in my **Weblog**:
 
 {page-list}
 
----
-
-## {\multiple-posts}
+### {\multiple-posts}
 
 Seems doesn't work... 
 
 {multiple-posts}
 
----
-
-## {\tags}
+### {\tags}
 
 Note: If you want to use it not for your **Posts**, but for your **Pages**, you must add in frontmatter for your **Page** next:
 
@@ -151,9 +135,7 @@ So in output below I must get this 2 tags: **Weblog** and **Shortcodes**
 
 Note! If you use: **Weblog** and **weblog** for your **Tags**, they counts as same **Tag**.
 
----
-
-## {\base-path}
+### {\base-path}
 
 **{\base-path}** - {base-path}
 
@@ -177,17 +159,13 @@ And output will be like this:
 
 <a href="{base-path}">{weblog-title}</a>
 
----
-
-## {\navigation}
+### {\navigation}
 
 Better to use only in **Templates**, but here is it on page:
 
 {navigation}
 
----
-
-## {\year} - {\month} - {\day}
+### {\year} - {\month} - {\day}
 
 You can use it anywhere.
 
@@ -195,9 +173,7 @@ You can use it anywhere.
 **{\month}** - {month}  
 **{\day}** - {day}
 
----
-
-## {\date} - {\relative-date} - {\unix-date} - {\iso8601-date}
+### {\date} - {\relative-date} - {\unix-date} - {\iso8601-date}
 
 Note! Do not forget to use **Date:** in your frontmatter and set **Timezone:** and **Date format:** in your configuration, here is my configuration under **Time stuff**:
 
@@ -214,11 +190,9 @@ Here is output for this page:
 **{\date}** - {date}  
 **{\relative-date}** - {relative-date}  
 **{\unix-date}** - {unix-date}  
-**{\iso8601-date}** - {iso8601-date}  
+**{\iso8601-date}** - {iso8601-date}
 
----
-
-## {\post-title-urlencoded}
+### {\post-title-urlencoded}
 
 Here is my page **Weblog shortcodes** URL Encoded title: 
 
@@ -226,17 +200,13 @@ Here is my page **Weblog shortcodes** URL Encoded title:
 
 It's works for your **Posts** titles also.
 
----
-
-## {\tag-listing}
+### {\tag-listing}
 
 List of all your **Tags** on your **Weblog**, like this:
 
 {tag-listing}
 
----
-
-## {\permalink} - {\slug} - {\location}
+### {\permalink} - {\slug} - {\location}
 
 Here is permalink, slug and location for current page **Weblog shortcodes**:
 
@@ -244,28 +214,22 @@ Here is permalink, slug and location for current page **Weblog shortcodes**:
 **{\slug}** - {slug}  
 **{\location}** - {location}
 
----
-
-## {\rss-location} - {\atom-location} - {\json-location}
+### {\rss-location} - {\atom-location} - {\json-location}
 
 Here is my RSS, Atom and JSON locations:  
 
 **{\rss-location}** - {rss-location}  
 **{\atom-location}** - {atom-location}  
-**{\json-location}** - {json-location}  
+**{\json-location}** - {json-location}
 
----
-
-## {\rss-url} - {\atom-url}  - {\json-url}
+### {\rss-url} - {\atom-url}  - {\json-url}
 
 Here is my RSS, Atom and JSON URL's:  
 **{\rss-url}** - {rss-url}  
 **{\atom-url}** - {atom-url}  
-**{\json-url}** - {json-url}  
+**{\json-url}** - {json-url}
 
----
-
-## {\rss} - {\atom} - {\json}
+### {\rss} - {\atom} - {\json}
 
 These **shortcodes** use only in your **Templates** head only. And you will get output like this:
 
@@ -281,9 +245,7 @@ These **shortcodes** use only in your **Templates** head only. And you will get 
 {json}
 ```
 
----
-
-## {\feeds}
+### {\feeds}
 
 This **shortcode** use only in your **Templates** head only. And you will get output like this:
 
@@ -291,51 +253,38 @@ This **shortcode** use only in your **Templates** head only. And you will get ou
 {feeds}
 ```
 
----
-
-## {\post-number} - {\post-count}
+### {\post-number} - {\post-count}
 
 **{\post-count}** shows how many posts on your **Weblog**. You can use it everywhere.
 
 **{\post-number}** - {post-number}  
 **{\post-count}** - {post-count}
 
----
-
-## {\body}
+### {\body}
 
 Works everywhere, but better to use in your **Templates** only!
 
 Body start here -->{body}<-- Body end here
 
----
-
-## {\titleless-body}
+### {\titleless-body}
 
 Works everywhere, but better to use in your **Templates** only!
 
 Titleless-body start here -->{titleless-body}<-- Titleless-body end here
 
----
-
-## {\previous-page}
+### {\previous-page}
 
 Works only in: **Landing Page Template**.
 
 {previous-page}
 
----
-
-## {\next-page}
+### {\next-page}
 
 Works only in: **Landing Page Template**.
 
 {next-page}
 
----
-
-## {\search}
-
+### {\search}
 
 {search}
 
@@ -379,21 +328,15 @@ Output without **Search** word next to your search form:
 <button type="submit">Search</button>
 </form>
 
----
-
-## {\profile}
+### {\profile}
 
 Will "redirect" to your **Profile** page: YOUR-ADDRESS.omg.lol
 
----
-
-## {\now}
+### {\now}
 
 Will "redirect" to your **Now** page: YOUR-ADDRESS.omg.lol/now
 
----
-
-## Extra
+### Extra
 
 Bellow is all **"tags"** that uses in your **Configuration**:  
 
