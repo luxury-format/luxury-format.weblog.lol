@@ -1093,3 +1093,8 @@ footer p {
 /* .omg- {
   color: # !important;
 } */
+
+svg.prami {
+  width: 35px;
+  hight: 28px;
+}
