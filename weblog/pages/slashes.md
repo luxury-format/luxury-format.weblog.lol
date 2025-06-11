@@ -10,6 +10,6 @@ Index: Exclude
 
 ###### Inspired by: [Slash Pages](https://slashpages.net)
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 {page-list}
