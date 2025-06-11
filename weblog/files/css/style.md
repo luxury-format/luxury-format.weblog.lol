@@ -110,7 +110,7 @@ header {
 /* MAIN */
 main {
   max-width: 100%;
-  margin: 0;
+  margin: 0.5rem 0;
   padding: 0.5rem;
   position: relative;
   z-index: 1;
