@@ -10,7 +10,7 @@ Index: Exclude
 
 ###### Inspired by: [App Defaults](https://defaults.rknight.me)
 
----
+<span class="divider">&bull; &bull; &bull;</span>
 
 📨 Mail Client: [**Spark Mail**](https://apps.apple.com/app/id997102246) +  [**Mail**](https://apps.apple.com/app/id1108187098)
 
