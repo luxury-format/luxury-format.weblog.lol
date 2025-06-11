@@ -101,7 +101,7 @@ header {
   max-width: 100%;
   background: var(--accent-1);
   border-radius: 0.6rem;
-  margin: 0.5rem 0;
+  margin: 0;
   padding: 0.5rem;
   position: relative;
   z-index: 1;
@@ -110,7 +110,7 @@ header {
 /* MAIN */
 main {
   max-width: 100%;
-  margin: 0.5rem 0;
+  margin: 0;
   padding: 0.5rem;
   position: relative;
   z-index: 1;
@@ -121,7 +121,7 @@ main {
 /* FOOTER */
 footer {
   max-width: 100%;
-  margin: 0.5rem 0;
+  margin: 0;
   padding: 0.5rem;
   position: sticky;
   bottom: 0;
