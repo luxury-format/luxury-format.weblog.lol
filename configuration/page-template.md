@@ -4,10 +4,12 @@ Title: Page Template
 ---
 
 <!DOCTYPE html>
-<html lang="en"> <!-- Page Template -->
+<html lang="en">
+<!-- Page Template -->
 <!-- GitHub file path: 
   configuration/page-template.md -->
-<head> <!-- HEAD -->
+<!-- HEAD -->
+<head>
 
 <!-- METADATA -->
 <meta charset="UTF-8">
