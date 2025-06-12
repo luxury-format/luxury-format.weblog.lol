@@ -57,8 +57,11 @@ Title: Page Template
 <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body> <!-- BODY -->
-<header> <!-- HEADER -->
+<!-- BODY -->
+<body>
+
+<!-- HEADER -->
+<header id="top">
 
 <div class="header-top-row">
 <div class="logo-title">
@@ -86,7 +89,8 @@ Title: Page Template
 
 </header>
 
-<main class="no-title-link"><!-- MAIN -->
+<!-- MAIN -->
+<main class="no-title-link">
 
 <span class="divider">&bull; &bull; &bull;</span>
 
@@ -96,15 +100,16 @@ Title: Page Template
       
 </main>
 
-<footer> <!-- FOOTER -->
+<!-- FOOTER -->
+<footer>
 
-<h4>Socials</h4>
 <ul class="socials">
 <li><a rel="me" href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a></li>
 <li><a rel="me" href="https://bsky.app/profile/luxury-format.bsky.social"><i class="fa-brands fa-bluesky"></i></a></li>
 <li><a rel="me" href="https://discordapp.com/users/434798061370474526"><i class="fa-brands fa-discord"></i></a></li>
 <li><a rel="me" href="https://luxury-format.omg.lol"><img class="prami" src="https://cdn.cache.lol/img/prami.svg"></a></li>
 <li><a rel="me" href="https://github.com/luxury-format"><i class="fa-brands fa-github"></i></a></li>
+<li><a href="#top"><i class="fa-solid fa-circle-up"></i></a></li>
 </ul>
 
 <span class="divider">&bull; &bull; &bull;</span>
