@@ -61,7 +61,7 @@ Title: Landing Page template
 <body><!-- BODY -->
 
 <!-- HEADER -->
-<header class="header">
+<header id="top" class="header">
 
 <div class="header-top-row">
 
@@ -123,6 +123,7 @@ Title: Landing Page template
 <li><a rel="me" href="https://discordapp.com/users/434798061370474526"><i class="fa-brands fa-discord"></i></a></li>
 <li><a rel="me" href="https://luxury-format.omg.lol"><img class="prami" src="https://cdn.cache.lol/img/prami.svg"></a></li>
 <li><a rel="me" href="https://github.com/luxury-format"><i class="fa-brands fa-github"></i></a></li>
+<li><a href="#top"><i class="fa-solid fa-circle-up"></i></a></li>
 </ul>
 
 <span class="divider">&bull; &bull; &bull;</span>
