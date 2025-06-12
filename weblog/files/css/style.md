@@ -1029,7 +1029,7 @@ footer p {
 }
 
 .fa-circle-up {
-  color: var(--red) !important;
+  color: var(--green) !important;
 }
 
 /* .fa- {
