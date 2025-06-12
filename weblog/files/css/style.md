@@ -117,6 +117,8 @@ main {
 article {
   background: var(--accent-1);
   border-radius: 0.6rem;
+  margin: 0;
+  padding: 0.5rem;
 }
 
 /* FOOTER */
