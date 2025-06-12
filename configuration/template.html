@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"><!-- Main Template -->
-
+<html lang="en">
+<!-- Main Template -->
 <!-- GitHub file path:
   configuration/template.html -->
 
-<head><!-- HEAD -->
+<!-- HEAD -->
+<head>
 
 <!-- METADATA -->
 <meta charset="UTF-8">
@@ -54,9 +55,11 @@
 <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body><!-- BODY -->
+<!-- BODY -->
+<body>
 
-<header>  <!-- HEADER -->
+<!-- HEADER -->
+<header id="top">
 
 <div class="header-top-row">
 
@@ -82,7 +85,8 @@
 
 </div>
 
-<div class="weblog-navigation"> <!-- NAVIGATION -->
+<!-- NAVIGATION -->
+<div class="weblog-navigation">
 
 {navigation}
 
@@ -90,14 +94,18 @@
 
 </header>
 
-<main class="no-title-link"> <!-- MAIN - NO TITLE LINKS -->
+<!-- MAIN - NO TITLE LINKS -->
+<main class="no-title-link">
 
+<!-- ARTICLE -->
 <article>
 
 {body}
 
+<!-- DIVIDER -->
 <div class="post-meta">
-  
+
+<!-- ASIDE 1 -->
 <aside class="page-post-info">
 <p>Post {post-number} of {post-count} posts</p>
 <p><i class="fa-solid fa-clock"></i> <span>{date}</span></p>
@@ -105,6 +113,7 @@
 
 </div>
 
+<!-- ASIDE 2 -->
 <aside class="post-tags">
 <p>{tags}</p>
 </aside>
@@ -121,15 +130,16 @@
 
 </main>
 
-<footer> <!-- FOOTER -->
+<!-- FOOTER -->
+<footer>
 
-<h4>Socials</h4>
 <ul class="socials">
 <li><a rel="me" href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a></li>
 <li><a rel="me" href="https://bsky.app/profile/luxury-format.bsky.social"><i class="fa-brands fa-bluesky"></i></a></li>
 <li><a rel="me" href="https://discordapp.com/users/434798061370474526"><i class="fa-brands fa-discord"></i></a></li>
 <li><a rel="me" href="https://luxury-format.omg.lol"><img class="prami" src="https://cdn.cache.lol/img/prami.svg"></a></li>
 <li><a rel="me" href="https://github.com/luxury-format"><i class="fa-brands fa-github"></i></a></li>
+<li><a href="#top"><i class="fa-solid fa-circle-up"></i></a></li>
 </ul>
 
 <span class="divider">&bull; &bull; &bull;</span>
@@ -146,5 +156,4 @@
 </footer>
 
 </body>
-
 </html>
