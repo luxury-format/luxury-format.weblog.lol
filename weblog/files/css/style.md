@@ -1054,6 +1054,10 @@ footer p {
   color: #0D1117 !important;
 }
 
+.fa-circle-up {
+  color: var(--indigo) !important;
+}
+
 /* .fa- {
   color: # !important;
 } */
