@@ -100,11 +100,9 @@ header {
   flex-direction: column;
   max-width: 100%;
   background: var(--accent-1);
-/*  border-radius: 0.6rem; */
+  border-radius: 0.6rem;
   margin: 0;
   padding: 0.5rem;
-  position: relative;
-  z-index: 9999;
 }
 
 /* MAIN */
@@ -112,10 +110,7 @@ main {
   max-width: 100%;
   margin: 0;
   padding: 0.5rem;
-  position: relative;
-  z-index: 9999;
   background: var(--background);
-/*  transform: translate3d(0, 0, 0); */
 }
 
 /* FOOTER */
@@ -123,12 +118,8 @@ footer {
   max-width: 100%;
   margin: 0;
   padding: 0.5rem;
-  position: sticky;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
   background: var(--accent-1);
-/*  border-radius: 0.6rem; */
+  border-radius: 0.6rem;
 }
 
 /* MAIN NO TITLE LINK */
