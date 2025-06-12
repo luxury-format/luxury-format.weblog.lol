@@ -4,11 +4,13 @@ Title: Landing Page template
 ---
 
 <!DOCTYPE html>
-<html lang="en"><!-- Landing Page Template -->
+<html lang="en">
+<!-- Landing Page Template -->
 <!-- GitHub file path: 
   configuration/landing-page-template.md -->
 
-<head> <!-- HEAD -->
+<!-- HEAD -->
+<head>
 
 <!-- METADATA -->
 <meta charset="UTF-8">
@@ -58,7 +60,8 @@ Title: Landing Page template
 <link rel="stylesheet" href="/css/style.css">
   </head>
 
-<body><!-- BODY -->
+<!-- BODY -->
+<body>
 
 <!-- HEADER -->
 <header id="top" class="header">
@@ -90,6 +93,7 @@ Title: Landing Page template
 
 </div>
 
+<!-- NAVIGATION -->
 <div class="weblog-navigation">
 
 {navigation}
@@ -98,13 +102,14 @@ Title: Landing Page template
 
 </header>
 
-
-<main> <!-- MAIN -->
+<!-- MAIN -->
+<main>
 
 <span class="divider">&bull; &bull; &bull;</span>
 
 {body}
 
+<!-- NAVIGATION-PAGINATION -->
 <nav class="pagination">
 
 {previous-page}
@@ -114,9 +119,9 @@ Title: Landing Page template
 
 </main>
 
-<footer> <!-- FOOTER -->
+<!-- FOOTER -->
+<footer>
 
-<h4>Socials</h4>
 <ul class="socials">
 <li><a rel="me" href="https://social.lol/@luxury_format"><i class="fa-brands fa-mastodon"></i></a></li>
 <li><a rel="me" href="https://bsky.app/profile/luxury-format.bsky.social"><i class="fa-brands fa-bluesky"></i></a></li>
