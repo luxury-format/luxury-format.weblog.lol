@@ -1024,6 +1024,7 @@ footer p {
 
 /* ICONS */
 /* Font Awesome ICONS */
+.fa
 .fa-solid, 
 .fa-regular, 
 .fa-brands,
