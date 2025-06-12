@@ -113,6 +113,12 @@ main {
   background: var(--background);
 }
 
+/* ARTICLE */
+article {
+  background: var(accent-1);
+  border-radius: 0.6rem;
+}
+
 /* FOOTER */
 footer {
   max-width: 100%;
