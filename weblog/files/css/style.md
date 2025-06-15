@@ -49,7 +49,7 @@ Location: /css/style.css
     --link: #0080FF;
     --link-hover: #0062FF;
     --highlight: #8E8E93;
-    --accent-1: #636366;
+    --accent-1: #636366; 
     --accent-2: #48484A;
     --accent-3: #3A3A3C;
     --accent-4: #2C2C2E;
@@ -132,12 +132,12 @@ footer {
 
 /* MAIN NO TITLE LINK */
 /* In Main Template & Page Templates: <main class="no-title-link"></main> */
-main.no-title-link h2>a {
+main.no-title-link h2 > a {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
   cursor: default;
-  /*  text-shadow: rgba(10, 189, 240, 0.298039) 2px 2px 0px, rgba(254, 1, 1, 0.298039) -2px -2px 0px; */
+/*  text-shadow: rgba(10, 189, 240, 0.298039) 2px 2px 0px, rgba(254, 1, 1, 0.298039) -2px -2px 0px; */
 }
 
 /* .page-title {
@@ -148,37 +148,17 @@ main.no-title-link h2>a {
   text-shadow: rgba(10, 189, 240, 0.298039) 1px 1px 0px, rgba(254, 1, 1, 0.298039) -1px -1px 0px;
 } */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-font);
   text-align: center;
   margin: 0.5rem 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-b,
-strong,
-dt,
-th {
+h1, h2, h3, h4, h5, h6, b, strong, dt, th {
   font-weight: 700;
 }
 
@@ -212,8 +192,7 @@ p {
   word-break: break-word;
 }
 
-p,
-li {
+p, li {
   line-height: 150%;
 }
 
@@ -254,9 +233,7 @@ a:active {
   text-decoration: none;
 }
 
-i,
-cite,
-em {
+i, cite, em {
   font-style: italic;
 }
 
@@ -265,20 +242,17 @@ mark {
   background-color: var(--yellow);
 }
 
-s,
-del,
-strike {
+s, del, strike {
   text-decoration: line-through;
   text-decoration-color: var(--red);
   text-decoration-thickness: 1px;
 }
 
-sub,
-sup {
+sub, sup {
   font-size: 0.6em;
   color: var(--red);
 }
-
+  
 sub {
   vertical-align: sub;
 }
@@ -329,17 +303,17 @@ a.footnote-ref {
 
 pre {
   font-family: var(--code-font);
-  /*  background: var(--black); */
-  /*  color: var(--white); */
+/*  background: var(--black); */
+/*  color: var(--white); */
   font-size: 90%;
   line-height: 150%;
   box-shadow: var(--box-shadow);
   border-radius: 0.6rem;
-  /*  overflow-wrap: normal; */
+/*  overflow-wrap: normal; */
   overflow-x: scroll;
   white-space: pre;
   word-wrap: normal;
-  /*  padding: 1rem; */
+/*  padding: 1rem; */
 }
 
 code {
@@ -348,7 +322,7 @@ code {
   color: var(--white-white);
   font-size: 75%;
   line-height: 150%;
-  /*  box-shadow: var(--box-shadow); */
+/*  box-shadow: var(--box-shadow); */
   border-radius: 0.6rem;
   white-space: pre-wrap;
   white-space: break-spaces;
@@ -381,8 +355,7 @@ table {
   margin-bottom: 0.5rem;
 }
 
-td,
-th {
+td, th {
   padding: 0.75em;
   border: 1px solid var(--black-white);
 }
@@ -403,8 +376,7 @@ hr {
   margin: 1em 0;
 }
 
-p code,
-li code {
+p code, li code {
   padding: 0.2rem;
 }
 
@@ -516,7 +488,7 @@ li code {
   margin-left: auto;
 }
 
-.previous-page:not(:empty)+.next-page:not(:empty)::before {
+.previous-page:not(:empty) + .next-page:not(:empty)::before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   speak: none;
@@ -538,17 +510,16 @@ li code {
   margin: 1em 0;
 }
 
-.divider::before,
-.divider::after {
+.divider::before, .divider::after {
   content: "";
   flex: 1;
   border: 1px solid var(--black-white);
 }
 
 .statuslol {
-  /*  background: var(--accent-1) !important; */
+/*  background: var(--accent-1) !important; */
   border-radius: 0.6rem !important;
-  /*  border: 1px solid var(--highlight) !important; */
+/*  border: 1px solid var(--highlight) !important; */
   font-family: var(--title-font);
 }
 
@@ -578,7 +549,7 @@ li code {
 .somepics_container {
   width: 100%;
   margin: 0 auto;
-  /*  border: 1px solid var(--highlight); */
+/*  border: 1px solid var(--highlight); */
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -638,7 +609,7 @@ li code {
   .weblog-title span.long {
     display: none;
   }
-
+  
   .weblog-title span.short {
     display: inline;
   }
@@ -664,20 +635,20 @@ li code {
 }
 
 @media (max-width: 610px) {
-  .header-icons span {
-    display: none;
-  }
+    .header-icons span {
+        display: none;
+    }
 }
 
 .header-icons i {
-  width: 1em;
-  height: 1em;
-  margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
 }
 
 .header-icons a:hover {
-  color: var(--text);
-  border-color: var(--blue);
+    color: var(--text);
+    border-color: var(--blue);
 }
 
 /* Navigation menu styling */
@@ -1024,13 +995,7 @@ footer p {
 
 /* ICONS */
 /* Font Awesome ICONS */
-.fa,
-.fa-solid,
-.fa-regular,
-.fa-brands,
-.fa-light,
-.fa-thin,
-.fa-duotone {
+.fa, .fa-solid, .fa-regular, .fa-brands, .fa-light, .fa-thin, .fa-duotone {
   color: var(--highlight);
 }
 
