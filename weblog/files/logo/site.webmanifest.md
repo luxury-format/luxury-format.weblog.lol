@@ -16,7 +16,7 @@ Location: /site.webmanifest
       "sizes": "500x500",
       "type": "image/png",
       "purpose": "any"
-    }
+    },
     {
       "src": "https://profiles.cache.lol/luxury-format/picture.png",
       "sizes": "500x500",
@@ -24,7 +24,7 @@ Location: /site.webmanifest
       "purpose": "maskable"
     }
   ],
-  "theme_color": "light-dark(#F2F2F7, #1C1C1E)",
-  "background_color": "light-dark(#F2F2F7, #1C1C1E)",
+  "theme_color": "#F2F2F7",
+  "background_color": "#F2F2F7",
   "display": "standalone"
 }
