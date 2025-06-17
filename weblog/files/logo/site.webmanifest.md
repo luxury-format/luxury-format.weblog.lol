@@ -1,7 +1,8 @@
 ---
+Date: 2025-06-01 00:00
 Type: File
-Content-Type: application/manifest-json
-Title: Site.webmanifest
+Content-Type: application/manifest+json
+Title: site.webmanifest
 Location: /site.webmanifest
 ---
 
