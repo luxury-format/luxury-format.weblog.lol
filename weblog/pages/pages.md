@@ -1,12 +1,12 @@
 ---
 Date: 2025-05-25 00:00
 Type: Page
-Title: Slashes
-Location: /slashes
+Title: Pages
+Location: /pages
 Index: Exclude
 ---
 
-# Slashes
+# Pages
 
 ###### Inspired by: [Slash Pages](https://slashpages.net)
 
