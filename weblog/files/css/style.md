@@ -490,7 +490,7 @@ p code, li code {
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
   font-weight: bold;
-  content: "\2194";
+  content: "\21C6";
   color: var(--black-white);
   position: absolute;
   left: 50%;
