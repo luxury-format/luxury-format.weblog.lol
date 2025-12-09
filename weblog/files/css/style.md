@@ -489,7 +489,7 @@ p code, li code {
 }
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
-  content: "&harr;";
+  content: "\2194";
   color: var(--black-white);
   position: absolute;
   left: 50%;
