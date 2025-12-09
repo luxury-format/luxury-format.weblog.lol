@@ -489,11 +489,7 @@ p code, li code {
 }
 
 .previous-page:not(:empty) + .next-page:not(:empty)::before {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  speak: none;
-  font-style: normal;
-  content: "\f0ec";
+  content: "&harr;";
   color: var(--black-white);
   position: absolute;
   left: 50%;
