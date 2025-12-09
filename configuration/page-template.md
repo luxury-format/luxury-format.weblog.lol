@@ -43,7 +43,7 @@ Title: Page Template
 <!-- APPLE-TOUCH-ICON.PNG -->
 <link rel="apple-touch-icon" href="https://profiles.cache.lol/luxury-format/picture.png">
 <meta name="apple-mobile-web-app-title" content="{weblog-short-title}">
-<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
     
 <!-- SITE.WEBMANIFEST -->
 <link rel="manifest" href="/site.webmanifest">
